@@ -1,5 +1,10 @@
 # Cose che forse si possono provare
 
+## Capire in cosa è diverso da qua
+* DFA da esempi positivi negativi in P 
+* probabilmente non abbiamo l'assunzione che L è un "characteristic set" o qualcosa del genere
+* `https://cstheory.stackexchange.com/questions/42365/oncina-garcia-rpni-algorithm-for-learning-dfas`
+
 ## Rappresentare log come prefix tree
 
 Rappresentando le tracce con `trace/3` si generano `sum(|pi| for pi in L)` simboli + si sprecano tante valutazioni quando esistono tracce prefissi di altre tracce, perché ogni traccia è un insieme di simboli distinti. Si può provare ad usare un prefix tree così:
