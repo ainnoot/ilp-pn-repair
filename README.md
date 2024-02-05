@@ -6,6 +6,7 @@
 * `https://cstheory.stackexchange.com/questions/42365/oncina-garcia-rpni-algorithm-for-learning-dfas`
 * (survey) `https://arxiv.org/pdf/2209.14031.pdf`
 * dataset: `https://github.com/apferscher/ble-learning-passive`
+* A logic framework for incremental learning of process models `https://www.researchgate.net/publication/262234805_A_Logic_Framework_for_Incremental_Learning_of_Process_Models`
 
 ## Rappresentare log come prefix tree
 
