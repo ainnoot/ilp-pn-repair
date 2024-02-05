@@ -4,6 +4,8 @@
 * DFA da esempi positivi negativi in P 
 * probabilmente non abbiamo l'assunzione che L è un "characteristic set" o qualcosa del genere
 * `https://cstheory.stackexchange.com/questions/42365/oncina-garcia-rpni-algorithm-for-learning-dfas`
+* (survey) `https://arxiv.org/pdf/2209.14031.pdf`
+* dataset: `https://github.com/apferscher/ble-learning-passive`
 
 ## Rappresentare log come prefix tree
 
