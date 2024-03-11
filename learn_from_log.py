@@ -57,9 +57,9 @@ if __name__ == '__main__':
         learner.learn(E)
 
         if learner.model is None:
-            print("Stopped. RPNI found no model.")
+            raise RuntimeError("Model is None!")
             sys.exit(1)
 
-        model_path = "learned_model_{}.pdf".format(bs_idx)
-        print("Saving model to: {}".format(args.output_folder / model_path))
-        learner.model.visualize(args.output_folder / model_path)
+    learner.save(args.output_folder.as_posix())
+    learner.model.visualize()
+    sys.exit(0)

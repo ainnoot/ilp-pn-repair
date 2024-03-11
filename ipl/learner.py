@@ -11,6 +11,10 @@ class Learner(ABC):
     def learn(self, batch: Tuple[Trace]):
         pass
 
+    @abstractmethod
+    def save(self, path):
+        pass
+
     @property
     @abstractmethod
     def model(self):
