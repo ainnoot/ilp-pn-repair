@@ -1,3 +1,10 @@
+# Example usage
+```
+python3 learn_from_log.py <log folder> <batch_size> <output folder> -d -s 77
+
+Example:
+python3 learn_from_log.py data/Sepsis\ Cases\ -\ Event\ Log_median/ 50 output-dfa/ -d  
+```
 # Cose che forse si possono provare
 
 ## Capire in cosa è diverso da qua
