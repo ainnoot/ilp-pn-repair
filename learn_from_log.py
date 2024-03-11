@@ -5,19 +5,29 @@ from ipl.log_loader import Examples
 import sys
 
 if __name__ == '__main__':
-    if len(sys.argv) != 5:
-        print("Usage: {} [positive traces] [negative traces] [batch size] [output folder]".format(__file__))
-        print("  * positive traces: Path to a XES file containing positive traces.")
-        print("  * negative traces: Path to a XES file containing positive traces.")
+    if len(sys.argv) != 4:
+        print("Usage: {} [log folder] [batch size] [output folder]".format(__file__))
+        print("  * log folder: Path to folder containing pos.xes, neg.xes.")
         print("  * batch size: Number of examples that go into the learner.")
         print("  * output folder: Folder that stores intermediate learned models.")
         sys.exit(1)
 
-    _, poslog, neglog, bs, output_folder = sys.argv
+    _, log_folder, bs, output_folder = sys.argv
     bs = int(bs)
     output_folder = Path(output_folder)
+    log_folder = Path(log_folder)
 
-    examples = Examples(poslog, neglog)
+    poslog = log_folder / 'pos.xes'
+    neglog = log_folder / 'neg.xes'
+    if not poslog.exists():
+        print("File does not exist:", poslog)
+        sys.exit(1)
+
+    if not neglog.exists():
+        print("File does not exist:", neglog)
+        sys.exit(1)
+
+    examples = Examples(poslog.as_posix(), neglog.as_posix(), True, 77)
     learner = RPNILearner()
 
     for bs_idx, E in enumerate(examples.shuffle().batch(bs)):

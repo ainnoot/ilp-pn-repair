@@ -20,26 +20,40 @@ def normalize_trace(trace: pm4py.objects.log.obj.Trace):
 	return tuple(trace_tuple)
 
 
-def load_logs(positive_log, negative_log):
+def load_logs(positive_log, negative_log, prune_nondeterministic):
 	poslog = pm4py.read_xes(positive_log, return_legacy_log_object=True)
 	neglog = pm4py.read_xes(negative_log, return_legacy_log_object=True)
 
-	traces = []
+	positive_traces = set()
+	negative_traces = set()
 	for pi in poslog:
 		trace = normalize_trace(pi)
-		traces.append(Trace(trace, True))
+		positive_traces.add(trace)
 
 	for pi in neglog:
 		trace = normalize_trace(pi)
-		traces.append(Trace(trace, False))
+		negative_traces.add(trace)
+
+	if prune_nondeterministic:
+		bad_traces = positive_traces.intersection(negative_traces)
+		positive_traces = positive_traces.difference(bad_traces)
+		negative_traces = negative_traces.difference(bad_traces)
+		print("Removed {} ambiguous traces!".format(len(bad_traces)))
+
+	traces = []
+	for pi in positive_traces:
+		traces.append(Trace(pi, True))
+
+	for pi in negative_traces:
+		traces.append(Trace(pi, False))
 
 	return tuple(traces)
 
 
 class Examples:
-	def __init__(self, positive, negative, seed=77):
+	def __init__(self, positive, negative, prune_nondeterministic, seed):
 		self.randomness = RandomState(seed)
-		self.examples = load_logs(positive, negative)
+		self.examples = load_logs(positive, negative, prune_nondeterministic)
 		self.batch_size_ = None
 		self.num_examples = len(self.examples)
 
