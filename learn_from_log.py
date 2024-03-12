@@ -60,6 +60,9 @@ if __name__ == '__main__':
             raise RuntimeError("Model is None!")
             sys.exit(1)
 
+
     learner.save(args.output_folder.as_posix())
-    learner.model.visualize()
+
+    print("LEARNED MODEL:")
+    print(dir(learner.model))
     sys.exit(0)

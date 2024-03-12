@@ -18,6 +18,8 @@ class RPNILearner(Learner):
             self.examples.append((trace.events, trace.positive))
         model = run_RPNI(self.examples, automaton_type='dfa')
         self.learning_shot += 1
+        model.make_input_complete()
+        model.minimize()
         self.last_model = model
 
     @property
