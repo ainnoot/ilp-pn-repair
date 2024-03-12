@@ -16,7 +16,7 @@ class RPNILearner(Learner):
     def learn(self, batch: Tuple[Trace]):
         for trace in batch:
             self.examples.append((trace.events, trace.positive))
-        model = run_RPNI(self.examples, automaton_type='dfa')
+        model = run_RPNI(self.examples, automaton_type='dfa', print_info=False)
         self.learning_shot += 1
         model.make_input_complete()
         model.minimize()
