@@ -5,6 +5,7 @@ from ipl.log_loader import Examples
 import sys
 from argparse import ArgumentParser
 from dataclasses import dataclass
+from ipl.stopwatch import Stopwatch
 
 @dataclass(frozen=True)
 class CLIArgs:
@@ -45,24 +46,25 @@ def parse_args():
     return args
 
 if __name__ == '__main__':
-    args = parse_args()
-    poslog = args.log_folder / 'pos.xes'
-    neglog = args.log_folder / 'neg.xes'
-
-    examples = Examples(poslog.as_posix(), neglog.as_posix(), args.deterministic, args.seed)
-    learner = RPNILearner()
+    stopwatch = Stopwatch(3)
+    with stopwatch.trigger('parse-inputs'):
+      args = parse_args()
+      poslog = args.log_folder / 'pos.xes'
+      neglog = args.log_folder / 'neg.xes'
+      examples = Examples(poslog.as_posix(), neglog.as_posix(), args.deterministic, args.seed)
+      learner = RPNILearner()
 
     for bs_idx, E in enumerate(examples.shuffle().batch(args.batch_size)):
-        print("Solving shot: {}".format(bs_idx))
-        learner.learn(E)
-
-        if learner.model is None:
-            raise RuntimeError("Model is None!")
-            sys.exit(1)
+        with stopwatch.trigger('solving-shot-{}'.format(bs_idx)):
+            learner.learn(E)
+            if learner.model is None:
+                raise RuntimeError("Model is None!")
+                sys.exit(1)
 
 
     learner.save(args.output_folder.as_posix())
 
-    print("LEARNED MODEL:")
-    print(dir(learner.model))
+    for task, elapsed_time in stopwatch.splits:
+        print("Task: {} Elapsed: {:.3f}s".format(task, elapsed_time))
+
     sys.exit(0)
