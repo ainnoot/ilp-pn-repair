@@ -19,6 +19,7 @@ if __name__ == '__main__':
     pt = Examples.from_json(args.examples)
 
     if args.ilasp:
+        print("[warn] not complete!")
         for f in ILASPExample.from_examples(pt):
             print(f)
     else:
