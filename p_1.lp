@@ -1,0 +1,11 @@
+prefix(1,0,"a").
+prefix(6,1,"a").
+prefix(7,6,"b").
+pos(7).
+prefix(2,1,"b").
+prefix(3,2,"a").
+neg(3).
+prefix(4,3,"b").
+pos(4).
+prefix(5,4,"a").
+neg(5).
