@@ -1,10 +1,12 @@
+"""
+Encodes a set of positive and negative examples as a prefix tree.
+"""
+
+from enum import Enum, auto
 from typing import Generator, Dict, Optional, Sequence
 from dataclasses import dataclass
-
 import clingo
-
-from dfa_repair.exceptions import ExampleAlreadyExists, ExampleHasTwoLabels
-
+from dfa_repair.exceptions import ExampleHasTwoLabels
 
 @dataclass(frozen=True)
 class Example:
@@ -55,33 +57,3 @@ class Examples:
 
 			for value, node in top.children.items():
 				stack.append((node, (*seq, value)))
-
-	def reify(self):
-		facts = []
-
-		stack = [*self.root.children.values()]
-		while stack:
-			top = stack.pop()
-			node_id = clingo.Number(top.id)
-			node_parent_id = clingo.Number(top.parent.id if top.parent is not None else -1)
-			node_value = clingo.String(top.value)
-
-			facts.append(clingo.Function('prefix', [node_id, node_parent_id, node_value]))
-			if top.is_complete:
-				predicate_name = 'pos' if top.label else 'neg'
-				facts.append(clingo.Function(predicate_name, [node_id]))
-
-			stack.extend(top.children.values())
-
-		return facts
-
-
-if __name__ == '__main__':
-	pt = Examples()
-	pt.add(Example(('a', 'b', 'a', 'b', 'a'), False))
-	pt.add(Example(('a', 'b', 'a'), False))
-	pt.add(Example(('a', 'b', 'a', 'b'), True))
-	pt.add(Example(('a', 'a', 'b'), True))
-
-	for f in pt.reify():
-		print("{}.".format(f))

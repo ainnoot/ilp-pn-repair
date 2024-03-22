@@ -21,4 +21,7 @@
 % :~ add(state(S)). [1@1, adding_a_state, S]
 % :~ add(delta(S,A,S')). [1@1, adding_a_delta, (S,A,S')]
 
+% definire "budget" di aggiunte/rimozioni
+% chiamare il solver con opt-mode=enum,<bound> ?
+
 % remove/1 serve per fare "not remove" nelle regole

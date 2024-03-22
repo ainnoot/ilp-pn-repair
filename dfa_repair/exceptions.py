@@ -1,3 +1,6 @@
+"""
+Custom exceptions.
+"""
 class ExampleAlreadyExists(Exception):
     pass
 
