@@ -7,6 +7,7 @@ from typing import Generator, Dict, Optional, Sequence
 from dataclasses import dataclass
 import clingo
 from dfa_repair.exceptions import ExampleHasTwoLabels
+import json
 
 @dataclass(frozen=True)
 class Example:
@@ -26,6 +27,20 @@ class Node:
 		return self.label is not None
 
 class Examples:
+	@staticmethod
+	def from_json(path):
+		with open(path, 'r') as f:
+			data = json.load(f)
+
+		ex = Examples()
+		for example in data['positive']:
+			ex.add(Example(example, True))
+
+		for example in data['negative']:
+			ex.add(Example(example, False))
+
+		return ex
+
 	def __init__(self):
 		self.root: Node = Node(0, '', None)
 		self.i = 1
