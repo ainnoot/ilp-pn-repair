@@ -1,0 +1,3 @@
+https://github.com/stessaris/negdis-experiments
+
+Contains some XES logs split into positive and negative traces.
