@@ -12,7 +12,7 @@ optional arguments:
   --ilasp        Dump to ILASP examples instead of plain ASP facts.
 ```
 
-Dumps the examples in the `EXAMPLES` JSON file into a prefix tree. `--ilasp` flag (not complete) dumps to ILASP examples instead of plain ASP facts.
+Dumps the examples in the `examples` JSON file into a prefix tree. `--ilasp` flag (not complete) dumps to ILASP examples instead of plain ASP facts.
 
 ## Example
 ```bash
