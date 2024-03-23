@@ -12,7 +12,7 @@ import clingo
 from typing import Sequence
 from dataclasses import dataclass
 
-from dfa_repair.examples import Example, Examples
+from dfa_repair.examples import Examples
 
 
 class ILASPExampleType(Enum):

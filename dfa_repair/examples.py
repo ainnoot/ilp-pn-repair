@@ -2,10 +2,8 @@
 Encodes a set of positive and negative examples as a prefix tree.
 """
 
-from enum import Enum, auto
-from typing import Generator, Dict, Optional, Sequence
+from typing import Dict, Optional, Sequence
 from dataclasses import dataclass
-import clingo
 from dfa_repair.exceptions import ExampleHasTwoLabels
 import json
 
