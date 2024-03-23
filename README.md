@@ -29,3 +29,18 @@ prefix(5,4,"a").
 prefix(6,5,"b").
 pos(6). 
 ```
+
+# `check_dfa.py`
+
+```
+usage: check_dfa [-h] dfa examples
+
+positional arguments:
+  dfa         Facts encoding a DFA.
+  examples    Facts encoding examples.
+
+optional arguments:
+  -h, --help  show this help message and exit
+```
+
+Checks the DFA in `dfa` against examples in `examples`, reports missing transitions and wrong behavior on examples.

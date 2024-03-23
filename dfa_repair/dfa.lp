@@ -11,7 +11,9 @@ fault(missing(S,A)):- prefix(X,P,A), state(P,S), not delta(S,A,_).
 fault(false_pos(X)) :- pos(X), state(X,S), not accepting(S).
 fault(false_neg(X)) :- neg(X), state(X,S), accepting(S).
 
-:- fault(_).
-
 #show.
 #show fault/1.
+
+#defined pos/1.
+#defined neg/1.
+#defined fault/1.
