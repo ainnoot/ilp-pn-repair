@@ -1,6 +1,6 @@
-# 
+# `reify_examples.py`
 
-```python
+```
 usage: reify_examples [-h] [-v] [--ilasp] examples
 
 positional arguments:
@@ -13,3 +13,19 @@ optional arguments:
 ```
 
 Dumps the examples in the `EXAMPLES` JSON file into a prefix tree. `--ilasp` flag (not complete) dumps to ILASP examples instead of plain ASP facts.
+
+## Example
+```bash
+python3 reify_examples.py examples.json > input.lp
+cat input.lp
+prefix(1,0,"a").
+neg(1).
+prefix(2,1,"b").
+pos(2).
+prefix(3,2,"a").
+neg(3).
+prefix(4,3,"b").
+prefix(5,4,"a").
+prefix(6,5,"b").
+pos(6). 
+```
