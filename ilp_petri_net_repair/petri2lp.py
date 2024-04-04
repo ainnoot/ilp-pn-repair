@@ -92,7 +92,7 @@ class PetriNetReification(PetriNetReificationScheme):
 
 if __name__ == '__main__':
     from pm4py.read import read_pnml
-    filename = 'example.pnml'
+    filename = '../example.pnml'
     pn, im, fm = read_pnml(filename, auto_guess_final_marking=True)
 
     if fm is None or len(fm) == 0:
