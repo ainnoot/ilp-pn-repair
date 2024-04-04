@@ -1,7 +1,7 @@
 """
 Reifies a Petri Net into a set of facts.
 """
-from typing import List
+from typing import List, Sequence
 
 import clingo
 from pm4py.objects.petri_net.obj import PetriNet, Marking
@@ -9,47 +9,45 @@ from abc import ABC, abstractmethod
 from loguru import logger
 
 class PetriNetReificationScheme(ABC):
-    def __init__(self):
-        self._facts = list()
     @abstractmethod
-    def reify_place(self, place: PetriNet.Place):
+    def reify_place(self, place: PetriNet.Place) -> clingo.Function:
         pass
 
     @abstractmethod
-    def reify_transition(self, transition: PetriNet.Transition):
+    def reify_transition(self, transition: PetriNet.Transition) -> clingo.Function:
         pass
 
     @abstractmethod
-    def reify_arc(self, arc: PetriNet.Arc):
+    def reify_arc(self, arc: PetriNet.Arc) -> clingo.Function:
         pass
 
-    def reify_petri_net(self, petri_net: PetriNet):
+    def reify_petri_net(self, petri_net: PetriNet) -> List[clingo.Function]:
+        facts = []
         for place in petri_net.places:
-            self._facts.append(self.reify_place(place))
+            facts.append(self.reify_place(place))
 
         for transition in petri_net.transitions:
-            self._facts.append(self.reify_transition(transition))
+            facts.append(self.reify_transition(transition))
 
         for arc in petri_net.arcs:
-            self._facts.append(self.reify_arc(arc))
+            facts.append(self.reify_arc(arc))
+
+        return facts
 
     @abstractmethod
-    def reify_initial_marking(self, initial_marking: Marking):
+    def reify_initial_marking(self, initial_marking: Marking) -> List[clingo.Function]:
         pass
 
     @abstractmethod
-    def reify_final_marking(self, final_marking: Marking):
+    def reify_final_marking(self, final_marking: Marking) -> List[clingo.Function]:
         pass
 
     def reify(self, petri_net: PetriNet, initial_marking: Marking, final_marking: Marking):
-        self.reify_petri_net(petri_net)
-        self.reify_initial_marking(initial_marking)
-        self.reify_final_marking(final_marking)
+        facts = self.reify_petri_net(petri_net)
+        facts.extend(self.reify_initial_marking(initial_marking))
+        facts.extend(self.reify_final_marking(final_marking))
 
-    @property
-    def facts(self) -> List[clingo.Function]:
-        return self._facts
-
+        return facts
 
 class PetriNetReification(PetriNetReificationScheme):
     def reify_place(self, place: PetriNet.Place):
@@ -71,35 +69,31 @@ class PetriNetReification(PetriNetReificationScheme):
         ])
 
     def reify_initial_marking(self, initial_marking: Marking):
+        if len(initial_marking) == 0:
+            logger.error("Empty initial marking!")
+            return []
+
+        facts = []
         for place, cnt in initial_marking.items():
             fact = clingo.Function("initial_marking", [
                 clingo.String(place.name),
                 clingo.Number(cnt)
             ])
-            self.facts.append(fact)
+            facts.append(fact)
+
+        return facts
 
     def reify_final_marking(self, final_marking: Marking):
+        if len(final_marking) == 0:
+            logger.error("Empty final marking!")
+            return []
+
+        facts = []
         for place, cnt in final_marking.items():
             fact = clingo.Function("final_marking", [
                 clingo.String(place.name),
                 clingo.Number(cnt)
             ])
-            self.facts.append(fact)
-
-    def __init__(self):
-        super().__init__()
-
-
-if __name__ == '__main__':
-    from pm4py.read import read_pnml
-    filename = '../example.pnml'
-    pn, im, fm = read_pnml(filename, auto_guess_final_marking=True)
-
-    if fm is None or len(fm) == 0:
-        logger.error(f"Missing final marking for Petri Net in {filename=}")
-
-    r = PetriNetReification()
-    r.reify(pn, im, fm)
-    for fact in r.facts:
-        print(fact)
+            facts.append(fact)
+        return facts
 
