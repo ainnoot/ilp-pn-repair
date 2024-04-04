@@ -46,14 +46,34 @@ final_marking(P, C)
 activity(A)
   - A is an activity, e.g. a label that appears at least once 
     as the second term in transition/3
+
+output_place(P, T)
+  - P is a unique identifier for a place
+  - T is a unique identifier for a transition such that P in T*
+
+input_place(P, T)
+  - P is a unique identifier for a place
+  - T is a unique identifier for a transition such that P in *T
 ```
 
 Remapping is achieved:
 
 ```
-_transition(P, A, P') :-
-  place(P), place(P'), transition(T, A),
-  arc(P, T, _), arc(T, P', _).
+input_place(P, T) :-
+  place(P), transition(T,L),
+  arc(P, T, _).
+
+output_place(P, T) :-
+  place(P), transition(T,L),
+  arc(T, P, _).
+
+#show activity(A): transition(_,A).
+#show output_place/2.
+#show input_place/2.
+#show transition/2.
+#show place/1.
+#show initial_marking/2.
+#show final_marking/2.
 ```
 
 ### Usage
