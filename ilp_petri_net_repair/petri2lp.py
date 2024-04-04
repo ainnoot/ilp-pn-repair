@@ -1,7 +1,7 @@
 """
 Reifies a Petri Net into a set of facts.
 """
-from typing import List, Sequence
+from typing import List
 
 import clingo
 from pm4py.objects.petri_net.obj import PetriNet, Marking
