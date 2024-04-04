@@ -8,6 +8,7 @@ firing_transition(P, A, P') :-
 #defined initial_marking/2.
 #defined final_marking/2.
 #show transition(P,A,P'): firing_transition(P,A,P').
+#show activity(A): firing_transition(_,A,_).
 #show place/1.
 #show initial_marking/2.
 #show final_marking/2.

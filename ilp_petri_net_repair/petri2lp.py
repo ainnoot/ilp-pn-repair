@@ -1,12 +1,14 @@
 """
 Reifies a Petri Net into a set of facts.
 """
+from pathlib import Path
 from typing import List
 
 import clingo
 from pm4py.objects.petri_net.obj import PetriNet, Marking
 from abc import ABC, abstractmethod
 from loguru import logger
+from itertools import chain
 
 class PetriNetReificationScheme(ABC):
     @abstractmethod
@@ -42,14 +44,18 @@ class PetriNetReificationScheme(ABC):
     def reify_final_marking(self, final_marking: Marking) -> List[clingo.Function]:
         pass
 
+    @abstractmethod
     def reify(self, petri_net: PetriNet, initial_marking: Marking, final_marking: Marking):
-        facts = self.reify_petri_net(petri_net)
-        facts.extend(self.reify_initial_marking(initial_marking))
-        facts.extend(self.reify_final_marking(final_marking))
-
-        return facts
+        pass
 
 class PetriNetReification(PetriNetReificationScheme):
+    def __init__(self):
+        self.ctl = None
+
+    def __initialize_ctl__(self):
+        self.ctl = clingo.Control()
+        self.ctl.load((Path(__file__).parent / 'remap.lp').as_posix())
+
     def reify_place(self, place: PetriNet.Place):
         return clingo.Function("place", [
             clingo.String(place.name)
@@ -73,27 +79,46 @@ class PetriNetReification(PetriNetReificationScheme):
             logger.error("Empty initial marking!")
             return []
 
-        facts = []
-        for place, cnt in initial_marking.items():
-            fact = clingo.Function("initial_marking", [
+        return [
+            clingo.Function("initial_marking", [
                 clingo.String(place.name),
                 clingo.Number(cnt)
             ])
-            facts.append(fact)
-
-        return facts
+            for place, cnt in initial_marking.items()
+        ]
 
     def reify_final_marking(self, final_marking: Marking):
         if len(final_marking) == 0:
             logger.error("Empty final marking!")
             return []
 
-        facts = []
-        for place, cnt in final_marking.items():
-            fact = clingo.Function("final_marking", [
+        return [
+            clingo.Function("final_marking", [
                 clingo.String(place.name),
                 clingo.Number(cnt)
             ])
-            facts.append(fact)
-        return facts
+            for place, cnt in final_marking.items()
+        ]
+
+    def reify(self, petri_net: PetriNet, initial_marking: Marking, final_marking: Marking):
+        self.__initialize_ctl__()
+
+        with self.ctl.backend() as backend:
+            for fact in chain(
+                self.reify_petri_net(petri_net),
+                self.reify_initial_marking(initial_marking),
+                self.reify_final_marking(final_marking)
+            ):
+                ctl_id = backend.add_atom(fact)
+                backend.add_rule((ctl_id,))
+
+        self.ctl.ground([("base", [])])
+        ans = []
+        with self.ctl.solve(yield_=True) as ctl_handler:
+            model = ctl_handler.model()
+            for symbol in model.symbols(shown=True):
+                ans.append(symbol)
+
+        return ans
+
 

@@ -42,6 +42,10 @@ initial_marking(P, C)
 final_marking(P, C)
   - P is a unique identifier for a place
   - C is the number of tokens in P on the final marking
+
+activity(A)
+  - A is an activity, e.g. a label that appears at least once 
+    as the second term in transition/3
 ```
 
 Remapping is achieved:
@@ -66,5 +70,5 @@ options:
 
 ### TODO:
 
-- [ ] Move remapping from `reify_pn.py` to `PetriNetReification`
+- [x] Move remapping from `reify_pn.py` to `PetriNetReification`
 - [ ] Add flags for output file
