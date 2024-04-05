@@ -24,10 +24,8 @@ ptarc(P, "__sink_trans__", C) :- final_marking(P, C).
 
 % now, we force the final configuration to have a single token in the source place
 % and the final configuration to have a single token in the sink place
-im(P,0) :- place(P), P != "__source_place__".
-fm(P,0) :- place(P), P != "__sink_place__".
-im("__source_place__",1).
-fm("__sink_place__",1).
+source("__source_place__").
+sink("__sink_place__").
 
 %%%%%% in workflow nets, all places and transitions must be in the path from src to sink
 reach(X,Y) :- ptarc(X,Y,_).
@@ -44,12 +42,8 @@ reach(X,Z) :- reach(X,Y), reach(Y,Z).
 #defined trans/2.
 #defined ptarc/3.
 #defined tparc/3.
-#defined im/2.
-#defined fm/2.
 #show label(A): trans(_,A).
 #show place/1.
 #show trans/2.
 #show ptarc/3.
 #show tparc/3.
-#show im/2.
-#show fm/2.
