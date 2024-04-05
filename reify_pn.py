@@ -1,7 +1,6 @@
+#!/usr/bin/env python3
+
 import sys
-
-import clingo
-
 from ilp_petri_net_repair import PetriNetReification
 from argparse import ArgumentParser
 
