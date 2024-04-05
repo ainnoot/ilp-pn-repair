@@ -3,7 +3,7 @@ Reifies a Petri Net into a set of facts.
 """
 from pathlib import Path
 from typing import List
-
+from ilp_petri_net_repair.misc import str_sequence
 import clingo
 from pm4py.objects.petri_net.obj import PetriNet, Marking
 from abc import ABC, abstractmethod
@@ -51,10 +51,12 @@ class PetriNetReificationScheme(ABC):
 class PetriNetReification(PetriNetReificationScheme):
     def __init__(self):
         self.ctl = None
+        self.place_seq = str_sequence('p')
+        self.transition_seq = str_sequence('t')
 
     def __initialize_ctl__(self):
+        del self.ctl
         self.ctl = clingo.Control()
-        self.ctl.load((Path(__file__).parent / 'remap.lp').as_posix())
 
     def reify_place(self, place: PetriNet.Place):
         return clingo.Function("place", [
@@ -102,6 +104,7 @@ class PetriNetReification(PetriNetReificationScheme):
 
     def reify(self, petri_net: PetriNet, initial_marking: Marking, final_marking: Marking):
         self.__initialize_ctl__()
+        self.ctl.load((Path(__file__).parent / 'remap.lp').as_posix())
 
         with self.ctl.backend() as backend:
             for fact in chain(
@@ -120,5 +123,3 @@ class PetriNetReification(PetriNetReificationScheme):
                 ans.append(symbol)
 
         return ans
-
-
