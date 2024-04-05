@@ -1,43 +1,99 @@
-% Appunti a caso, nel paper ci sarà di meglio
-% da wrappare qualcosa in removed(...) per le rimozioni (?)
+% place(ID)
+% trans(ID, LABEL)
+% ptarc(PID, TID, W)
+% tparc(PID, TID, W)
+%
+% Ricopiati dal paper
+% https://arxiv.org/pdf/1306.3542.pdf
+%
 
-state(0, P, C) :- initial_marking(P, C).
-cant_fire(T, Transition) :-
-  input_place(P, Transition),
-  state(T-1, P, 0).
+#const k=10.
 
-can_fire(T, Transition),
-  step(T), transition(Transition, _),
-  state(T-1, P, C), C > 0.
+% f5
+time(0..k).
 
-{ fires(T, Tr): transition(Tr,Lab), trace(T,Lab), can_fire(T, Tr) } = 1.
+% x1
+#const ntok=3.
+num(0..ntok).
 
-%%% Token game
-state(T, P, C - 1) :-
-  % Firing a transition removes a token from the input places
-  fires(T, Transition),
-  input_place(P, Transition),
-  state(T-1, P, C).
+% i1
+holds(P, C, 0) :- initial_marking(P, C).
 
-state(T, P, C + 1) :-
-  % Firing a transition adds a token to the output places
-  fires(T, Transition),
-  output_place(P, Transition),
-  state(T-1, P, C).
+% e1, e2
+notenabled(T,TS) :-
+  ptarc(P,T,N), holds(P,Q,TS), Q < N,
+  place(P), trans(T,_), time(TS),
+  num(N), num(Q).
 
-% Inertia
-state(T, P, C) :-
-  fires(T, Transition),
+enabled(T,TS) :-
+  trans(T,_), time(TS), not notenabled(T,TS).
+
+% a1
+{ fires(T,TS) } :-
+  enabled(T,TS),
+  trans(T,_),
+  time(TS).
+
+%%%% Attenzione! Questa cambia!
+%%%% Nell'articolo c'è la set firing semantics
+%%%% (~ più transizioni possono sparare nello stesso istante di tempo)
+%%%% a noi interessa la interleaved semantics dove c'è esattamente una
+%%%% transizione per istante di tempo
+%%%% in più, noi vogliamo sparare solo transizioni che matchano l'attività corrente nella traccia
+%%%% probabilmente sarà qualcosa così:
+%%%% { fires(T,TS): enabled(T,TS), transition(T,A), trace(T,A) } = 1.
+%%%% una transizione tra quelle enabled il cui label matcha l'attività corrente
+
+% r1, r2
+add(P, Q, T, TS) :-
+  fires(T,TS), tparc(T,P,Q), time(TS).
+
+del(P, Q, T, TS) :-
+  fires(T,TS), ptarc(P,T,Q), time(TS).
+
+% r3, r4
+tot_incr(P,QQ,TS) :-
+  QQ = ...non ho capito che fa l'aggregato...,
+  time(TS), num(QQ), place(P).
+tot_decr(P,QQ,TS) :-
+  QQ = ...non ho capito che fa l'aggregato...,
+  time(TS), num(QQ), place(P).
+
+% r5
+holds(P,Q,TS+1) :-
+  holds(P,Q1,TS), tot_incr(P,Q2,TS),
+  time(TS+1),
+  tot_decr(P,Q3,TS),
   place(P),
-  not output_place(Transition),
-  not input_place(Transition).
+  num(Q), num(Q1), num(Q2), num(Q3),
+  Q = Q1 + Q2 - Q3,
+  time(TS).
 
+ % a2, a3, a4
+ consumesmore(P,TS) :- holds(P,Q,TS), tot_decr(P,Q1,TS), Q1 > Q.
+ consumesmore :- consumesmore(P,TS).
+ :- consumesmore.
 
-% Can't fire something if empty input place -- redundant
-:- fires(T, Tr), input_place(P, Tr), state(T-1, P, 0).
-
-% We hit the final marking?
-fail :- final_marking(P, C), last(T), not state(T,P,C).
-
-% positive traces --> {fail} in exclusion set (?)
-% negative traces --> {fail} in inclusion set (?)
+%%%%%%%%%%%%%% Secondo me non è modellato benissimo
+%%%%%%%%%%%%%% mi pare che holds/3 ricalcoli sempre il numero di token che c'è
+%%%%%%%%%%%%%% in tutti i place
+%%%%%%%%%%%%%% però ad ogni istante di tempo gli unici token-count influenzati sono quelli di place
+%%%%%%%%%%%%%% entranti/uscenti una transizione
+%%%%%%%%%%%%%% quindi si può cambiare secondo me in:
+%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%
+% place_affected(P, TS) :- fires(T, TS), ptarc(P, T).
+% place_affected(P, TS) :- fires(T, TS), tparc(T, P).
+% holds(P,Q,TS+1) :-
+%  place_affected(P, TS),
+%  % quelle che c'erano al giro di prima
+%  holds(P,Q1,TS),
+% % l'incremento, il decremento
+% tot_incr(P,Q2,TS),
+% tot_decr(P,Q3,TS),
+% time(TS+1), time(TS),
+% num(Q), num(Q1), num(Q2), num(Q3),
+% Q = Q1 + Q2 + Q3.
+% + inerzia per tutti gli altri
+% che rimangono dov'erano
+% holds(P, Q, TS+1) :- holds(P, Q, TS), not place_affected(P, TS).
