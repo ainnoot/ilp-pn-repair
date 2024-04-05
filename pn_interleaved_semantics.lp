@@ -111,6 +111,10 @@ holds(P,Q,TS+1) :-
 % NESSUNA P PUÒ PERDERE PIÙ TOKEN DI QUANTI NE HA AL MOMENTO
 :- holds(P,Q,TS), tot_decr(P,Q1,TS), Q1 > Q.
 
+
+% NON SPARARE SE QUALCOSA IN *T NON HA ABBASTANZA TOKEN
+:- fires(T,TS), holds(P,Q,TS), ptarc(P,T,W), Q < W.
+
 #show.
 %#show fires(T,TS): fires(T,TS).
 %#show holds(P,Q,T): holds(P,Q,T), Q > 0.

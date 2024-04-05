@@ -1,7 +1,20 @@
 % This admits firing sequences:
 % START t1 (t2 t1)* END
-% 
-% So it should have a unique solution when k is even, 0 solutions when k is odd
+%                           [T1]
+%                         /     \
+%   (SRC) -> [SRC] -> (P1)      (P2) -> [END] -> (END)
+%                         \ [T2] /      
+%
+%
+%
+% Admits as models even loops of (t1 t2), considering src-end:
+% src t1 (t2 t1)* end
+%
+% should be unsatisfiable when k is odd
+% should be satisfiable with a unique model when k is even 
+%
+
+
 
 place("__source_place__").
 place("__sink_place__").
