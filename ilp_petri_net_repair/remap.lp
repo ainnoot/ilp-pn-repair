@@ -47,3 +47,4 @@ reach(X,Z) :- reach(X,Y), reach(Y,Z).
 #show trans/2.
 #show ptarc/3.
 #show tparc/3.
+#show trans/2.
