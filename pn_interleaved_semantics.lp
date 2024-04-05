@@ -108,15 +108,8 @@ holds(P,Q,TS+1) :-
   Q = Q1 + Q2 - Q3,
   time(TS).
 
-% P PERDE PIÙ TOKEN DI QUANTI NE HA AL MOMENTO
-consumesmore(P,TS) :- holds(P,Q,TS), tot_decr(P,Q1,TS), Q1 > Q.
-
-% ALMENO UNA P PERDE PIÙ TOKEN DI QUANTI NE HA AL MOMENTO
-consumesmore :- consumesmore(P,TS).
-
 % NESSUNA P PUÒ PERDERE PIÙ TOKEN DI QUANTI NE HA AL MOMENTO
-:- consumesmore.
-
+:- holds(P,Q,TS), tot_decr(P,Q1,TS), Q1 > Q.
 
 #show.
 %#show fires(T,TS): fires(T,TS).
