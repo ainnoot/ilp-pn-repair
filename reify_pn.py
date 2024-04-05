@@ -21,4 +21,6 @@ if __name__ == '__main__':
 
     r = PetriNetReification()
     for fact in r.reify(pn, im, fm):
-        print(fact)
+        print(f"{fact}.", file=sys.stdout)
+
+
