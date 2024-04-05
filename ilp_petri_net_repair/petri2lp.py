@@ -64,7 +64,7 @@ class PetriNetReification(PetriNetReificationScheme):
         ])
 
     def reify_transition(self, transition: PetriNet.Transition):
-        return clingo.Function("transition", [
+        return clingo.Function("trans", [
             clingo.String(transition.name),
             clingo.String(transition.label)
         ])
