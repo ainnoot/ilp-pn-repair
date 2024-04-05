@@ -10,6 +10,9 @@ from abc import ABC, abstractmethod
 from loguru import logger
 from itertools import chain
 
+class InvalidWorkflowNetException(Exception):
+    pass
+
 class PetriNetReificationScheme(ABC):
     @abstractmethod
     def reify_place(self, place: PetriNet.Place) -> clingo.Function:
@@ -118,6 +121,9 @@ class PetriNetReification(PetriNetReificationScheme):
         self.ctl.ground([("base", [])])
         ans = []
         with self.ctl.solve(yield_=True) as ctl_handler:
+            if ctl_handler.get().unsatisfiable:
+                raise InvalidWorkflowNetException()
+
             model = ctl_handler.model()
             for symbol in model.symbols(shown=True):
                 ans.append(symbol)
