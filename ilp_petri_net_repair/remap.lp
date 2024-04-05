@@ -41,16 +41,15 @@ reach(X,Z) :- reach(X,Y), reach(Y,Z).
 
 #show.
 #defined place/1.
-#defined im/2.
-#defined fm/2.
+#defined trans/2.
 #defined ptarc/3.
 #defined tparc/3.
-#defined trans/2.
-
+#defined im/2.
+#defined fm/2.
 #show label(A): trans(_,A).
-#show ptarc/3.
-#show tparc/3.
 #show place/1.
 #show trans/2.
+#show ptarc/3.
+#show tparc/3.
 #show im/2.
 #show fm/2.
