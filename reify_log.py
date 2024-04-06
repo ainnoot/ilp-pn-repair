@@ -16,6 +16,5 @@ if __name__ == '__main__':
     variants, _ = extract_variants(log)
 
     for eid, (variant, _) in enumerate(variants.items()):
-        e = trace_example(variant, eid, True)
+        e = trace_example(variant, f'example_{eid}', True)
         print(e)
-

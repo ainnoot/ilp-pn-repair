@@ -35,7 +35,7 @@ class ContextDependentExample:
             "POLARITY": "pos" if self.positive else "neg",
             "INCLUSION_SET": ",".join(str(x) for x in self.inclusions),
             "EXCLUSION_SET": ",".join(str(x) for x in self.exclusions),
-            "CONTEXT": '\n'.join(textwrap.wrap(self.context, 80, initial_indent='  ', subsequent_indent='  ')),
+            "CONTEXT": self.context,
             "IDENTIFIER": self.identifier,
             "PENALTY": self.penalty
         })
