@@ -7,6 +7,8 @@ from pm4py.objects.log.util import pandas_numpy_variants
 from dataclasses import dataclass
 from string import Template
 import textwrap
+from abc import ABC, abstractmethod
+
 
 def extract_variants(log_path):
     log = pm4py.read_xes(log_path)
@@ -55,3 +57,19 @@ def trace_example(trace, identifier, is_positive):
         " ".join("{}.".format(x) for x in facts)
     )
 
+class LogReificationScheme(ABC):
+    @abstractmethod
+    def trace_filter(self, trace) -> bool:
+        """
+        Returns True if trace is to be reified as a positive example,
+        False otherwise.
+        """
+        pass
+
+    @abstractmethod
+    def reify_trace(self, trace) -> ContextDependentExample:
+        pass
+
+    @abstractmethod
+    def reify_traces(self, traces: Sequence[str]):
+        pass
