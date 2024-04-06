@@ -3,7 +3,7 @@ from ilp_petri_net_repair import ContextDependentExample, trace_example, extract
 from argparse import ArgumentParser
 
 def parse_args():
-    parser = ArgumentParser(prog="reify_log")
+    parser = ArgumentParser(prog="reify_log", description="Reifies a XES event log into a set of ILASP examples.")
     parser.add_argument('log', type=str, help="Path to XES file.")
 
     return parser.parse_args()

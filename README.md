@@ -1,31 +1,57 @@
-## Reify a PNML Petri Net into facts
-
-### Original encoding schema
-
+## `reify_log`
 ```
-place(ID)
-  - ID is a unique identifier for each place.
+usage: reify_log [-h] log
 
-transition(ID, L) 
-  - ID is a unique identifier for each transition
-  - L is a label for the transition (~ activity name)
+Reifies a XES event log into a set of ILASP examples.
 
-arc(Src, Tar, W)
-  - Src is a unique identifier for a place OR transition
-  - Tar is a unique identifier for a place OR transition
-  - W is an integer weight (~ ignore it)
+positional arguments:
+  log         Path to XES file.
 
-initial_marking(P, C)
-  - P is a unique identifier for a place
-  - C is the number of tokens in P on the initial marking
-
-final_marking(P, C)
-  - P is a unique identifier for a place
-  - C is the number of tokens in P on the final marking
+options:
+  -h, --help  show this help message and exit
 ```
 
-### TODO:
+## `reify_pn`
+```
+usage: reify_pn [-h] pnml
 
-- [ ] Same encoding schema as Chitta Baral
-- [x] Move remapping from `reify_pn.py` to `PetriNetReification`
-- [ ] Add flags for output file
+Reifies a pm4py.PetriNet object into a set of ASP facts.
+
+positional arguments:
+  pnml        Path to PNML file.
+
+options:
+  -h, --help  show this help message and exit
+```
+
+
+## Petri Net encoding
+```
+place(P) 		
+  - P: Unique identifier for a place.
+
+trans(T,L)
+  - T: Unique identifier for the transition
+  - L: Label of the transition
+
+ptarc(P, T, W)
+  - Place P is in *T
+  - Firing T removes W tokens from P
+
+tparc(P, T, W)
+  - Place P is in T*
+  - Firing T adds W tokens to P
+```
+
+The `reify_pn` script additionally forces the Petri Net to be a workflow net, introducing special source & sink places and transitions:
+
+```
+place("__source_place__").
+trans("__source_trans__", "__START__").
+place("__sink_place__").
+trans("__sink_trans__", "__END__").
+```
+
+This assumes input traces are padded with a `__START__` initial activity and `__END__` as a last activity, which are the only activities that can trigger the `__source_trans__` and `__sink_trans__` transitions respectively. Furthermore, it is assumed the initial marked of the obtained Petri Net has a single token on `__source_place__`, and that its final marking has a single token on `__sink_place__`.
+
+

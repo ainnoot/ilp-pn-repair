@@ -5,7 +5,7 @@ from ilp_petri_net_repair import PetriNetReification
 from argparse import ArgumentParser
 
 def parse_args():
-    parser = ArgumentParser(prog="reify_pn")
+    parser = ArgumentParser(prog="reify_pn", description="Reifies a pm4py.PetriNet object into a set of ASP facts.")
     parser.add_argument('pnml', type=str, help="Path to PNML file.")
 
     return parser.parse_args()
