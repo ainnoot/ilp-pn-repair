@@ -3,6 +3,8 @@ ptarc_after_edit(P,T,W) :- ptarc(P,T,W), not rem_ptarc(P,T,W).
 tparc_after_edit(T,P,W) :- tparc(T,P,W), not rem_tparc(T,P,W).
 invalid_trans(T) :- trans(T,_), not ptarc_after_edit(_,T,_).
 invalid_trans(T) :- trans(T,_), not tparc_after_edit(T,_,_).
+% invalid_trans(T) :- trans(T,_),  tparc_after_edit(T,_,_), not ptarc_after_edit(_,T,_).
+% invalid_trans(T) :- trans(T,_), ptarc_after_edit(_,T,_), not tparc_after_edit(T,_,_).
 :- trans(T,_), invalid_trans(T).
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% The whole network should be connected
