@@ -23,17 +23,17 @@ num(0..ntok).   % NUMERO AMMMISSIBILE DI TOKEN IN UN PLACE DURANTE LA SIMULAZION
 holds("__source_place__", 1, 0).
 holds(P,0,0) :- place(P), P != "__source_place__".
 
+
 notenabled(T,TS) :-
-  ptarc(P,T,N), holds(P,Q,TS), Q < N,
+  not rem_ptarc(P,T,N), ptarc(P,T,N), holds(P,Q,TS), Q < N,
   place(P), trans(T,_), time(TS),
   num(N), num(Q).
 
 enabled(T,TS) :-
   trans(T,_), time(TS), not notenabled(T,TS).
 
+%% THIS CAN BE INCLUDED IN THE GENERAL RULES(?)
 fires("__source_trans__", 0).
-
-%%%%%%%%%%%%%%%%%% THIS CHANGES
 fires("__sink_trans__", T) :- last_step(T).
 %%%%%%%%%%%%%%%%%%
 
@@ -48,37 +48,35 @@ fires("__sink_trans__", T) :- last_step(T).
 :- last_step(L), holds(P,C,L+1), C > 0, place(P), P != "__sink_place__".
 :- last_step(L), holds("__sink_place__", C, TS), TS <= L, C > 0.
 
-affected(P,TS) :- fires(T,TS), ptarc(P,T,_).
-affected(P,TS) :- fires(T,TS), tparc(T,P,_).
+affected(P,TS) :- fires(T,TS), not rem_ptarc(P,T,_), ptarc(P,T,_).
+affected(P,TS) :- fires(T,TS), not rem_tparc(T,P,_), tparc(T,P,_).
 holds(P,Q,TS+1) :- holds(P,Q,TS), not affected(P,TS), time(TS+1).
 
 add(P, Q, T, TS) :-
-  fires(T,TS), tparc(T,P,Q), time(TS).
+  fires(T,TS), not rem_tparc(T,P,_), tparc(T,P,Q), time(TS).
 
 del(P, Q, T, TS) :-
-  fires(T,TS), ptarc(P,T,Q), time(TS).
+  fires(T,TS), not rem_ptarc(P,T,Q), ptarc(P,T,Q), time(TS).
 
 % ILASP NON SUPPORTA GLI AGGREGATI
-% ASSUNZIONE = AL PIU' UNA SOLA TRANSIZIONE PUO' AGGIUNGERE TOKEN IN UN PLACE 
+% ASSUNZIONE = DATO CHE CONSIDERIAMO SOLO UNA TRACCIA ALLA VOLTA, AL PIU' UNA SOLA TRANSIZIONE PUO' AGGIUNGERE TOKEN IN UN PLACE 
 tot_incr(P,Q,TS) :-
   affected(P,TS),
   add(P,Q,T,TS),
   time(TS), num(Q), place(P).
 tot_incr(P,0,TS) :-
   affected(P,TS),
-  not add(P,_,_,TS),
-  time(TS), num(Q), place(P).
+  not add(P,_,_,TS).
 
 % ILASP NON SUPPORTA GLI AGGREGATI
-% ASSUNZIONE = AL PIU' UNA SOLA TRANSIZIONE PUO' RIMUOVERE TOKEN IN UN PLACE 
+% ASSUNZIONE = DATO CHE CONSIDERIAMO SOLO UNA TRACCIA ALLA VOLTA, AL PIU' UNA SOLA TRANSIZIONE PUO' AGGIUNGERE TOKEN IN UN PLACE 
 tot_decr(P,Q,TS) :-
   affected(P,TS),
   del(P,Q,T,TS),
   time(TS), num(Q), place(P).
 tot_decr(P,0,TS) :-
   affected(P,TS),
-  not del(P,_,_,TS),
-  time(TS), num(Q), place(P).
+  not del(P,_,_,TS).
 
 holds(P,Q,TS+1) :-
   affected(P,TS),
@@ -93,36 +91,92 @@ holds(P,Q,TS+1) :-
 
 :- holds(P,Q,TS), tot_decr(P,Q1,TS), Q1 > Q.
 
-:- fires(T,TS), holds(P,Q,TS), ptarc(P,T,W), Q < W.
+:- fires(T,TS), holds(P,Q,TS), not rem_ptarc(P,T,W), ptarc(P,T,W), Q < W.
 
 
-%place("p1").
-%place("p3").
-%place("p2").
-%place("__source_place__").
-%place("__sink_place__").
-%trans("t1","t1").
-%trans("t2","t2").
-%trans("__source_trans__","__start__").
-%trans("__sink_trans__","__end__").
-%ptarc("__source_place__","__source_trans__",1).
-%ptarc("p1","t1",1).
-%ptarc("p2","t2",1).
-%ptarc("p3","__sink_trans__",1).
-%tparc("__sink_trans__","__sink_place__",1).
-%tparc("t1","p2",1).
-%tparc("t2","p3",1).
-%tparc("__source_trans__","p1",1).
-%label("t1").
-%label("t2").
-%label("__start__").
-%label("__end__").
+%%%% Petri net
+
+place("__source_place__").
+place("__sink_place__").
+place(p1).
+place(p2).
+
+trans("__source_trans__","DUMMY-START").
+trans("__sink_trans__","DUMMY-END").
+trans(t1,tick).
+trans(t2,tock).
+
+ptarc("__source_place__", "__source_trans__", 1).
+ptarc(p1, t2, 1).
+ptarc(p2, "__sink_trans__", 1).
+ptarc(p2, t2, 1).
+
+tparc("__source_trans__", p1, 1).
+tparc(t1, p2, 1).
+tparc(t2, p1, 1).
+tparc("__sink_trans__", "__sink_place__", 1).
 
 
-%#pos({}, {}, {
-%trace(0,"__start__").
-%trace(1,"t1"). 
-%trace(2,"t2"). 
-%trace(3,"__end__"). 
-%}).
+%%%%%%%%%%%%
 
+
+
+
+#pos(idp1, {}, {}, {
+trace(0,"DUMMY-START"). 
+trace(1,tick).
+trace(2,"DUMMY-END"). 
+}).
+
+#pos(idp2, {}, {}, {
+trace(0,"DUMMY-START"). 
+trace(1,tick).
+trace(2,tock).
+trace(3,tick).
+trace(4,"DUMMY-END"). 
+}).
+
+#neg(idn1, {}, {}, {
+trace(0,"DUMMY-START"). 
+trace(2,"DUMMY-END"). 
+}).
+
+#neg(idn2, {}, {}, {
+trace(0,"DUMMY-START"). 
+trace(1,tick).
+trace(2,tock).
+trace(2,"DUMMY-END"). 
+}).
+
+
+
+#modeh(ptarc(const(place),const(trans),const(weight))).
+#modeh(tparc(const(trans),const(place),const(weight))).
+#modeh(rem_ptarc(const(place),const(trans),const(weight))).
+#modeh(rem_tparc(const(trans),const(place),const(weight))).
+
+#constant(place, p1).
+#constant(place, p2).
+#constant(trans, t1).
+#constant(trans, t2).
+#constant(weight, 1).
+
+#bias("
+place(p1).
+place(p2).
+trans(t1,tick).
+trans(t2,tock).
+ptarc(p1, t2, 1).
+ptarc(p2, t2, 1).
+tparc(t1, p2, 1).
+tparc(t2, p1, 1).
+weight(1).
+
+
+new_tparc(T,P,W) :- trans(T,A), place(P), weight(W), not tparc(T,P,W).
+new_ptarc(T,P,W) :- trans(T,A), place(P), weight(W), not ptarc(P,T,W).
+:- head(ptarc(P,T,W)), ptarc(P,T,W).
+:- head(tparc(T,P,W)), ptarc(T,P,W).
+:- head(rem_ptarc(P,T,W)), new_ptarc(P,T,W).
+:- head(rem_tparc(T,P,W)), new_tparc(T,P,W).
+").
