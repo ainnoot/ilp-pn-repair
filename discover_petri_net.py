@@ -2,6 +2,7 @@ import pm4py
 import sys
 from pm4py.discovery import (
 	discover_petri_net_alpha,
+	discover_petri_net_alpha_plus,
 	discover_petri_net_inductive,
 	discover_petri_net_heuristics,
 	discover_petri_net_ilp
@@ -9,6 +10,7 @@ from pm4py.discovery import (
 
 METHODS = {
 	'alpha': discover_petri_net_alpha,
+	'alpha_plus': discover_petri_net_alpha_plus,
 	'inductive': discover_petri_net_inductive,
 	'heuristics': discover_petri_net_heuristics,
 	'ilp': discover_petri_net_ilp
@@ -30,5 +32,6 @@ def parse_args():
 if __name__ == '__main__':
 	log, method = parse_args()
 	pn, im, fm = method(log)
-	pm4py.view_petri_net(pn, im, fm)
+
 	pm4py.save_vis_petri_net(pn, im, fm, "{}-{}.png".format(sys.argv[1], sys.argv[2]))
+	pm4py.write_pnml(pn, im, fm, "{}-{}.pnml".format(sys.argv[1], sys.argv[2]))
