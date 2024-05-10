@@ -1,0 +1,609 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text></text>
+    </name>
+    <page id="n0">
+      <place id="p_11">
+        <name>
+          <text>p_11</text>
+        </name>
+      </place>
+      <place id="p_12">
+        <name>
+          <text>p_12</text>
+        </name>
+      </place>
+      <place id="p_18">
+        <name>
+          <text>p_18</text>
+        </name>
+      </place>
+      <place id="p_22">
+        <name>
+          <text>p_22</text>
+        </name>
+      </place>
+      <place id="p_26">
+        <name>
+          <text>p_26</text>
+        </name>
+      </place>
+      <place id="p_31">
+        <name>
+          <text>p_31</text>
+        </name>
+      </place>
+      <place id="p_34">
+        <name>
+          <text>p_34</text>
+        </name>
+      </place>
+      <place id="p_10">
+        <name>
+          <text>p_10</text>
+        </name>
+      </place>
+      <place id="p_0">
+        <name>
+          <text>p_0</text>
+        </name>
+      </place>
+      <place id="p_1">
+        <name>
+          <text>p_1</text>
+        </name>
+      </place>
+      <place id="p_5">
+        <name>
+          <text>p_5</text>
+        </name>
+      </place>
+      <place id="p_17">
+        <name>
+          <text>p_17</text>
+        </name>
+      </place>
+      <place id="p_21">
+        <name>
+          <text>p_21</text>
+        </name>
+      </place>
+      <place id="p_27">
+        <name>
+          <text>p_27</text>
+        </name>
+      </place>
+      <place id="p_32">
+        <name>
+          <text>p_32</text>
+        </name>
+      </place>
+      <place id="p_15">
+        <name>
+          <text>p_15</text>
+        </name>
+      </place>
+      <place id="p_19">
+        <name>
+          <text>p_19</text>
+        </name>
+      </place>
+      <place id="p_23">
+        <name>
+          <text>p_23</text>
+        </name>
+      </place>
+      <place id="p_29">
+        <name>
+          <text>p_29</text>
+        </name>
+      </place>
+      <place id="p_35">
+        <name>
+          <text>p_35</text>
+        </name>
+      </place>
+      <place id="p_36">
+        <name>
+          <text>p_36</text>
+        </name>
+      </place>
+      <place id="p_3">
+        <name>
+          <text>p_3</text>
+        </name>
+      </place>
+      <place id="p_2">
+        <name>
+          <text>p_2</text>
+        </name>
+      </place>
+      <place id="p_14">
+        <name>
+          <text>p_14</text>
+        </name>
+      </place>
+      <place id="p_25">
+        <name>
+          <text>p_25</text>
+        </name>
+      </place>
+      <place id="p_6">
+        <name>
+          <text>p_6</text>
+        </name>
+      </place>
+      <place id="p_8">
+        <name>
+          <text>p_8</text>
+        </name>
+      </place>
+      <place id="p_9">
+        <name>
+          <text>p_9</text>
+        </name>
+      </place>
+      <place id="p_28">
+        <name>
+          <text>p_28</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="p_30">
+        <name>
+          <text>p_30</text>
+        </name>
+      </place>
+      <place id="p_33">
+        <name>
+          <text>p_33</text>
+        </name>
+      </place>
+      <place id="p_4">
+        <name>
+          <text>p_4</text>
+        </name>
+      </place>
+      <place id="p_7">
+        <name>
+          <text>p_7</text>
+        </name>
+      </place>
+      <place id="p_13">
+        <name>
+          <text>p_13</text>
+        </name>
+      </place>
+      <place id="p_16">
+        <name>
+          <text>p_16</text>
+        </name>
+      </place>
+      <place id="p_20">
+        <name>
+          <text>p_20</text>
+        </name>
+      </place>
+      <place id="p_24">
+        <name>
+          <text>p_24</text>
+        </name>
+      </place>
+      <transition id="t_1">
+        <name>
+          <text>Request For Payment REJECTED by SUPERVISOR</text>
+        </name>
+      </transition>
+      <transition id="t_5">
+        <name>
+          <text>Permit REJECTED by MISSING</text>
+        </name>
+      </transition>
+      <transition id="t_13">
+        <name>
+          <text>Permit APPROVED by BUDGET OWNER</text>
+        </name>
+      </transition>
+      <transition id="t_18">
+        <name>
+          <text>Permit APPROVED by SUPERVISOR</text>
+        </name>
+      </transition>
+      <transition id="t_36">
+        <name>
+          <text>Declaration APPROVED by SUPERVISOR</text>
+        </name>
+      </transition>
+      <transition id="t_40">
+        <name>
+          <text>Permit REJECTED by PRE_APPROVER</text>
+        </name>
+      </transition>
+      <transition id="t_45">
+        <name>
+          <text>Declaration REJECTED by EMPLOYEE</text>
+        </name>
+      </transition>
+      <transition id="t_9">
+        <name>
+          <text>Permit FINAL_APPROVED by DIRECTOR</text>
+        </name>
+      </transition>
+      <transition id="t_24">
+        <name>
+          <text>Permit FOR_APPROVAL by SUPERVISOR</text>
+        </name>
+      </transition>
+      <transition id="t_31">
+        <name>
+          <text>Permit REJECTED by BUDGET OWNER</text>
+        </name>
+      </transition>
+      <transition id="t_42">
+        <name>
+          <text>Declaration SUBMITTED by EMPLOYEE</text>
+        </name>
+      </transition>
+      <transition id="t_46">
+        <name>
+          <text>Declaration REJECTED by BUDGET OWNER</text>
+        </name>
+      </transition>
+      <transition id="t_50">
+        <name>
+          <text>Declaration APPROVED by ADMINISTRATION</text>
+        </name>
+      </transition>
+      <transition id="t_2">
+        <name>
+          <text>Declaration APPROVED by PRE_APPROVER</text>
+        </name>
+      </transition>
+      <transition id="t_10">
+        <name>
+          <text>Declaration APPROVED by BUDGET OWNER</text>
+        </name>
+      </transition>
+      <transition id="t_11">
+        <name>
+          <text>Permit FINAL_APPROVED by SUPERVISOR</text>
+        </name>
+      </transition>
+      <transition id="t_15">
+        <name>
+          <text>Request Payment</text>
+        </name>
+      </transition>
+      <transition id="t_20">
+        <name>
+          <text>Request For Payment FINAL_APPROVED by DIRECTOR</text>
+        </name>
+      </transition>
+      <transition id="t_27">
+        <name>
+          <text>Start trip</text>
+        </name>
+      </transition>
+      <transition id="t_6">
+        <name>
+          <text>Request For Payment SAVED by EMPLOYEE</text>
+        </name>
+      </transition>
+      <transition id="t_12">
+        <name>
+          <text>Request For Payment SUBMITTED by EMPLOYEE</text>
+        </name>
+      </transition>
+      <transition id="t_16">
+        <name>
+          <text>Send Reminder</text>
+        </name>
+      </transition>
+      <transition id="t_22">
+        <name>
+          <text>Request For Payment REJECTED by PRE_APPROVER</text>
+        </name>
+      </transition>
+      <transition id="t_28">
+        <name>
+          <text>Request For Payment APPROVED by BUDGET OWNER</text>
+        </name>
+      </transition>
+      <transition id="t_33">
+        <name>
+          <text>Permit REJECTED by ADMINISTRATION</text>
+        </name>
+      </transition>
+      <transition id="t_44">
+        <name>
+          <text>Request For Payment REJECTED by MISSING</text>
+        </name>
+      </transition>
+      <transition id="t_7">
+        <name>
+          <text>Declaration REJECTED by SUPERVISOR</text>
+        </name>
+      </transition>
+      <transition id="t_25">
+        <name>
+          <text>Request For Payment REJECTED by BUDGET OWNER</text>
+        </name>
+      </transition>
+      <transition id="t_39">
+        <name>
+          <text>Declaration FINAL_APPROVED by DIRECTOR</text>
+        </name>
+      </transition>
+      <transition id="t_41">
+        <name>
+          <text>Payment Handled</text>
+        </name>
+      </transition>
+      <transition id="t_48">
+        <name>
+          <text>End trip</text>
+        </name>
+      </transition>
+      <transition id="t_3">
+        <name>
+          <text>Declaration REJECTED by PRE_APPROVER</text>
+        </name>
+      </transition>
+      <transition id="t_17">
+        <name>
+          <text>Request For Payment APPROVED by ADMINISTRATION</text>
+        </name>
+      </transition>
+      <transition id="t_23">
+        <name>
+          <text>Permit FOR_APPROVAL by ADMINISTRATION</text>
+        </name>
+      </transition>
+      <transition id="t_30">
+        <name>
+          <text>Permit SUBMITTED by EMPLOYEE</text>
+        </name>
+      </transition>
+      <transition id="t_32">
+        <name>
+          <text>Permit REJECTED by SUPERVISOR</text>
+        </name>
+      </transition>
+      <transition id="t_35">
+        <name>
+          <text>Permit APPROVED by ADMINISTRATION</text>
+        </name>
+      </transition>
+      <transition id="t_38">
+        <name>
+          <text>Permit REJECTED by DIRECTOR</text>
+        </name>
+      </transition>
+      <transition id="t_43">
+        <name>
+          <text>Permit SAVED by EMPLOYEE</text>
+        </name>
+      </transition>
+      <transition id="t_47">
+        <name>
+          <text>Declaration REJECTED by DIRECTOR</text>
+        </name>
+      </transition>
+      <transition id="t_4">
+        <name>
+          <text>Request For Payment REJECTED by EMPLOYEE</text>
+        </name>
+      </transition>
+      <transition id="t_8">
+        <name>
+          <text>Request For Payment FINAL_APPROVED by SUPERVISOR</text>
+        </name>
+      </transition>
+      <transition id="t_21">
+        <name>
+          <text>Permit REJECTED by EMPLOYEE</text>
+        </name>
+      </transition>
+      <transition id="t_26">
+        <name>
+          <text>Declaration REJECTED by MISSING</text>
+        </name>
+      </transition>
+      <transition id="t_34">
+        <name>
+          <text>Request For Payment REJECTED by ADMINISTRATION</text>
+        </name>
+      </transition>
+      <transition id="t_49">
+        <name>
+          <text>Permit APPROVED by PRE_APPROVER</text>
+        </name>
+      </transition>
+      <transition id="t_0">
+        <name>
+          <text>Request For Payment APPROVED by SUPERVISOR</text>
+        </name>
+      </transition>
+      <transition id="t_14">
+        <name>
+          <text>Request For Payment APPROVED by PRE_APPROVER</text>
+        </name>
+      </transition>
+      <transition id="t_19">
+        <name>
+          <text>Declaration FINAL_APPROVED by SUPERVISOR</text>
+        </name>
+      </transition>
+      <transition id="t_29">
+        <name>
+          <text>Declaration SAVED by EMPLOYEE</text>
+        </name>
+      </transition>
+      <transition id="t_37">
+        <name>
+          <text>Declaration REJECTED by ADMINISTRATION</text>
+        </name>
+      </transition>
+      <arc id="139993107593216" source="p_34" target="t_40"/>
+      <arc id="139993107591680" source="p_12" target="t_31"/>
+      <arc id="139993107594752" source="p_32" target="t_18"/>
+      <arc id="139993107718144" source="t_44" target="p_35"/>
+      <arc id="139993107721216" source="t_38" target="p_29"/>
+      <arc id="139993107710464" source="t_26" target="p_18"/>
+      <arc id="139993107712000" source="p_4" target="t_48"/>
+      <arc id="139993107713536" source="p_5" target="t_11"/>
+      <arc id="139993107719680" source="p_28" target="t_43"/>
+      <arc id="139993107592208" source="t_27" target="p_10"/>
+      <arc id="139993107717136" source="p_21" target="t_13"/>
+      <arc id="139993107720208" source="p_17" target="t_32"/>
+      <arc id="139993107714064" source="t_3" target="p_18"/>
+      <arc id="139993107594272" source="p_8" target="t_6"/>
+      <arc id="139993107581984" source="p_25" target="t_18"/>
+      <arc id="139993107591200" source="t_27" target="p_9"/>
+      <arc id="139993107722272" source="p_8" target="t_5"/>
+      <arc id="139993107723808" source="p_27" target="t_30"/>
+      <arc id="139993107585584" source="t_35" target="p_15"/>
+      <arc id="139993107582512" source="p_33" target="t_40"/>
+      <arc id="139993107721264" source="p_9" target="t_3"/>
+      <arc id="139993107710512" source="t_11" target="p_20"/>
+      <arc id="139993107712048" source="t_13" target="p_32"/>
+      <arc id="139993107590720" source="t_40" target="p_29"/>
+      <arc id="139993107579968" source="t_13" target="p_16"/>
+      <arc id="139993107591248" source="p_12" target="t_36"/>
+      <arc id="139993107592784" source="t_41" target="p_20"/>
+      <arc id="139993107723856" source="p_32" target="t_24"/>
+      <arc id="139993107716176" source="t_48" target="p_3"/>
+      <arc id="139993107710032" source="p_19" target="t_6"/>
+      <arc id="139993107714640" source="t_5" target="p_27"/>
+      <arc id="139993107584096" source="p_11" target="t_26"/>
+      <arc id="139993107594848" source="p_12" target="t_6"/>
+      <arc id="139993107591776" source="p_28" target="t_27"/>
+      <arc id="139993107713632" source="p_9" target="t_7"/>
+      <arc id="139993107715168" source="p_35" target="t_27"/>
+      <arc id="139993107593840" source="t_35" target="p_14"/>
+      <arc id="139993107581552" source="p_32" target="t_32"/>
+      <arc id="139993107584624" source="t_49" target="p_17"/>
+      <arc id="139993107590768" source="t_6" target="p_35"/>
+      <arc id="139993107712624" source="t_15" target="p_20"/>
+      <arc id="139993107588224" source="p_19" target="t_5"/>
+      <arc id="139993107594368" source="t_0" target="p_4"/>
+      <arc id="139993107592832" source="t_36" target="p_0"/>
+      <arc id="139993107713152" source="t_2" target="p_35"/>
+      <arc id="139993107716224" source="p_15" target="t_6"/>
+      <arc id="139993107581600" source="p_14" target="t_31"/>
+      <arc id="139993107711136" source="t_13" target="p_17"/>
+      <arc id="139993107717280" source="t_2" target="p_11"/>
+      <arc id="139993107589808" source="p_3" target="t_26"/>
+      <arc id="139993107585200" source="t_0" target="p_6"/>
+      <arc id="139993107594416" source="p_31" target="t_18"/>
+      <arc id="139993107716272" source="t_13" target="p_1"/>
+      <arc id="139993107720880" source="t_9" target="p_24"/>
+      <arc id="139993107593408" source="p_12" target="t_26"/>
+      <arc id="139993107588800" source="t_2" target="p_23"/>
+      <arc id="139993107587264" source="p_0" target="t_47"/>
+      <arc id="139993107591872" source="t_48" target="p_12"/>
+      <arc id="139993107721408" source="p_30" target="t_26"/>
+      <arc id="139993107722944" source="t_23" target="p_35"/>
+      <arc id="139993107713728" source="p_1" target="t_32"/>
+      <arc id="139993107718336" source="p_33" target="t_23"/>
+      <arc id="139993107719872" source="p_6" target="t_20"/>
+      <arc id="139993107592400" source="p_26" target="t_20"/>
+      <arc id="139993107711184" source="p_22" target="t_39"/>
+      <arc id="139993107718864" source="t_2" target="p_22"/>
+      <arc id="139993107720400" source="t_6" target="p_21"/>
+      <arc id="139993107591392" source="p_10" target="t_48"/>
+      <arc id="139993107594464" source="t_48" target="p_20"/>
+      <arc id="139993107711712" source="t_5" target="p_2"/>
+      <arc id="139993107714784" source="t_30" target="p_36"/>
+      <arc id="139993107719392" source="p_34" target="t_18"/>
+      <arc id="139993107722992" source="p_7" target="t_9"/>
+      <arc id="139993107593984" source="t_21" target="p_2"/>
+      <arc id="139993107718912" source="p_14" target="t_32"/>
+      <arc id="139993107717376" source="t_13" target="p_7"/>
+      <arc id="139993107721984" source="t_49" target="p_25"/>
+      <arc id="139993107592976" source="t_6" target="p_36"/>
+      <arc id="139993107588368" source="t_11" target="p_8"/>
+      <arc id="139993107716368" source="p_15" target="t_31"/>
+      <arc id="139993107595040" source="p_14" target="t_18"/>
+      <arc id="139993107590432" source="t_7" target="p_4"/>
+      <arc id="139993107584288" source="p_23" target="t_27"/>
+      <arc id="139993107713824" source="p_22" target="t_7"/>
+      <arc id="139993107710752" source="p_30" target="t_27"/>
+      <arc id="139993107580208" source="t_7" target="p_20"/>
+      <arc id="139993107594032" source="p_14" target="t_11"/>
+      <arc id="139993107592496" source="t_40" target="p_35"/>
+      <arc id="139993107585344" source="t_43" target="p_35"/>
+      <arc id="139993107594560" source="t_30" target="p_33"/>
+      <arc id="139993107588416" source="t_21" target="p_20"/>
+      <arc id="139993107710272" source="t_2" target="p_30"/>
+      <arc id="139993107714880" source="t_35" target="p_13"/>
+      <arc id="139993107716416" source="p_34" target="t_11"/>
+      <arc id="139993107717952" source="p_13" target="t_13"/>
+      <arc id="139993107713344" source="t_9" target="p_19"/>
+      <arc id="139993107595088" source="p_27" target="t_43"/>
+      <arc id="139993107590480" source="t_49" target="p_7"/>
+      <arc id="139993107713872" source="p_1" target="t_18"/>
+      <arc id="139993107712336" source="p_36" target="t_18"/>
+      <arc id="139993107591008" source="p_26" target="t_38"/>
+      <arc id="139993107711328" source="p_13" target="t_31"/>
+      <arc id="139993107720544" source="p_23" target="t_39"/>
+      <arc id="139993107722080" source="t_35" target="p_24"/>
+      <arc id="139993107717472" source="t_18" target="p_26"/>
+      <arc id="139993107715936" source="p_16" target="t_18"/>
+      <arc id="139993107718000" source="t_13" target="p_5"/>
+      <arc id="139993107716464" source="t_33" target="p_35"/>
+      <arc id="139993107721072" source="p_5" target="t_9"/>
+      <arc id="139993107585920" source="t_49" target="p_35"/>
+      <arc id="139993107712384" source="p_30" target="t_36"/>
+      <arc id="139993107723136" source="t_11" target="p_18"/>
+      <arc id="139993107587984" source="t_30" target="p_16"/>
+      <arc id="139993107589520" source="p_33" target="t_49"/>
+      <arc id="139993107591056" source="p_32" target="t_11"/>
+      <arc id="139993107592592" source="t_31" target="p_29"/>
+      <arc id="139993107594128" source="t_35" target="p_31"/>
+      <arc id="139993107719056" source="t_49" target="p_1"/>
+      <arc id="139993107722128" source="p_5" target="t_24"/>
+      <arc id="139993107588512" source="p_2" target="t_43"/>
+      <arc id="139993107591584" source="p_24" target="t_6"/>
+      <arc id="139993107583904" source="t_0" target="p_7"/>
+      <arc id="139993107714976" source="p_8" target="t_2"/>
+      <arc id="139993107710368" source="p_29" target="t_21"/>
+      <arc id="139993107718048" source="t_26" target="p_20"/>
+      <arc id="139993107712432" source="t_30" target="p_34"/>
+      <arc id="139993107712960" source="t_33" target="p_29"/>
+      <arc id="139993107584960" source="p_31" target="t_32"/>
+      <arc id="139993107589568" source="t_16" target="p_20"/>
+      <arc id="139993107591104" source="p_17" target="t_9"/>
+      <arc id="139993107594176" source="p_11" target="t_36"/>
+      <arc id="139993107586496" source="t_9" target="p_18"/>
+      <arc id="139993107716032" source="t_49" target="p_31"/>
+      <arc id="139993107722176" source="t_11" target="p_19"/>
+      <arc id="139993107710416" source="p_15" target="t_32"/>
+      <arc id="139993107715024" source="t_32" target="p_29"/>
+      <arc id="139993107711952" source="t_6" target="p_25"/>
+      <arc id="139993107718096" source="p_16" target="t_11"/>
+      <arc id="139993107719632" source="p_34" target="t_23"/>
+      <arc id="139993107592160" source="p_28" target="t_30"/>
+      <arc id="139993107581408" source="p_5" target="t_32"/>
+      <arc id="139993107714016" source="p_18" target="t_5"/>
+      <arc id="139993107717088" source="t_43" target="p_20"/>
+      <arc id="139993107594224" source="p_11" target="t_7"/>
+      <arc id="139993107588080" source="t_5" target="p_20"/>
+      <arc id="139993107591152" source="t_29" target="p_20"/>
+      <arc id="139993107713008" source="p_33" target="t_35"/>
+      <arc id="139993107716080" source="t_45" target="p_20"/>
+      <arc id="139993107720688" source="t_39" target="p_3"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="p_20">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>
