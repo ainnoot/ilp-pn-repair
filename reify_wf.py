@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 
-import sys
-from pathlib import Path
-
 import pm4py
-
 from ilp_petri_net_repair import reify_workflow_net, add_source_and_sink, remove_disconnected_objects, define_ilasp_constants
 from ilp_petri_net_repair import WorkflowNetExpectedException
 from argparse import ArgumentParser
