@@ -67,9 +67,10 @@ class PetriNetReification(PetriNetReificationScheme):
         ])
 
     def reify_transition(self, transition: PetriNet.Transition):
+        is_hidden = transition.label is None
         return clingo.Function("trans", [
             clingo.String(transition.name),
-            clingo.String(transition.label)
+            clingo.String(transition.label if not is_hidden else "__NONE__")
         ])
 
     def reify_arc(self, arc: PetriNet.Arc):
