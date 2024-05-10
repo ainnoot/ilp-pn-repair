@@ -1,0 +1,694 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% MODE BIAS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+#modeh(ptarc(const(place),const(trans),const(weight))).
+#modeh(tparc(const(trans),const(place),const(weight))).
+#modeh(rem_ptarc(const(place),const(trans),const(weight))).
+#modeh(rem_tparc(const(trans),const(place),const(weight))).
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% BIAS CONSTRAINTS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+#bias("
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% INPUT MODEL %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+source_marking("__source_place__",1).
+final_marking("__sink_place__",1).
+place("p_82").
+place("p_75").
+place("p_58").
+place("p_11").
+place("p_31").
+place("p_35").
+place("p_76").
+place("p_26").
+place("p_24").
+place("p_70").
+place("p_15").
+place("p_46").
+place("p_14").
+place("p_34").
+place("p_55").
+place("p_79").
+place("p_45").
+place("p_36").
+place("p_86").
+place("p_27").
+place("p_21").
+place("p_51").
+place("p_30").
+place("p_32").
+place("p_20").
+place("p_87").
+place("p_19").
+place("p_77").
+place("p_18").
+place("p_64").
+place("p_38").
+place("p_3").
+place("p_37").
+place("p_85").
+place("p_10").
+place("p_43").
+place("p_57").
+place("__sink_place__").
+place("p_47").
+place("p_6").
+place("p_4").
+place("p_41").
+place("p_71").
+place("p_7").
+place("p_67").
+place("p_59").
+place("p_1").
+place("p_13").
+place("p_66").
+place("p_60").
+place("p_78").
+place("p_50").
+place("p_54").
+place("p_62").
+place("p_22").
+place("p_48").
+place("p_65").
+place("p_40").
+place("p_68").
+place("p_5").
+place("p_42").
+place("p_80").
+place("p_29").
+place("p_44").
+place("p_88").
+place("p_53").
+place("p_83").
+place("p_52").
+place("p_69").
+place("p_12").
+place("p_81").
+place("p_0").
+place("p_25").
+place("p_2").
+place("p_61").
+place("p_63").
+place("p_56").
+place("p_17").
+place("p_9").
+place("p_49").
+place("p_8").
+place("p_16").
+place("p_33").
+place("p_28").
+place("p_84").
+place("p_73").
+place("p_39").
+place("p_23").
+place("p_74").
+place("__source_place__").
+place("p_72").
+trans("t_7","Request For Payment APPROVED by ADMINISTRATION").
+label("Request For Payment APPROVED by ADMINISTRATION").
+trans("t_26","Permit REJECTED by MISSING").
+label("Permit REJECTED by MISSING").
+trans("t_3","Permit FINAL_APPROVED by DIRECTOR").
+label("Permit FINAL_APPROVED by DIRECTOR").
+trans("t_13","Request For Payment REJECTED by EMPLOYEE").
+label("Request For Payment REJECTED by EMPLOYEE").
+trans("t_20","Permit FINAL_APPROVED by SUPERVISOR").
+label("Permit FINAL_APPROVED by SUPERVISOR").
+trans("t_11","Request Payment").
+label("Request Payment").
+trans("__source_transition__","__start__").
+label("__start__").
+trans("t_14","Request For Payment APPROVED by SUPERVISOR").
+label("Request For Payment APPROVED by SUPERVISOR").
+trans("t_27","Permit REJECTED by EMPLOYEE").
+label("Permit REJECTED by EMPLOYEE").
+trans("t_24","Request For Payment REJECTED by MISSING").
+label("Request For Payment REJECTED by MISSING").
+trans("t_16","Permit APPROVED by BUDGET OWNER").
+label("Permit APPROVED by BUDGET OWNER").
+trans("t_17","Request For Payment APPROVED by BUDGET OWNER").
+label("Request For Payment APPROVED by BUDGET OWNER").
+trans("t_18","Payment Handled").
+label("Payment Handled").
+trans("t_28","Permit REJECTED by SUPERVISOR").
+label("Permit REJECTED by SUPERVISOR").
+trans("t_8","Request For Payment REJECTED by SUPERVISOR").
+label("Request For Payment REJECTED by SUPERVISOR").
+trans("t_5","Request For Payment REJECTED by PRE_APPROVER").
+label("Request For Payment REJECTED by PRE_APPROVER").
+trans("__sink_transition__","__end__").
+label("__end__").
+trans("t_4","Request For Payment SUBMITTED by EMPLOYEE").
+label("Request For Payment SUBMITTED by EMPLOYEE").
+trans("t_10","Permit APPROVED by SUPERVISOR").
+label("Permit APPROVED by SUPERVISOR").
+trans("t_15","Permit REJECTED by ADMINISTRATION").
+label("Permit REJECTED by ADMINISTRATION").
+trans("t_2","Request For Payment APPROVED by PRE_APPROVER").
+label("Request For Payment APPROVED by PRE_APPROVER").
+trans("t_22","Request For Payment FINAL_APPROVED by DIRECTOR").
+label("Request For Payment FINAL_APPROVED by DIRECTOR").
+trans("t_23","Permit APPROVED by PRE_APPROVER").
+label("Permit APPROVED by PRE_APPROVER").
+trans("t_0","Permit SUBMITTED by EMPLOYEE").
+label("Permit SUBMITTED by EMPLOYEE").
+trans("t_25","Request For Payment SAVED by EMPLOYEE").
+label("Request For Payment SAVED by EMPLOYEE").
+trans("t_21","Permit REJECTED by BUDGET OWNER").
+label("Permit REJECTED by BUDGET OWNER").
+trans("t_6","Request For Payment REJECTED by BUDGET OWNER").
+label("Request For Payment REJECTED by BUDGET OWNER").
+trans("t_1","Request For Payment FINAL_APPROVED by SUPERVISOR").
+label("Request For Payment FINAL_APPROVED by SUPERVISOR").
+trans("t_9","Permit APPROVED by ADMINISTRATION").
+label("Permit APPROVED by ADMINISTRATION").
+trans("t_12","Permit REJECTED by PRE_APPROVER").
+label("Permit REJECTED by PRE_APPROVER").
+ptarc("p_66","t_28",1).
+tparc("t_22","p_60",1).
+tparc("t_0","p_77",1).
+tparc("t_2","p_50",1).
+tparc("t_16","p_38",1).
+tparc("t_15","p_71",1).
+tparc("t_10","p_84",1).
+ptarc("p_69","t_25",1).
+ptarc("p_84","t_8",1).
+tparc("t_13","p_16",1).
+tparc("t_14","p_47",1).
+tparc("t_16","p_86",1).
+tparc("t_20","p_18",1).
+ptarc("p_22","t_21",1).
+ptarc("p_42","t_14",1).
+tparc("t_10","p_17",1).
+ptarc("p_52","t_8",1).
+tparc("t_9","p_40",1).
+tparc("t_1","p_45",1).
+ptarc("p_6","t_27",1).
+ptarc("p_3","t_28",1).
+ptarc("p_69","t_0",1).
+ptarc("p_73","t_5",1).
+tparc("t_16","p_9",1).
+tparc("t_25","p_12",1).
+tparc("t_2","p_48",1).
+ptarc("p_51","t_24",1).
+tparc("t_17","p_50",1).
+tparc("t_24","p_36",1).
+tparc("t_23","p_35",1).
+ptarc("p_40","t_21",1).
+tparc("t_9","p_78",1).
+tparc("t_9","p_67",1).
+tparc("t_6","p_65",1).
+tparc("t_4","p_55",1).
+tparc("t_21","p_2",1).
+ptarc("p_50","t_1",1).
+ptarc("p_75","t_14",1).
+ptarc("p_37","t_21",1).
+ptarc("p_65","t_16",1).
+tparc("t_17","p_85",1).
+ptarc("p_37","t_25",1).
+tparc("t_11","p_80",1).
+tparc("t_1","p_60",1).
+tparc("t_7","p_52",1).
+ptarc("p_24","t_25",1).
+tparc("t_25","p_85",1).
+tparc("t_16","p_28",1).
+tparc("t_2","p_63",1).
+ptarc("p_43","t_27",1).
+ptarc("p_50","t_8",1).
+tparc("t_26","p_80",1).
+ptarc("p_58","t_6",1).
+ptarc("p_27","t_15",1).
+ptarc("p_55","t_27",1).
+ptarc("p_68","t_16",1).
+tparc("t_16","p_13",1).
+ptarc("p_56","t_27",1).
+tparc("t_12","p_2",1).
+tparc("t_12","p_6",1).
+tparc("t_13","p_21",1).
+ptarc("p_26","t_4",1).
+tparc("t_8","p_28",1).
+ptarc("p_76","t_18",1).
+tparc("t_25","p_8",1).
+tparc("t_6","p_25",1).
+tparc("t_26","p_15",1).
+ptarc("p_26","t_11",1).
+tparc("t_23","p_61",1).
+ptarc("p_66","t_21",1).
+tparc("t_2","p_42",1).
+tparc("t_21","p_45",1).
+ptarc("p_15","t_0",1).
+ptarc("p_42","t_20",1).
+ptarc("p_52","t_14",1).
+ptarc("p_40","t_10",1).
+tparc("__source_transition__","p_69",1).
+tparc("t_9","p_54",1).
+ptarc("p_38","t_10",1).
+tparc("t_3","p_18",1).
+ptarc("p_14","t_18",1).
+ptarc("p_40","t_28",1).
+tparc("t_9","p_66",1).
+tparc("t_11","p_20",1).
+ptarc("p_64","t_24",1).
+tparc("t_5","p_54",1).
+ptarc("p_74","t_25",1).
+tparc("t_0","p_12",1).
+tparc("t_18","p_41",1).
+tparc("t_26","p_32",1).
+ptarc("p_31","t_25",1).
+ptarc("p_74","t_28",1).
+tparc("t_0","p_53",1).
+tparc("t_17","p_8",1).
+ptarc("p_41","t_0",1).
+tparc("t_23","p_71",1).
+ptarc("p_26","t_25",1).
+ptarc("p_78","t_8",1).
+tparc("t_20","p_80",1).
+ptarc("p_3","t_25",1).
+ptarc("p_23","t_25",1).
+ptarc("p_81","t_26",1).
+ptarc("p_48","t_1",1).
+tparc("t_13","p_82",1).
+ptarc("p_9","t_28",1).
+tparc("t_7","p_4",1).
+ptarc("p_22","t_11",1).
+ptarc("p_52","t_1",1).
+ptarc("p_46","t_10",1).
+ptarc("p_70","t_7",1).
+tparc("t_27","p_32",1).
+ptarc("p_72","t_1",1).
+tparc("t_14","p_28",1).
+tparc("t_21","p_56",1).
+tparc("t_17","p_63",1).
+ptarc("p_1","t_25",1).
+ptarc("p_18","t_26",1).
+ptarc("__source_place__","__source_transition__",1).
+tparc("t_28","p_63",1).
+tparc("t_22","p_51",1).
+tparc("t_16","p_83",1).
+tparc("t_9","p_23",1).
+tparc("t_15","p_56",1).
+ptarc("p_22","t_7",1).
+tparc("t_9","p_71",1).
+ptarc("p_36","t_26",1).
+tparc("t_9","p_39",1).
+ptarc("p_54","t_13",1).
+ptarc("p_11","t_4",1).
+tparc("t_4","p_59",1).
+ptarc("p_44","t_10",1).
+ptarc("p_68","t_27",1).
+tparc("t_12","p_56",1).
+ptarc("p_23","t_18",1).
+ptarc("p_25","t_13",1).
+tparc("t_23","p_85",1).
+tparc("t_8","p_30",1).
+ptarc("p_80","__sink_transition__",1).
+tparc("t_3","p_80",1).
+ptarc("p_67","t_21",1).
+ptarc("p_73","t_1",1).
+tparc("t_9","p_44",1).
+ptarc("p_74","t_11",1).
+ptarc("p_49","t_11",1).
+ptarc("p_17","t_8",1).
+tparc("t_7","p_82",1).
+ptarc("p_31","t_4",1).
+ptarc("p_23","t_8",1).
+ptarc("p_87","t_12",1).
+ptarc("p_27","t_9",1).
+tparc("t_9","p_3",1).
+ptarc("p_38","t_28",1).
+ptarc("p_88","t_10",1).
+tparc("t_27","p_41",1).
+ptarc("p_79","t_27",1).
+tparc("t_9","p_70",1).
+tparc("t_16","p_19",1).
+tparc("t_9","p_33",1).
+tparc("t_18","p_36",1).
+ptarc("p_13","t_28",1).
+tparc("t_2","p_78",1).
+ptarc("p_24","t_11",1).
+tparc("t_1","p_56",1).
+tparc("t_0","p_19",1).
+ptarc("p_71","t_4",1).
+tparc("t_9","p_7",1).
+ptarc("p_58","t_17",1).
+tparc("t_3","p_1",1).
+tparc("t_4","p_72",1).
+tparc("t_6","p_11",1).
+ptarc("p_61","t_28",1).
+ptarc("p_1","t_26",1).
+tparc("t_5","p_25",1).
+tparc("t_28","p_84",1).
+ptarc("p_37","t_7",1).
+tparc("t_10","p_11",1).
+ptarc("p_9","t_20",1).
+tparc("t_7","p_12",1).
+ptarc("p_10","t_22",1).
+tparc("t_4","p_20",1).
+ptarc("p_7","t_18",1).
+ptarc("p_5","t_17",1).
+tparc("t_7","p_46",1).
+tparc("t_22","p_83",1).
+ptarc("p_59","t_14",1).
+tparc("t_17","p_2",1).
+tparc("t_9","p_37",1).
+ptarc("p_24","t_8",1).
+ptarc("p_77","t_28",1).
+tparc("t_1","p_39",1).
+tparc("t_13","p_80",1).
+tparc("t_17","p_55",1).
+tparc("t_28","p_25",1).
+ptarc("p_14","t_17",1).
+ptarc("p_8","t_10",1).
+tparc("t_18","p_80",1).
+ptarc("p_32","t_0",1).
+tparc("t_11","p_6",1).
+tparc("t_11","p_65",1).
+ptarc("p_0","t_16",1).
+tparc("t_20","p_1",1).
+tparc("t_15","p_6",1).
+tparc("t_13","p_62",1).
+tparc("t_6","p_54",1).
+ptarc("p_76","t_13",1).
+ptarc("p_68","t_24",1).
+tparc("t_9","p_34",1).
+ptarc("p_59","t_27",1).
+tparc("t_16","p_48",1).
+tparc("t_0","p_87",1).
+tparc("t_3","p_71",1).
+tparc("t_23","p_44",1).
+tparc("t_9","p_74",1).
+tparc("t_15","p_11",1).
+ptarc("p_4","t_3",1).
+ptarc("p_75","t_8",1).
+ptarc("p_10","t_4",1).
+ptarc("p_46","t_6",1).
+ptarc("p_45","t_27",1).
+ptarc("p_13","t_18",1).
+ptarc("p_3","t_21",1).
+tparc("t_3","p_25",1).
+ptarc("p_12","t_10",1).
+tparc("t_2","p_33",1).
+tparc("t_9","p_0",1).
+tparc("t_9","p_26",1).
+ptarc("p_57","t_11",1).
+tparc("t_13","p_15",1).
+ptarc("p_87","t_20",1).
+ptarc("p_47","t_22",1).
+tparc("t_1","p_79",1).
+ptarc("p_28","t_3",1).
+tparc("t_24","p_18",1).
+ptarc("p_40","t_20",1).
+ptarc("p_59","t_5",1).
+ptarc("p_87","t_28",1).
+tparc("t_6","p_71",1).
+ptarc("p_5","t_18",1).
+tparc("t_21","p_6",1).
+ptarc("p_77","t_20",1).
+ptarc("p_85","t_10",1).
+tparc("t_3","p_54",1).
+ptarc("p_4","t_6",1).
+ptarc("p_22","t_13",1).
+ptarc("p_34","t_8",1).
+ptarc("p_24","t_21",1).
+tparc("t_4","p_73",1).
+tparc("t_2","p_19",1).
+ptarc("p_43","t_2",1).
+tparc("t_9","p_61",1).
+ptarc("p_7","t_25",1).
+ptarc("p_49","t_0",1).
+ptarc("p_81","t_13",1).
+ptarc("p_7","t_4",1).
+tparc("t_3","p_31",1).
+ptarc("p_31","t_26",1).
+tparc("t_26","p_49",1).
+tparc("t_17","p_78",1).
+tparc("t_3","p_14",1).
+ptarc("p_34","t_16",1).
+ptarc("p_2","t_27",1).
+tparc("t_22","p_57",1).
+ptarc("p_79","t_26",1).
+ptarc("p_70","t_18",1).
+ptarc("p_31","t_17",1).
+tparc("t_23","p_38",1).
+tparc("t_0","p_8",1).
+tparc("t_25","p_80",1).
+tparc("t_9","p_35",1).
+tparc("t_17","p_6",1).
+ptarc("p_75","t_1",1).
+tparc("t_1","p_51",1).
+ptarc("p_52","t_6",1).
+tparc("t_15","p_45",1).
+tparc("t_3","p_76",1).
+ptarc("p_60","t_18",1).
+ptarc("p_67","t_18",1).
+tparc("t_7","p_58",1).
+ptarc("p_72","t_14",1).
+tparc("t_2","p_84",1).
+ptarc("p_37","t_11",1).
+ptarc("p_82","t_10",1).
+ptarc("p_69","t_4",1).
+ptarc("p_77","t_10",1).
+ptarc("p_9","t_3",1).
+tparc("t_25","p_88",1).
+tparc("t_0","p_27",1).
+ptarc("p_27","t_23",1).
+tparc("t_24","p_80",1).
+ptarc("p_29","t_27",1).
+ptarc("p_34","t_21",1).
+ptarc("p_67","t_13",1).
+tparc("t_23","p_62",1).
+ptarc("p_30","t_13",1).
+tparc("t_17","p_29",1).
+ptarc("p_5","t_25",1).
+ptarc("p_83","t_18",1).
+tparc("t_2","p_75",1).
+ptarc("p_16","t_25",1).
+ptarc("p_70","t_25",1).
+tparc("t_7","p_75",1).
+tparc("t_23","p_88",1).
+ptarc("p_23","t_21",1).
+ptarc("p_29","t_10",1).
+ptarc("p_51","t_18",1).
+tparc("t_6","p_30",1).
+ptarc("p_33","t_20",1).
+tparc("t_11","p_2",1).
+ptarc("p_3","t_18",1).
+tparc("t_23","p_82",1).
+ptarc("p_17","t_22",1).
+ptarc("p_63","t_8",1).
+tparc("t_9","p_24",1).
+tparc("t_18","p_21",1).
+ptarc("p_43","t_5",1).
+ptarc("p_64","t_18",1).
+ptarc("p_70","t_21",1).
+tparc("t_1","p_64",1).
+ptarc("p_87","t_10",1).
+tparc("t_17","p_20",1).
+ptarc("p_64","t_27",1).
+ptarc("p_35","t_28",1).
+ptarc("p_35","t_10",1).
+tparc("t_3","p_7",1).
+tparc("t_9","p_57",1).
+tparc("t_6","p_0",1).
+tparc("t_3","p_81",1).
+ptarc("p_50","t_14",1).
+tparc("t_16","p_77",1).
+ptarc("p_66","t_10",1).
+ptarc("p_27","t_12",1).
+ptarc("p_67","t_7",1).
+ptarc("p_66","t_18",1).
+ptarc("p_43","t_7",1).
+tparc("t_28","p_6",1).
+tparc("t_4","p_43",1).
+tparc("t_17","p_44",1).
+tparc("t_26","p_57",1).
+ptarc("p_19","t_20",1).
+tparc("t_9","p_60",1).
+ptarc("p_13","t_10",1).
+ptarc("p_16","t_0",1).
+ptarc("p_86","t_1",1).
+ptarc("p_74","t_21",1).
+ptarc("p_55","t_14",1).
+ptarc("p_87","t_15",1).
+tparc("t_17","p_72",1).
+tparc("t_15","p_2",1).
+tparc("t_9","p_22",1).
+tparc("__sink_transition__","__sink_place__",1).
+ptarc("p_39","t_11",1).
+tparc("t_17","p_62",1).
+ptarc("p_5","t_4",1).
+tparc("t_3","p_5",1).
+ptarc("p_73","t_14",1).
+tparc("t_22","p_39",1).
+tparc("t_11","p_68",1).
+tparc("t_10","p_10",1).
+ptarc("p_81","t_17",1).
+ptarc("p_62","t_10",1).
+ptarc("p_14","t_13",1).
+tparc("t_9","p_76",1).
+tparc("t_28","p_45",1).
+ptarc("p_21","t_0",1).
+tparc("t_25","p_65",1).
+ptarc("p_53","t_28",1).
+tparc("t_12","p_45",1).
+ptarc("p_86","t_28",1).
+ptarc("p_20","t_27",1).
+tparc("t_7","p_88",1).
+tparc("t_5","p_30",1).
+tparc("t_12","p_20",1).
+
+new_tparc(T,P,W) :- trans(T,A), place(P), weight(W), not tparc(T,P,W).
+new_ptarc(T,P,W) :- trans(T,A), place(P), weight(W), not ptarc(P,T,W).
+:- head(ptarc(P,T,W)), ptarc(P,T,W).
+:- head(tparc(T,P,W)), ptarc(T,P,W).
+:- head(rem_ptarc(P,T,W)), new_ptarc(P,T,W).
+:- head(rem_tparc(T,P,W)), new_tparc(T,P,W).
+").
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% CONSTANTS DECLARATION %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+#constant(place, "p_82").
+#constant(place, "p_75").
+#constant(place, "p_58").
+#constant(place, "p_11").
+#constant(place, "p_31").
+#constant(place, "p_35").
+#constant(place, "p_76").
+#constant(place, "p_26").
+#constant(place, "p_24").
+#constant(place, "p_70").
+#constant(place, "p_15").
+#constant(place, "p_46").
+#constant(place, "p_14").
+#constant(place, "p_34").
+#constant(place, "p_55").
+#constant(place, "p_79").
+#constant(place, "p_45").
+#constant(place, "p_36").
+#constant(place, "p_86").
+#constant(place, "p_27").
+#constant(place, "p_21").
+#constant(place, "p_51").
+#constant(place, "p_30").
+#constant(place, "p_32").
+#constant(place, "p_20").
+#constant(place, "p_87").
+#constant(place, "p_19").
+#constant(place, "p_77").
+#constant(place, "p_18").
+#constant(place, "p_64").
+#constant(place, "p_38").
+#constant(place, "p_3").
+#constant(place, "p_37").
+#constant(place, "p_85").
+#constant(place, "p_10").
+#constant(place, "p_43").
+#constant(place, "p_57").
+#constant(place, "p_47").
+#constant(place, "p_6").
+#constant(place, "p_4").
+#constant(place, "p_41").
+#constant(place, "p_71").
+#constant(place, "p_7").
+#constant(place, "p_67").
+#constant(place, "p_59").
+#constant(place, "p_1").
+#constant(place, "p_13").
+#constant(place, "p_66").
+#constant(place, "p_60").
+#constant(place, "p_78").
+#constant(place, "p_50").
+#constant(place, "p_54").
+#constant(place, "p_62").
+#constant(place, "p_22").
+#constant(place, "p_48").
+#constant(place, "p_65").
+#constant(place, "p_40").
+#constant(place, "p_68").
+#constant(place, "p_5").
+#constant(place, "p_42").
+#constant(place, "p_80").
+#constant(place, "p_29").
+#constant(place, "p_44").
+#constant(place, "p_88").
+#constant(place, "p_53").
+#constant(place, "p_83").
+#constant(place, "p_52").
+#constant(place, "p_69").
+#constant(place, "p_12").
+#constant(place, "p_81").
+#constant(place, "p_0").
+#constant(place, "p_25").
+#constant(place, "p_2").
+#constant(place, "p_61").
+#constant(place, "p_63").
+#constant(place, "p_56").
+#constant(place, "p_17").
+#constant(place, "p_9").
+#constant(place, "p_49").
+#constant(place, "p_8").
+#constant(place, "p_16").
+#constant(place, "p_33").
+#constant(place, "p_28").
+#constant(place, "p_84").
+#constant(place, "p_73").
+#constant(place, "p_39").
+#constant(place, "p_23").
+#constant(place, "p_74").
+#constant(place, "p_72").
+#constant(transition, "t_7").
+#constant(label, "Request For Payment APPROVED by ADMINISTRATION").
+#constant(transition, "t_26").
+#constant(label, "Permit REJECTED by MISSING").
+#constant(transition, "t_3").
+#constant(label, "Permit FINAL_APPROVED by DIRECTOR").
+#constant(transition, "t_13").
+#constant(label, "Request For Payment REJECTED by EMPLOYEE").
+#constant(transition, "t_20").
+#constant(label, "Permit FINAL_APPROVED by SUPERVISOR").
+#constant(transition, "t_11").
+#constant(label, "Request Payment").
+#constant(transition, "t_14").
+#constant(label, "Request For Payment APPROVED by SUPERVISOR").
+#constant(transition, "t_27").
+#constant(label, "Permit REJECTED by EMPLOYEE").
+#constant(transition, "t_24").
+#constant(label, "Request For Payment REJECTED by MISSING").
+#constant(transition, "t_16").
+#constant(label, "Permit APPROVED by BUDGET OWNER").
+#constant(transition, "t_17").
+#constant(label, "Request For Payment APPROVED by BUDGET OWNER").
+#constant(transition, "t_18").
+#constant(label, "Payment Handled").
+#constant(transition, "t_28").
+#constant(label, "Permit REJECTED by SUPERVISOR").
+#constant(transition, "t_8").
+#constant(label, "Request For Payment REJECTED by SUPERVISOR").
+#constant(transition, "t_5").
+#constant(label, "Request For Payment REJECTED by PRE_APPROVER").
+#constant(transition, "t_4").
+#constant(label, "Request For Payment SUBMITTED by EMPLOYEE").
+#constant(transition, "t_10").
+#constant(label, "Permit APPROVED by SUPERVISOR").
+#constant(transition, "t_15").
+#constant(label, "Permit REJECTED by ADMINISTRATION").
+#constant(transition, "t_2").
+#constant(label, "Request For Payment APPROVED by PRE_APPROVER").
+#constant(transition, "t_22").
+#constant(label, "Request For Payment FINAL_APPROVED by DIRECTOR").
+#constant(transition, "t_23").
+#constant(label, "Permit APPROVED by PRE_APPROVER").
+#constant(transition, "t_0").
+#constant(label, "Permit SUBMITTED by EMPLOYEE").
+#constant(transition, "t_25").
+#constant(label, "Request For Payment SAVED by EMPLOYEE").
+#constant(transition, "t_21").
+#constant(label, "Permit REJECTED by BUDGET OWNER").
+#constant(transition, "t_6").
+#constant(label, "Request For Payment REJECTED by BUDGET OWNER").
+#constant(transition, "t_1").
+#constant(label, "Request For Payment FINAL_APPROVED by SUPERVISOR").
+#constant(transition, "t_9").
+#constant(label, "Permit APPROVED by ADMINISTRATION").
+#constant(transition, "t_12").
+#constant(label, "Permit REJECTED by PRE_APPROVER").
+#constant(weight, 1).
+
+

@@ -1,0 +1,108 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% MODE BIAS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+#modeh(ptarc(const(place),const(trans),const(weight))).
+#modeh(tparc(const(trans),const(place),const(weight))).
+#modeh(rem_ptarc(const(place),const(trans),const(weight))).
+#modeh(rem_tparc(const(trans),const(place),const(weight))).
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% BIAS CONSTRAINTS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+#bias("
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% INPUT MODEL %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+source_marking("__source_place__",1).
+final_marking("__sink_place__",1).
+place("p_3").
+place("p_4").
+place("p_5").
+place("p_0").
+place("p_1").
+place("p_2").
+place("__source_place__").
+place("__sink_place__").
+trans("t_10","Release A").
+label("Release A").
+trans("t_9","Release B").
+label("Release B").
+trans("__sink_transition__","__end__").
+label("__end__").
+trans("t_0","CRP").
+label("CRP").
+trans("t_6","Return ER").
+label("Return ER").
+trans("t_1","Leucocytes").
+label("Leucocytes").
+trans("t_13","IV Liquid").
+label("IV Liquid").
+trans("t_11","IV Antibiotics").
+label("IV Antibiotics").
+trans("t_15","ER Triage").
+label("ER Triage").
+trans("__source_transition__","__start__").
+label("__start__").
+trans("t_5","ER Sepsis Triage").
+label("ER Sepsis Triage").
+tparc("t_10","p_5",1).
+tparc("t_11","p_2",1).
+ptarc("p_2","t_10",1).
+tparc("t_13","p_3",1).
+ptarc("p_3","__sink_transition__",1).
+tparc("__source_transition__","p_0",1).
+ptarc("p_1","t_9",1).
+tparc("t_15","p_3",1).
+ptarc("p_0","t_5",1).
+ptarc("p_1","t_10",1).
+tparc("t_9","p_3",1).
+tparc("t_13","p_1",1).
+tparc("t_5","p_4",1).
+ptarc("p_4","t_11",1).
+ptarc("p_0","t_13",1).
+ptarc("p_5","t_6",1).
+tparc("t_11","p_3",1).
+tparc("t_6","p_3",1).
+ptarc("p_0","t_1",1).
+tparc("__sink_transition__","__sink_place__",1).
+tparc("t_0","p_3",1).
+tparc("t_1","p_3",1).
+ptarc("__source_place__","__source_transition__",1).
+ptarc("p_0","t_0",1).
+tparc("t_10","p_3",1).
+ptarc("p_0","t_15",1).
+tparc("t_5","p_3",1).
+ptarc("p_2","t_9",1).
+
+new_tparc(T,P,W) :- trans(T,A), place(P), weight(W), not tparc(T,P,W).
+new_ptarc(T,P,W) :- trans(T,A), place(P), weight(W), not ptarc(P,T,W).
+:- head(ptarc(P,T,W)), ptarc(P,T,W).
+:- head(tparc(T,P,W)), ptarc(T,P,W).
+:- head(rem_ptarc(P,T,W)), new_ptarc(P,T,W).
+:- head(rem_tparc(T,P,W)), new_tparc(T,P,W).
+").
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% CONSTANTS DECLARATION %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+#constant(place, "p_3").
+#constant(place, "p_4").
+#constant(place, "p_5").
+#constant(place, "p_0").
+#constant(place, "p_1").
+#constant(place, "p_2").
+#constant(transition, "t_10").
+#constant(label, "Release A").
+#constant(transition, "t_9").
+#constant(label, "Release B").
+#constant(transition, "t_0").
+#constant(label, "CRP").
+#constant(transition, "t_6").
+#constant(label, "Return ER").
+#constant(transition, "t_1").
+#constant(label, "Leucocytes").
+#constant(transition, "t_13").
+#constant(label, "IV Liquid").
+#constant(transition, "t_11").
+#constant(label, "IV Antibiotics").
+#constant(transition, "t_15").
+#constant(label, "ER Triage").
+#constant(transition, "t_5").
+#constant(label, "ER Sepsis Triage").
+#constant(weight, 1).
+
+

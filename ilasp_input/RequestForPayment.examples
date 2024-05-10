@@ -1,0 +1,267 @@
+#pos(example_0@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(3,"Request Payment"). trace(4,"Payment Handled"). trace(5,"__end__").
+}).
+#pos(example_1@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment APPROVED by PRE_APPROVER"). trace(3,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(4,"Request Payment"). trace(5,"Payment Handled"). trace(6,"__end__").
+}).
+#pos(example_2@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment REJECTED by PRE_APPROVER"). trace(3,"Request For Payment REJECTED by EMPLOYEE"). trace(4,"Request For Payment SUBMITTED by EMPLOYEE"). trace(5,"Request For Payment APPROVED by PRE_APPROVER"). trace(6,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(7,"Request Payment"). trace(8,"Payment Handled"). trace(9,"__end__").
+}).
+#pos(example_3@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment REJECTED by SUPERVISOR"). trace(3,"Request For Payment REJECTED by EMPLOYEE"). trace(4,"__end__").
+}).
+#pos(example_4@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment APPROVED by PRE_APPROVER"). trace(3,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(4,"Request For Payment REJECTED by MISSING"). trace(5,"Request For Payment SUBMITTED by EMPLOYEE"). trace(6,"Request For Payment APPROVED by PRE_APPROVER"). trace(7,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(8,"Request Payment"). trace(9,"Payment Handled"). trace(10,"__end__").
+}).
+#pos(example_5@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment REJECTED by SUPERVISOR"). trace(3,"Request For Payment REJECTED by EMPLOYEE"). trace(4,"Request For Payment SUBMITTED by EMPLOYEE"). trace(5,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(6,"Request Payment"). trace(7,"Payment Handled"). trace(8,"__end__").
+}).
+#pos(example_6@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(3,"Request For Payment REJECTED by MISSING"). trace(4,"__end__").
+}).
+#pos(example_7@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment APPROVED by PRE_APPROVER"). trace(3,"Request For Payment REJECTED by SUPERVISOR"). trace(4,"Request For Payment REJECTED by EMPLOYEE"). trace(5,"__end__").
+}).
+#pos(example_8@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(3,"Request For Payment REJECTED by MISSING"). trace(4,"Request For Payment SUBMITTED by EMPLOYEE"). trace(5,"Request For Payment APPROVED by PRE_APPROVER"). trace(6,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(7,"Request Payment"). trace(8,"Payment Handled"). trace(9,"__end__").
+}).
+#pos(example_9@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment APPROVED by SUPERVISOR"). trace(3,"Request For Payment FINAL_APPROVED by DIRECTOR"). trace(4,"Request Payment"). trace(5,"Payment Handled"). trace(6,"__end__").
+}).
+#pos(example_10@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment REJECTED by PRE_APPROVER"). trace(3,"Request For Payment REJECTED by EMPLOYEE"). trace(4,"Request For Payment SUBMITTED by EMPLOYEE"). trace(5,"Request For Payment REJECTED by PRE_APPROVER"). trace(6,"Request For Payment REJECTED by EMPLOYEE"). trace(7,"__end__").
+}).
+#pos(example_11@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment APPROVED by PRE_APPROVER"). trace(3,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(4,"Request For Payment REJECTED by MISSING"). trace(5,"__end__").
+}).
+#pos(example_12@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment REJECTED by PRE_APPROVER"). trace(3,"Request For Payment REJECTED by EMPLOYEE"). trace(4,"__end__").
+}).
+#pos(example_13@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SAVED by EMPLOYEE"). trace(2,"__end__").
+}).
+#pos(example_14@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(3,"__end__").
+}).
+#pos(example_15@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment REJECTED by PRE_APPROVER"). trace(3,"Request For Payment REJECTED by EMPLOYEE"). trace(4,"Request For Payment SUBMITTED by EMPLOYEE"). trace(5,"Request For Payment APPROVED by PRE_APPROVER"). trace(6,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(7,"Request For Payment REJECTED by MISSING"). trace(8,"__end__").
+}).
+#pos(example_16@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment APPROVED by SUPERVISOR"). trace(3,"Request For Payment FINAL_APPROVED by DIRECTOR"). trace(4,"__end__").
+}).
+#pos(example_17@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(3,"Request For Payment REJECTED by MISSING"). trace(4,"Request For Payment SUBMITTED by EMPLOYEE"). trace(5,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(6,"Request Payment"). trace(7,"Payment Handled"). trace(8,"__end__").
+}).
+#pos(example_18@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment REJECTED by SUPERVISOR"). trace(3,"Request For Payment REJECTED by EMPLOYEE"). trace(4,"Request For Payment SUBMITTED by EMPLOYEE"). trace(5,"Request For Payment REJECTED by SUPERVISOR"). trace(6,"Request For Payment REJECTED by EMPLOYEE"). trace(7,"Request For Payment SUBMITTED by EMPLOYEE"). trace(8,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(9,"Request Payment"). trace(10,"Payment Handled"). trace(11,"__end__").
+}).
+#pos(example_19@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment REJECTED by SUPERVISOR"). trace(3,"Request For Payment SUBMITTED by EMPLOYEE"). trace(4,"Request For Payment REJECTED by SUPERVISOR"). trace(5,"Request For Payment REJECTED by EMPLOYEE"). trace(6,"__end__").
+}).
+#pos(example_20@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment APPROVED by PRE_APPROVER"). trace(3,"Request For Payment REJECTED by SUPERVISOR"). trace(4,"Request For Payment REJECTED by EMPLOYEE"). trace(5,"Request For Payment SUBMITTED by EMPLOYEE"). trace(6,"Request For Payment APPROVED by PRE_APPROVER"). trace(7,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(8,"Request Payment"). trace(9,"Payment Handled"). trace(10,"__end__").
+}).
+#pos(example_21@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment APPROVED by PRE_APPROVER"). trace(3,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(4,"__end__").
+}).
+#pos(example_22@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(3,"Request For Payment REJECTED by MISSING"). trace(4,"Request For Payment SUBMITTED by EMPLOYEE"). trace(5,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(6,"Request For Payment REJECTED by MISSING"). trace(7,"Request For Payment SUBMITTED by EMPLOYEE"). trace(8,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(9,"Request Payment"). trace(10,"Payment Handled"). trace(11,"__end__").
+}).
+#pos(example_23@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment REJECTED by PRE_APPROVER"). trace(3,"Request For Payment REJECTED by EMPLOYEE"). trace(4,"Request For Payment SUBMITTED by EMPLOYEE"). trace(5,"Request For Payment APPROVED by PRE_APPROVER"). trace(6,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(7,"Request For Payment REJECTED by MISSING"). trace(8,"Request For Payment SUBMITTED by EMPLOYEE"). trace(9,"Request For Payment REJECTED by PRE_APPROVER"). trace(10,"Request For Payment REJECTED by EMPLOYEE"). trace(11,"Request For Payment SUBMITTED by EMPLOYEE"). trace(12,"Request For Payment APPROVED by PRE_APPROVER"). trace(13,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(14,"Request Payment"). trace(15,"Payment Handled"). trace(16,"__end__").
+}).
+#pos(example_24@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment APPROVED by PRE_APPROVER"). trace(3,"Request For Payment FINAL_APPROVED by DIRECTOR"). trace(4,"Request For Payment APPROVED by SUPERVISOR"). trace(5,"Request Payment"). trace(6,"Payment Handled"). trace(7,"__end__").
+}).
+#pos(example_25@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment REJECTED by PRE_APPROVER"). trace(3,"Request For Payment REJECTED by EMPLOYEE"). trace(4,"Request For Payment SUBMITTED by EMPLOYEE"). trace(5,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(6,"Request Payment"). trace(7,"Payment Handled"). trace(8,"__end__").
+}).
+#pos(example_26@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(3,"Request For Payment REJECTED by MISSING"). trace(4,"Request For Payment SUBMITTED by EMPLOYEE"). trace(5,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(6,"__end__").
+}).
+#pos(example_27@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(3,"Request Payment"). trace(4,"Request For Payment REJECTED by MISSING"). trace(5,"__end__").
+}).
+#pos(example_28@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment APPROVED by ADMINISTRATION"). trace(3,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(4,"Request Payment"). trace(5,"Payment Handled"). trace(6,"__end__").
+}).
+#pos(example_29@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment REJECTED by ADMINISTRATION"). trace(3,"Request For Payment REJECTED by EMPLOYEE"). trace(4,"__end__").
+}).
+#pos(example_30@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment APPROVED by ADMINISTRATION"). trace(3,"Request For Payment APPROVED by BUDGET OWNER"). trace(4,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(5,"Request Payment"). trace(6,"Payment Handled"). trace(7,"__end__").
+}).
+#pos(example_31@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment APPROVED by ADMINISTRATION"). trace(3,"Request For Payment REJECTED by SUPERVISOR"). trace(4,"Request For Payment REJECTED by EMPLOYEE"). trace(5,"Request For Payment SUBMITTED by EMPLOYEE"). trace(6,"Request For Payment APPROVED by ADMINISTRATION"). trace(7,"Request For Payment APPROVED by BUDGET OWNER"). trace(8,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(9,"Request Payment"). trace(10,"Payment Handled"). trace(11,"__end__").
+}).
+#pos(example_32@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment APPROVED by ADMINISTRATION"). trace(3,"Request For Payment REJECTED by SUPERVISOR"). trace(4,"Request For Payment REJECTED by EMPLOYEE"). trace(5,"Request For Payment SUBMITTED by EMPLOYEE"). trace(6,"Request For Payment APPROVED by ADMINISTRATION"). trace(7,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(8,"Request Payment"). trace(9,"Payment Handled"). trace(10,"__end__").
+}).
+#pos(example_33@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment APPROVED by ADMINISTRATION"). trace(3,"Request For Payment APPROVED by BUDGET OWNER"). trace(4,"Request For Payment REJECTED by SUPERVISOR"). trace(5,"Request For Payment REJECTED by EMPLOYEE"). trace(6,"Request For Payment SUBMITTED by EMPLOYEE"). trace(7,"Request For Payment APPROVED by ADMINISTRATION"). trace(8,"Request For Payment APPROVED by BUDGET OWNER"). trace(9,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(10,"Request Payment"). trace(11,"Payment Handled"). trace(12,"__end__").
+}).
+#pos(example_34@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment REJECTED by ADMINISTRATION"). trace(3,"Request For Payment REJECTED by EMPLOYEE"). trace(4,"Request For Payment SUBMITTED by EMPLOYEE"). trace(5,"Request For Payment APPROVED by ADMINISTRATION"). trace(6,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(7,"Request Payment"). trace(8,"Payment Handled"). trace(9,"__end__").
+}).
+#pos(example_35@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment REJECTED by ADMINISTRATION"). trace(3,"Request For Payment REJECTED by EMPLOYEE"). trace(4,"Request For Payment SUBMITTED by EMPLOYEE"). trace(5,"Request For Payment APPROVED by ADMINISTRATION"). trace(6,"Request For Payment APPROVED by BUDGET OWNER"). trace(7,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(8,"Request Payment"). trace(9,"Payment Handled"). trace(10,"__end__").
+}).
+#pos(example_36@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment APPROVED by ADMINISTRATION"). trace(3,"Request For Payment APPROVED by BUDGET OWNER"). trace(4,"Request For Payment REJECTED by SUPERVISOR"). trace(5,"Request For Payment REJECTED by EMPLOYEE"). trace(6,"Request For Payment SUBMITTED by EMPLOYEE"). trace(7,"Request For Payment APPROVED by ADMINISTRATION"). trace(8,"Request For Payment APPROVED by BUDGET OWNER"). trace(9,"Request For Payment REJECTED by SUPERVISOR"). trace(10,"Request For Payment REJECTED by EMPLOYEE"). trace(11,"Request For Payment SUBMITTED by EMPLOYEE"). trace(12,"Request For Payment APPROVED by ADMINISTRATION"). trace(13,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(14,"Request Payment"). trace(15,"Payment Handled"). trace(16,"__end__").
+}).
+#pos(example_37@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment APPROVED by ADMINISTRATION"). trace(3,"Request For Payment REJECTED by BUDGET OWNER"). trace(4,"Request For Payment REJECTED by EMPLOYEE"). trace(5,"Request For Payment SUBMITTED by EMPLOYEE"). trace(6,"Request For Payment APPROVED by ADMINISTRATION"). trace(7,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(8,"Request Payment"). trace(9,"Payment Handled"). trace(10,"__end__").
+}).
+#pos(example_38@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment REJECTED by ADMINISTRATION"). trace(3,"Request For Payment REJECTED by EMPLOYEE"). trace(4,"Request For Payment SUBMITTED by EMPLOYEE"). trace(5,"Request For Payment REJECTED by ADMINISTRATION"). trace(6,"Request For Payment REJECTED by EMPLOYEE"). trace(7,"Request For Payment SUBMITTED by EMPLOYEE"). trace(8,"Request For Payment APPROVED by ADMINISTRATION"). trace(9,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(10,"Request Payment"). trace(11,"Payment Handled"). trace(12,"__end__").
+}).
+#pos(example_39@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment APPROVED by ADMINISTRATION"). trace(3,"Request For Payment REJECTED by SUPERVISOR"). trace(4,"Request For Payment REJECTED by EMPLOYEE"). trace(5,"Request For Payment SUBMITTED by EMPLOYEE"). trace(6,"Request For Payment APPROVED by ADMINISTRATION"). trace(7,"Request For Payment APPROVED by BUDGET OWNER"). trace(8,"Request For Payment REJECTED by SUPERVISOR"). trace(9,"Request For Payment REJECTED by EMPLOYEE"). trace(10,"Request For Payment SUBMITTED by EMPLOYEE"). trace(11,"Request For Payment APPROVED by ADMINISTRATION"). trace(12,"Request For Payment APPROVED by BUDGET OWNER"). trace(13,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(14,"Request Payment"). trace(15,"Payment Handled"). trace(16,"__end__").
+}).
+#pos(example_40@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment APPROVED by ADMINISTRATION"). trace(3,"Request For Payment APPROVED by SUPERVISOR"). trace(4,"Request For Payment FINAL_APPROVED by DIRECTOR"). trace(5,"Request Payment"). trace(6,"Payment Handled"). trace(7,"__end__").
+}).
+#pos(example_41@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment APPROVED by ADMINISTRATION"). trace(3,"Request For Payment REJECTED by BUDGET OWNER"). trace(4,"Request For Payment REJECTED by EMPLOYEE"). trace(5,"__end__").
+}).
+#pos(example_42@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment APPROVED by ADMINISTRATION"). trace(3,"Request For Payment APPROVED by BUDGET OWNER"). trace(4,"Request For Payment APPROVED by SUPERVISOR"). trace(5,"Request For Payment FINAL_APPROVED by DIRECTOR"). trace(6,"Request Payment"). trace(7,"Payment Handled"). trace(8,"__end__").
+}).
+#pos(example_43@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment APPROVED by ADMINISTRATION"). trace(3,"Request For Payment REJECTED by SUPERVISOR"). trace(4,"Request For Payment REJECTED by EMPLOYEE"). trace(5,"Request For Payment SUBMITTED by EMPLOYEE"). trace(6,"Request For Payment APPROVED by ADMINISTRATION"). trace(7,"Request For Payment APPROVED by SUPERVISOR"). trace(8,"Request For Payment FINAL_APPROVED by DIRECTOR"). trace(9,"Request Payment"). trace(10,"Payment Handled"). trace(11,"__end__").
+}).
+#pos(example_44@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment APPROVED by ADMINISTRATION"). trace(3,"Request For Payment REJECTED by SUPERVISOR"). trace(4,"Request For Payment REJECTED by EMPLOYEE"). trace(5,"__end__").
+}).
+#pos(example_45@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment APPROVED by ADMINISTRATION"). trace(3,"Request For Payment REJECTED by BUDGET OWNER"). trace(4,"Request For Payment REJECTED by EMPLOYEE"). trace(5,"Request For Payment SUBMITTED by EMPLOYEE"). trace(6,"Request For Payment APPROVED by ADMINISTRATION"). trace(7,"Request For Payment APPROVED by BUDGET OWNER"). trace(8,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(9,"Request Payment"). trace(10,"Payment Handled"). trace(11,"__end__").
+}).
+#pos(example_46@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment APPROVED by ADMINISTRATION"). trace(3,"Request For Payment APPROVED by BUDGET OWNER"). trace(4,"Request For Payment REJECTED by SUPERVISOR"). trace(5,"Request For Payment REJECTED by EMPLOYEE"). trace(6,"__end__").
+}).
+#pos(example_47@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment REJECTED by ADMINISTRATION"). trace(3,"Request For Payment REJECTED by EMPLOYEE"). trace(4,"Request For Payment SUBMITTED by EMPLOYEE"). trace(5,"Request For Payment REJECTED by ADMINISTRATION"). trace(6,"Request For Payment REJECTED by EMPLOYEE"). trace(7,"__end__").
+}).
+#pos(example_48@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment REJECTED by SUPERVISOR"). trace(3,"Request For Payment REJECTED by EMPLOYEE"). trace(4,"Request For Payment SUBMITTED by EMPLOYEE"). trace(5,"Request For Payment REJECTED by ADMINISTRATION"). trace(6,"Request For Payment REJECTED by EMPLOYEE"). trace(7,"__end__").
+}).
+#pos(example_49@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment REJECTED by SUPERVISOR"). trace(3,"Request For Payment REJECTED by EMPLOYEE"). trace(4,"Request For Payment SUBMITTED by EMPLOYEE"). trace(5,"Request For Payment APPROVED by ADMINISTRATION"). trace(6,"Request For Payment APPROVED by BUDGET OWNER"). trace(7,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(8,"Request Payment"). trace(9,"Payment Handled"). trace(10,"__end__").
+}).
+#pos(example_50@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment REJECTED by SUPERVISOR"). trace(3,"Request For Payment REJECTED by EMPLOYEE"). trace(4,"Request For Payment SUBMITTED by EMPLOYEE"). trace(5,"Request For Payment APPROVED by ADMINISTRATION"). trace(6,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(7,"Request Payment"). trace(8,"Payment Handled"). trace(9,"__end__").
+}).
+#pos(example_51@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment APPROVED by ADMINISTRATION"). trace(3,"Request For Payment APPROVED by BUDGET OWNER"). trace(4,"Request For Payment REJECTED by SUPERVISOR"). trace(5,"Request For Payment REJECTED by EMPLOYEE"). trace(6,"Request For Payment SUBMITTED by EMPLOYEE"). trace(7,"Request For Payment APPROVED by ADMINISTRATION"). trace(8,"Request For Payment APPROVED by BUDGET OWNER"). trace(9,"Request For Payment REJECTED by SUPERVISOR"). trace(10,"Request For Payment SUBMITTED by EMPLOYEE"). trace(11,"Request For Payment APPROVED by ADMINISTRATION"). trace(12,"Request For Payment APPROVED by BUDGET OWNER"). trace(13,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(14,"Request Payment"). trace(15,"Payment Handled"). trace(16,"__end__").
+}).
+#pos(example_52@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment APPROVED by ADMINISTRATION"). trace(3,"Request For Payment APPROVED by BUDGET OWNER"). trace(4,"Request For Payment REJECTED by SUPERVISOR"). trace(5,"Request For Payment REJECTED by EMPLOYEE"). trace(6,"Request For Payment SUBMITTED by EMPLOYEE"). trace(7,"Request For Payment APPROVED by ADMINISTRATION"). trace(8,"Request For Payment APPROVED by BUDGET OWNER"). trace(9,"Request For Payment REJECTED by SUPERVISOR"). trace(10,"Request For Payment REJECTED by EMPLOYEE"). trace(11,"Request For Payment SUBMITTED by EMPLOYEE"). trace(12,"Request For Payment APPROVED by ADMINISTRATION"). trace(13,"Request For Payment APPROVED by BUDGET OWNER"). trace(14,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(15,"Request Payment"). trace(16,"Payment Handled"). trace(17,"__end__").
+}).
+#pos(example_53@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment REJECTED by ADMINISTRATION"). trace(3,"Request For Payment REJECTED by EMPLOYEE"). trace(4,"Request For Payment SUBMITTED by EMPLOYEE"). trace(5,"Request For Payment REJECTED by ADMINISTRATION"). trace(6,"Request For Payment REJECTED by EMPLOYEE"). trace(7,"Request For Payment SUBMITTED by EMPLOYEE"). trace(8,"Request For Payment APPROVED by ADMINISTRATION"). trace(9,"Request For Payment APPROVED by BUDGET OWNER"). trace(10,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(11,"Request Payment"). trace(12,"Payment Handled"). trace(13,"__end__").
+}).
+#pos(example_54@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment APPROVED by ADMINISTRATION"). trace(3,"Request For Payment APPROVED by BUDGET OWNER"). trace(4,"Request For Payment REJECTED by SUPERVISOR"). trace(5,"Request For Payment REJECTED by EMPLOYEE"). trace(6,"Request For Payment SUBMITTED by EMPLOYEE"). trace(7,"Request For Payment APPROVED by ADMINISTRATION"). trace(8,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(9,"Request Payment"). trace(10,"Payment Handled"). trace(11,"__end__").
+}).
+#pos(example_55@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment REJECTED by ADMINISTRATION"). trace(3,"Request For Payment REJECTED by EMPLOYEE"). trace(4,"Request For Payment SUBMITTED by EMPLOYEE"). trace(5,"Request For Payment REJECTED by ADMINISTRATION"). trace(6,"Request For Payment SUBMITTED by EMPLOYEE"). trace(7,"Request For Payment FOR_APPROVAL by ADMINISTRATION"). trace(8,"Request For Payment SUBMITTED by EMPLOYEE"). trace(9,"Request For Payment APPROVED by ADMINISTRATION"). trace(10,"Request For Payment APPROVED by BUDGET OWNER"). trace(11,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(12,"Request Payment"). trace(13,"Payment Handled"). trace(14,"__end__").
+}).
+#pos(example_56@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment REJECTED by ADMINISTRATION"). trace(3,"Request For Payment SUBMITTED by EMPLOYEE"). trace(4,"Request For Payment APPROVED by ADMINISTRATION"). trace(5,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(6,"Request Payment"). trace(7,"Payment Handled"). trace(8,"__end__").
+}).
+#pos(example_57@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment REJECTED by ADMINISTRATION"). trace(3,"Request For Payment REJECTED by EMPLOYEE"). trace(4,"Request For Payment SUBMITTED by EMPLOYEE"). trace(5,"Request For Payment REJECTED by ADMINISTRATION"). trace(6,"Request For Payment REJECTED by EMPLOYEE"). trace(7,"Request For Payment SUBMITTED by EMPLOYEE"). trace(8,"Request For Payment REJECTED by ADMINISTRATION"). trace(9,"Request For Payment REJECTED by EMPLOYEE"). trace(10,"Request For Payment SUBMITTED by EMPLOYEE"). trace(11,"Request For Payment APPROVED by ADMINISTRATION"). trace(12,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(13,"Request Payment"). trace(14,"Payment Handled"). trace(15,"__end__").
+}).
+#pos(example_58@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment REJECTED by ADMINISTRATION"). trace(3,"Request For Payment SUBMITTED by EMPLOYEE"). trace(4,"Request For Payment REJECTED by ADMINISTRATION"). trace(5,"Request For Payment REJECTED by EMPLOYEE"). trace(6,"__end__").
+}).
+#pos(example_59@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment APPROVED by ADMINISTRATION"). trace(3,"Request For Payment REJECTED by SUPERVISOR"). trace(4,"Request For Payment REJECTED by EMPLOYEE"). trace(5,"Request For Payment SUBMITTED by EMPLOYEE"). trace(6,"Request For Payment REJECTED by ADMINISTRATION"). trace(7,"Request For Payment REJECTED by EMPLOYEE"). trace(8,"__end__").
+}).
+#pos(example_60@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment REJECTED by ADMINISTRATION"). trace(3,"Request For Payment REJECTED by EMPLOYEE"). trace(4,"Request For Payment SUBMITTED by EMPLOYEE"). trace(5,"Request For Payment APPROVED by ADMINISTRATION"). trace(6,"Request For Payment REJECTED by BUDGET OWNER"). trace(7,"Request For Payment REJECTED by EMPLOYEE"). trace(8,"Request For Payment SUBMITTED by EMPLOYEE"). trace(9,"Request For Payment APPROVED by ADMINISTRATION"). trace(10,"Request For Payment APPROVED by BUDGET OWNER"). trace(11,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(12,"Request Payment"). trace(13,"Payment Handled"). trace(14,"__end__").
+}).
+#pos(example_61@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment APPROVED by ADMINISTRATION"). trace(3,"Request For Payment REJECTED by SUPERVISOR"). trace(4,"Request For Payment SUBMITTED by EMPLOYEE"). trace(5,"Request For Payment APPROVED by ADMINISTRATION"). trace(6,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(7,"Payment Handled"). trace(8,"__end__").
+}).
+#pos(example_62@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment REJECTED by ADMINISTRATION"). trace(3,"Request For Payment REJECTED by EMPLOYEE"). trace(4,"Request For Payment SUBMITTED by EMPLOYEE"). trace(5,"Request For Payment APPROVED by ADMINISTRATION"). trace(6,"Request For Payment REJECTED by BUDGET OWNER"). trace(7,"Request For Payment REJECTED by EMPLOYEE"). trace(8,"Request For Payment SUBMITTED by EMPLOYEE"). trace(9,"Request For Payment REJECTED by ADMINISTRATION"). trace(10,"Request For Payment REJECTED by EMPLOYEE"). trace(11,"Request For Payment SUBMITTED by EMPLOYEE"). trace(12,"Request For Payment APPROVED by ADMINISTRATION"). trace(13,"Request For Payment APPROVED by BUDGET OWNER"). trace(14,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(15,"Request Payment"). trace(16,"Payment Handled"). trace(17,"__end__").
+}).
+#pos(example_63@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment REJECTED by ADMINISTRATION"). trace(3,"Request For Payment SUBMITTED by EMPLOYEE"). trace(4,"Request For Payment APPROVED by ADMINISTRATION"). trace(5,"Request For Payment APPROVED by BUDGET OWNER"). trace(6,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(7,"Request Payment"). trace(8,"Payment Handled"). trace(9,"__end__").
+}).
+#pos(example_64@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment APPROVED by ADMINISTRATION"). trace(3,"Request For Payment APPROVED by BUDGET OWNER"). trace(4,"Request For Payment REJECTED by SUPERVISOR"). trace(5,"Request For Payment REJECTED by EMPLOYEE"). trace(6,"Request For Payment SUBMITTED by EMPLOYEE"). trace(7,"Request For Payment REJECTED by ADMINISTRATION"). trace(8,"Request For Payment REJECTED by EMPLOYEE"). trace(9,"Request For Payment SUBMITTED by EMPLOYEE"). trace(10,"Request For Payment APPROVED by ADMINISTRATION"). trace(11,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(12,"Request Payment"). trace(13,"Payment Handled"). trace(14,"__end__").
+}).
+#pos(example_65@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment REJECTED by ADMINISTRATION"). trace(3,"Request For Payment REJECTED by EMPLOYEE"). trace(4,"Request For Payment SUBMITTED by EMPLOYEE"). trace(5,"Request For Payment APPROVED by ADMINISTRATION"). trace(6,"Request For Payment REJECTED by SUPERVISOR"). trace(7,"Request For Payment REJECTED by EMPLOYEE"). trace(8,"Request For Payment SUBMITTED by EMPLOYEE"). trace(9,"Request For Payment APPROVED by ADMINISTRATION"). trace(10,"Request For Payment APPROVED by BUDGET OWNER"). trace(11,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(12,"Request Payment"). trace(13,"Payment Handled"). trace(14,"__end__").
+}).
+#pos(example_66@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment REJECTED by ADMINISTRATION"). trace(3,"Request For Payment REJECTED by EMPLOYEE"). trace(4,"Request For Payment SAVED by EMPLOYEE"). trace(5,"__end__").
+}).
+#pos(example_67@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment REJECTED by ADMINISTRATION"). trace(3,"Request For Payment SUBMITTED by EMPLOYEE"). trace(4,"Request For Payment REJECTED by ADMINISTRATION"). trace(5,"__end__").
+}).
+#pos(example_68@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment REJECTED by ADMINISTRATION"). trace(3,"Request For Payment SUBMITTED by EMPLOYEE"). trace(4,"Request For Payment REJECTED by ADMINISTRATION"). trace(5,"Request For Payment SUBMITTED by EMPLOYEE"). trace(6,"Request For Payment APPROVED by ADMINISTRATION"). trace(7,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(8,"Request Payment"). trace(9,"Payment Handled"). trace(10,"__end__").
+}).
+#pos(example_69@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment REJECTED by ADMINISTRATION"). trace(3,"Request For Payment REJECTED by EMPLOYEE"). trace(4,"Request For Payment SUBMITTED by EMPLOYEE"). trace(5,"Request For Payment REJECTED by ADMINISTRATION"). trace(6,"Request For Payment REJECTED by EMPLOYEE"). trace(7,"Request For Payment SUBMITTED by EMPLOYEE"). trace(8,"Request For Payment REJECTED by ADMINISTRATION"). trace(9,"Request For Payment REJECTED by EMPLOYEE"). trace(10,"Request For Payment SUBMITTED by EMPLOYEE"). trace(11,"Request For Payment REJECTED by ADMINISTRATION"). trace(12,"Request For Payment REJECTED by EMPLOYEE"). trace(13,"Request For Payment SUBMITTED by EMPLOYEE"). trace(14,"Request For Payment REJECTED by ADMINISTRATION"). trace(15,"Request For Payment REJECTED by EMPLOYEE"). trace(16,"Request For Payment SUBMITTED by EMPLOYEE"). trace(17,"Request For Payment APPROVED by ADMINISTRATION"). trace(18,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(19,"Request Payment"). trace(20,"Payment Handled"). trace(21,"__end__").
+}).
+#pos(example_70@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment APPROVED by ADMINISTRATION"). trace(3,"Request For Payment APPROVED by BUDGET OWNER"). trace(4,"Request For Payment REJECTED by SUPERVISOR"). trace(5,"Request For Payment SUBMITTED by EMPLOYEE"). trace(6,"Request For Payment APPROVED by ADMINISTRATION"). trace(7,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(8,"__end__").
+}).
+#pos(example_71@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment APPROVED by ADMINISTRATION"). trace(3,"Request For Payment REJECTED by SUPERVISOR"). trace(4,"Request For Payment REJECTED by EMPLOYEE"). trace(5,"Request For Payment SUBMITTED by EMPLOYEE"). trace(6,"Request For Payment REJECTED by ADMINISTRATION"). trace(7,"Request For Payment REJECTED by EMPLOYEE"). trace(8,"Request For Payment SUBMITTED by EMPLOYEE"). trace(9,"Request For Payment APPROVED by ADMINISTRATION"). trace(10,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(11,"Request Payment"). trace(12,"Payment Handled"). trace(13,"__end__").
+}).
+#pos(example_72@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment REJECTED by ADMINISTRATION"). trace(3,"Request For Payment REJECTED by EMPLOYEE"). trace(4,"Request For Payment SUBMITTED by EMPLOYEE"). trace(5,"Request For Payment REJECTED by ADMINISTRATION"). trace(6,"Request For Payment SUBMITTED by EMPLOYEE"). trace(7,"Request For Payment APPROVED by ADMINISTRATION"). trace(8,"Request For Payment APPROVED by BUDGET OWNER"). trace(9,"Request For Payment SUBMITTED by EMPLOYEE"). trace(10,"Request For Payment APPROVED by ADMINISTRATION"). trace(11,"Request For Payment APPROVED by BUDGET OWNER"). trace(12,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(13,"Request Payment"). trace(14,"Payment Handled"). trace(15,"__end__").
+}).
+#pos(example_73@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment REJECTED by ADMINISTRATION"). trace(3,"Request For Payment REJECTED by EMPLOYEE"). trace(4,"Request For Payment SUBMITTED by EMPLOYEE"). trace(5,"Request For Payment APPROVED by ADMINISTRATION"). trace(6,"Request For Payment REJECTED by BUDGET OWNER"). trace(7,"Request For Payment REJECTED by EMPLOYEE"). trace(8,"Request For Payment SUBMITTED by EMPLOYEE"). trace(9,"Request For Payment APPROVED by ADMINISTRATION"). trace(10,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(11,"Request Payment"). trace(12,"Payment Handled"). trace(13,"__end__").
+}).
+#pos(example_74@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment REJECTED by ADMINISTRATION"). trace(3,"Request For Payment REJECTED by EMPLOYEE"). trace(4,"Request For Payment SUBMITTED by EMPLOYEE"). trace(5,"Request For Payment APPROVED by ADMINISTRATION"). trace(6,"Request For Payment APPROVED by BUDGET OWNER"). trace(7,"Request For Payment APPROVED by SUPERVISOR"). trace(8,"Request For Payment FINAL_APPROVED by DIRECTOR"). trace(9,"Request Payment"). trace(10,"Payment Handled"). trace(11,"__end__").
+}).
+#pos(example_75@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment APPROVED by ADMINISTRATION"). trace(3,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(4,"Payment Handled"). trace(5,"__end__").
+}).
+#pos(example_76@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment REJECTED by ADMINISTRATION"). trace(3,"Request For Payment SUBMITTED by EMPLOYEE"). trace(4,"Request For Payment REJECTED by ADMINISTRATION"). trace(5,"Request For Payment SUBMITTED by EMPLOYEE"). trace(6,"Request For Payment REJECTED by ADMINISTRATION"). trace(7,"Request For Payment SUBMITTED by EMPLOYEE"). trace(8,"Request For Payment REJECTED by ADMINISTRATION"). trace(9,"Request For Payment REJECTED by EMPLOYEE"). trace(10,"__end__").
+}).
+#pos(example_77@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment APPROVED by ADMINISTRATION"). trace(3,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(4,"Payment Handled"). trace(5,"Request Payment"). trace(6,"__end__").
+}).
+#pos(example_78@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment REJECTED by ADMINISTRATION"). trace(3,"Request For Payment SUBMITTED by EMPLOYEE"). trace(4,"Request For Payment REJECTED by ADMINISTRATION"). trace(5,"Request For Payment SUBMITTED by EMPLOYEE"). trace(6,"Request For Payment REJECTED by ADMINISTRATION"). trace(7,"Request For Payment SUBMITTED by EMPLOYEE"). trace(8,"Request For Payment REJECTED by ADMINISTRATION"). trace(9,"Request For Payment SUBMITTED by EMPLOYEE"). trace(10,"Request For Payment REJECTED by ADMINISTRATION"). trace(11,"Request For Payment REJECTED by EMPLOYEE"). trace(12,"__end__").
+}).
+#pos(example_79@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment REJECTED by ADMINISTRATION"). trace(3,"Request For Payment REJECTED by EMPLOYEE"). trace(4,"Request For Payment SUBMITTED by EMPLOYEE"). trace(5,"Request For Payment APPROVED by ADMINISTRATION"). trace(6,"Request For Payment APPROVED by SUPERVISOR"). trace(7,"Request For Payment FINAL_APPROVED by DIRECTOR"). trace(8,"Request Payment"). trace(9,"Payment Handled"). trace(10,"__end__").
+}).
+#pos(example_80@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment REJECTED by ADMINISTRATION"). trace(3,"Request For Payment SUBMITTED by EMPLOYEE"). trace(4,"Request For Payment REJECTED by EMPLOYEE"). trace(5,"Request For Payment SUBMITTED by EMPLOYEE"). trace(6,"Request For Payment APPROVED by ADMINISTRATION"). trace(7,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(8,"Request Payment"). trace(9,"Payment Handled"). trace(10,"__end__").
+}).
+#pos(example_81@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment REJECTED by ADMINISTRATION"). trace(3,"Request For Payment REJECTED by EMPLOYEE"). trace(4,"Request For Payment SUBMITTED by EMPLOYEE"). trace(5,"Request For Payment REJECTED by ADMINISTRATION"). trace(6,"Request For Payment SUBMITTED by EMPLOYEE"). trace(7,"Request For Payment REJECTED by EMPLOYEE"). trace(8,"Request For Payment SUBMITTED by EMPLOYEE"). trace(9,"Request For Payment APPROVED by ADMINISTRATION"). trace(10,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(11,"Request Payment"). trace(12,"Payment Handled"). trace(13,"__end__").
+}).
+#pos(example_82@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment APPROVED by ADMINISTRATION"). trace(3,"Request For Payment FINAL_APPROVED by BUDGET OWNER"). trace(4,"Payment Handled"). trace(5,"__end__").
+}).
+#pos(example_83@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment REJECTED by ADMINISTRATION"). trace(3,"Request For Payment SUBMITTED by EMPLOYEE"). trace(4,"Request For Payment REJECTED by EMPLOYEE"). trace(5,"Request For Payment SUBMITTED by EMPLOYEE"). trace(6,"Request For Payment REJECTED by ADMINISTRATION"). trace(7,"Request For Payment REJECTED by EMPLOYEE"). trace(8,"__end__").
+}).
+#pos(example_84@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment REJECTED by ADMINISTRATION"). trace(3,"Request For Payment REJECTED by EMPLOYEE"). trace(4,"Request For Payment SUBMITTED by EMPLOYEE"). trace(5,"Request For Payment APPROVED by ADMINISTRATION"). trace(6,"Request For Payment FOR_APPROVAL by SUPERVISOR"). trace(7,"__end__").
+}).
+#pos(example_85@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment APPROVED by ADMINISTRATION"). trace(3,"Request For Payment APPROVED by BUDGET OWNER"). trace(4,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(5,"Payment Handled"). trace(6,"__end__").
+}).
+#pos(example_86@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment APPROVED by ADMINISTRATION"). trace(3,"Request For Payment APPROVED by BUDGET OWNER"). trace(4,"Request For Payment FINAL_APPROVED by SUPERVISOR"). trace(5,"Payment Handled"). trace(6,"Request Payment"). trace(7,"__end__").
+}).
+#pos(example_87@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment REJECTED by ADMINISTRATION"). trace(3,"__end__").
+}).
+#pos(example_88@0, {recognized}, {}, {
+trace(0,"__start__"). trace(1,"Request For Payment SUBMITTED by EMPLOYEE"). trace(2,"Request For Payment APPROVED by ADMINISTRATION"). trace(3,"Request For Payment APPROVED by BUDGET OWNER"). trace(4,"Request For Payment REJECTED by SUPERVISOR"). trace(5,"__end__").
+}).

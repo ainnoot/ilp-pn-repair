@@ -1,0 +1,188 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% MODE BIAS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+#modeh(ptarc(const(place),const(trans),const(weight))).
+#modeh(tparc(const(trans),const(place),const(weight))).
+#modeh(rem_ptarc(const(place),const(trans),const(weight))).
+#modeh(rem_tparc(const(trans),const(place),const(weight))).
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% BIAS CONSTRAINTS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+#bias("
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% INPUT MODEL %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+source_marking("__source_place__",1).
+final_marking("__sink_place__",1).
+place("p_0").
+place("__source_place__").
+place("p_14").
+place("__sink_place__").
+place("p_9").
+place("p_15").
+place("p_3").
+place("p_7").
+place("p_5").
+place("p_10").
+place("p_16").
+place("p_8").
+place("p_11").
+place("p_2").
+place("p_6").
+place("p_13").
+place("p_1").
+place("p_4").
+place("p_12").
+trans("t_5","Declaration APPROVED by BUDGET OWNER").
+label("Declaration APPROVED by BUDGET OWNER").
+trans("t_13","Payment Handled").
+label("Payment Handled").
+trans("t_10","Declaration SAVED by EMPLOYEE").
+label("Declaration SAVED by EMPLOYEE").
+trans("__source_transition__","__start__").
+label("__start__").
+trans("t_0","Declaration APPROVED by ADMINISTRATION").
+label("Declaration APPROVED by ADMINISTRATION").
+trans("__sink_transition__","__end__").
+label("__end__").
+trans("t_4","Declaration SUBMITTED by EMPLOYEE").
+label("Declaration SUBMITTED by EMPLOYEE").
+trans("t_15","Declaration REJECTED by BUDGET OWNER").
+label("Declaration REJECTED by BUDGET OWNER").
+trans("t_11","Declaration FOR_APPROVAL by SUPERVISOR").
+label("Declaration FOR_APPROVAL by SUPERVISOR").
+trans("t_7","Declaration FOR_APPROVAL by PRE_APPROVER").
+label("Declaration FOR_APPROVAL by PRE_APPROVER").
+trans("t_14","Declaration APPROVED by PRE_APPROVER").
+label("Declaration APPROVED by PRE_APPROVER").
+trans("t_1","Declaration REJECTED by MISSING").
+label("Declaration REJECTED by MISSING").
+trans("t_8","Declaration REJECTED by SUPERVISOR").
+label("Declaration REJECTED by SUPERVISOR").
+trans("t_6","Declaration REJECTED by EMPLOYEE").
+label("Declaration REJECTED by EMPLOYEE").
+trans("t_12","Declaration FINAL_APPROVED by SUPERVISOR").
+label("Declaration FINAL_APPROVED by SUPERVISOR").
+trans("t_3","Request Payment").
+label("Request Payment").
+tparc("t_5","p_0",1).
+ptarc("p_7","t_4",1).
+tparc("t_12","p_12",1).
+tparc("t_8","p_4",1).
+tparc("t_5","p_1",1).
+tparc("t_1","p_9",1).
+ptarc("p_14","t_6",1).
+ptarc("p_8","t_15",1).
+tparc("t_12","p_2",1).
+ptarc("p_10","t_12",1).
+ptarc("p_1","t_8",1).
+ptarc("p_6","t_7",1).
+tparc("t_15","p_13",1).
+ptarc("p_11","t_5",1).
+ptarc("p_4","t_3",1).
+tparc("__sink_transition__","__sink_place__",1).
+tparc("t_10","p_4",1).
+ptarc("p_13","t_4",1).
+tparc("t_6","p_9",1).
+ptarc("p_5","t_0",1).
+tparc("t_7","p_3",1).
+tparc("t_12","p_4",1).
+tparc("t_11","p_3",1).
+ptarc("p_8","t_8",1).
+tparc("t_0","p_10",1).
+tparc("t_0","p_11",1).
+ptarc("p_11","t_15",1).
+tparc("t_3","p_3",1).
+ptarc("p_16","t_13",1).
+tparc("t_8","p_9",1).
+ptarc("p_6","t_11",1).
+tparc("t_14","p_10",1).
+ptarc("p_10","t_8",1).
+ptarc("p_12","t_13",1).
+ptarc("p_3","t_1",1).
+tparc("t_8","p_15",1).
+ptarc("p_1","t_12",1).
+ptarc("p_9","__sink_transition__",1).
+ptarc("p_7","t_10",1).
+tparc("t_14","p_1",1).
+ptarc("p_5","t_14",1).
+ptarc("p_5","t_7",1).
+tparc("t_0","p_8",1).
+tparc("t_1","p_13",1).
+tparc("t_15","p_15",1).
+tparc("__source_transition__","p_7",1).
+tparc("t_7","p_2",1).
+ptarc("p_6","t_12",1).
+ptarc("p_14","t_3",1).
+ptarc("p_15","t_6",1).
+tparc("t_4","p_5",1).
+tparc("t_3","p_16",1).
+ptarc("p_16","t_1",1).
+ptarc("p_5","t_11",1).
+tparc("t_4","p_0",1).
+ptarc("p_12","t_1",1).
+ptarc("p_2","t_1",1).
+tparc("t_13","p_9",1).
+tparc("t_13","p_15",1).
+ptarc("p_8","t_12",1).
+tparc("t_8","p_14",1).
+tparc("t_4","p_6",1).
+ptarc("__source_place__","__source_transition__",1).
+tparc("t_10","p_9",1).
+ptarc("p_0","t_12",1).
+tparc("t_11","p_2",1).
+
+new_tparc(T,P,W) :- trans(T,A), place(P), weight(W), not tparc(T,P,W).
+new_ptarc(T,P,W) :- trans(T,A), place(P), weight(W), not ptarc(P,T,W).
+:- head(ptarc(P,T,W)), ptarc(P,T,W).
+:- head(tparc(T,P,W)), ptarc(T,P,W).
+:- head(rem_ptarc(P,T,W)), new_ptarc(P,T,W).
+:- head(rem_tparc(T,P,W)), new_tparc(T,P,W).
+").
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% CONSTANTS DECLARATION %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+#constant(place, "p_0").
+#constant(place, "p_14").
+#constant(place, "p_9").
+#constant(place, "p_15").
+#constant(place, "p_3").
+#constant(place, "p_7").
+#constant(place, "p_5").
+#constant(place, "p_10").
+#constant(place, "p_16").
+#constant(place, "p_8").
+#constant(place, "p_11").
+#constant(place, "p_2").
+#constant(place, "p_6").
+#constant(place, "p_13").
+#constant(place, "p_1").
+#constant(place, "p_4").
+#constant(place, "p_12").
+#constant(transition, "t_5").
+#constant(label, "Declaration APPROVED by BUDGET OWNER").
+#constant(transition, "t_13").
+#constant(label, "Payment Handled").
+#constant(transition, "t_10").
+#constant(label, "Declaration SAVED by EMPLOYEE").
+#constant(transition, "t_0").
+#constant(label, "Declaration APPROVED by ADMINISTRATION").
+#constant(transition, "t_4").
+#constant(label, "Declaration SUBMITTED by EMPLOYEE").
+#constant(transition, "t_15").
+#constant(label, "Declaration REJECTED by BUDGET OWNER").
+#constant(transition, "t_11").
+#constant(label, "Declaration FOR_APPROVAL by SUPERVISOR").
+#constant(transition, "t_7").
+#constant(label, "Declaration FOR_APPROVAL by PRE_APPROVER").
+#constant(transition, "t_14").
+#constant(label, "Declaration APPROVED by PRE_APPROVER").
+#constant(transition, "t_1").
+#constant(label, "Declaration REJECTED by MISSING").
+#constant(transition, "t_8").
+#constant(label, "Declaration REJECTED by SUPERVISOR").
+#constant(transition, "t_6").
+#constant(label, "Declaration REJECTED by EMPLOYEE").
+#constant(transition, "t_12").
+#constant(label, "Declaration FINAL_APPROVED by SUPERVISOR").
+#constant(transition, "t_3").
+#constant(label, "Request Payment").
+#constant(weight, 1).
+
+
