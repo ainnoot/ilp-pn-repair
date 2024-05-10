@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1715371151.2512157" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1715371151.2512157</text>
+    </name>
+    <page id="n0">
+      <place id="p_2">
+        <name>
+          <text>p_2</text>
+        </name>
+      </place>
+      <place id="p_14">
+        <name>
+          <text>p_14</text>
+        </name>
+      </place>
+      <place id="p_6">
+        <name>
+          <text>p_6</text>
+        </name>
+      </place>
+      <place id="p_3">
+        <name>
+          <text>p_3</text>
+        </name>
+      </place>
+      <place id="__sink_place__">
+        <name>
+          <text>__sink_place__</text>
+        </name>
+      </place>
+      <place id="p_7">
+        <name>
+          <text>p_7</text>
+        </name>
+      </place>
+      <place id="p_1">
+        <name>
+          <text>p_1</text>
+        </name>
+      </place>
+      <place id="p_9">
+        <name>
+          <text>p_9</text>
+        </name>
+      </place>
+      <place id="p_12">
+        <name>
+          <text>p_12</text>
+        </name>
+      </place>
+      <place id="__source_place__">
+        <name>
+          <text>__source_place__</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="p_11">
+        <name>
+          <text>p_11</text>
+        </name>
+      </place>
+      <place id="p_13">
+        <name>
+          <text>p_13</text>
+        </name>
+      </place>
+      <place id="p_0">
+        <name>
+          <text>p_0</text>
+        </name>
+      </place>
+      <place id="p_5">
+        <name>
+          <text>p_5</text>
+        </name>
+      </place>
+      <place id="p_8">
+        <name>
+          <text>p_8</text>
+        </name>
+      </place>
+      <place id="p_15">
+        <name>
+          <text>p_15</text>
+        </name>
+      </place>
+      <place id="p_16">
+        <name>
+          <text>p_16</text>
+        </name>
+      </place>
+      <place id="p_17">
+        <name>
+          <text>p_17</text>
+        </name>
+      </place>
+      <place id="p_10">
+        <name>
+          <text>p_10</text>
+        </name>
+      </place>
+      <place id="p_18">
+        <name>
+          <text>p_18</text>
+        </name>
+      </place>
+      <place id="p_4">
+        <name>
+          <text>p_4</text>
+        </name>
+      </place>
+      <transition id="t_3">
+        <name>
+          <text>Request For Payment FINAL_APPROVED by BUDGET OWNER</text>
+        </name>
+      </transition>
+      <transition id="t_8">
+        <name>
+          <text>Request For Payment APPROVED by PRE_APPROVER</text>
+        </name>
+      </transition>
+      <transition id="t_11">
+        <name>
+          <text>Request For Payment APPROVED by SUPERVISOR</text>
+        </name>
+      </transition>
+      <transition id="__sink_transition__">
+        <name>
+          <text>__end__</text>
+        </name>
+      </transition>
+      <transition id="t_13">
+        <name>
+          <text>Request For Payment REJECTED by SUPERVISOR</text>
+        </name>
+      </transition>
+      <transition id="t_15">
+        <name>
+          <text>Request For Payment SUBMITTED by EMPLOYEE</text>
+        </name>
+      </transition>
+      <transition id="t_0">
+        <name>
+          <text>Request Payment</text>
+        </name>
+      </transition>
+      <transition id="t_6">
+        <name>
+          <text>Request For Payment APPROVED by BUDGET OWNER</text>
+        </name>
+      </transition>
+      <transition id="t_18">
+        <name>
+          <text>Request For Payment REJECTED by BUDGET OWNER</text>
+        </name>
+      </transition>
+      <transition id="__source_transition__">
+        <name>
+          <text>__start__</text>
+        </name>
+      </transition>
+      <transition id="t_2">
+        <name>
+          <text>Payment Handled</text>
+        </name>
+      </transition>
+      <transition id="t_7">
+        <name>
+          <text>Request For Payment FOR_APPROVAL by SUPERVISOR</text>
+        </name>
+      </transition>
+      <transition id="t_16">
+        <name>
+          <text>Request For Payment REJECTED by MISSING</text>
+        </name>
+      </transition>
+      <transition id="t_17">
+        <name>
+          <text>Request For Payment APPROVED by ADMINISTRATION</text>
+        </name>
+      </transition>
+      <transition id="t_4">
+        <name>
+          <text>Request For Payment FINAL_APPROVED by SUPERVISOR</text>
+        </name>
+      </transition>
+      <transition id="t_10">
+        <name>
+          <text>Request For Payment SAVED by EMPLOYEE</text>
+        </name>
+      </transition>
+      <transition id="t_12">
+        <name>
+          <text>Request For Payment REJECTED by PRE_APPROVER</text>
+        </name>
+      </transition>
+      <transition id="t_14">
+        <name>
+          <text>Request For Payment REJECTED by EMPLOYEE</text>
+        </name>
+      </transition>
+      <transition id="t_9">
+        <name>
+          <text>Request For Payment FINAL_APPROVED by DIRECTOR</text>
+        </name>
+      </transition>
+      <arc id="140332332702208" source="p_5" target="t_13"/>
+      <arc id="140332332703744" source="p_4" target="t_11"/>
+      <arc id="140332332705280" source="t_18" target="p_12"/>
+      <arc id="140332332706816" source="t_8" target="p_11"/>
+      <arc id="140332332702736" source="t_17" target="p_18"/>
+      <arc id="140332332703264" source="p_4" target="t_4"/>
+      <arc id="140332332704800" source="t_17" target="p_1"/>
+      <arc id="140332332707872" source="p_1" target="t_7"/>
+      <arc id="140332332706336" source="p_10" target="t_0"/>
+      <arc id="140332332702256" source="t_17" target="p_3"/>
+      <arc id="140332332705856" source="p_17" target="t_8"/>
+      <arc id="140332332707392" source="p_3" target="t_13"/>
+      <arc id="140332332702784" source="t_11" target="p_15"/>
+      <arc id="140332332704320" source="t_13" target="p_12"/>
+      <arc id="140332332706912" source="t_15" target="p_7"/>
+      <arc id="140332332702304" source="p_16" target="t_2"/>
+      <arc id="140332332703840" source="p_13" target="t_15"/>
+      <arc id="140332332705376" source="t_8" target="p_5"/>
+      <arc id="140332332702832" source="t_14" target="p_9"/>
+      <arc id="140332332701824" source="p_9" target="t_10"/>
+      <arc id="140332332703360" source="t_6" target="p_5"/>
+      <arc id="140332332704896" source="p_18" target="t_7"/>
+      <arc id="140332332706432" source="p_18" target="t_4"/>
+      <arc id="140332332702352" source="p_7" target="t_11"/>
+      <arc id="140332332707488" source="p_8" target="t_4"/>
+      <arc id="140332332702880" source="p_14" target="t_15"/>
+      <arc id="140332332704416" source="t_4" target="p_15"/>
+      <arc id="140332332705952" source="t_15" target="p_17"/>
+      <arc id="140332332708016" source="__source_transition__" target="p_13"/>
+      <arc id="140332332707008" source="p_18" target="t_13"/>
+      <arc id="140332332702400" source="t_2" target="p_2"/>
+      <arc id="140332332703936" source="p_1" target="t_6"/>
+      <arc id="140332332705472" source="p_11" target="t_9"/>
+      <arc id="140332332702928" source="p_8" target="t_12"/>
+      <arc id="140332332706528" source="p_15" target="t_0"/>
+      <arc id="140332332701920" source="p_17" target="t_17"/>
+      <arc id="140332332703456" source="t_8" target="p_3"/>
+      <arc id="140332332704992" source="p_8" target="t_11"/>
+      <arc id="140332332702448" source="p_1" target="t_3"/>
+      <arc id="140332332446448" source="__source_place__" target="__source_transition__"/>
+      <arc id="140332332702976" source="t_10" target="p_2"/>
+      <arc id="140332332704512" source="p_5" target="t_4"/>
+      <arc id="140332332706048" source="t_4" target="p_16"/>
+      <arc id="140332332707584" source="t_7" target="p_2"/>
+      <arc id="140332332701968" source="t_13" target="p_2"/>
+      <arc id="140332332708112" source="__sink_transition__" target="__sink_place__"/>
+      <arc id="140332332707104" source="p_11" target="t_13"/>
+      <arc id="140332332702496" source="p_1" target="t_18"/>
+      <arc id="140332332704032" source="t_4" target="p_10"/>
+      <arc id="140332332705568" source="t_0" target="p_0"/>
+      <arc id="140332332703024" source="p_13" target="t_10"/>
+      <arc id="140332332702016" source="t_14" target="p_2"/>
+      <arc id="140332332703552" source="t_15" target="p_8"/>
+      <arc id="140332332705088" source="t_4" target="p_6"/>
+      <arc id="140332332702544" source="p_16" target="t_16"/>
+      <arc id="140332332706144" source="p_18" target="t_18"/>
+      <arc id="140332332707680" source="p_17" target="t_12"/>
+      <arc id="140332332704608" source="t_4" target="p_2"/>
+      <arc id="140332332702064" source="t_9" target="p_10"/>
+      <arc id="140332332708208" source="p_2" target="__sink_transition__"/>
+      <arc id="140332332702592" source="p_7" target="t_12"/>
+      <arc id="140332332704128" source="t_16" target="p_14"/>
+      <arc id="140332332705664" source="t_12" target="p_12"/>
+      <arc id="140332332707200" source="p_6" target="t_2"/>
+      <arc id="140332332702112" source="p_0" target="t_16"/>
+      <arc id="140332332703648" source="p_11" target="t_4"/>
+      <arc id="140332332705184" source="p_7" target="t_8"/>
+      <arc id="140332332706720" source="p_18" target="t_11"/>
+      <arc id="140332332702640" source="p_3" target="t_4"/>
+      <arc id="140332332706240" source="p_12" target="t_14"/>
+      <arc id="140332332707776" source="p_4" target="t_13"/>
+      <arc id="140332332703168" source="t_9" target="p_2"/>
+      <arc id="140332332704704" source="t_0" target="p_2"/>
+      <arc id="140332332702160" source="t_6" target="p_14"/>
+      <arc id="140332332707296" source="p_18" target="t_3"/>
+      <arc id="140332332702688" source="t_6" target="p_4"/>
+      <arc id="140332332704224" source="t_16" target="p_2"/>
+      <arc id="140332332705760" source="t_3" target="p_6"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="__sink_place__">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

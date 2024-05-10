@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1715371152.4678893" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1715371152.4678893</text>
+    </name>
+    <page id="n0">
+      <place id="p_0">
+        <name>
+          <text>p_0</text>
+        </name>
+      </place>
+      <place id="p_3">
+        <name>
+          <text>p_3</text>
+        </name>
+      </place>
+      <place id="p_1">
+        <name>
+          <text>p_1</text>
+        </name>
+      </place>
+      <place id="p_4">
+        <name>
+          <text>p_4</text>
+        </name>
+      </place>
+      <place id="p_2">
+        <name>
+          <text>p_2</text>
+        </name>
+      </place>
+      <place id="p_5">
+        <name>
+          <text>p_5</text>
+        </name>
+      </place>
+      <place id="__source_place__">
+        <name>
+          <text>__source_place__</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="__sink_place__">
+        <name>
+          <text>__sink_place__</text>
+        </name>
+      </place>
+      <transition id="t_10">
+        <name>
+          <text>Release A</text>
+        </name>
+      </transition>
+      <transition id="t_9">
+        <name>
+          <text>Release B</text>
+        </name>
+      </transition>
+      <transition id="t_13">
+        <name>
+          <text>IV Liquid</text>
+        </name>
+      </transition>
+      <transition id="t_1">
+        <name>
+          <text>Leucocytes</text>
+        </name>
+      </transition>
+      <transition id="t_6">
+        <name>
+          <text>Return ER</text>
+        </name>
+      </transition>
+      <transition id="t_11">
+        <name>
+          <text>IV Antibiotics</text>
+        </name>
+      </transition>
+      <transition id="t_15">
+        <name>
+          <text>ER Triage</text>
+        </name>
+      </transition>
+      <transition id="__sink_transition__">
+        <name>
+          <text>__end__</text>
+        </name>
+      </transition>
+      <transition id="__source_transition__">
+        <name>
+          <text>__start__</text>
+        </name>
+      </transition>
+      <transition id="t_0">
+        <name>
+          <text>CRP</text>
+        </name>
+      </transition>
+      <transition id="t_5">
+        <name>
+          <text>ER Sepsis Triage</text>
+        </name>
+      </transition>
+      <arc id="139897337876352" source="t_1" target="p_3"/>
+      <arc id="139897337876736" source="p_5" target="t_6"/>
+      <arc id="139897337877120" source="p_0" target="t_15"/>
+      <arc id="139897337878272" source="p_3" target="__sink_transition__"/>
+      <arc id="139897337876112" source="t_10" target="p_5"/>
+      <arc id="139897337876496" source="p_0" target="t_1"/>
+      <arc id="139897337876880" source="t_5" target="p_4"/>
+      <arc id="139897337877648" source="p_0" target="t_5"/>
+      <arc id="139897337878032" source="__source_place__" target="__source_transition__"/>
+      <arc id="139897337876256" source="t_11" target="p_3"/>
+      <arc id="139897337876640" source="t_5" target="p_3"/>
+      <arc id="139897337877024" source="p_1" target="t_10"/>
+      <arc id="139897337875872" source="__source_transition__" target="p_0"/>
+      <arc id="139897337878176" source="__sink_transition__" target="__sink_place__"/>
+      <arc id="139897337876016" source="t_11" target="p_2"/>
+      <arc id="139897337876400" source="p_0" target="t_0"/>
+      <arc id="139897337877552" source="p_1" target="t_9"/>
+      <arc id="139897337876160" source="p_4" target="t_11"/>
+      <arc id="139897337876544" source="t_6" target="p_3"/>
+      <arc id="139897337876928" source="p_2" target="t_9"/>
+      <arc id="139897337875920" source="t_9" target="p_3"/>
+      <arc id="139897337876304" source="t_0" target="p_3"/>
+      <arc id="139897337876688" source="p_2" target="t_10"/>
+      <arc id="139897337877840" source="p_0" target="t_13"/>
+      <arc id="139897337876064" source="t_10" target="p_3"/>
+      <arc id="139897337876592" source="t_15" target="p_3"/>
+      <arc id="139897337876976" source="t_13" target="p_1"/>
+      <arc id="139897337877360" source="t_13" target="p_3"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="__sink_place__">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

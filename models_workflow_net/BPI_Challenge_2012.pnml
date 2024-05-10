@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1715371141.0131896" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1715371141.0131896</text>
+    </name>
+    <page id="n0">
+      <place id="p_0">
+        <name>
+          <text>p_0</text>
+        </name>
+      </place>
+      <place id="p_10">
+        <name>
+          <text>p_10</text>
+        </name>
+      </place>
+      <place id="p_1">
+        <name>
+          <text>p_1</text>
+        </name>
+      </place>
+      <place id="p_9">
+        <name>
+          <text>p_9</text>
+        </name>
+      </place>
+      <place id="p_5">
+        <name>
+          <text>p_5</text>
+        </name>
+      </place>
+      <place id="p_8">
+        <name>
+          <text>p_8</text>
+        </name>
+      </place>
+      <place id="p_4">
+        <name>
+          <text>p_4</text>
+        </name>
+      </place>
+      <place id="p_7">
+        <name>
+          <text>p_7</text>
+        </name>
+      </place>
+      <place id="p_11">
+        <name>
+          <text>p_11</text>
+        </name>
+      </place>
+      <place id="__source_place__">
+        <name>
+          <text>__source_place__</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="__sink_place__">
+        <name>
+          <text>__sink_place__</text>
+        </name>
+      </place>
+      <transition id="t_17">
+        <name>
+          <text>A_PARTLYSUBMITTED</text>
+        </name>
+      </transition>
+      <transition id="t_13">
+        <name>
+          <text>A_DECLINED</text>
+        </name>
+      </transition>
+      <transition id="t_19">
+        <name>
+          <text>A_CANCELLED</text>
+        </name>
+      </transition>
+      <transition id="t_10">
+        <name>
+          <text>A_SUBMITTED</text>
+        </name>
+      </transition>
+      <transition id="__source_transition__">
+        <name>
+          <text>__start__</text>
+        </name>
+      </transition>
+      <transition id="t_12">
+        <name>
+          <text>A_PREACCEPTED</text>
+        </name>
+      </transition>
+      <transition id="t_1">
+        <name>
+          <text>A_ACCEPTED</text>
+        </name>
+      </transition>
+      <transition id="__sink_transition__">
+        <name>
+          <text>__end__</text>
+        </name>
+      </transition>
+      <arc id="139992242771328" source="t_12" target="p_9"/>
+      <arc id="139992242774016" source="p_1" target="__sink_transition__"/>
+      <arc id="139992242771472" source="p_10" target="t_13"/>
+      <arc id="139992242771856" source="t_10" target="p_7"/>
+      <arc id="139992242772240" source="t_13" target="p_1"/>
+      <arc id="139992242772624" source="p_11" target="t_13"/>
+      <arc id="139992242773392" source="p_0" target="t_10"/>
+      <arc id="139992242773776" source="__source_place__" target="__source_transition__"/>
+      <arc id="139992242772000" source="t_17" target="p_8"/>
+      <arc id="139992242772384" source="p_10" target="t_19"/>
+      <arc id="139992242771232" source="__source_transition__" target="p_0"/>
+      <arc id="139992242773920" source="__sink_transition__" target="__sink_place__"/>
+      <arc id="139992242773680" source="t_1" target="p_4"/>
+      <arc id="139992242771904" source="p_9" target="t_1"/>
+      <arc id="139992242772288" source="t_1" target="p_10"/>
+      <arc id="139992242771280" source="p_8" target="t_12"/>
+      <arc id="139992242771664" source="p_7" target="t_17"/>
+      <arc id="139992242772048" source="t_1" target="p_5"/>
+      <arc id="139992242772432" source="t_12" target="p_11"/>
+      <arc id="139992242772816" source="t_17" target="p_4"/>
+      <arc id="139992242773200" source="p_5" target="t_19"/>
+      <arc id="139992242771568" source="p_11" target="t_19"/>
+      <arc id="139992242772336" source="p_5" target="t_13"/>
+      <arc id="139992242772720" source="p_4" target="t_13"/>
+      <arc id="139992242773488" source="t_19" target="p_1"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="__sink_place__">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>
