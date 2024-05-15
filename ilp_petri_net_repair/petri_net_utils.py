@@ -84,10 +84,10 @@ def check_equals_under_mapping(pn1: PetriNet, pn2: PetriNet, mapping, i1: Markin
     return True
 
 def add_source_and_sink(pn: PetriNet, im: Marking, fm: Marking) -> (PetriNet, Marking, Marking):
-    source_place = add_place(pn, "__source_place__")
-    sink_place = add_place(pn, "__sink_place__")
-    source_transition = add_transition(pn, "__source_transition__", "__start__")
-    sink_transition = add_transition(pn, "__sink_transition__", "__end__")
+    source_place = add_place(pn, "source_place")
+    sink_place = add_place(pn, "sink_place")
+    source_transition = add_transition(pn, "source_transition", "workflow_start")
+    sink_transition = add_transition(pn, "sink_transition", "workflow_end")
 
     add_arc_from_to(source_place, source_transition, pn, 1)
     for place, token_count in im.items():

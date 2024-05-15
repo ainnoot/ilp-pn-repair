@@ -6,6 +6,7 @@ import pm4py
 from pm4py.objects.log.util import pandas_numpy_variants
 from dataclasses import dataclass
 from string import Template
+from ilp_petri_net_repair.utils import normalize_string
 
 def extract_variants(log_path):
     log = pm4py.read_xes(log_path)
@@ -38,8 +39,10 @@ class ContextDependentExample:
         })
 
 def trace_example(trace, identifier, is_positive):
-    padded_trace = pad_trace(trace, '__start__', '__end__')
-    facts = [clingo.Function('trace', [clingo.Number(t), clingo.String(e)]) for t, e in enumerate(padded_trace)]
+    padded_trace = pad_trace(trace, 'workflow_start', 'workflow_end')
+    facts = [clingo.Function('trace', [
+        clingo.Number(t), normalize_string(e)]) for t, e in enumerate(padded_trace)
+     ]
 
     inclusions, exclusions = ((clingo.Function('recognized',),), tuple())
     if not is_positive:

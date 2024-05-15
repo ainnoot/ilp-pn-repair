@@ -7,12 +7,12 @@ import clingo
 from pm4py.objects.petri_net.obj import PetriNet, Marking
 from pm4py.analysis import check_is_workflow_net
 from ilp_petri_net_repair import WorkflowNetExpectedException, BadMarkingException, UnsupportedSilentTransition
-
+from ilp_petri_net_repair.utils import normalize_string
 def validate_initial_marking(im: Marking):
-    return validate_unique_with_name_and_count(im, '__source_place__', 1)
+    return validate_unique_with_name_and_count(im, 'source_place', 1)
 
 def validate_final_marking(fm: Marking):
-    return validate_unique_with_name_and_count(fm, '__sink_place__', 1)
+    return validate_unique_with_name_and_count(fm, 'sink_place', 1)
 
 def validate_unique_with_name_and_count(m: Marking, name: str, count: int):
     items = list(m.items())
@@ -81,7 +81,7 @@ def reify_workflow_net(pn: PetriNet, im: Marking, fm: Marking) -> Generator[clin
 
     for trans in pn.transitions:
         yield reify_trans(trans)
-        yield reify_label(trans.label)
+        yield reify_label(normalize_string(trans.label))
 
     for arc in pn.arcs:
         yield reify_arc(arc)
