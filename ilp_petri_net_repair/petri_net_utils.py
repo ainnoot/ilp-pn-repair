@@ -6,6 +6,9 @@ from pm4py.objects.petri_net.utils.petri_utils import add_place, add_transition,
     remove_transition
 from collections import namedtuple
 
+from ilp_petri_net_repair.utils import normalize_string
+
+
 def integer_sequence_with_prefix(prefix):
     x = 0
     while True:
@@ -23,7 +26,7 @@ def relabel_everything_because_i_dont_like_how_pm4py_names_things(pn: PetriNet, 
         mapping[p] = p_new
 
     for t in pn.transitions:
-        t_new = add_transition(petri_net, next(trans_sequence), t.label)
+        t_new = add_transition(petri_net, next(trans_sequence), normalize_string(t.label))
         mapping[t] = t_new
 
     for arc in pn.arcs:

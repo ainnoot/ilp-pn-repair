@@ -9,60 +9,60 @@
 #bias("
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% INPUT MODEL %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-source_marking("__source_place__",1).
-final_marking("__sink_place__",1).
-place("p_0").
-place("p_5").
-place("p_1").
-place("p_4").
-place("p_11").
-place("__sink_place__").
-place("p_10").
-place("p_9").
-place("p_8").
-place("p_7").
-place("__source_place__").
-trans("t_17","A_PARTLYSUBMITTED").
-label("A_PARTLYSUBMITTED").
-trans("t_13","A_DECLINED").
-label("A_DECLINED").
-trans("__source_transition__","__start__").
-label("__start__").
-trans("t_19","A_CANCELLED").
-label("A_CANCELLED").
-trans("t_10","A_SUBMITTED").
-label("A_SUBMITTED").
-trans("__sink_transition__","__end__").
-label("__end__").
-trans("t_12","A_PREACCEPTED").
-label("A_PREACCEPTED").
-trans("t_1","A_ACCEPTED").
-label("A_ACCEPTED").
-ptarc("p_1","__sink_transition__",1).
-ptarc("p_10","t_19",1).
-tparc("t_12","p_11",1).
-tparc("t_13","p_1",1).
-ptarc("p_8","t_12",1).
-ptarc("p_11","t_19",1).
-tparc("t_12","p_9",1).
-tparc("__sink_transition__","__sink_place__",1).
-ptarc("p_7","t_17",1).
-tparc("t_19","p_1",1).
-ptarc("p_11","t_13",1).
-tparc("__source_transition__","p_0",1).
-tparc("t_17","p_4",1).
-ptarc("p_0","t_10",1).
-ptarc("p_9","t_1",1).
-ptarc("p_5","t_13",1).
-tparc("t_10","p_7",1).
-tparc("t_17","p_8",1).
-tparc("t_1","p_5",1).
-ptarc("p_10","t_13",1).
-tparc("t_1","p_4",1).
-ptarc("p_5","t_19",1).
-ptarc("__source_place__","__source_transition__",1).
-tparc("t_1","p_10",1).
-ptarc("p_4","t_13",1).
+source_marking(source_place,1).
+final_marking(sink_place,1).
+place(p_8).
+place(p_0).
+place(p_11).
+place(p_6).
+place(source_place).
+place(p_7).
+place(sink_place).
+place(p_3).
+place(p_5).
+place(p_2).
+place(p_9).
+trans(t_7,a_accepted).
+label(a_accepted).
+trans(t_4,a_preaccepted).
+label(a_preaccepted).
+trans(t_14,a_partlysubmitted).
+label(a_partlysubmitted).
+trans(t_18,a_declined).
+label(a_declined).
+trans(source_transition,workflow_start).
+label(workflow_start).
+trans(t_9,a_cancelled).
+label(a_cancelled).
+trans(t_8,a_submitted).
+label(a_submitted).
+trans(sink_transition,workflow_end).
+label(workflow_end).
+tparc(t_14,p_2,1).
+ptarc(p_5,t_9,1).
+ptarc(p_11,t_9,1).
+tparc(t_4,p_5,1).
+ptarc(p_2,t_18,1).
+tparc(t_4,p_6,1).
+ptarc(p_3,t_18,1).
+ptarc(p_8,sink_transition,1).
+tparc(t_7,p_3,1).
+ptarc(p_0,t_8,1).
+tparc(t_9,p_8,1).
+tparc(t_7,p_2,1).
+tparc(sink_transition,sink_place,1).
+tparc(t_8,p_9,1).
+tparc(t_14,p_7,1).
+ptarc(source_place,source_transition,1).
+ptarc(p_3,t_9,1).
+ptarc(p_7,t_4,1).
+ptarc(p_6,t_7,1).
+tparc(t_7,p_11,1).
+tparc(t_18,p_8,1).
+ptarc(p_9,t_14,1).
+ptarc(p_5,t_18,1).
+ptarc(p_11,t_18,1).
+tparc(source_transition,p_0,1).
 
 new_tparc(T,P,W) :- trans(T,A), place(P), weight(W), not tparc(T,P,W).
 new_ptarc(T,P,W) :- trans(T,A), place(P), weight(W), not ptarc(P,T,W).
@@ -73,27 +73,33 @@ new_ptarc(T,P,W) :- trans(T,A), place(P), weight(W), not ptarc(P,T,W).
 ").
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%% CONSTANTS DECLARATION %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-#constant(place, "p_0").
-#constant(place, "p_5").
-#constant(place, "p_1").
-#constant(place, "p_4").
-#constant(place, "p_11").
-#constant(place, "p_10").
-#constant(place, "p_9").
-#constant(place, "p_8").
-#constant(place, "p_7").
-#constant(transition, "t_17").
-#constant(label, "A_PARTLYSUBMITTED").
-#constant(transition, "t_13").
-#constant(label, "A_DECLINED").
-#constant(transition, "t_19").
-#constant(label, "A_CANCELLED").
-#constant(transition, "t_10").
-#constant(label, "A_SUBMITTED").
-#constant(transition, "t_12").
-#constant(label, "A_PREACCEPTED").
-#constant(transition, "t_1").
-#constant(label, "A_ACCEPTED").
+#constant(place, p_8).
+#constant(place, p_0).
+#constant(place, p_11).
+#constant(place, p_6).
+#constant(place, source_place).
+#constant(place, p_7).
+#constant(place, sink_place).
+#constant(place, p_3).
+#constant(place, p_5).
+#constant(place, p_2).
+#constant(place, p_9).
+#constant(transition, t_7).
+#constant(label, a_accepted).
+#constant(transition, t_4).
+#constant(label, a_preaccepted).
+#constant(transition, t_14).
+#constant(label, a_partlysubmitted).
+#constant(transition, t_18).
+#constant(label, a_declined).
+#constant(transition, source_transition).
+#constant(label, workflow_start).
+#constant(transition, t_9).
+#constant(label, a_cancelled).
+#constant(transition, t_8).
+#constant(label, a_submitted).
+#constant(transition, sink_transition).
+#constant(label, workflow_end).
 #constant(weight, 1).
 
 

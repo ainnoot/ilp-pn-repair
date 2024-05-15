@@ -13,9 +13,24 @@
           <text>1</text>
         </initialMarking>
       </place>
-      <place id="p_2">
+      <place id="p_1">
         <name>
-          <text>p_2</text>
+          <text>p_1</text>
+        </name>
+      </place>
+      <place id="p_5">
+        <name>
+          <text>p_5</text>
+        </name>
+      </place>
+      <place id="p_7">
+        <name>
+          <text>p_7</text>
+        </name>
+      </place>
+      <place id="p_11">
+        <name>
+          <text>p_11</text>
         </name>
       </place>
       <place id="p_3">
@@ -23,9 +38,14 @@
           <text>p_3</text>
         </name>
       </place>
-      <place id="p_5">
+      <place id="p_2">
         <name>
-          <text>p_5</text>
+          <text>p_2</text>
+        </name>
+      </place>
+      <place id="p_4">
+        <name>
+          <text>p_4</text>
         </name>
       </place>
       <place id="p_6">
@@ -38,193 +58,173 @@
           <text>p_8</text>
         </name>
       </place>
-      <place id="p_10">
-        <name>
-          <text>p_10</text>
-        </name>
-      </place>
-      <place id="p_4">
-        <name>
-          <text>p_4</text>
-        </name>
-      </place>
-      <place id="p_1">
-        <name>
-          <text>p_1</text>
-        </name>
-      </place>
-      <place id="p_7">
-        <name>
-          <text>p_7</text>
-        </name>
-      </place>
       <place id="p_9">
         <name>
           <text>p_9</text>
         </name>
       </place>
-      <place id="p_11">
+      <place id="p_10">
         <name>
-          <text>p_11</text>
+          <text>p_10</text>
         </name>
       </place>
-      <transition id="t_15">
+      <transition id="t_4">
         <name>
-          <text>W_Nabellen incomplete dossiers</text>
-        </name>
-      </transition>
-      <transition id="t_20">
-        <name>
-          <text>A_REGISTERED</text>
-        </name>
-      </transition>
-      <transition id="t_21">
-        <name>
-          <text>A_ACTIVATED</text>
-        </name>
-      </transition>
-      <transition id="t_3">
-        <name>
-          <text>W_Afhandelen leads</text>
+          <text>a_preaccepted</text>
         </name>
       </transition>
       <transition id="t_9">
         <name>
-          <text>W_Nabellen offertes</text>
+          <text>a_cancelled</text>
         </name>
       </transition>
-      <transition id="t_22">
+      <transition id="t_15">
         <name>
-          <text>W_Completeren aanvraag</text>
-        </name>
-      </transition>
-      <transition id="t_4">
-        <name>
-          <text>O_ACCEPTED</text>
-        </name>
-      </transition>
-      <transition id="t_7">
-        <name>
-          <text>O_SELECTED</text>
-        </name>
-      </transition>
-      <transition id="t_10">
-        <name>
-          <text>A_SUBMITTED</text>
-        </name>
-      </transition>
-      <transition id="t_13">
-        <name>
-          <text>A_DECLINED</text>
-        </name>
-      </transition>
-      <transition id="t_0">
-        <name>
-          <text>O_DECLINED</text>
-        </name>
-      </transition>
-      <transition id="t_5">
-        <name>
-          <text>W_Beoordelen fraude</text>
-        </name>
-      </transition>
-      <transition id="t_8">
-        <name>
-          <text>O_CREATED</text>
-        </name>
-      </transition>
-      <transition id="t_11">
-        <name>
-          <text>O_SENT_BACK</text>
-        </name>
-      </transition>
-      <transition id="t_14">
-        <name>
-          <text>A_APPROVED</text>
-        </name>
-      </transition>
-      <transition id="t_1">
-        <name>
-          <text>A_ACCEPTED</text>
-        </name>
-      </transition>
-      <transition id="t_6">
-        <name>
-          <text>O_SENT</text>
-        </name>
-      </transition>
-      <transition id="t_12">
-        <name>
-          <text>A_PREACCEPTED</text>
-        </name>
-      </transition>
-      <transition id="t_16">
-        <name>
-          <text>W_Valideren aanvraag</text>
-        </name>
-      </transition>
-      <transition id="t_17">
-        <name>
-          <text>A_PARTLYSUBMITTED</text>
-        </name>
-      </transition>
-      <transition id="t_2">
-        <name>
-          <text>O_CANCELLED</text>
-        </name>
-      </transition>
-      <transition id="t_18">
-        <name>
-          <text>A_FINALIZED</text>
+          <text>o_declined</text>
         </name>
       </transition>
       <transition id="t_19">
         <name>
-          <text>A_CANCELLED</text>
+          <text>o_accepted</text>
         </name>
       </transition>
-      <arc id="140000284409728" source="p_8" target="t_12"/>
-      <arc id="140000284541440" source="t_2" target="p_1"/>
-      <arc id="140000284542976" source="t_2" target="p_6"/>
-      <arc id="140000284543744" source="t_12" target="p_9"/>
-      <arc id="140000284544128" source="p_10" target="t_13"/>
-      <arc id="140000284544512" source="t_20" target="p_1"/>
-      <arc id="140000284544896" source="p_11" target="t_19"/>
-      <arc id="140000284409488" source="t_3" target="p_1"/>
-      <arc id="140000284541200" source="p_7" target="t_17"/>
-      <arc id="140000284541584" source="p_2" target="t_6"/>
-      <arc id="140000284541968" source="t_7" target="p_3"/>
-      <arc id="140000284543120" source="t_22" target="p_1"/>
-      <arc id="140000284543888" source="t_10" target="p_7"/>
-      <arc id="140000284544656" source="p_9" target="t_1"/>
-      <arc id="140000284545040" source="t_15" target="p_1"/>
-      <arc id="140000284409632" source="t_17" target="p_8"/>
-      <arc id="140000284542112" source="t_1" target="p_5"/>
-      <arc id="140000284543264" source="t_8" target="p_2"/>
-      <arc id="140000284544032" source="p_3" target="t_8"/>
-      <arc id="140000284544800" source="p_10" target="t_18"/>
-      <arc id="140000284409392" source="t_13" target="p_1"/>
-      <arc id="140000284408240" source="t_1" target="p_10"/>
-      <arc id="140000284542256" source="p_5" target="t_13"/>
-      <arc id="140000284543408" source="p_10" target="t_19"/>
-      <arc id="140000284541248" source="t_12" target="p_11"/>
-      <arc id="140000284542400" source="t_18" target="p_6"/>
-      <arc id="140000284545472" source="p_11" target="t_13"/>
-      <arc id="140000284542544" source="p_4" target="t_13"/>
-      <arc id="140000284545232" source="t_17" target="p_4"/>
-      <arc id="140000284409824" source="p_5" target="t_7"/>
-      <arc id="140000284542688" source="p_6" target="t_8"/>
-      <arc id="140000284544224" source="t_16" target="p_1"/>
-      <arc id="140000284545376" source="p_5" target="t_19"/>
-      <arc id="140000284541296" source="t_9" target="p_1"/>
-      <arc id="140000284542832" source="p_0" target="t_10"/>
-      <arc id="140000284543600" source="t_19" target="p_1"/>
-      <arc id="140000284544368" source="t_5" target="p_1"/>
-      <arc id="140000284545136" source="t_1" target="p_4"/>
+      <transition id="t_20">
+        <name>
+          <text>w_valideren_aanvraag</text>
+        </name>
+      </transition>
+      <transition id="t_1">
+        <name>
+          <text>o_sent</text>
+        </name>
+      </transition>
+      <transition id="t_5">
+        <name>
+          <text>w_afhandelen_leads</text>
+        </name>
+      </transition>
+      <transition id="t_21">
+        <name>
+          <text>a_finalized</text>
+        </name>
+      </transition>
+      <transition id="t_22">
+        <name>
+          <text>w_nabellen_incomplete_dossiers</text>
+        </name>
+      </transition>
+      <transition id="t_18">
+        <name>
+          <text>a_declined</text>
+        </name>
+      </transition>
+      <transition id="t_6">
+        <name>
+          <text>w_completeren_aanvraag</text>
+        </name>
+      </transition>
+      <transition id="t_12">
+        <name>
+          <text>a_activated</text>
+        </name>
+      </transition>
+      <transition id="t_2">
+        <name>
+          <text>o_sent_back</text>
+        </name>
+      </transition>
+      <transition id="t_7">
+        <name>
+          <text>a_accepted</text>
+        </name>
+      </transition>
+      <transition id="t_10">
+        <name>
+          <text>a_approved</text>
+        </name>
+      </transition>
+      <transition id="t_13">
+        <name>
+          <text>o_selected</text>
+        </name>
+      </transition>
+      <transition id="t_16">
+        <name>
+          <text>w_nabellen_offertes</text>
+        </name>
+      </transition>
+      <transition id="t_0">
+        <name>
+          <text>w_beoordelen_fraude</text>
+        </name>
+      </transition>
+      <transition id="t_3">
+        <name>
+          <text>o_cancelled</text>
+        </name>
+      </transition>
+      <transition id="t_8">
+        <name>
+          <text>a_submitted</text>
+        </name>
+      </transition>
+      <transition id="t_11">
+        <name>
+          <text>o_created</text>
+        </name>
+      </transition>
+      <transition id="t_14">
+        <name>
+          <text>a_partlysubmitted</text>
+        </name>
+      </transition>
+      <transition id="t_17">
+        <name>
+          <text>a_registered</text>
+        </name>
+      </transition>
+      <arc id="139973539889024" source="p_4" target="t_11"/>
+      <arc id="139973540020736" source="t_16" target="p_8"/>
+      <arc id="139973540022272" source="p_10" target="t_11"/>
+      <arc id="139973540020496" source="t_22" target="p_8"/>
+      <arc id="139973540022416" source="t_7" target="p_2"/>
+      <arc id="139973540023952" source="t_8" target="p_9"/>
+      <arc id="139973540021024" source="p_2" target="t_18"/>
+      <arc id="139973540022560" source="t_7" target="p_3"/>
+      <arc id="139973540023328" source="p_3" target="t_18"/>
+      <arc id="139973540024096" source="t_11" target="p_1"/>
+      <arc id="139973540024864" source="t_3" target="p_4"/>
+      <arc id="139973539888688" source="t_9" target="p_8"/>
+      <arc id="139973540021168" source="p_5" target="t_9"/>
+      <arc id="139973540022704" source="t_7" target="p_11"/>
+      <arc id="139973540023472" source="p_11" target="t_13"/>
+      <arc id="139973540023856" source="p_6" target="t_7"/>
+      <arc id="139973540024240" source="p_3" target="t_9"/>
+      <arc id="139973540024624" source="t_14" target="p_7"/>
+      <arc id="139973539888832" source="t_0" target="p_8"/>
+      <arc id="139973539888064" source="t_18" target="p_8"/>
+      <arc id="139973540020928" source="t_3" target="p_8"/>
+      <arc id="139973540021312" source="p_5" target="t_18"/>
+      <arc id="139973540021696" source="t_6" target="p_8"/>
+      <arc id="139973540022848" source="p_11" target="t_9"/>
+      <arc id="139973540023616" source="t_20" target="p_8"/>
+      <arc id="139973540024384" source="p_11" target="t_18"/>
+      <arc id="139973540024768" source="p_9" target="t_14"/>
+      <arc id="139973539888976" source="t_13" target="p_10"/>
+      <arc id="139973540021840" source="t_17" target="p_8"/>
+      <arc id="139973540022992" source="p_0" target="t_8"/>
+      <arc id="139973540023760" source="p_7" target="t_4"/>
+      <arc id="139973540024528" source="t_21" target="p_4"/>
+      <arc id="139973539889120" source="p_3" target="t_21"/>
+      <arc id="139973540021984" source="t_4" target="p_5"/>
+      <arc id="139973540023136" source="t_4" target="p_6"/>
+      <arc id="139973540020592" source="t_5" target="p_8"/>
+      <arc id="139973540020976" source="t_14" target="p_2"/>
+      <arc id="139973540022128" source="p_1" target="t_1"/>
     </page>
     <finalmarkings>
       <marking>
-        <place idref="p_1">
+        <place idref="p_8">
           <text>1</text>
         </place>
       </marking>

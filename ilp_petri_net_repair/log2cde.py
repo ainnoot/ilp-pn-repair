@@ -41,7 +41,7 @@ class ContextDependentExample:
 def trace_example(trace, identifier, is_positive):
     padded_trace = pad_trace(trace, 'workflow_start', 'workflow_end')
     facts = [clingo.Function('trace', [
-        clingo.Number(t), normalize_string(e)]) for t, e in enumerate(padded_trace)
+        clingo.Number(t), clingo.Function(normalize_string(e))]) for t, e in enumerate(padded_trace)
      ]
 
     inclusions, exclusions = ((clingo.Function('recognized',),), tuple())

@@ -9,25 +9,31 @@ from pm4py.analysis import check_is_workflow_net
 from ilp_petri_net_repair import WorkflowNetExpectedException, BadMarkingException, UnsupportedSilentTransition
 from ilp_petri_net_repair.utils import normalize_string
 def validate_initial_marking(im: Marking):
-    return validate_unique_with_name_and_count(im, 'source_place', 1)
+    return validate_unique_token(im)
 
 def validate_final_marking(fm: Marking):
-    return validate_unique_with_name_and_count(fm, 'sink_place', 1)
+    return validate_unique_token(fm)
 
 def validate_unique_with_name_and_count(m: Marking, name: str, count: int):
     items = list(m.items())
     name_, count_ = items[0][0].name, items[0][1]
     return name == name_ and count_ == count
 
+def validate_unique_token(m: Marking):
+    items = list(m.items())
+    count_ = items[0][1]
+    return count_ == 1
+
+
 def reify_final_marking(place: PetriNet.Place, cnt: int):
     return clingo.Function("final_marking", [
-        clingo.String(place.name),
+        clingo.Function(place.name),
         clingo.Number(cnt)
     ])
 
 def reify_initial_marking(place: PetriNet.Place, cnt: int):
     return clingo.Function("source_marking", [
-        clingo.String(place.name),
+        clingo.Function(place.name),
         clingo.Number(cnt)
     ])
 
@@ -36,14 +42,14 @@ def reify_arc(arc: PetriNet.Arc):
     predicate_name = 'ptarc' if isinstance(src, PetriNet.Place) else 'tparc'
 
     return clingo.Function(predicate_name, [
-            clingo.String(arc.source.name),
-            clingo.String(arc.target.name),
+            clingo.Function(arc.source.name),
+            clingo.Function(arc.target.name),
             clingo.Number(arc.weight)
         ])
 
 def reify_place(place: PetriNet.Place):
     return clingo.Function("place", [
-        clingo.String(place.name)
+        clingo.Function(place.name)
     ])
 
 
@@ -52,12 +58,12 @@ def reify_trans(trans: PetriNet.Transition):
         raise UnsupportedSilentTransition("Got: {}".format(trans))
 
     return clingo.Function("trans", [
-        clingo.String(trans.name),
-        clingo.String(trans.label)
+        clingo.Function(trans.name),
+        clingo.Function(normalize_string(trans.label))
     ])
 
 def reify_label(label: str):
-    return clingo.Function("label", [clingo.String(label)])
+    return clingo.Function("label", [clingo.Function(normalize_string(label))])
 
 
 def reify_workflow_net(pn: PetriNet, im: Marking, fm: Marking) -> Generator[clingo.Symbol, None, None]:
@@ -81,22 +87,19 @@ def reify_workflow_net(pn: PetriNet, im: Marking, fm: Marking) -> Generator[clin
 
     for trans in pn.transitions:
         yield reify_trans(trans)
-        yield reify_label(normalize_string(trans.label))
+        yield reify_label(trans.label)
 
     for arc in pn.arcs:
         yield reify_arc(arc)
 
 def define_ilasp_constants(pn: PetriNet, private: str) -> Generator[str, None, None]:
-    def wrap(token):
-        return "\"{}\"".format(token)
-
     mask = "#constant({type}, {constant_value})."
 
     for p in pn.places:
         if p.name.startswith(private):
             continue
 
-        yield mask.format(type="place", constant_value=wrap(p.name))
+        yield mask.format(type="place", constant_value=p.name)
 
     for t in pn.transitions:
         if t.label is None:
@@ -105,7 +108,7 @@ def define_ilasp_constants(pn: PetriNet, private: str) -> Generator[str, None, N
         if t.name.startswith(private):
             continue
 
-        yield mask.format(type="transition", constant_value=wrap(t.name))
-        yield mask.format(type="label", constant_value=wrap(t.label))
+        yield mask.format(type="transition", constant_value=t.name)
+        yield mask.format(type="label", constant_value=normalize_string(t.label))
 
     yield mask.format(type="weight", constant_value="1")

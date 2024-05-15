@@ -14,60 +14,13 @@
         <name>
           <text>p_5</text>
         </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
       </place>
-      <place id="p_16">
+      <place id="p_10">
         <name>
-          <text>p_16</text>
-        </name>
-      </place>
-      <place id="p_18">
-        <name>
-          <text>p_18</text>
-        </name>
-      </place>
-      <place id="p_2">
-        <name>
-          <text>p_2</text>
-        </name>
-      </place>
-      <place id="p_6">
-        <name>
-          <text>p_6</text>
-        </name>
-      </place>
-      <place id="p_7">
-        <name>
-          <text>p_7</text>
-        </name>
-      </place>
-      <place id="p_9">
-        <name>
-          <text>p_9</text>
-        </name>
-      </place>
-      <place id="p_11">
-        <name>
-          <text>p_11</text>
-        </name>
-      </place>
-      <place id="p_8">
-        <name>
-          <text>p_8</text>
-        </name>
-      </place>
-      <place id="p_17">
-        <name>
-          <text>p_17</text>
-        </name>
-      </place>
-      <place id="p_4">
-        <name>
-          <text>p_4</text>
-        </name>
-      </place>
-      <place id="p_14">
-        <name>
-          <text>p_14</text>
+          <text>p_10</text>
         </name>
       </place>
       <place id="p_3">
@@ -80,204 +33,251 @@
           <text>p_1</text>
         </name>
       </place>
-      <place id="p_12">
+      <place id="p_8">
         <name>
-          <text>p_12</text>
+          <text>p_8</text>
+        </name>
+      </place>
+      <place id="p_16">
+        <name>
+          <text>p_16</text>
+        </name>
+      </place>
+      <place id="p_17">
+        <name>
+          <text>p_17</text>
         </name>
       </place>
       <place id="p_13">
         <name>
           <text>p_13</text>
         </name>
-        <initialMarking>
-          <text>1</text>
-        </initialMarking>
       </place>
       <place id="p_15">
         <name>
           <text>p_15</text>
         </name>
       </place>
-      <place id="p_10">
+      <place id="p_4">
         <name>
-          <text>p_10</text>
+          <text>p_4</text>
         </name>
       </place>
-      <transition id="t_9">
+      <place id="p_9">
         <name>
-          <text>Request For Payment FINAL_APPROVED by DIRECTOR</text>
+          <text>p_9</text>
         </name>
-      </transition>
-      <transition id="t_2">
+      </place>
+      <place id="p_6">
         <name>
-          <text>Payment Handled</text>
+          <text>p_6</text>
         </name>
-      </transition>
-      <transition id="t_13">
+      </place>
+      <place id="p_11">
         <name>
-          <text>Request For Payment REJECTED by SUPERVISOR</text>
+          <text>p_11</text>
         </name>
-      </transition>
-      <transition id="t_3">
+      </place>
+      <place id="p_14">
         <name>
-          <text>Request For Payment FINAL_APPROVED by BUDGET OWNER</text>
+          <text>p_14</text>
         </name>
-      </transition>
+      </place>
+      <place id="p_2">
+        <name>
+          <text>p_2</text>
+        </name>
+      </place>
+      <place id="p_7">
+        <name>
+          <text>p_7</text>
+        </name>
+      </place>
+      <place id="p_12">
+        <name>
+          <text>p_12</text>
+        </name>
+      </place>
+      <place id="p_18">
+        <name>
+          <text>p_18</text>
+        </name>
+      </place>
       <transition id="t_4">
         <name>
-          <text>Request For Payment FINAL_APPROVED by SUPERVISOR</text>
-        </name>
-      </transition>
-      <transition id="t_7">
-        <name>
-          <text>Request For Payment FOR_APPROVAL by SUPERVISOR</text>
-        </name>
-      </transition>
-      <transition id="t_15">
-        <name>
-          <text>Request For Payment SUBMITTED by EMPLOYEE</text>
-        </name>
-      </transition>
-      <transition id="t_8">
-        <name>
-          <text>Request For Payment APPROVED by PRE_APPROVER</text>
+          <text>request_for_payment_rejected_by_supervisor</text>
         </name>
       </transition>
       <transition id="t_10">
         <name>
-          <text>Request For Payment SAVED by EMPLOYEE</text>
-        </name>
-      </transition>
-      <transition id="t_16">
-        <name>
-          <text>Request For Payment REJECTED by MISSING</text>
-        </name>
-      </transition>
-      <transition id="t_0">
-        <name>
-          <text>Request Payment</text>
-        </name>
-      </transition>
-      <transition id="t_11">
-        <name>
-          <text>Request For Payment APPROVED by SUPERVISOR</text>
+          <text>request_for_payment_final_approved_by_budget_owner</text>
         </name>
       </transition>
       <transition id="t_12">
         <name>
-          <text>Request For Payment REJECTED by PRE_APPROVER</text>
+          <text>request_for_payment_for_approval_by_administration</text>
         </name>
       </transition>
-      <transition id="t_5">
+      <transition id="t_0">
         <name>
-          <text>Request For Payment FOR_APPROVAL by ADMINISTRATION</text>
+          <text>request_for_payment_approved_by_budget_owner</text>
         </name>
       </transition>
-      <transition id="t_18">
+      <transition id="t_13">
         <name>
-          <text>Request For Payment REJECTED by BUDGET OWNER</text>
+          <text>request_for_payment_rejected_by_administration</text>
+        </name>
+      </transition>
+      <transition id="t_16">
+        <name>
+          <text>request_for_payment_rejected_by_budget_owner</text>
         </name>
       </transition>
       <transition id="t_1">
         <name>
-          <text>Request For Payment REJECTED by ADMINISTRATION</text>
+          <text>request_for_payment_approved_by_supervisor</text>
         </name>
       </transition>
-      <transition id="t_14">
+      <transition id="t_8">
         <name>
-          <text>Request For Payment REJECTED by EMPLOYEE</text>
+          <text>request_for_payment_approved_by_administration</text>
         </name>
       </transition>
-      <transition id="t_17">
+      <transition id="t_3">
         <name>
-          <text>Request For Payment APPROVED by ADMINISTRATION</text>
+          <text>request_for_payment_saved_by_employee</text>
+        </name>
+      </transition>
+      <transition id="t_5">
+        <name>
+          <text>payment_handled</text>
         </name>
       </transition>
       <transition id="t_6">
         <name>
-          <text>Request For Payment APPROVED by BUDGET OWNER</text>
+          <text>request_for_payment_rejected_by_missing</text>
         </name>
       </transition>
-      <arc id="139654023439872" source="t_1" target="p_2"/>
-      <arc id="139654023443328" source="t_13" target="p_2"/>
-      <arc id="139654023446016" source="p_9" target="t_10"/>
-      <arc id="139654023444096" source="p_17" target="t_17"/>
-      <arc id="139654023434496" source="t_14" target="p_2"/>
-      <arc id="139654023439104" source="t_9" target="p_10"/>
-      <arc id="139654023440640" source="p_0" target="t_16"/>
-      <arc id="139654023441408" source="t_6" target="p_14"/>
-      <arc id="139654023445920" source="p_5" target="t_13"/>
-      <arc id="139654023435024" source="t_17" target="p_3"/>
-      <arc id="139654023432720" source="p_16" target="t_2"/>
-      <arc id="139654023433872" source="p_7" target="t_11"/>
-      <arc id="139654023435792" source="t_2" target="p_2"/>
-      <arc id="139654023440016" source="p_1" target="t_3"/>
-      <arc id="139654023440784" source="p_1" target="t_18"/>
-      <arc id="139654023443856" source="p_16" target="t_16"/>
-      <arc id="139654023445008" source="p_7" target="t_12"/>
-      <arc id="139654023430800" source="p_3" target="t_4"/>
-      <arc id="139654023432336" source="t_6" target="p_4"/>
-      <arc id="139654023430560" source="t_17" target="p_18"/>
-      <arc id="139654023432096" source="t_11" target="p_15"/>
-      <arc id="139654023435936" source="t_14" target="p_9"/>
-      <arc id="139654023439008" source="p_14" target="t_15"/>
-      <arc id="139654023442464" source="p_8" target="t_12"/>
-      <arc id="139654023445152" source="t_10" target="p_2"/>
-      <arc id="139654023432864" source="p_13" target="t_10"/>
-      <arc id="139654023440544" source="t_9" target="p_2"/>
-      <arc id="139654023441696" source="p_4" target="t_4"/>
-      <arc id="139654023445536" source="t_6" target="p_5"/>
-      <arc id="139654023430320" source="t_8" target="p_3"/>
-      <arc id="139654023434160" source="t_15" target="p_8"/>
-      <arc id="139654023439152" source="p_11" target="t_4"/>
-      <arc id="139654023438384" source="p_4" target="t_11"/>
-      <arc id="139654023442608" source="p_13" target="t_15"/>
-      <arc id="139654023443376" source="p_1" target="t_6"/>
-      <arc id="139654023441072" source="t_4" target="p_10"/>
-      <arc id="139654023446448" source="t_16" target="p_14"/>
-      <arc id="139654023445296" source="t_16" target="p_2"/>
-      <arc id="139654023433008" source="t_13" target="p_12"/>
-      <arc id="139654023441600" source="t_4" target="p_15"/>
-      <arc id="139654023443520" source="p_5" target="t_4"/>
-      <arc id="139654023445824" source="t_4" target="p_2"/>
-      <arc id="139654023434688" source="t_0" target="p_2"/>
-      <arc id="139654023435072" source="t_17" target="p_1"/>
-      <arc id="139654023436992" source="p_18" target="t_7"/>
-      <arc id="139654023439296" source="p_8" target="t_11"/>
-      <arc id="139654023442752" source="t_4" target="p_6"/>
-      <arc id="139654023444288" source="p_7" target="t_8"/>
-      <arc id="139654023432000" source="t_18" target="p_12"/>
-      <arc id="139654023434832" source="t_8" target="p_5"/>
-      <arc id="139654023430224" source="p_11" target="t_9"/>
-      <arc id="139654023437136" source="t_0" target="p_0"/>
-      <arc id="139654023439824" source="t_12" target="p_12"/>
-      <arc id="139654023441744" source="t_3" target="p_6"/>
-      <arc id="139654023444048" source="p_17" target="t_8"/>
-      <arc id="139654023435984" source="t_15" target="p_17"/>
-      <arc id="139654023432288" source="t_4" target="p_16"/>
-      <arc id="139654023437280" source="p_18" target="t_18"/>
-      <arc id="139654023444960" source="p_12" target="t_14"/>
-      <arc id="139654023439200" source="p_10" target="t_0"/>
-      <arc id="139654023437664" source="p_18" target="t_4"/>
-      <arc id="139654023442656" source="p_15" target="t_0"/>
-      <arc id="139654023443952" source="t_1" target="p_12"/>
-      <arc id="139654023441888" source="p_18" target="t_11"/>
-      <arc id="139654023431664" source="t_8" target="p_11"/>
-      <arc id="139654023436128" source="t_15" target="p_7"/>
-      <arc id="139654023438192" source="p_18" target="t_13"/>
-      <arc id="139654023430512" source="p_11" target="t_13"/>
-      <arc id="139654023433968" source="p_6" target="t_2"/>
-      <arc id="139654023437424" source="p_18" target="t_3"/>
-      <arc id="139654023438576" source="p_3" target="t_13"/>
-      <arc id="139654023442416" source="p_8" target="t_4"/>
-      <arc id="139654023445872" source="t_7" target="p_2"/>
-      <arc id="139654023432432" source="p_17" target="t_12"/>
-      <arc id="139654023437040" source="p_4" target="t_13"/>
-      <arc id="139654023440880" source="p_1" target="t_7"/>
+      <transition id="t_14">
+        <name>
+          <text>request_for_payment_final_approved_by_supervisor</text>
+        </name>
+      </transition>
+      <transition id="t_15">
+        <name>
+          <text>request_for_payment_for_approval_by_supervisor</text>
+        </name>
+      </transition>
+      <transition id="t_2">
+        <name>
+          <text>request_for_payment_rejected_by_pre_approver</text>
+        </name>
+      </transition>
+      <transition id="t_11">
+        <name>
+          <text>request_payment</text>
+        </name>
+      </transition>
+      <transition id="t_18">
+        <name>
+          <text>request_for_payment_rejected_by_employee</text>
+        </name>
+      </transition>
+      <transition id="t_7">
+        <name>
+          <text>request_for_payment_submitted_by_employee</text>
+        </name>
+      </transition>
+      <transition id="t_9">
+        <name>
+          <text>request_for_payment_approved_by_pre_approver</text>
+        </name>
+      </transition>
+      <transition id="t_17">
+        <name>
+          <text>request_for_payment_final_approved_by_director</text>
+        </name>
+      </transition>
+      <arc id="140134978575232" source="p_9" target="t_1"/>
+      <arc id="140134978578688" source="p_15" target="t_4"/>
+      <arc id="140134978579456" source="t_6" target="p_7"/>
+      <arc id="140134978577152" source="p_3" target="t_6"/>
+      <arc id="140134978580608" source="p_1" target="t_9"/>
+      <arc id="140134978582528" source="t_2" target="p_18"/>
+      <arc id="140134978583680" source="t_7" target="p_2"/>
+      <arc id="140134978574848" source="p_3" target="t_5"/>
+      <arc id="140134978576768" source="t_5" target="p_13"/>
+      <arc id="140134978579840" source="p_5" target="t_3"/>
+      <arc id="140134978583152" source="t_13" target="p_18"/>
+      <arc id="140134978574992" source="t_11" target="p_6"/>
+      <arc id="140134978577680" source="t_14" target="p_17"/>
+      <arc id="140134978581520" source="t_4" target="p_13"/>
+      <arc id="140134978569616" source="p_0" target="t_4"/>
+      <arc id="140134978579600" source="p_2" target="t_1"/>
+      <arc id="140134978583056" source="p_12" target="t_17"/>
+      <arc id="140134978584208" source="t_4" target="p_18"/>
+      <arc id="140134978573456" source="p_12" target="t_14"/>
+      <arc id="140134978576528" source="p_1" target="t_1"/>
+      <arc id="140134978580752" source="p_16" target="t_4"/>
+      <arc id="140134978578928" source="t_13" target="p_13"/>
+      <arc id="140134978577824" source="t_14" target="p_8"/>
+      <arc id="140134978581664" source="p_6" target="t_6"/>
+      <arc id="140134978582432" source="t_8" target="p_11"/>
+      <arc id="140134978579360" source="p_14" target="t_11"/>
+      <arc id="140134978573312" source="t_11" target="p_13"/>
+      <arc id="140134978582816" source="t_8" target="p_15"/>
+      <arc id="140134978576672" source="t_7" target="p_4"/>
+      <arc id="140134978580512" source="p_0" target="t_1"/>
+      <arc id="140134978577440" source="p_4" target="t_8"/>
+      <arc id="140134978568992" source="p_4" target="t_9"/>
+      <arc id="140134978574896" source="t_14" target="p_13"/>
+      <arc id="140134978576432" source="p_9" target="t_16"/>
+      <arc id="140134978580656" source="p_2" target="t_14"/>
+      <arc id="140134978579888" source="t_1" target="p_17"/>
+      <arc id="140134978583728" source="t_17" target="p_14"/>
+      <arc id="140134978568752" source="p_15" target="t_14"/>
+      <arc id="140134978577968" source="p_9" target="t_4"/>
+      <arc id="140134978578352" source="p_17" target="t_11"/>
+      <arc id="140134978580272" source="p_11" target="t_16"/>
+      <arc id="140134978582576" source="p_8" target="t_5"/>
+      <arc id="140134978582960" source="t_14" target="p_3"/>
+      <arc id="140134978576960" source="p_7" target="t_7"/>
+      <arc id="140134978578496" source="p_11" target="t_15"/>
+      <arc id="140134978577344" source="t_10" target="p_8"/>
+      <arc id="140134978580800" source="p_2" target="t_2"/>
+      <arc id="140134978583872" source="p_18" target="t_18"/>
+      <arc id="140134978581568" source="t_8" target="p_9"/>
+      <arc id="140134978582720" source="p_9" target="t_15"/>
+      <arc id="140134978574656" source="t_0" target="p_0"/>
+      <arc id="140134978573264" source="p_16" target="t_14"/>
+      <arc id="140134978572496" source="p_12" target="t_4"/>
+      <arc id="140134978575184" source="t_7" target="p_1"/>
+      <arc id="140134978577104" source="p_10" target="t_3"/>
+      <arc id="140134978581328" source="p_11" target="t_0"/>
+      <arc id="140134978584016" source="t_14" target="p_14"/>
+      <arc id="140134978580560" source="p_9" target="t_14"/>
+      <arc id="140134978580944" source="t_9" target="p_12"/>
+      <arc id="140134978579552" source="p_4" target="t_2"/>
+      <arc id="140134978581472" source="p_5" target="t_7"/>
+      <arc id="140134978568800" source="t_15" target="p_13"/>
+      <arc id="140134978572256" source="t_0" target="p_16"/>
+      <arc id="140134978576864" source="t_3" target="p_13"/>
+      <arc id="140134978578400" source="t_6" target="p_13"/>
+      <arc id="140134978576240" source="p_9" target="t_10"/>
+      <arc id="140134978576624" source="t_9" target="p_15"/>
+      <arc id="140134978578544" source="p_11" target="t_10"/>
+      <arc id="140134978579696" source="t_16" target="p_18"/>
+      <arc id="140134978584304" source="t_18" target="p_13"/>
+      <arc id="140134978582768" source="t_17" target="p_13"/>
+      <arc id="140134978578160" source="p_0" target="t_14"/>
+      <arc id="140134978580848" source="t_18" target="p_10"/>
+      <arc id="140134978572016" source="t_9" target="p_16"/>
+      <arc id="140134978572784" source="t_0" target="p_7"/>
+      <arc id="140134978584064" source="p_1" target="t_2"/>
     </page>
     <finalmarkings>
       <marking>
-        <place idref="p_2">
+        <place idref="p_13">
           <text>1</text>
         </place>
       </marking>
