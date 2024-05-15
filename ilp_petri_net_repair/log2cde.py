@@ -54,5 +54,5 @@ def trace_example(trace, identifier, is_positive):
         0,
         inclusions,
         exclusions,
-        " ".join("{}.".format(x) for x in facts)
+        "  " + "\n  ".join("{}.".format(x) for x in facts)
     )
