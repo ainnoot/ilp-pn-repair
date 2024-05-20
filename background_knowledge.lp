@@ -50,8 +50,8 @@ holds(P,0,0) :- place(P), P != source_place.
 :- last_step(L), holds(sink_place, C, TS), TS <= L, C > 0.
 
 % Firing for first and last step
-fires(source_trans, 0).
-fires(sink_trans, T) :- last_step(T).
+fires(source_transition, 0).
+fires(sink_transition, T) :- last_step(T).
 %%%%%%%%%%%%%%%
 
 
