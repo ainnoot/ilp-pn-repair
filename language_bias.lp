@@ -13,7 +13,7 @@ tparc(T,P,W) :- original(tparc(T,P,W)).
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Add tp- or pt-arcs if not included in original model, by default the weight is 1
-add(tparc(T,P,1)) :- place(P), trans(T,_), not tparc(P,T,_), P != sink_place, P != source_place.
+add(tparc(T,P,1)) :- place(P), trans(T,_), not tparc(T,P,_), P != sink_place, P != source_place.
 add(ptarc(P,T,1)) :- place(P), trans(T,_), not ptarc(P,T,_), P != sink_place, P != source_place.
 
 % Remove tp- or pt-arcs if in original model, but not frozen
