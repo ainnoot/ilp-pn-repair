@@ -1,4 +1,4 @@
-#pos(example_0@0, {recognized}, {}, {
+#pos(example_0, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,leucocytes).
@@ -24,7 +24,7 @@
   trace(22,release_a).
   trace(23,workflow_end).
 }).
-#pos(example_1@0, {recognized}, {}, {
+#pos(example_1, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -36,7 +36,7 @@
   trace(8,iv_antibiotics).
   trace(9,workflow_end).
 }).
-#pos(example_2@0, {recognized}, {}, {
+#pos(example_2, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -51,7 +51,7 @@
   trace(11,return_er).
   trace(12,workflow_end).
 }).
-#pos(example_3@0, {recognized}, {}, {
+#pos(example_3, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -63,7 +63,7 @@
   trace(8,iv_antibiotics).
   trace(9,workflow_end).
 }).
-#pos(example_4@0, {recognized}, {}, {
+#pos(example_4, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -84,7 +84,7 @@
   trace(17,release_a).
   trace(18,workflow_end).
 }).
-#pos(example_5@0, {recognized}, {}, {
+#pos(example_5, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -101,7 +101,7 @@
   trace(13,return_er).
   trace(14,workflow_end).
 }).
-#pos(example_6@0, {recognized}, {}, {
+#pos(example_6, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -134,7 +134,7 @@
   trace(29,return_er).
   trace(30,workflow_end).
 }).
-#pos(example_7@0, {recognized}, {}, {
+#pos(example_7, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -162,7 +162,7 @@
   trace(24,lacticacid).
   trace(25,workflow_end).
 }).
-#pos(example_8@0, {recognized}, {}, {
+#pos(example_8, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -184,7 +184,7 @@
   trace(18,return_er).
   trace(19,workflow_end).
 }).
-#pos(example_9@0, {recognized}, {}, {
+#pos(example_9, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -197,7 +197,7 @@
   trace(9,admission_nc).
   trace(10,workflow_end).
 }).
-#pos(example_10@0, {recognized}, {}, {
+#pos(example_10, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,crp).
@@ -218,7 +218,7 @@
   trace(17,return_er).
   trace(18,workflow_end).
 }).
-#pos(example_11@0, {recognized}, {}, {
+#pos(example_11, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -235,7 +235,7 @@
   trace(13,return_er).
   trace(14,workflow_end).
 }).
-#pos(example_12@0, {recognized}, {}, {
+#pos(example_12, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_sepsis_triage).
   trace(2,er_registration).
@@ -244,7 +244,7 @@
   trace(5,crp).
   trace(6,workflow_end).
 }).
-#pos(example_13@0, {recognized}, {}, {
+#pos(example_13, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -263,7 +263,7 @@
   trace(15,release_a).
   trace(16,workflow_end).
 }).
-#pos(example_14@0, {recognized}, {}, {
+#pos(example_14, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -278,7 +278,7 @@
   trace(11,release_a).
   trace(12,workflow_end).
 }).
-#pos(example_15@0, {recognized}, {}, {
+#pos(example_15, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -294,7 +294,7 @@
   trace(12,release_a).
   trace(13,workflow_end).
 }).
-#pos(example_16@0, {recognized}, {}, {
+#pos(example_16, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -313,7 +313,7 @@
   trace(15,return_er).
   trace(16,workflow_end).
 }).
-#pos(example_17@0, {recognized}, {}, {
+#pos(example_17, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -334,7 +334,7 @@
   trace(17,return_er).
   trace(18,workflow_end).
 }).
-#pos(example_18@0, {recognized}, {}, {
+#pos(example_18, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -363,7 +363,7 @@
   trace(25,release_a).
   trace(26,workflow_end).
 }).
-#pos(example_19@0, {recognized}, {}, {
+#pos(example_19, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,crp).
@@ -372,7 +372,7 @@
   trace(5,er_sepsis_triage).
   trace(6,workflow_end).
 }).
-#pos(example_20@0, {recognized}, {}, {
+#pos(example_20, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -387,14 +387,14 @@
   trace(11,leucocytes).
   trace(12,workflow_end).
 }).
-#pos(example_21@0, {recognized}, {}, {
+#pos(example_21, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
   trace(3,er_sepsis_triage).
   trace(4,workflow_end).
 }).
-#pos(example_22@0, {recognized}, {}, {
+#pos(example_22, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -417,7 +417,7 @@
   trace(19,return_er).
   trace(20,workflow_end).
 }).
-#pos(example_23@0, {recognized}, {}, {
+#pos(example_23, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -432,7 +432,7 @@
   trace(11,release_a).
   trace(12,workflow_end).
 }).
-#pos(example_24@0, {recognized}, {}, {
+#pos(example_24, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -441,7 +441,7 @@
   trace(5,crp).
   trace(6,workflow_end).
 }).
-#pos(example_25@0, {recognized}, {}, {
+#pos(example_25, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -454,7 +454,7 @@
   trace(9,release_a).
   trace(10,workflow_end).
 }).
-#pos(example_26@0, {recognized}, {}, {
+#pos(example_26, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -466,7 +466,7 @@
   trace(8,iv_liquid).
   trace(9,workflow_end).
 }).
-#pos(example_27@0, {recognized}, {}, {
+#pos(example_27, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -479,7 +479,7 @@
   trace(9,release_a).
   trace(10,workflow_end).
 }).
-#pos(example_28@0, {recognized}, {}, {
+#pos(example_28, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -490,7 +490,7 @@
   trace(7,return_er).
   trace(8,workflow_end).
 }).
-#pos(example_29@0, {recognized}, {}, {
+#pos(example_29, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -505,7 +505,7 @@
   trace(11,leucocytes).
   trace(12,workflow_end).
 }).
-#pos(example_30@0, {recognized}, {}, {
+#pos(example_30, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -523,7 +523,7 @@
   trace(14,release_a).
   trace(15,workflow_end).
 }).
-#pos(example_31@0, {recognized}, {}, {
+#pos(example_31, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -550,7 +550,7 @@
   trace(23,return_er).
   trace(24,workflow_end).
 }).
-#pos(example_32@0, {recognized}, {}, {
+#pos(example_32, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -576,7 +576,7 @@
   trace(22,release_b).
   trace(23,workflow_end).
 }).
-#pos(example_33@0, {recognized}, {}, {
+#pos(example_33, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -592,7 +592,7 @@
   trace(12,release_a).
   trace(13,workflow_end).
 }).
-#pos(example_34@0, {recognized}, {}, {
+#pos(example_34, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,lacticacid).
@@ -606,7 +606,7 @@
   trace(10,release_a).
   trace(11,workflow_end).
 }).
-#pos(example_35@0, {recognized}, {}, {
+#pos(example_35, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -617,7 +617,7 @@
   trace(7,iv_antibiotics).
   trace(8,workflow_end).
 }).
-#pos(example_36@0, {recognized}, {}, {
+#pos(example_36, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -627,7 +627,7 @@
   trace(6,lacticacid).
   trace(7,workflow_end).
 }).
-#pos(example_37@0, {recognized}, {}, {
+#pos(example_37, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -653,7 +653,7 @@
   trace(22,release_b).
   trace(23,workflow_end).
 }).
-#pos(example_38@0, {recognized}, {}, {
+#pos(example_38, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -672,7 +672,7 @@
   trace(15,release_a).
   trace(16,workflow_end).
 }).
-#pos(example_39@0, {recognized}, {}, {
+#pos(example_39, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -688,7 +688,7 @@
   trace(12,release_a).
   trace(13,workflow_end).
 }).
-#pos(example_40@0, {recognized}, {}, {
+#pos(example_40, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -705,7 +705,7 @@
   trace(13,return_er).
   trace(14,workflow_end).
 }).
-#pos(example_41@0, {recognized}, {}, {
+#pos(example_41, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -721,7 +721,7 @@
   trace(12,release_a).
   trace(13,workflow_end).
 }).
-#pos(example_42@0, {recognized}, {}, {
+#pos(example_42, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -731,7 +731,7 @@
   trace(6,leucocytes).
   trace(7,workflow_end).
 }).
-#pos(example_43@0, {recognized}, {}, {
+#pos(example_43, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -749,7 +749,7 @@
   trace(14,release_a).
   trace(15,workflow_end).
 }).
-#pos(example_44@0, {recognized}, {}, {
+#pos(example_44, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -772,7 +772,7 @@
   trace(19,release_e).
   trace(20,workflow_end).
 }).
-#pos(example_45@0, {recognized}, {}, {
+#pos(example_45, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -788,7 +788,7 @@
   trace(12,release_a).
   trace(13,workflow_end).
 }).
-#pos(example_46@0, {recognized}, {}, {
+#pos(example_46, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -804,7 +804,7 @@
   trace(12,release_a).
   trace(13,workflow_end).
 }).
-#pos(example_47@0, {recognized}, {}, {
+#pos(example_47, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -823,7 +823,7 @@
   trace(15,return_er).
   trace(16,workflow_end).
 }).
-#pos(example_48@0, {recognized}, {}, {
+#pos(example_48, {}, {}, {
   trace(0,workflow_start).
   trace(1,crp).
   trace(2,leucocytes).
@@ -835,7 +835,7 @@
   trace(8,iv_liquid).
   trace(9,workflow_end).
 }).
-#pos(example_49@0, {recognized}, {}, {
+#pos(example_49, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -852,7 +852,7 @@
   trace(13,return_er).
   trace(14,workflow_end).
 }).
-#pos(example_50@0, {recognized}, {}, {
+#pos(example_50, {}, {}, {
   trace(0,workflow_start).
   trace(1,leucocytes).
   trace(2,crp).
@@ -877,7 +877,7 @@
   trace(21,release_b).
   trace(22,workflow_end).
 }).
-#pos(example_51@0, {recognized}, {}, {
+#pos(example_51, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -891,7 +891,7 @@
   trace(10,release_a).
   trace(11,workflow_end).
 }).
-#pos(example_52@0, {recognized}, {}, {
+#pos(example_52, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,crp).
@@ -907,7 +907,7 @@
   trace(12,release_a).
   trace(13,workflow_end).
 }).
-#pos(example_53@0, {recognized}, {}, {
+#pos(example_53, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -931,7 +931,7 @@
   trace(20,release_a).
   trace(21,workflow_end).
 }).
-#pos(example_54@0, {recognized}, {}, {
+#pos(example_54, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -950,7 +950,7 @@
   trace(15,release_a).
   trace(16,workflow_end).
 }).
-#pos(example_55@0, {recognized}, {}, {
+#pos(example_55, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -964,7 +964,7 @@
   trace(10,release_b).
   trace(11,workflow_end).
 }).
-#pos(example_56@0, {recognized}, {}, {
+#pos(example_56, {}, {}, {
   trace(0,workflow_start).
   trace(1,iv_liquid).
   trace(2,er_registration).
@@ -1004,7 +1004,7 @@
   trace(36,return_er).
   trace(37,workflow_end).
 }).
-#pos(example_57@0, {recognized}, {}, {
+#pos(example_57, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1029,7 +1029,7 @@
   trace(21,release_a).
   trace(22,workflow_end).
 }).
-#pos(example_58@0, {recognized}, {}, {
+#pos(example_58, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1050,7 +1050,7 @@
   trace(17,return_er).
   trace(18,workflow_end).
 }).
-#pos(example_59@0, {recognized}, {}, {
+#pos(example_59, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1067,7 +1067,7 @@
   trace(13,return_er).
   trace(14,workflow_end).
 }).
-#pos(example_60@0, {recognized}, {}, {
+#pos(example_60, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1090,7 +1090,7 @@
   trace(19,return_er).
   trace(20,workflow_end).
 }).
-#pos(example_61@0, {recognized}, {}, {
+#pos(example_61, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1105,7 +1105,7 @@
   trace(11,release_a).
   trace(12,workflow_end).
 }).
-#pos(example_62@0, {recognized}, {}, {
+#pos(example_62, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1129,7 +1129,7 @@
   trace(20,return_er).
   trace(21,workflow_end).
 }).
-#pos(example_63@0, {recognized}, {}, {
+#pos(example_63, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1142,7 +1142,7 @@
   trace(9,admission_nc).
   trace(10,workflow_end).
 }).
-#pos(example_64@0, {recognized}, {}, {
+#pos(example_64, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1158,7 +1158,7 @@
   trace(12,return_er).
   trace(13,workflow_end).
 }).
-#pos(example_65@0, {recognized}, {}, {
+#pos(example_65, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1188,7 +1188,7 @@
   trace(26,release_a).
   trace(27,workflow_end).
 }).
-#pos(example_66@0, {recognized}, {}, {
+#pos(example_66, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1199,7 +1199,7 @@
   trace(7,release_a).
   trace(8,workflow_end).
 }).
-#pos(example_67@0, {recognized}, {}, {
+#pos(example_67, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1209,7 +1209,7 @@
   trace(6,crp).
   trace(7,workflow_end).
 }).
-#pos(example_68@0, {recognized}, {}, {
+#pos(example_68, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1235,7 +1235,7 @@
   trace(22,release_a).
   trace(23,workflow_end).
 }).
-#pos(example_69@0, {recognized}, {}, {
+#pos(example_69, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1251,7 +1251,7 @@
   trace(12,release_a).
   trace(13,workflow_end).
 }).
-#pos(example_70@0, {recognized}, {}, {
+#pos(example_70, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1266,7 +1266,7 @@
   trace(11,return_er).
   trace(12,workflow_end).
 }).
-#pos(example_71@0, {recognized}, {}, {
+#pos(example_71, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1283,7 +1283,7 @@
   trace(13,release_c).
   trace(14,workflow_end).
 }).
-#pos(example_72@0, {recognized}, {}, {
+#pos(example_72, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1301,7 +1301,7 @@
   trace(14,release_a).
   trace(15,workflow_end).
 }).
-#pos(example_73@0, {recognized}, {}, {
+#pos(example_73, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1321,7 +1321,7 @@
   trace(16,release_a).
   trace(17,workflow_end).
 }).
-#pos(example_74@0, {recognized}, {}, {
+#pos(example_74, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,iv_liquid).
@@ -1346,7 +1346,7 @@
   trace(21,release_a).
   trace(22,workflow_end).
 }).
-#pos(example_75@0, {recognized}, {}, {
+#pos(example_75, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1367,7 +1367,7 @@
   trace(17,return_er).
   trace(18,workflow_end).
 }).
-#pos(example_76@0, {recognized}, {}, {
+#pos(example_76, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1395,7 +1395,7 @@
   trace(24,release_a).
   trace(25,workflow_end).
 }).
-#pos(example_77@0, {recognized}, {}, {
+#pos(example_77, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1413,7 +1413,7 @@
   trace(14,release_a).
   trace(15,workflow_end).
 }).
-#pos(example_78@0, {recognized}, {}, {
+#pos(example_78, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1425,7 +1425,7 @@
   trace(8,leucocytes).
   trace(9,workflow_end).
 }).
-#pos(example_79@0, {recognized}, {}, {
+#pos(example_79, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,iv_liquid).
@@ -1437,7 +1437,7 @@
   trace(8,iv_antibiotics).
   trace(9,workflow_end).
 }).
-#pos(example_80@0, {recognized}, {}, {
+#pos(example_80, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1455,7 +1455,7 @@
   trace(14,release_a).
   trace(15,workflow_end).
 }).
-#pos(example_81@0, {recognized}, {}, {
+#pos(example_81, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1480,7 +1480,7 @@
   trace(21,release_a).
   trace(22,workflow_end).
 }).
-#pos(example_82@0, {recognized}, {}, {
+#pos(example_82, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1498,7 +1498,7 @@
   trace(14,return_er).
   trace(15,workflow_end).
 }).
-#pos(example_83@0, {recognized}, {}, {
+#pos(example_83, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1510,7 +1510,7 @@
   trace(8,iv_antibiotics).
   trace(9,workflow_end).
 }).
-#pos(example_84@0, {recognized}, {}, {
+#pos(example_84, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1525,7 +1525,7 @@
   trace(11,release_a).
   trace(12,workflow_end).
 }).
-#pos(example_85@0, {recognized}, {}, {
+#pos(example_85, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1543,7 +1543,7 @@
   trace(14,release_a).
   trace(15,workflow_end).
 }).
-#pos(example_86@0, {recognized}, {}, {
+#pos(example_86, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1574,7 +1574,7 @@
   trace(27,return_er).
   trace(28,workflow_end).
 }).
-#pos(example_87@0, {recognized}, {}, {
+#pos(example_87, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1596,7 +1596,7 @@
   trace(18,release_a).
   trace(19,workflow_end).
 }).
-#pos(example_88@0, {recognized}, {}, {
+#pos(example_88, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1615,7 +1615,7 @@
   trace(15,release_a).
   trace(16,workflow_end).
 }).
-#pos(example_89@0, {recognized}, {}, {
+#pos(example_89, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1629,7 +1629,7 @@
   trace(10,release_b).
   trace(11,workflow_end).
 }).
-#pos(example_90@0, {recognized}, {}, {
+#pos(example_90, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1642,7 +1642,7 @@
   trace(9,release_a).
   trace(10,workflow_end).
 }).
-#pos(example_91@0, {recognized}, {}, {
+#pos(example_91, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1659,7 +1659,7 @@
   trace(13,return_er).
   trace(14,workflow_end).
 }).
-#pos(example_92@0, {recognized}, {}, {
+#pos(example_92, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1676,7 +1676,7 @@
   trace(13,release_a).
   trace(14,workflow_end).
 }).
-#pos(example_93@0, {recognized}, {}, {
+#pos(example_93, {}, {}, {
   trace(0,workflow_start).
   trace(1,leucocytes).
   trace(2,crp).
@@ -1705,7 +1705,7 @@
   trace(25,release_b).
   trace(26,workflow_end).
 }).
-#pos(example_94@0, {recognized}, {}, {
+#pos(example_94, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1717,7 +1717,7 @@
   trace(8,release_a).
   trace(9,workflow_end).
 }).
-#pos(example_95@0, {recognized}, {}, {
+#pos(example_95, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1726,7 +1726,7 @@
   trace(5,leucocytes).
   trace(6,workflow_end).
 }).
-#pos(example_96@0, {recognized}, {}, {
+#pos(example_96, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1747,7 +1747,7 @@
   trace(17,release_a).
   trace(18,workflow_end).
 }).
-#pos(example_97@0, {recognized}, {}, {
+#pos(example_97, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1755,7 +1755,7 @@
   trace(4,leucocytes).
   trace(5,workflow_end).
 }).
-#pos(example_98@0, {recognized}, {}, {
+#pos(example_98, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1767,7 +1767,7 @@
   trace(8,iv_antibiotics).
   trace(9,workflow_end).
 }).
-#pos(example_99@0, {recognized}, {}, {
+#pos(example_99, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1786,7 +1786,7 @@
   trace(15,release_a).
   trace(16,workflow_end).
 }).
-#pos(example_100@0, {recognized}, {}, {
+#pos(example_100, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1798,7 +1798,7 @@
   trace(8,admission_nc).
   trace(9,workflow_end).
 }).
-#pos(example_101@0, {recognized}, {}, {
+#pos(example_101, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1813,7 +1813,7 @@
   trace(11,release_b).
   trace(12,workflow_end).
 }).
-#pos(example_102@0, {recognized}, {}, {
+#pos(example_102, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1834,7 +1834,7 @@
   trace(17,return_er).
   trace(18,workflow_end).
 }).
-#pos(example_103@0, {recognized}, {}, {
+#pos(example_103, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,crp).
@@ -1846,7 +1846,7 @@
   trace(8,release_a).
   trace(9,workflow_end).
 }).
-#pos(example_104@0, {recognized}, {}, {
+#pos(example_104, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1865,7 +1865,7 @@
   trace(15,release_c).
   trace(16,workflow_end).
 }).
-#pos(example_105@0, {recognized}, {}, {
+#pos(example_105, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_sepsis_triage).
@@ -1882,7 +1882,7 @@
   trace(13,release_a).
   trace(14,workflow_end).
 }).
-#pos(example_106@0, {recognized}, {}, {
+#pos(example_106, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1903,7 +1903,7 @@
   trace(17,return_er).
   trace(18,workflow_end).
 }).
-#pos(example_107@0, {recognized}, {}, {
+#pos(example_107, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1914,7 +1914,7 @@
   trace(7,iv_antibiotics).
   trace(8,workflow_end).
 }).
-#pos(example_108@0, {recognized}, {}, {
+#pos(example_108, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1930,7 +1930,7 @@
   trace(12,release_a).
   trace(13,workflow_end).
 }).
-#pos(example_109@0, {recognized}, {}, {
+#pos(example_109, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1945,7 +1945,7 @@
   trace(11,return_er).
   trace(12,workflow_end).
 }).
-#pos(example_110@0, {recognized}, {}, {
+#pos(example_110, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1961,7 +1961,7 @@
   trace(12,release_a).
   trace(13,workflow_end).
 }).
-#pos(example_111@0, {recognized}, {}, {
+#pos(example_111, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,crp).
@@ -1980,7 +1980,7 @@
   trace(15,release_a).
   trace(16,workflow_end).
 }).
-#pos(example_112@0, {recognized}, {}, {
+#pos(example_112, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -1998,7 +1998,7 @@
   trace(14,release_a).
   trace(15,workflow_end).
 }).
-#pos(example_113@0, {recognized}, {}, {
+#pos(example_113, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2035,7 +2035,7 @@
   trace(33,release_e).
   trace(34,workflow_end).
 }).
-#pos(example_114@0, {recognized}, {}, {
+#pos(example_114, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2079,7 +2079,7 @@
   trace(40,release_b).
   trace(41,workflow_end).
 }).
-#pos(example_115@0, {recognized}, {}, {
+#pos(example_115, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2096,7 +2096,7 @@
   trace(13,return_er).
   trace(14,workflow_end).
 }).
-#pos(example_116@0, {recognized}, {}, {
+#pos(example_116, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2112,7 +2112,7 @@
   trace(12,release_c).
   trace(13,workflow_end).
 }).
-#pos(example_117@0, {recognized}, {}, {
+#pos(example_117, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2132,7 +2132,7 @@
   trace(16,release_a).
   trace(17,workflow_end).
 }).
-#pos(example_118@0, {recognized}, {}, {
+#pos(example_118, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2148,7 +2148,7 @@
   trace(12,release_a).
   trace(13,workflow_end).
 }).
-#pos(example_119@0, {recognized}, {}, {
+#pos(example_119, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2166,7 +2166,7 @@
   trace(14,release_a).
   trace(15,workflow_end).
 }).
-#pos(example_120@0, {recognized}, {}, {
+#pos(example_120, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2182,7 +2182,7 @@
   trace(12,return_er).
   trace(13,workflow_end).
 }).
-#pos(example_121@0, {recognized}, {}, {
+#pos(example_121, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2199,7 +2199,7 @@
   trace(13,return_er).
   trace(14,workflow_end).
 }).
-#pos(example_122@0, {recognized}, {}, {
+#pos(example_122, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2211,7 +2211,7 @@
   trace(8,release_b).
   trace(9,workflow_end).
 }).
-#pos(example_123@0, {recognized}, {}, {
+#pos(example_123, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2232,7 +2232,7 @@
   trace(17,release_a).
   trace(18,workflow_end).
 }).
-#pos(example_124@0, {recognized}, {}, {
+#pos(example_124, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2250,7 +2250,7 @@
   trace(14,release_a).
   trace(15,workflow_end).
 }).
-#pos(example_125@0, {recognized}, {}, {
+#pos(example_125, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2259,7 +2259,7 @@
   trace(5,er_sepsis_triage).
   trace(6,workflow_end).
 }).
-#pos(example_126@0, {recognized}, {}, {
+#pos(example_126, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2273,7 +2273,7 @@
   trace(10,release_a).
   trace(11,workflow_end).
 }).
-#pos(example_127@0, {recognized}, {}, {
+#pos(example_127, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2289,7 +2289,7 @@
   trace(12,release_a).
   trace(13,workflow_end).
 }).
-#pos(example_128@0, {recognized}, {}, {
+#pos(example_128, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2311,7 +2311,7 @@
   trace(18,release_c).
   trace(19,workflow_end).
 }).
-#pos(example_129@0, {recognized}, {}, {
+#pos(example_129, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2330,7 +2330,7 @@
   trace(15,return_er).
   trace(16,workflow_end).
 }).
-#pos(example_130@0, {recognized}, {}, {
+#pos(example_130, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2342,7 +2342,7 @@
   trace(8,release_d).
   trace(9,workflow_end).
 }).
-#pos(example_131@0, {recognized}, {}, {
+#pos(example_131, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2358,7 +2358,7 @@
   trace(12,release_a).
   trace(13,workflow_end).
 }).
-#pos(example_132@0, {recognized}, {}, {
+#pos(example_132, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2385,7 +2385,7 @@
   trace(23,return_er).
   trace(24,workflow_end).
 }).
-#pos(example_133@0, {recognized}, {}, {
+#pos(example_133, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2398,7 +2398,7 @@
   trace(9,return_er).
   trace(10,workflow_end).
 }).
-#pos(example_134@0, {recognized}, {}, {
+#pos(example_134, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,lacticacid).
@@ -2415,7 +2415,7 @@
   trace(13,return_er).
   trace(14,workflow_end).
 }).
-#pos(example_135@0, {recognized}, {}, {
+#pos(example_135, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2433,7 +2433,7 @@
   trace(14,return_er).
   trace(15,workflow_end).
 }).
-#pos(example_136@0, {recognized}, {}, {
+#pos(example_136, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2448,7 +2448,7 @@
   trace(11,release_a).
   trace(12,workflow_end).
 }).
-#pos(example_137@0, {recognized}, {}, {
+#pos(example_137, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2460,7 +2460,7 @@
   trace(8,iv_antibiotics).
   trace(9,workflow_end).
 }).
-#pos(example_138@0, {recognized}, {}, {
+#pos(example_138, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2472,7 +2472,7 @@
   trace(8,iv_antibiotics).
   trace(9,workflow_end).
 }).
-#pos(example_139@0, {recognized}, {}, {
+#pos(example_139, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2484,7 +2484,7 @@
   trace(8,iv_antibiotics).
   trace(9,workflow_end).
 }).
-#pos(example_140@0, {recognized}, {}, {
+#pos(example_140, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2504,7 +2504,7 @@
   trace(16,return_er).
   trace(17,workflow_end).
 }).
-#pos(example_141@0, {recognized}, {}, {
+#pos(example_141, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2522,7 +2522,7 @@
   trace(14,release_a).
   trace(15,workflow_end).
 }).
-#pos(example_142@0, {recognized}, {}, {
+#pos(example_142, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2541,7 +2541,7 @@
   trace(15,release_a).
   trace(16,workflow_end).
 }).
-#pos(example_143@0, {recognized}, {}, {
+#pos(example_143, {}, {}, {
   trace(0,workflow_start).
   trace(1,iv_liquid).
   trace(2,er_registration).
@@ -2560,7 +2560,7 @@
   trace(15,release_a).
   trace(16,workflow_end).
 }).
-#pos(example_144@0, {recognized}, {}, {
+#pos(example_144, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2573,7 +2573,7 @@
   trace(9,release_a).
   trace(10,workflow_end).
 }).
-#pos(example_145@0, {recognized}, {}, {
+#pos(example_145, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2586,7 +2586,7 @@
   trace(9,admission_nc).
   trace(10,workflow_end).
 }).
-#pos(example_146@0, {recognized}, {}, {
+#pos(example_146, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2603,7 +2603,7 @@
   trace(13,release_a).
   trace(14,workflow_end).
 }).
-#pos(example_147@0, {recognized}, {}, {
+#pos(example_147, {}, {}, {
   trace(0,workflow_start).
   trace(1,leucocytes).
   trace(2,crp).
@@ -2620,7 +2620,7 @@
   trace(13,release_a).
   trace(14,workflow_end).
 }).
-#pos(example_148@0, {recognized}, {}, {
+#pos(example_148, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2638,7 +2638,7 @@
   trace(14,release_a).
   trace(15,workflow_end).
 }).
-#pos(example_149@0, {recognized}, {}, {
+#pos(example_149, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2674,7 +2674,7 @@
   trace(32,release_a).
   trace(33,workflow_end).
 }).
-#pos(example_150@0, {recognized}, {}, {
+#pos(example_150, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2686,7 +2686,7 @@
   trace(8,iv_antibiotics).
   trace(9,workflow_end).
 }).
-#pos(example_151@0, {recognized}, {}, {
+#pos(example_151, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2705,7 +2705,7 @@
   trace(15,return_er).
   trace(16,workflow_end).
 }).
-#pos(example_152@0, {recognized}, {}, {
+#pos(example_152, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2724,7 +2724,7 @@
   trace(15,release_b).
   trace(16,workflow_end).
 }).
-#pos(example_153@0, {recognized}, {}, {
+#pos(example_153, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2740,7 +2740,7 @@
   trace(12,release_a).
   trace(13,workflow_end).
 }).
-#pos(example_154@0, {recognized}, {}, {
+#pos(example_154, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2761,7 +2761,7 @@
   trace(17,release_a).
   trace(18,workflow_end).
 }).
-#pos(example_155@0, {recognized}, {}, {
+#pos(example_155, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2784,7 +2784,7 @@
   trace(19,release_a).
   trace(20,workflow_end).
 }).
-#pos(example_156@0, {recognized}, {}, {
+#pos(example_156, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2821,7 +2821,7 @@
   trace(33,return_er).
   trace(34,workflow_end).
 }).
-#pos(example_157@0, {recognized}, {}, {
+#pos(example_157, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2837,7 +2837,7 @@
   trace(12,return_er).
   trace(13,workflow_end).
 }).
-#pos(example_158@0, {recognized}, {}, {
+#pos(example_158, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2848,7 +2848,7 @@
   trace(7,release_a).
   trace(8,workflow_end).
 }).
-#pos(example_159@0, {recognized}, {}, {
+#pos(example_159, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2865,7 +2865,7 @@
   trace(13,return_er).
   trace(14,workflow_end).
 }).
-#pos(example_160@0, {recognized}, {}, {
+#pos(example_160, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,lacticacid).
@@ -2883,7 +2883,7 @@
   trace(14,release_a).
   trace(15,workflow_end).
 }).
-#pos(example_161@0, {recognized}, {}, {
+#pos(example_161, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2900,7 +2900,7 @@
   trace(13,release_a).
   trace(14,workflow_end).
 }).
-#pos(example_162@0, {recognized}, {}, {
+#pos(example_162, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2914,7 +2914,7 @@
   trace(10,release_a).
   trace(11,workflow_end).
 }).
-#pos(example_163@0, {recognized}, {}, {
+#pos(example_163, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2948,7 +2948,7 @@
   trace(30,release_a).
   trace(31,workflow_end).
 }).
-#pos(example_164@0, {recognized}, {}, {
+#pos(example_164, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2966,7 +2966,7 @@
   trace(14,return_er).
   trace(15,workflow_end).
 }).
-#pos(example_165@0, {recognized}, {}, {
+#pos(example_165, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -2981,7 +2981,7 @@
   trace(11,release_a).
   trace(12,workflow_end).
 }).
-#pos(example_166@0, {recognized}, {}, {
+#pos(example_166, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,crp).
@@ -2994,7 +2994,7 @@
   trace(9,release_a).
   trace(10,workflow_end).
 }).
-#pos(example_167@0, {recognized}, {}, {
+#pos(example_167, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3018,7 +3018,7 @@
   trace(20,release_b).
   trace(21,workflow_end).
 }).
-#pos(example_168@0, {recognized}, {}, {
+#pos(example_168, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3036,7 +3036,7 @@
   trace(14,release_a).
   trace(15,workflow_end).
 }).
-#pos(example_169@0, {recognized}, {}, {
+#pos(example_169, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3054,7 +3054,7 @@
   trace(14,release_a).
   trace(15,workflow_end).
 }).
-#pos(example_170@0, {recognized}, {}, {
+#pos(example_170, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3078,7 +3078,7 @@
   trace(20,release_a).
   trace(21,workflow_end).
 }).
-#pos(example_171@0, {recognized}, {}, {
+#pos(example_171, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3111,7 +3111,7 @@
   trace(29,return_er).
   trace(30,workflow_end).
 }).
-#pos(example_172@0, {recognized}, {}, {
+#pos(example_172, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3132,7 +3132,7 @@
   trace(17,return_er).
   trace(18,workflow_end).
 }).
-#pos(example_173@0, {recognized}, {}, {
+#pos(example_173, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3151,7 +3151,7 @@
   trace(15,return_er).
   trace(16,workflow_end).
 }).
-#pos(example_174@0, {recognized}, {}, {
+#pos(example_174, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3163,7 +3163,7 @@
   trace(8,iv_antibiotics).
   trace(9,workflow_end).
 }).
-#pos(example_175@0, {recognized}, {}, {
+#pos(example_175, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3197,7 +3197,7 @@
   trace(30,return_er).
   trace(31,workflow_end).
 }).
-#pos(example_176@0, {recognized}, {}, {
+#pos(example_176, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3249,7 +3249,7 @@
   trace(48,return_er).
   trace(49,workflow_end).
 }).
-#pos(example_177@0, {recognized}, {}, {
+#pos(example_177, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3263,7 +3263,7 @@
   trace(10,release_a).
   trace(11,workflow_end).
 }).
-#pos(example_178@0, {recognized}, {}, {
+#pos(example_178, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3281,7 +3281,7 @@
   trace(14,return_er).
   trace(15,workflow_end).
 }).
-#pos(example_179@0, {recognized}, {}, {
+#pos(example_179, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3295,7 +3295,7 @@
   trace(10,iv_liquid).
   trace(11,workflow_end).
 }).
-#pos(example_180@0, {recognized}, {}, {
+#pos(example_180, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3322,7 +3322,7 @@
   trace(23,release_a).
   trace(24,workflow_end).
 }).
-#pos(example_181@0, {recognized}, {}, {
+#pos(example_181, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3350,7 +3350,7 @@
   trace(24,release_a).
   trace(25,workflow_end).
 }).
-#pos(example_182@0, {recognized}, {}, {
+#pos(example_182, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3366,7 +3366,7 @@
   trace(12,release_b).
   trace(13,workflow_end).
 }).
-#pos(example_183@0, {recognized}, {}, {
+#pos(example_183, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3380,7 +3380,7 @@
   trace(10,release_a).
   trace(11,workflow_end).
 }).
-#pos(example_184@0, {recognized}, {}, {
+#pos(example_184, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3401,7 +3401,7 @@
   trace(17,return_er).
   trace(18,workflow_end).
 }).
-#pos(example_185@0, {recognized}, {}, {
+#pos(example_185, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3413,7 +3413,7 @@
   trace(8,lacticacid).
   trace(9,workflow_end).
 }).
-#pos(example_186@0, {recognized}, {}, {
+#pos(example_186, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3427,7 +3427,7 @@
   trace(10,return_er).
   trace(11,workflow_end).
 }).
-#pos(example_187@0, {recognized}, {}, {
+#pos(example_187, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3446,7 +3446,7 @@
   trace(15,return_er).
   trace(16,workflow_end).
 }).
-#pos(example_188@0, {recognized}, {}, {
+#pos(example_188, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3461,7 +3461,7 @@
   trace(11,lacticacid).
   trace(12,workflow_end).
 }).
-#pos(example_189@0, {recognized}, {}, {
+#pos(example_189, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3483,7 +3483,7 @@
   trace(18,return_er).
   trace(19,workflow_end).
 }).
-#pos(example_190@0, {recognized}, {}, {
+#pos(example_190, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3504,7 +3504,7 @@
   trace(17,return_er).
   trace(18,workflow_end).
 }).
-#pos(example_191@0, {recognized}, {}, {
+#pos(example_191, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3518,7 +3518,7 @@
   trace(10,release_a).
   trace(11,workflow_end).
 }).
-#pos(example_192@0, {recognized}, {}, {
+#pos(example_192, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3533,7 +3533,7 @@
   trace(11,release_a).
   trace(12,workflow_end).
 }).
-#pos(example_193@0, {recognized}, {}, {
+#pos(example_193, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3548,7 +3548,7 @@
   trace(11,iv_liquid).
   trace(12,workflow_end).
 }).
-#pos(example_194@0, {recognized}, {}, {
+#pos(example_194, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3565,7 +3565,7 @@
   trace(13,return_er).
   trace(14,workflow_end).
 }).
-#pos(example_195@0, {recognized}, {}, {
+#pos(example_195, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3582,7 +3582,7 @@
   trace(13,return_er).
   trace(14,workflow_end).
 }).
-#pos(example_196@0, {recognized}, {}, {
+#pos(example_196, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3599,7 +3599,7 @@
   trace(13,release_c).
   trace(14,workflow_end).
 }).
-#pos(example_197@0, {recognized}, {}, {
+#pos(example_197, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3616,7 +3616,7 @@
   trace(13,return_er).
   trace(14,workflow_end).
 }).
-#pos(example_198@0, {recognized}, {}, {
+#pos(example_198, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3636,7 +3636,7 @@
   trace(16,release_a).
   trace(17,workflow_end).
 }).
-#pos(example_199@0, {recognized}, {}, {
+#pos(example_199, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3657,7 +3657,7 @@
   trace(17,release_a).
   trace(18,workflow_end).
 }).
-#pos(example_200@0, {recognized}, {}, {
+#pos(example_200, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3672,7 +3672,7 @@
   trace(11,release_a).
   trace(12,workflow_end).
 }).
-#pos(example_201@0, {recognized}, {}, {
+#pos(example_201, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3685,7 +3685,7 @@
   trace(9,iv_antibiotics).
   trace(10,workflow_end).
 }).
-#pos(example_202@0, {recognized}, {}, {
+#pos(example_202, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3694,7 +3694,7 @@
   trace(5,er_sepsis_triage).
   trace(6,workflow_end).
 }).
-#pos(example_203@0, {recognized}, {}, {
+#pos(example_203, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_sepsis_triage).
@@ -3714,7 +3714,7 @@
   trace(16,release_a).
   trace(17,workflow_end).
 }).
-#pos(example_204@0, {recognized}, {}, {
+#pos(example_204, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,crp).
@@ -3731,7 +3731,7 @@
   trace(13,return_er).
   trace(14,workflow_end).
 }).
-#pos(example_205@0, {recognized}, {}, {
+#pos(example_205, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,iv_liquid).
@@ -3758,7 +3758,7 @@
   trace(23,release_b).
   trace(24,workflow_end).
 }).
-#pos(example_206@0, {recognized}, {}, {
+#pos(example_206, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3771,7 +3771,7 @@
   trace(9,iv_liquid).
   trace(10,workflow_end).
 }).
-#pos(example_207@0, {recognized}, {}, {
+#pos(example_207, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,leucocytes).
@@ -3803,7 +3803,7 @@
   trace(28,release_a).
   trace(29,workflow_end).
 }).
-#pos(example_208@0, {recognized}, {}, {
+#pos(example_208, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3813,7 +3813,7 @@
   trace(6,iv_antibiotics).
   trace(7,workflow_end).
 }).
-#pos(example_209@0, {recognized}, {}, {
+#pos(example_209, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3825,7 +3825,7 @@
   trace(8,release_b).
   trace(9,workflow_end).
 }).
-#pos(example_210@0, {recognized}, {}, {
+#pos(example_210, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3838,7 +3838,7 @@
   trace(9,admission_nc).
   trace(10,workflow_end).
 }).
-#pos(example_211@0, {recognized}, {}, {
+#pos(example_211, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3879,7 +3879,7 @@
   trace(37,release_a).
   trace(38,workflow_end).
 }).
-#pos(example_212@0, {recognized}, {}, {
+#pos(example_212, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3895,7 +3895,7 @@
   trace(12,release_a).
   trace(13,workflow_end).
 }).
-#pos(example_213@0, {recognized}, {}, {
+#pos(example_213, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3907,7 +3907,7 @@
   trace(8,crp).
   trace(9,workflow_end).
 }).
-#pos(example_214@0, {recognized}, {}, {
+#pos(example_214, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3931,7 +3931,7 @@
   trace(20,return_er).
   trace(21,workflow_end).
 }).
-#pos(example_215@0, {recognized}, {}, {
+#pos(example_215, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3952,7 +3952,7 @@
   trace(17,return_er).
   trace(18,workflow_end).
 }).
-#pos(example_216@0, {recognized}, {}, {
+#pos(example_216, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3973,7 +3973,7 @@
   trace(17,return_er).
   trace(18,workflow_end).
 }).
-#pos(example_217@0, {recognized}, {}, {
+#pos(example_217, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -3995,7 +3995,7 @@
   trace(18,return_er).
   trace(19,workflow_end).
 }).
-#pos(example_218@0, {recognized}, {}, {
+#pos(example_218, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -4011,7 +4011,7 @@
   trace(12,release_a).
   trace(13,workflow_end).
 }).
-#pos(example_219@0, {recognized}, {}, {
+#pos(example_219, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -4027,7 +4027,7 @@
   trace(12,release_a).
   trace(13,workflow_end).
 }).
-#pos(example_220@0, {recognized}, {}, {
+#pos(example_220, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -4047,7 +4047,7 @@
   trace(16,release_a).
   trace(17,workflow_end).
 }).
-#pos(example_221@0, {recognized}, {}, {
+#pos(example_221, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,leucocytes).
@@ -4064,7 +4064,7 @@
   trace(13,return_er).
   trace(14,workflow_end).
 }).
-#pos(example_222@0, {recognized}, {}, {
+#pos(example_222, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -4079,7 +4079,7 @@
   trace(11,return_er).
   trace(12,workflow_end).
 }).
-#pos(example_223@0, {recognized}, {}, {
+#pos(example_223, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -4095,7 +4095,7 @@
   trace(12,release_a).
   trace(13,workflow_end).
 }).
-#pos(example_224@0, {recognized}, {}, {
+#pos(example_224, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -4113,7 +4113,7 @@
   trace(14,return_er).
   trace(15,workflow_end).
 }).
-#pos(example_225@0, {recognized}, {}, {
+#pos(example_225, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -4131,7 +4131,7 @@
   trace(14,release_c).
   trace(15,workflow_end).
 }).
-#pos(example_226@0, {recognized}, {}, {
+#pos(example_226, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -4144,7 +4144,7 @@
   trace(9,return_er).
   trace(10,workflow_end).
 }).
-#pos(example_227@0, {recognized}, {}, {
+#pos(example_227, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -4163,7 +4163,7 @@
   trace(15,release_a).
   trace(16,workflow_end).
 }).
-#pos(example_228@0, {recognized}, {}, {
+#pos(example_228, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -4181,7 +4181,7 @@
   trace(14,release_a).
   trace(15,workflow_end).
 }).
-#pos(example_229@0, {recognized}, {}, {
+#pos(example_229, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -4244,7 +4244,7 @@
   trace(59,return_er).
   trace(60,workflow_end).
 }).
-#pos(example_230@0, {recognized}, {}, {
+#pos(example_230, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -4258,7 +4258,7 @@
   trace(10,release_a).
   trace(11,workflow_end).
 }).
-#pos(example_231@0, {recognized}, {}, {
+#pos(example_231, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -4280,7 +4280,7 @@
   trace(18,return_er).
   trace(19,workflow_end).
 }).
-#pos(example_232@0, {recognized}, {}, {
+#pos(example_232, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -4292,7 +4292,7 @@
   trace(8,iv_antibiotics).
   trace(9,workflow_end).
 }).
-#pos(example_233@0, {recognized}, {}, {
+#pos(example_233, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -4310,7 +4310,7 @@
   trace(14,release_a).
   trace(15,workflow_end).
 }).
-#pos(example_234@0, {recognized}, {}, {
+#pos(example_234, {}, {}, {
   trace(0,workflow_start).
   trace(1,leucocytes).
   trace(2,er_registration).
@@ -4326,7 +4326,7 @@
   trace(12,release_a).
   trace(13,workflow_end).
 }).
-#pos(example_235@0, {recognized}, {}, {
+#pos(example_235, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -4351,7 +4351,7 @@
   trace(21,return_er).
   trace(22,workflow_end).
 }).
-#pos(example_236@0, {recognized}, {}, {
+#pos(example_236, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -4374,7 +4374,7 @@
   trace(19,return_er).
   trace(20,workflow_end).
 }).
-#pos(example_237@0, {recognized}, {}, {
+#pos(example_237, {}, {}, {
   trace(0,workflow_start).
   trace(1,leucocytes).
   trace(2,crp).
@@ -4466,7 +4466,7 @@
   trace(88,release_d).
   trace(89,workflow_end).
 }).
-#pos(example_238@0, {recognized}, {}, {
+#pos(example_238, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -4485,7 +4485,7 @@
   trace(15,return_er).
   trace(16,workflow_end).
 }).
-#pos(example_239@0, {recognized}, {}, {
+#pos(example_239, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -4503,7 +4503,7 @@
   trace(14,release_a).
   trace(15,workflow_end).
 }).
-#pos(example_240@0, {recognized}, {}, {
+#pos(example_240, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -4520,7 +4520,7 @@
   trace(13,release_c).
   trace(14,workflow_end).
 }).
-#pos(example_241@0, {recognized}, {}, {
+#pos(example_241, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -4537,7 +4537,7 @@
   trace(13,release_a).
   trace(14,workflow_end).
 }).
-#pos(example_242@0, {recognized}, {}, {
+#pos(example_242, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -4582,7 +4582,7 @@
   trace(41,return_er).
   trace(42,workflow_end).
 }).
-#pos(example_243@0, {recognized}, {}, {
+#pos(example_243, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -4611,7 +4611,7 @@
   trace(25,release_a).
   trace(26,workflow_end).
 }).
-#pos(example_244@0, {recognized}, {}, {
+#pos(example_244, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -4635,7 +4635,7 @@
   trace(20,release_a).
   trace(21,workflow_end).
 }).
-#pos(example_245@0, {recognized}, {}, {
+#pos(example_245, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -4649,7 +4649,7 @@
   trace(10,release_a).
   trace(11,workflow_end).
 }).
-#pos(example_246@0, {recognized}, {}, {
+#pos(example_246, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -4663,7 +4663,7 @@
   trace(10,release_a).
   trace(11,workflow_end).
 }).
-#pos(example_247@0, {recognized}, {}, {
+#pos(example_247, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -4683,7 +4683,7 @@
   trace(16,release_b).
   trace(17,workflow_end).
 }).
-#pos(example_248@0, {recognized}, {}, {
+#pos(example_248, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -4709,7 +4709,7 @@
   trace(22,return_er).
   trace(23,workflow_end).
 }).
-#pos(example_249@0, {recognized}, {}, {
+#pos(example_249, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -4728,7 +4728,7 @@
   trace(15,return_er).
   trace(16,workflow_end).
 }).
-#pos(example_250@0, {recognized}, {}, {
+#pos(example_250, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -4746,7 +4746,7 @@
   trace(14,release_b).
   trace(15,workflow_end).
 }).
-#pos(example_251@0, {recognized}, {}, {
+#pos(example_251, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_sepsis_triage).
   trace(2,iv_liquid).
@@ -4761,7 +4761,7 @@
   trace(11,leucocytes).
   trace(12,workflow_end).
 }).
-#pos(example_252@0, {recognized}, {}, {
+#pos(example_252, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_sepsis_triage).
   trace(2,er_registration).
@@ -4780,7 +4780,7 @@
   trace(15,release_b).
   trace(16,workflow_end).
 }).
-#pos(example_253@0, {recognized}, {}, {
+#pos(example_253, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -4797,7 +4797,7 @@
   trace(13,release_a).
   trace(14,workflow_end).
 }).
-#pos(example_254@0, {recognized}, {}, {
+#pos(example_254, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -4814,7 +4814,7 @@
   trace(13,release_b).
   trace(14,workflow_end).
 }).
-#pos(example_255@0, {recognized}, {}, {
+#pos(example_255, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -4829,7 +4829,7 @@
   trace(11,release_a).
   trace(12,workflow_end).
 }).
-#pos(example_256@0, {recognized}, {}, {
+#pos(example_256, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -4854,7 +4854,7 @@
   trace(21,release_a).
   trace(22,workflow_end).
 }).
-#pos(example_257@0, {recognized}, {}, {
+#pos(example_257, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -4873,7 +4873,7 @@
   trace(15,release_a).
   trace(16,workflow_end).
 }).
-#pos(example_258@0, {recognized}, {}, {
+#pos(example_258, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -4892,7 +4892,7 @@
   trace(15,return_er).
   trace(16,workflow_end).
 }).
-#pos(example_259@0, {recognized}, {}, {
+#pos(example_259, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -4928,7 +4928,7 @@
   trace(32,release_a).
   trace(33,workflow_end).
 }).
-#pos(example_260@0, {recognized}, {}, {
+#pos(example_260, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -4944,7 +4944,7 @@
   trace(12,return_er).
   trace(13,workflow_end).
 }).
-#pos(example_261@0, {recognized}, {}, {
+#pos(example_261, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -4965,7 +4965,7 @@
   trace(17,release_a).
   trace(18,workflow_end).
 }).
-#pos(example_262@0, {recognized}, {}, {
+#pos(example_262, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -4988,7 +4988,7 @@
   trace(19,leucocytes).
   trace(20,workflow_end).
 }).
-#pos(example_263@0, {recognized}, {}, {
+#pos(example_263, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -5005,7 +5005,7 @@
   trace(13,release_a).
   trace(14,workflow_end).
 }).
-#pos(example_264@0, {recognized}, {}, {
+#pos(example_264, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -5017,7 +5017,7 @@
   trace(8,iv_antibiotics).
   trace(9,workflow_end).
 }).
-#pos(example_265@0, {recognized}, {}, {
+#pos(example_265, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -5036,7 +5036,7 @@
   trace(15,return_er).
   trace(16,workflow_end).
 }).
-#pos(example_266@0, {recognized}, {}, {
+#pos(example_266, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -5056,7 +5056,7 @@
   trace(16,release_a).
   trace(17,workflow_end).
 }).
-#pos(example_267@0, {recognized}, {}, {
+#pos(example_267, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -5072,7 +5072,7 @@
   trace(12,release_a).
   trace(13,workflow_end).
 }).
-#pos(example_268@0, {recognized}, {}, {
+#pos(example_268, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -5092,7 +5092,7 @@
   trace(16,release_a).
   trace(17,workflow_end).
 }).
-#pos(example_269@0, {recognized}, {}, {
+#pos(example_269, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -5105,7 +5105,7 @@
   trace(9,return_er).
   trace(10,workflow_end).
 }).
-#pos(example_270@0, {recognized}, {}, {
+#pos(example_270, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -5125,7 +5125,7 @@
   trace(16,return_er).
   trace(17,workflow_end).
 }).
-#pos(example_271@0, {recognized}, {}, {
+#pos(example_271, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -5144,7 +5144,7 @@
   trace(15,release_a).
   trace(16,workflow_end).
 }).
-#pos(example_272@0, {recognized}, {}, {
+#pos(example_272, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -5161,7 +5161,7 @@
   trace(13,release_a).
   trace(14,workflow_end).
 }).
-#pos(example_273@0, {recognized}, {}, {
+#pos(example_273, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -5175,7 +5175,7 @@
   trace(10,release_c).
   trace(11,workflow_end).
 }).
-#pos(example_274@0, {recognized}, {}, {
+#pos(example_274, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -5198,7 +5198,7 @@
   trace(19,release_d).
   trace(20,workflow_end).
 }).
-#pos(example_275@0, {recognized}, {}, {
+#pos(example_275, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -5217,7 +5217,7 @@
   trace(15,return_er).
   trace(16,workflow_end).
 }).
-#pos(example_276@0, {recognized}, {}, {
+#pos(example_276, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -5237,7 +5237,7 @@
   trace(16,release_a).
   trace(17,workflow_end).
 }).
-#pos(example_277@0, {recognized}, {}, {
+#pos(example_277, {}, {}, {
   trace(0,workflow_start).
   trace(1,leucocytes).
   trace(2,crp).
@@ -5256,7 +5256,7 @@
   trace(15,release_c).
   trace(16,workflow_end).
 }).
-#pos(example_278@0, {recognized}, {}, {
+#pos(example_278, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -5278,7 +5278,7 @@
   trace(18,return_er).
   trace(19,workflow_end).
 }).
-#pos(example_279@0, {recognized}, {}, {
+#pos(example_279, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -5312,7 +5312,7 @@
   trace(30,release_a).
   trace(31,workflow_end).
 }).
-#pos(example_280@0, {recognized}, {}, {
+#pos(example_280, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -5341,7 +5341,7 @@
   trace(25,release_a).
   trace(26,workflow_end).
 }).
-#pos(example_281@0, {recognized}, {}, {
+#pos(example_281, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -5356,7 +5356,7 @@
   trace(11,release_a).
   trace(12,workflow_end).
 }).
-#pos(example_282@0, {recognized}, {}, {
+#pos(example_282, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -5373,7 +5373,7 @@
   trace(13,release_a).
   trace(14,workflow_end).
 }).
-#pos(example_283@0, {recognized}, {}, {
+#pos(example_283, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -5387,7 +5387,7 @@
   trace(10,release_a).
   trace(11,workflow_end).
 }).
-#pos(example_284@0, {recognized}, {}, {
+#pos(example_284, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -5436,7 +5436,7 @@
   trace(45,return_er).
   trace(46,workflow_end).
 }).
-#pos(example_285@0, {recognized}, {}, {
+#pos(example_285, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -5454,7 +5454,7 @@
   trace(14,release_a).
   trace(15,workflow_end).
 }).
-#pos(example_286@0, {recognized}, {}, {
+#pos(example_286, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,crp).
@@ -5474,7 +5474,7 @@
   trace(16,release_a).
   trace(17,workflow_end).
 }).
-#pos(example_287@0, {recognized}, {}, {
+#pos(example_287, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -5484,7 +5484,7 @@
   trace(6,er_triage).
   trace(7,workflow_end).
 }).
-#pos(example_288@0, {recognized}, {}, {
+#pos(example_288, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -5498,7 +5498,7 @@
   trace(10,release_a).
   trace(11,workflow_end).
 }).
-#pos(example_289@0, {recognized}, {}, {
+#pos(example_289, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -5517,7 +5517,7 @@
   trace(15,return_er).
   trace(16,workflow_end).
 }).
-#pos(example_290@0, {recognized}, {}, {
+#pos(example_290, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -5543,7 +5543,7 @@
   trace(22,release_a).
   trace(23,workflow_end).
 }).
-#pos(example_291@0, {recognized}, {}, {
+#pos(example_291, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -5558,7 +5558,7 @@
   trace(11,release_a).
   trace(12,workflow_end).
 }).
-#pos(example_292@0, {recognized}, {}, {
+#pos(example_292, {}, {}, {
   trace(0,workflow_start).
   trace(1,iv_liquid).
   trace(2,er_registration).
@@ -5570,7 +5570,7 @@
   trace(8,iv_antibiotics).
   trace(9,workflow_end).
 }).
-#pos(example_293@0, {recognized}, {}, {
+#pos(example_293, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,leucocytes).
@@ -5588,7 +5588,7 @@
   trace(14,release_a).
   trace(15,workflow_end).
 }).
-#pos(example_294@0, {recognized}, {}, {
+#pos(example_294, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -5604,7 +5604,7 @@
   trace(12,release_a).
   trace(13,workflow_end).
 }).
-#pos(example_295@0, {recognized}, {}, {
+#pos(example_295, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_triage).
   trace(2,er_registration).
@@ -5620,7 +5620,7 @@
   trace(12,return_er).
   trace(13,workflow_end).
 }).
-#pos(example_296@0, {recognized}, {}, {
+#pos(example_296, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -5637,7 +5637,7 @@
   trace(13,return_er).
   trace(14,workflow_end).
 }).
-#pos(example_297@0, {recognized}, {}, {
+#pos(example_297, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,iv_liquid).
@@ -5654,7 +5654,7 @@
   trace(13,return_er).
   trace(14,workflow_end).
 }).
-#pos(example_298@0, {recognized}, {}, {
+#pos(example_298, {}, {}, {
   trace(0,workflow_start).
   trace(1,leucocytes).
   trace(2,crp).
@@ -5675,7 +5675,7 @@
   trace(17,release_a).
   trace(18,workflow_end).
 }).
-#pos(example_299@0, {recognized}, {}, {
+#pos(example_299, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -5697,7 +5697,7 @@
   trace(18,release_a).
   trace(19,workflow_end).
 }).
-#pos(example_300@0, {recognized}, {}, {
+#pos(example_300, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -5717,7 +5717,7 @@
   trace(16,return_er).
   trace(17,workflow_end).
 }).
-#pos(example_301@0, {recognized}, {}, {
+#pos(example_301, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -5738,7 +5738,7 @@
   trace(17,return_er).
   trace(18,workflow_end).
 }).
-#pos(example_302@0, {recognized}, {}, {
+#pos(example_302, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -5758,7 +5758,7 @@
   trace(16,release_a).
   trace(17,workflow_end).
 }).
-#pos(example_303@0, {recognized}, {}, {
+#pos(example_303, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -5775,7 +5775,7 @@
   trace(13,return_er).
   trace(14,workflow_end).
 }).
-#pos(example_304@0, {recognized}, {}, {
+#pos(example_304, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -5792,7 +5792,7 @@
   trace(13,release_a).
   trace(14,workflow_end).
 }).
-#pos(example_305@0, {recognized}, {}, {
+#pos(example_305, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -5812,7 +5812,7 @@
   trace(16,release_a).
   trace(17,workflow_end).
 }).
-#pos(example_306@0, {recognized}, {}, {
+#pos(example_306, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -5827,7 +5827,7 @@
   trace(11,crp).
   trace(12,workflow_end).
 }).
-#pos(example_307@0, {recognized}, {}, {
+#pos(example_307, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -5839,7 +5839,7 @@
   trace(8,iv_antibiotics).
   trace(9,workflow_end).
 }).
-#pos(example_308@0, {recognized}, {}, {
+#pos(example_308, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -5856,7 +5856,7 @@
   trace(13,release_a).
   trace(14,workflow_end).
 }).
-#pos(example_309@0, {recognized}, {}, {
+#pos(example_309, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -5872,7 +5872,7 @@
   trace(12,return_er).
   trace(13,workflow_end).
 }).
-#pos(example_310@0, {recognized}, {}, {
+#pos(example_310, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_sepsis_triage).
@@ -5913,7 +5913,7 @@
   trace(37,release_a).
   trace(38,workflow_end).
 }).
-#pos(example_311@0, {recognized}, {}, {
+#pos(example_311, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -5928,7 +5928,7 @@
   trace(11,crp).
   trace(12,workflow_end).
 }).
-#pos(example_312@0, {recognized}, {}, {
+#pos(example_312, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -5949,7 +5949,7 @@
   trace(17,return_er).
   trace(18,workflow_end).
 }).
-#pos(example_313@0, {recognized}, {}, {
+#pos(example_313, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -5969,7 +5969,7 @@
   trace(16,return_er).
   trace(17,workflow_end).
 }).
-#pos(example_314@0, {recognized}, {}, {
+#pos(example_314, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -5986,7 +5986,7 @@
   trace(13,return_er).
   trace(14,workflow_end).
 }).
-#pos(example_315@0, {recognized}, {}, {
+#pos(example_315, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -5999,7 +5999,7 @@
   trace(9,er_triage).
   trace(10,workflow_end).
 }).
-#pos(example_316@0, {recognized}, {}, {
+#pos(example_316, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -6026,7 +6026,7 @@
   trace(23,release_a).
   trace(24,workflow_end).
 }).
-#pos(example_317@0, {recognized}, {}, {
+#pos(example_317, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -6046,7 +6046,7 @@
   trace(16,return_er).
   trace(17,workflow_end).
 }).
-#pos(example_318@0, {recognized}, {}, {
+#pos(example_318, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -6065,7 +6065,7 @@
   trace(15,release_a).
   trace(16,workflow_end).
 }).
-#pos(example_319@0, {recognized}, {}, {
+#pos(example_319, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -6077,7 +6077,7 @@
   trace(8,iv_antibiotics).
   trace(9,workflow_end).
 }).
-#pos(example_320@0, {recognized}, {}, {
+#pos(example_320, {}, {}, {
   trace(0,workflow_start).
   trace(1,leucocytes).
   trace(2,er_registration).
@@ -6094,7 +6094,7 @@
   trace(13,release_a).
   trace(14,workflow_end).
 }).
-#pos(example_321@0, {recognized}, {}, {
+#pos(example_321, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -6116,7 +6116,7 @@
   trace(18,return_er).
   trace(19,workflow_end).
 }).
-#pos(example_322@0, {recognized}, {}, {
+#pos(example_322, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -6131,7 +6131,7 @@
   trace(11,release_a).
   trace(12,workflow_end).
 }).
-#pos(example_323@0, {recognized}, {}, {
+#pos(example_323, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_sepsis_triage).
@@ -6149,7 +6149,7 @@
   trace(14,return_er).
   trace(15,workflow_end).
 }).
-#pos(example_324@0, {recognized}, {}, {
+#pos(example_324, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -6176,7 +6176,7 @@
   trace(23,release_e).
   trace(24,workflow_end).
 }).
-#pos(example_325@0, {recognized}, {}, {
+#pos(example_325, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -6195,7 +6195,7 @@
   trace(15,return_er).
   trace(16,workflow_end).
 }).
-#pos(example_326@0, {recognized}, {}, {
+#pos(example_326, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -6217,7 +6217,7 @@
   trace(18,return_er).
   trace(19,workflow_end).
 }).
-#pos(example_327@0, {recognized}, {}, {
+#pos(example_327, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,lacticacid).
@@ -6235,7 +6235,7 @@
   trace(14,return_er).
   trace(15,workflow_end).
 }).
-#pos(example_328@0, {recognized}, {}, {
+#pos(example_328, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -6255,7 +6255,7 @@
   trace(16,return_er).
   trace(17,workflow_end).
 }).
-#pos(example_329@0, {recognized}, {}, {
+#pos(example_329, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -6267,7 +6267,7 @@
   trace(8,iv_antibiotics).
   trace(9,workflow_end).
 }).
-#pos(example_330@0, {recognized}, {}, {
+#pos(example_330, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -6279,7 +6279,7 @@
   trace(8,return_er).
   trace(9,workflow_end).
 }).
-#pos(example_331@0, {recognized}, {}, {
+#pos(example_331, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -6296,7 +6296,7 @@
   trace(13,release_a).
   trace(14,workflow_end).
 }).
-#pos(example_332@0, {recognized}, {}, {
+#pos(example_332, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -6308,7 +6308,7 @@
   trace(8,release_a).
   trace(9,workflow_end).
 }).
-#pos(example_333@0, {recognized}, {}, {
+#pos(example_333, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_sepsis_triage).
@@ -6324,7 +6324,7 @@
   trace(12,return_er).
   trace(13,workflow_end).
 }).
-#pos(example_334@0, {recognized}, {}, {
+#pos(example_334, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -6335,7 +6335,7 @@
   trace(7,release_a).
   trace(8,workflow_end).
 }).
-#pos(example_335@0, {recognized}, {}, {
+#pos(example_335, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -6347,7 +6347,7 @@
   trace(8,crp).
   trace(9,workflow_end).
 }).
-#pos(example_336@0, {recognized}, {}, {
+#pos(example_336, {}, {}, {
   trace(0,workflow_start).
   trace(1,crp).
   trace(2,leucocytes).
@@ -6360,7 +6360,7 @@
   trace(9,iv_antibiotics).
   trace(10,workflow_end).
 }).
-#pos(example_337@0, {recognized}, {}, {
+#pos(example_337, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -6376,7 +6376,7 @@
   trace(12,release_a).
   trace(13,workflow_end).
 }).
-#pos(example_338@0, {recognized}, {}, {
+#pos(example_338, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -6389,7 +6389,7 @@
   trace(9,release_a).
   trace(10,workflow_end).
 }).
-#pos(example_339@0, {recognized}, {}, {
+#pos(example_339, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -6424,7 +6424,7 @@
   trace(31,release_a).
   trace(32,workflow_end).
 }).
-#pos(example_340@0, {recognized}, {}, {
+#pos(example_340, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -6441,7 +6441,7 @@
   trace(13,release_b).
   trace(14,workflow_end).
 }).
-#pos(example_341@0, {recognized}, {}, {
+#pos(example_341, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -6470,7 +6470,7 @@
   trace(25,release_a).
   trace(26,workflow_end).
 }).
-#pos(example_342@0, {recognized}, {}, {
+#pos(example_342, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -6487,7 +6487,7 @@
   trace(13,release_e).
   trace(14,workflow_end).
 }).
-#pos(example_343@0, {recognized}, {}, {
+#pos(example_343, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_sepsis_triage).
   trace(2,er_registration).
@@ -6508,7 +6508,7 @@
   trace(17,release_a).
   trace(18,workflow_end).
 }).
-#pos(example_344@0, {recognized}, {}, {
+#pos(example_344, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -6524,7 +6524,7 @@
   trace(12,release_a).
   trace(13,workflow_end).
 }).
-#pos(example_345@0, {recognized}, {}, {
+#pos(example_345, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -6540,7 +6540,7 @@
   trace(12,return_er).
   trace(13,workflow_end).
 }).
-#pos(example_346@0, {recognized}, {}, {
+#pos(example_346, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -6562,7 +6562,7 @@
   trace(18,release_b).
   trace(19,workflow_end).
 }).
-#pos(example_347@0, {recognized}, {}, {
+#pos(example_347, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -6582,7 +6582,7 @@
   trace(16,return_er).
   trace(17,workflow_end).
 }).
-#pos(example_348@0, {recognized}, {}, {
+#pos(example_348, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -6625,7 +6625,7 @@
   trace(39,release_a).
   trace(40,workflow_end).
 }).
-#pos(example_349@0, {recognized}, {}, {
+#pos(example_349, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -6643,7 +6643,7 @@
   trace(14,release_a).
   trace(15,workflow_end).
 }).
-#pos(example_350@0, {recognized}, {}, {
+#pos(example_350, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,leucocytes).
@@ -6663,7 +6663,7 @@
   trace(16,release_a).
   trace(17,workflow_end).
 }).
-#pos(example_351@0, {recognized}, {}, {
+#pos(example_351, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -6682,7 +6682,7 @@
   trace(15,release_a).
   trace(16,workflow_end).
 }).
-#pos(example_352@0, {recognized}, {}, {
+#pos(example_352, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -6702,7 +6702,7 @@
   trace(16,return_er).
   trace(17,workflow_end).
 }).
-#pos(example_353@0, {recognized}, {}, {
+#pos(example_353, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,iv_liquid).
@@ -6723,7 +6723,7 @@
   trace(17,release_a).
   trace(18,workflow_end).
 }).
-#pos(example_354@0, {recognized}, {}, {
+#pos(example_354, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -6745,7 +6745,7 @@
   trace(18,return_er).
   trace(19,workflow_end).
 }).
-#pos(example_355@0, {recognized}, {}, {
+#pos(example_355, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -6759,7 +6759,7 @@
   trace(10,leucocytes).
   trace(11,workflow_end).
 }).
-#pos(example_356@0, {recognized}, {}, {
+#pos(example_356, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -6779,7 +6779,7 @@
   trace(16,return_er).
   trace(17,workflow_end).
 }).
-#pos(example_357@0, {recognized}, {}, {
+#pos(example_357, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -6799,7 +6799,7 @@
   trace(16,release_a).
   trace(17,workflow_end).
 }).
-#pos(example_358@0, {recognized}, {}, {
+#pos(example_358, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -6808,7 +6808,7 @@
   trace(5,release_a).
   trace(6,workflow_end).
 }).
-#pos(example_359@0, {recognized}, {}, {
+#pos(example_359, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -6823,7 +6823,7 @@
   trace(11,return_er).
   trace(12,workflow_end).
 }).
-#pos(example_360@0, {recognized}, {}, {
+#pos(example_360, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -6842,7 +6842,7 @@
   trace(15,release_a).
   trace(16,workflow_end).
 }).
-#pos(example_361@0, {recognized}, {}, {
+#pos(example_361, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -6859,7 +6859,7 @@
   trace(13,release_a).
   trace(14,workflow_end).
 }).
-#pos(example_362@0, {recognized}, {}, {
+#pos(example_362, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,iv_liquid).
@@ -6874,7 +6874,7 @@
   trace(11,release_a).
   trace(12,workflow_end).
 }).
-#pos(example_363@0, {recognized}, {}, {
+#pos(example_363, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_sepsis_triage).
   trace(2,er_registration).
@@ -6895,7 +6895,7 @@
   trace(17,return_er).
   trace(18,workflow_end).
 }).
-#pos(example_364@0, {recognized}, {}, {
+#pos(example_364, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -6915,7 +6915,7 @@
   trace(16,return_er).
   trace(17,workflow_end).
 }).
-#pos(example_365@0, {recognized}, {}, {
+#pos(example_365, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -6934,7 +6934,7 @@
   trace(15,release_a).
   trace(16,workflow_end).
 }).
-#pos(example_366@0, {recognized}, {}, {
+#pos(example_366, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -6953,7 +6953,7 @@
   trace(15,return_er).
   trace(16,workflow_end).
 }).
-#pos(example_367@0, {recognized}, {}, {
+#pos(example_367, {}, {}, {
   trace(0,workflow_start).
   trace(1,leucocytes).
   trace(2,crp).
@@ -6973,7 +6973,7 @@
   trace(16,release_a).
   trace(17,workflow_end).
 }).
-#pos(example_368@0, {recognized}, {}, {
+#pos(example_368, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -6983,7 +6983,7 @@
   trace(6,admission_nc).
   trace(7,workflow_end).
 }).
-#pos(example_369@0, {recognized}, {}, {
+#pos(example_369, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -6999,7 +6999,7 @@
   trace(12,release_a).
   trace(13,workflow_end).
 }).
-#pos(example_370@0, {recognized}, {}, {
+#pos(example_370, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,iv_liquid).
@@ -7013,7 +7013,7 @@
   trace(10,release_a).
   trace(11,workflow_end).
 }).
-#pos(example_371@0, {recognized}, {}, {
+#pos(example_371, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -7033,7 +7033,7 @@
   trace(16,return_er).
   trace(17,workflow_end).
 }).
-#pos(example_372@0, {recognized}, {}, {
+#pos(example_372, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -7050,7 +7050,7 @@
   trace(13,release_a).
   trace(14,workflow_end).
 }).
-#pos(example_373@0, {recognized}, {}, {
+#pos(example_373, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -7064,7 +7064,7 @@
   trace(10,release_a).
   trace(11,workflow_end).
 }).
-#pos(example_374@0, {recognized}, {}, {
+#pos(example_374, {}, {}, {
   trace(0,workflow_start).
   trace(1,leucocytes).
   trace(2,crp).
@@ -7073,7 +7073,7 @@
   trace(5,er_sepsis_triage).
   trace(6,workflow_end).
 }).
-#pos(example_375@0, {recognized}, {}, {
+#pos(example_375, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -7091,7 +7091,7 @@
   trace(14,release_a).
   trace(15,workflow_end).
 }).
-#pos(example_376@0, {recognized}, {}, {
+#pos(example_376, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -7109,7 +7109,7 @@
   trace(14,release_a).
   trace(15,workflow_end).
 }).
-#pos(example_377@0, {recognized}, {}, {
+#pos(example_377, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -7127,7 +7127,7 @@
   trace(14,release_a).
   trace(15,workflow_end).
 }).
-#pos(example_378@0, {recognized}, {}, {
+#pos(example_378, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -7301,7 +7301,7 @@
   trace(170,return_er).
   trace(171,workflow_end).
 }).
-#pos(example_379@0, {recognized}, {}, {
+#pos(example_379, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -7325,7 +7325,7 @@
   trace(20,release_d).
   trace(21,workflow_end).
 }).
-#pos(example_380@0, {recognized}, {}, {
+#pos(example_380, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,iv_liquid).
@@ -7343,7 +7343,7 @@
   trace(14,release_a).
   trace(15,workflow_end).
 }).
-#pos(example_381@0, {recognized}, {}, {
+#pos(example_381, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -7362,7 +7362,7 @@
   trace(15,release_a).
   trace(16,workflow_end).
 }).
-#pos(example_382@0, {recognized}, {}, {
+#pos(example_382, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -7382,7 +7382,7 @@
   trace(16,return_er).
   trace(17,workflow_end).
 }).
-#pos(example_383@0, {recognized}, {}, {
+#pos(example_383, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,iv_liquid).
@@ -7396,7 +7396,7 @@
   trace(10,release_a).
   trace(11,workflow_end).
 }).
-#pos(example_384@0, {recognized}, {}, {
+#pos(example_384, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -7411,7 +7411,7 @@
   trace(11,return_er).
   trace(12,workflow_end).
 }).
-#pos(example_385@0, {recognized}, {}, {
+#pos(example_385, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -7424,7 +7424,7 @@
   trace(9,admission_nc).
   trace(10,workflow_end).
 }).
-#pos(example_386@0, {recognized}, {}, {
+#pos(example_386, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -7450,7 +7450,7 @@
   trace(22,return_er).
   trace(23,workflow_end).
 }).
-#pos(example_387@0, {recognized}, {}, {
+#pos(example_387, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -7467,7 +7467,7 @@
   trace(13,release_a).
   trace(14,workflow_end).
 }).
-#pos(example_388@0, {recognized}, {}, {
+#pos(example_388, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -7479,7 +7479,7 @@
   trace(8,return_er).
   trace(9,workflow_end).
 }).
-#pos(example_389@0, {recognized}, {}, {
+#pos(example_389, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -7496,7 +7496,7 @@
   trace(13,return_er).
   trace(14,workflow_end).
 }).
-#pos(example_390@0, {recognized}, {}, {
+#pos(example_390, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_triage).
   trace(2,leucocytes).
@@ -7530,7 +7530,7 @@
   trace(30,return_er).
   trace(31,workflow_end).
 }).
-#pos(example_391@0, {recognized}, {}, {
+#pos(example_391, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,iv_liquid).
@@ -7551,7 +7551,7 @@
   trace(17,release_a).
   trace(18,workflow_end).
 }).
-#pos(example_392@0, {recognized}, {}, {
+#pos(example_392, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -7570,7 +7570,7 @@
   trace(15,return_er).
   trace(16,workflow_end).
 }).
-#pos(example_393@0, {recognized}, {}, {
+#pos(example_393, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -7593,7 +7593,7 @@
   trace(19,release_b).
   trace(20,workflow_end).
 }).
-#pos(example_394@0, {recognized}, {}, {
+#pos(example_394, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -7616,7 +7616,7 @@
   trace(19,release_c).
   trace(20,workflow_end).
 }).
-#pos(example_395@0, {recognized}, {}, {
+#pos(example_395, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -7641,7 +7641,7 @@
   trace(21,return_er).
   trace(22,workflow_end).
 }).
-#pos(example_396@0, {recognized}, {}, {
+#pos(example_396, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -7659,7 +7659,7 @@
   trace(14,release_a).
   trace(15,workflow_end).
 }).
-#pos(example_397@0, {recognized}, {}, {
+#pos(example_397, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -7678,7 +7678,7 @@
   trace(15,release_a).
   trace(16,workflow_end).
 }).
-#pos(example_398@0, {recognized}, {}, {
+#pos(example_398, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -7694,7 +7694,7 @@
   trace(12,release_b).
   trace(13,workflow_end).
 }).
-#pos(example_399@0, {recognized}, {}, {
+#pos(example_399, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -7728,7 +7728,7 @@
   trace(30,release_b).
   trace(31,workflow_end).
 }).
-#pos(example_400@0, {recognized}, {}, {
+#pos(example_400, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -7773,7 +7773,7 @@
   trace(41,return_er).
   trace(42,workflow_end).
 }).
-#pos(example_401@0, {recognized}, {}, {
+#pos(example_401, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_triage).
   trace(2,er_registration).
@@ -7786,7 +7786,7 @@
   trace(9,iv_antibiotics).
   trace(10,workflow_end).
 }).
-#pos(example_402@0, {recognized}, {}, {
+#pos(example_402, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -7807,7 +7807,7 @@
   trace(17,release_a).
   trace(18,workflow_end).
 }).
-#pos(example_403@0, {recognized}, {}, {
+#pos(example_403, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -7824,7 +7824,7 @@
   trace(13,release_a).
   trace(14,workflow_end).
 }).
-#pos(example_404@0, {recognized}, {}, {
+#pos(example_404, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -7842,7 +7842,7 @@
   trace(14,return_er).
   trace(15,workflow_end).
 }).
-#pos(example_405@0, {recognized}, {}, {
+#pos(example_405, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -7877,7 +7877,7 @@
   trace(31,return_er).
   trace(32,workflow_end).
 }).
-#pos(example_406@0, {recognized}, {}, {
+#pos(example_406, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -7912,7 +7912,7 @@
   trace(31,release_d).
   trace(32,workflow_end).
 }).
-#pos(example_407@0, {recognized}, {}, {
+#pos(example_407, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -7924,7 +7924,7 @@
   trace(8,iv_antibiotics).
   trace(9,workflow_end).
 }).
-#pos(example_408@0, {recognized}, {}, {
+#pos(example_408, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -7952,7 +7952,7 @@
   trace(24,return_er).
   trace(25,workflow_end).
 }).
-#pos(example_409@0, {recognized}, {}, {
+#pos(example_409, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -7978,7 +7978,7 @@
   trace(22,release_a).
   trace(23,workflow_end).
 }).
-#pos(example_410@0, {recognized}, {}, {
+#pos(example_410, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -8017,7 +8017,7 @@
   trace(35,release_a).
   trace(36,workflow_end).
 }).
-#pos(example_411@0, {recognized}, {}, {
+#pos(example_411, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -8027,7 +8027,7 @@
   trace(6,release_a).
   trace(7,workflow_end).
 }).
-#pos(example_412@0, {recognized}, {}, {
+#pos(example_412, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -8046,7 +8046,7 @@
   trace(15,return_er).
   trace(16,workflow_end).
 }).
-#pos(example_413@0, {recognized}, {}, {
+#pos(example_413, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_sepsis_triage).
@@ -8069,7 +8069,7 @@
   trace(19,release_b).
   trace(20,workflow_end).
 }).
-#pos(example_414@0, {recognized}, {}, {
+#pos(example_414, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -8094,7 +8094,7 @@
   trace(21,return_er).
   trace(22,workflow_end).
 }).
-#pos(example_415@0, {recognized}, {}, {
+#pos(example_415, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -8110,7 +8110,7 @@
   trace(12,release_a).
   trace(13,workflow_end).
 }).
-#pos(example_416@0, {recognized}, {}, {
+#pos(example_416, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -8129,7 +8129,7 @@
   trace(15,return_er).
   trace(16,workflow_end).
 }).
-#pos(example_417@0, {recognized}, {}, {
+#pos(example_417, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,leucocytes).
@@ -8162,7 +8162,7 @@
   trace(29,release_a).
   trace(30,workflow_end).
 }).
-#pos(example_418@0, {recognized}, {}, {
+#pos(example_418, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -8179,7 +8179,7 @@
   trace(13,return_er).
   trace(14,workflow_end).
 }).
-#pos(example_419@0, {recognized}, {}, {
+#pos(example_419, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -8202,7 +8202,7 @@
   trace(19,release_d).
   trace(20,workflow_end).
 }).
-#pos(example_420@0, {recognized}, {}, {
+#pos(example_420, {}, {}, {
   trace(0,workflow_start).
   trace(1,leucocytes).
   trace(2,crp).
@@ -8221,7 +8221,7 @@
   trace(15,release_a).
   trace(16,workflow_end).
 }).
-#pos(example_421@0, {recognized}, {}, {
+#pos(example_421, {}, {}, {
   trace(0,workflow_start).
   trace(1,leucocytes).
   trace(2,er_registration).
@@ -8238,7 +8238,7 @@
   trace(13,release_a).
   trace(14,workflow_end).
 }).
-#pos(example_422@0, {recognized}, {}, {
+#pos(example_422, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_sepsis_triage).
   trace(2,iv_antibiotics).
@@ -8263,7 +8263,7 @@
   trace(21,return_er).
   trace(22,workflow_end).
 }).
-#pos(example_423@0, {recognized}, {}, {
+#pos(example_423, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -8281,7 +8281,7 @@
   trace(14,release_a).
   trace(15,workflow_end).
 }).
-#pos(example_424@0, {recognized}, {}, {
+#pos(example_424, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -8299,7 +8299,7 @@
   trace(14,release_a).
   trace(15,workflow_end).
 }).
-#pos(example_425@0, {recognized}, {}, {
+#pos(example_425, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -8314,7 +8314,7 @@
   trace(11,release_a).
   trace(12,workflow_end).
 }).
-#pos(example_426@0, {recognized}, {}, {
+#pos(example_426, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -8332,7 +8332,7 @@
   trace(14,return_er).
   trace(15,workflow_end).
 }).
-#pos(example_427@0, {recognized}, {}, {
+#pos(example_427, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -8351,7 +8351,7 @@
   trace(15,return_er).
   trace(16,workflow_end).
 }).
-#pos(example_428@0, {recognized}, {}, {
+#pos(example_428, {}, {}, {
   trace(0,workflow_start).
   trace(1,iv_liquid).
   trace(2,er_registration).
@@ -8367,7 +8367,7 @@
   trace(12,leucocytes).
   trace(13,workflow_end).
 }).
-#pos(example_429@0, {recognized}, {}, {
+#pos(example_429, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -8386,7 +8386,7 @@
   trace(15,return_er).
   trace(16,workflow_end).
 }).
-#pos(example_430@0, {recognized}, {}, {
+#pos(example_430, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -8411,7 +8411,7 @@
   trace(21,release_a).
   trace(22,workflow_end).
 }).
-#pos(example_431@0, {recognized}, {}, {
+#pos(example_431, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -8428,7 +8428,7 @@
   trace(13,return_er).
   trace(14,workflow_end).
 }).
-#pos(example_432@0, {recognized}, {}, {
+#pos(example_432, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -8438,7 +8438,7 @@
   trace(6,leucocytes).
   trace(7,workflow_end).
 }).
-#pos(example_433@0, {recognized}, {}, {
+#pos(example_433, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -8454,7 +8454,7 @@
   trace(12,release_b).
   trace(13,workflow_end).
 }).
-#pos(example_434@0, {recognized}, {}, {
+#pos(example_434, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -8471,7 +8471,7 @@
   trace(13,return_er).
   trace(14,workflow_end).
 }).
-#pos(example_435@0, {recognized}, {}, {
+#pos(example_435, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -8483,7 +8483,7 @@
   trace(8,iv_antibiotics).
   trace(9,workflow_end).
 }).
-#pos(example_436@0, {recognized}, {}, {
+#pos(example_436, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -8500,7 +8500,7 @@
   trace(13,return_er).
   trace(14,workflow_end).
 }).
-#pos(example_437@0, {recognized}, {}, {
+#pos(example_437, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -8517,7 +8517,7 @@
   trace(13,release_a).
   trace(14,workflow_end).
 }).
-#pos(example_438@0, {recognized}, {}, {
+#pos(example_438, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -8529,7 +8529,7 @@
   trace(8,crp).
   trace(9,workflow_end).
 }).
-#pos(example_439@0, {recognized}, {}, {
+#pos(example_439, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -8560,7 +8560,7 @@
   trace(27,return_er).
   trace(28,workflow_end).
 }).
-#pos(example_440@0, {recognized}, {}, {
+#pos(example_440, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -8616,7 +8616,7 @@
   trace(52,release_a).
   trace(53,workflow_end).
 }).
-#pos(example_441@0, {recognized}, {}, {
+#pos(example_441, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -8649,7 +8649,7 @@
   trace(29,return_er).
   trace(30,workflow_end).
 }).
-#pos(example_442@0, {recognized}, {}, {
+#pos(example_442, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -8673,7 +8673,7 @@
   trace(20,release_a).
   trace(21,workflow_end).
 }).
-#pos(example_443@0, {recognized}, {}, {
+#pos(example_443, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -8685,7 +8685,7 @@
   trace(8,iv_antibiotics).
   trace(9,workflow_end).
 }).
-#pos(example_444@0, {recognized}, {}, {
+#pos(example_444, {}, {}, {
   trace(0,workflow_start).
   trace(1,crp).
   trace(2,leucocytes).
@@ -8722,7 +8722,7 @@
   trace(33,return_er).
   trace(34,workflow_end).
 }).
-#pos(example_445@0, {recognized}, {}, {
+#pos(example_445, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -8736,7 +8736,7 @@
   trace(10,release_a).
   trace(11,workflow_end).
 }).
-#pos(example_446@0, {recognized}, {}, {
+#pos(example_446, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -8762,7 +8762,7 @@
   trace(22,return_er).
   trace(23,workflow_end).
 }).
-#pos(example_447@0, {recognized}, {}, {
+#pos(example_447, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -8782,7 +8782,7 @@
   trace(16,return_er).
   trace(17,workflow_end).
 }).
-#pos(example_448@0, {recognized}, {}, {
+#pos(example_448, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -8798,7 +8798,7 @@
   trace(12,release_a).
   trace(13,workflow_end).
 }).
-#pos(example_449@0, {recognized}, {}, {
+#pos(example_449, {}, {}, {
   trace(0,workflow_start).
   trace(1,iv_liquid).
   trace(2,er_registration).
@@ -8817,7 +8817,7 @@
   trace(15,return_er).
   trace(16,workflow_end).
 }).
-#pos(example_450@0, {recognized}, {}, {
+#pos(example_450, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -8833,7 +8833,7 @@
   trace(12,return_er).
   trace(13,workflow_end).
 }).
-#pos(example_451@0, {recognized}, {}, {
+#pos(example_451, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -8851,7 +8851,7 @@
   trace(14,release_a).
   trace(15,workflow_end).
 }).
-#pos(example_452@0, {recognized}, {}, {
+#pos(example_452, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -8871,7 +8871,7 @@
   trace(16,release_a).
   trace(17,workflow_end).
 }).
-#pos(example_453@0, {recognized}, {}, {
+#pos(example_453, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -8905,7 +8905,7 @@
   trace(30,release_b).
   trace(31,workflow_end).
 }).
-#pos(example_454@0, {recognized}, {}, {
+#pos(example_454, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -8923,7 +8923,7 @@
   trace(14,return_er).
   trace(15,workflow_end).
 }).
-#pos(example_455@0, {recognized}, {}, {
+#pos(example_455, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -8939,7 +8939,7 @@
   trace(12,release_a).
   trace(13,workflow_end).
 }).
-#pos(example_456@0, {recognized}, {}, {
+#pos(example_456, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -8967,7 +8967,7 @@
   trace(24,release_c).
   trace(25,workflow_end).
 }).
-#pos(example_457@0, {recognized}, {}, {
+#pos(example_457, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -8992,7 +8992,7 @@
   trace(21,release_a).
   trace(22,workflow_end).
 }).
-#pos(example_458@0, {recognized}, {}, {
+#pos(example_458, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -9003,7 +9003,7 @@
   trace(7,iv_liquid).
   trace(8,workflow_end).
 }).
-#pos(example_459@0, {recognized}, {}, {
+#pos(example_459, {}, {}, {
   trace(0,workflow_start).
   trace(1,iv_liquid).
   trace(2,er_registration).
@@ -9024,7 +9024,7 @@
   trace(17,return_er).
   trace(18,workflow_end).
 }).
-#pos(example_460@0, {recognized}, {}, {
+#pos(example_460, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -9044,7 +9044,7 @@
   trace(16,release_a).
   trace(17,workflow_end).
 }).
-#pos(example_461@0, {recognized}, {}, {
+#pos(example_461, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -9063,7 +9063,7 @@
   trace(15,release_a).
   trace(16,workflow_end).
 }).
-#pos(example_462@0, {recognized}, {}, {
+#pos(example_462, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -9118,7 +9118,7 @@
   trace(51,release_a).
   trace(52,workflow_end).
 }).
-#pos(example_463@0, {recognized}, {}, {
+#pos(example_463, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -9150,7 +9150,7 @@
   trace(28,release_a).
   trace(29,workflow_end).
 }).
-#pos(example_464@0, {recognized}, {}, {
+#pos(example_464, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -9160,7 +9160,7 @@
   trace(6,lacticacid).
   trace(7,workflow_end).
 }).
-#pos(example_465@0, {recognized}, {}, {
+#pos(example_465, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -9349,7 +9349,7 @@
   trace(185,release_c).
   trace(186,workflow_end).
 }).
-#pos(example_466@0, {recognized}, {}, {
+#pos(example_466, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -9364,7 +9364,7 @@
   trace(11,release_a).
   trace(12,workflow_end).
 }).
-#pos(example_467@0, {recognized}, {}, {
+#pos(example_467, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -9383,7 +9383,7 @@
   trace(15,return_er).
   trace(16,workflow_end).
 }).
-#pos(example_468@0, {recognized}, {}, {
+#pos(example_468, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -9400,7 +9400,7 @@
   trace(13,return_er).
   trace(14,workflow_end).
 }).
-#pos(example_469@0, {recognized}, {}, {
+#pos(example_469, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -9418,7 +9418,7 @@
   trace(14,return_er).
   trace(15,workflow_end).
 }).
-#pos(example_470@0, {recognized}, {}, {
+#pos(example_470, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -9438,7 +9438,7 @@
   trace(16,release_a).
   trace(17,workflow_end).
 }).
-#pos(example_471@0, {recognized}, {}, {
+#pos(example_471, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -9460,7 +9460,7 @@
   trace(18,release_a).
   trace(19,workflow_end).
 }).
-#pos(example_472@0, {recognized}, {}, {
+#pos(example_472, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -9474,7 +9474,7 @@
   trace(10,release_a).
   trace(11,workflow_end).
 }).
-#pos(example_473@0, {recognized}, {}, {
+#pos(example_473, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -9493,7 +9493,7 @@
   trace(15,return_er).
   trace(16,workflow_end).
 }).
-#pos(example_474@0, {recognized}, {}, {
+#pos(example_474, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -9518,7 +9518,7 @@
   trace(21,release_a).
   trace(22,workflow_end).
 }).
-#pos(example_475@0, {recognized}, {}, {
+#pos(example_475, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -9535,7 +9535,7 @@
   trace(13,release_a).
   trace(14,workflow_end).
 }).
-#pos(example_476@0, {recognized}, {}, {
+#pos(example_476, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -9552,7 +9552,7 @@
   trace(13,release_a).
   trace(14,workflow_end).
 }).
-#pos(example_477@0, {recognized}, {}, {
+#pos(example_477, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -9572,7 +9572,7 @@
   trace(16,return_er).
   trace(17,workflow_end).
 }).
-#pos(example_478@0, {recognized}, {}, {
+#pos(example_478, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -9595,7 +9595,7 @@
   trace(19,release_b).
   trace(20,workflow_end).
 }).
-#pos(example_479@0, {recognized}, {}, {
+#pos(example_479, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -9616,7 +9616,7 @@
   trace(17,release_a).
   trace(18,workflow_end).
 }).
-#pos(example_480@0, {recognized}, {}, {
+#pos(example_480, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -9640,7 +9640,7 @@
   trace(20,release_a).
   trace(21,workflow_end).
 }).
-#pos(example_481@0, {recognized}, {}, {
+#pos(example_481, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,iv_liquid).
@@ -9655,7 +9655,7 @@
   trace(11,release_a).
   trace(12,workflow_end).
 }).
-#pos(example_482@0, {recognized}, {}, {
+#pos(example_482, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -9677,7 +9677,7 @@
   trace(18,release_a).
   trace(19,workflow_end).
 }).
-#pos(example_483@0, {recognized}, {}, {
+#pos(example_483, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -9693,7 +9693,7 @@
   trace(12,release_a).
   trace(13,workflow_end).
 }).
-#pos(example_484@0, {recognized}, {}, {
+#pos(example_484, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -9758,7 +9758,7 @@
   trace(61,return_er).
   trace(62,workflow_end).
 }).
-#pos(example_485@0, {recognized}, {}, {
+#pos(example_485, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -9773,7 +9773,7 @@
   trace(11,return_er).
   trace(12,workflow_end).
 }).
-#pos(example_486@0, {recognized}, {}, {
+#pos(example_486, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -9788,7 +9788,7 @@
   trace(11,lacticacid).
   trace(12,workflow_end).
 }).
-#pos(example_487@0, {recognized}, {}, {
+#pos(example_487, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -9829,7 +9829,7 @@
   trace(37,release_a).
   trace(38,workflow_end).
 }).
-#pos(example_488@0, {recognized}, {}, {
+#pos(example_488, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -9849,7 +9849,7 @@
   trace(16,release_a).
   trace(17,workflow_end).
 }).
-#pos(example_489@0, {recognized}, {}, {
+#pos(example_489, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -9866,7 +9866,7 @@
   trace(13,release_a).
   trace(14,workflow_end).
 }).
-#pos(example_490@0, {recognized}, {}, {
+#pos(example_490, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -9892,7 +9892,7 @@
   trace(22,return_er).
   trace(23,workflow_end).
 }).
-#pos(example_491@0, {recognized}, {}, {
+#pos(example_491, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,crp).
@@ -10014,7 +10014,7 @@
   trace(118,release_b).
   trace(119,workflow_end).
 }).
-#pos(example_492@0, {recognized}, {}, {
+#pos(example_492, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -10041,7 +10041,7 @@
   trace(23,release_d).
   trace(24,workflow_end).
 }).
-#pos(example_493@0, {recognized}, {}, {
+#pos(example_493, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -10065,7 +10065,7 @@
   trace(20,return_er).
   trace(21,workflow_end).
 }).
-#pos(example_494@0, {recognized}, {}, {
+#pos(example_494, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,lacticacid).
@@ -10076,7 +10076,7 @@
   trace(7,iv_antibiotics).
   trace(8,workflow_end).
 }).
-#pos(example_495@0, {recognized}, {}, {
+#pos(example_495, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -10089,7 +10089,7 @@
   trace(9,release_a).
   trace(10,workflow_end).
 }).
-#pos(example_496@0, {recognized}, {}, {
+#pos(example_496, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -10106,7 +10106,7 @@
   trace(13,release_a).
   trace(14,workflow_end).
 }).
-#pos(example_497@0, {recognized}, {}, {
+#pos(example_497, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -10126,7 +10126,7 @@
   trace(16,return_er).
   trace(17,workflow_end).
 }).
-#pos(example_498@0, {recognized}, {}, {
+#pos(example_498, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -10143,7 +10143,7 @@
   trace(13,release_a).
   trace(14,workflow_end).
 }).
-#pos(example_499@0, {recognized}, {}, {
+#pos(example_499, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -10153,7 +10153,7 @@
   trace(6,leucocytes).
   trace(7,workflow_end).
 }).
-#pos(example_500@0, {recognized}, {}, {
+#pos(example_500, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -10172,7 +10172,7 @@
   trace(15,release_a).
   trace(16,workflow_end).
 }).
-#pos(example_501@0, {recognized}, {}, {
+#pos(example_501, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,leucocytes).
@@ -10199,7 +10199,7 @@
   trace(23,release_a).
   trace(24,workflow_end).
 }).
-#pos(example_502@0, {recognized}, {}, {
+#pos(example_502, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -10222,7 +10222,7 @@
   trace(19,return_er).
   trace(20,workflow_end).
 }).
-#pos(example_503@0, {recognized}, {}, {
+#pos(example_503, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -10238,7 +10238,7 @@
   trace(12,return_er).
   trace(13,workflow_end).
 }).
-#pos(example_504@0, {recognized}, {}, {
+#pos(example_504, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -10261,7 +10261,7 @@
   trace(19,return_er).
   trace(20,workflow_end).
 }).
-#pos(example_505@0, {recognized}, {}, {
+#pos(example_505, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_sepsis_triage).
   trace(2,er_registration).
@@ -10291,7 +10291,7 @@
   trace(26,return_er).
   trace(27,workflow_end).
 }).
-#pos(example_506@0, {recognized}, {}, {
+#pos(example_506, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -10310,7 +10310,7 @@
   trace(15,release_a).
   trace(16,workflow_end).
 }).
-#pos(example_507@0, {recognized}, {}, {
+#pos(example_507, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -10325,7 +10325,7 @@
   trace(11,release_a).
   trace(12,workflow_end).
 }).
-#pos(example_508@0, {recognized}, {}, {
+#pos(example_508, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -10341,7 +10341,7 @@
   trace(12,release_a).
   trace(13,workflow_end).
 }).
-#pos(example_509@0, {recognized}, {}, {
+#pos(example_509, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -10367,7 +10367,7 @@
   trace(22,return_er).
   trace(23,workflow_end).
 }).
-#pos(example_510@0, {recognized}, {}, {
+#pos(example_510, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -10387,7 +10387,7 @@
   trace(16,return_er).
   trace(17,workflow_end).
 }).
-#pos(example_511@0, {recognized}, {}, {
+#pos(example_511, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,leucocytes).
@@ -10405,7 +10405,7 @@
   trace(14,return_er).
   trace(15,workflow_end).
 }).
-#pos(example_512@0, {recognized}, {}, {
+#pos(example_512, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -10418,7 +10418,7 @@
   trace(9,iv_liquid).
   trace(10,workflow_end).
 }).
-#pos(example_513@0, {recognized}, {}, {
+#pos(example_513, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -10438,7 +10438,7 @@
   trace(16,release_a).
   trace(17,workflow_end).
 }).
-#pos(example_514@0, {recognized}, {}, {
+#pos(example_514, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -10456,7 +10456,7 @@
   trace(14,return_er).
   trace(15,workflow_end).
 }).
-#pos(example_515@0, {recognized}, {}, {
+#pos(example_515, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -10476,7 +10476,7 @@
   trace(16,release_a).
   trace(17,workflow_end).
 }).
-#pos(example_516@0, {recognized}, {}, {
+#pos(example_516, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -10490,7 +10490,7 @@
   trace(10,crp).
   trace(11,workflow_end).
 }).
-#pos(example_517@0, {recognized}, {}, {
+#pos(example_517, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -10510,7 +10510,7 @@
   trace(16,return_er).
   trace(17,workflow_end).
 }).
-#pos(example_518@0, {recognized}, {}, {
+#pos(example_518, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -10525,7 +10525,7 @@
   trace(11,release_b).
   trace(12,workflow_end).
 }).
-#pos(example_519@0, {recognized}, {}, {
+#pos(example_519, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -10539,7 +10539,7 @@
   trace(10,lacticacid).
   trace(11,workflow_end).
 }).
-#pos(example_520@0, {recognized}, {}, {
+#pos(example_520, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,leucocytes).
@@ -10552,7 +10552,7 @@
   trace(9,leucocytes).
   trace(10,workflow_end).
 }).
-#pos(example_521@0, {recognized}, {}, {
+#pos(example_521, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -10572,7 +10572,7 @@
   trace(16,release_a).
   trace(17,workflow_end).
 }).
-#pos(example_522@0, {recognized}, {}, {
+#pos(example_522, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -10591,7 +10591,7 @@
   trace(15,release_a).
   trace(16,workflow_end).
 }).
-#pos(example_523@0, {recognized}, {}, {
+#pos(example_523, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -10615,7 +10615,7 @@
   trace(20,release_a).
   trace(21,workflow_end).
 }).
-#pos(example_524@0, {recognized}, {}, {
+#pos(example_524, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,iv_liquid).
@@ -10632,7 +10632,7 @@
   trace(13,return_er).
   trace(14,workflow_end).
 }).
-#pos(example_525@0, {recognized}, {}, {
+#pos(example_525, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -10659,7 +10659,7 @@
   trace(23,return_er).
   trace(24,workflow_end).
 }).
-#pos(example_526@0, {recognized}, {}, {
+#pos(example_526, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,crp).
@@ -10671,7 +10671,7 @@
   trace(8,iv_antibiotics).
   trace(9,workflow_end).
 }).
-#pos(example_527@0, {recognized}, {}, {
+#pos(example_527, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -10686,7 +10686,7 @@
   trace(11,release_a).
   trace(12,workflow_end).
 }).
-#pos(example_528@0, {recognized}, {}, {
+#pos(example_528, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -10735,7 +10735,7 @@
   trace(45,return_er).
   trace(46,workflow_end).
 }).
-#pos(example_529@0, {recognized}, {}, {
+#pos(example_529, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -10758,7 +10758,7 @@
   trace(19,release_b).
   trace(20,workflow_end).
 }).
-#pos(example_530@0, {recognized}, {}, {
+#pos(example_530, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -10770,7 +10770,7 @@
   trace(8,leucocytes).
   trace(9,workflow_end).
 }).
-#pos(example_531@0, {recognized}, {}, {
+#pos(example_531, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -10797,7 +10797,7 @@
   trace(23,return_er).
   trace(24,workflow_end).
 }).
-#pos(example_532@0, {recognized}, {}, {
+#pos(example_532, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -10816,7 +10816,7 @@
   trace(15,return_er).
   trace(16,workflow_end).
 }).
-#pos(example_533@0, {recognized}, {}, {
+#pos(example_533, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,lacticacid).
@@ -10826,7 +10826,7 @@
   trace(6,er_sepsis_triage).
   trace(7,workflow_end).
 }).
-#pos(example_534@0, {recognized}, {}, {
+#pos(example_534, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -10855,7 +10855,7 @@
   trace(25,return_er).
   trace(26,workflow_end).
 }).
-#pos(example_535@0, {recognized}, {}, {
+#pos(example_535, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -10867,7 +10867,7 @@
   trace(8,iv_antibiotics).
   trace(9,workflow_end).
 }).
-#pos(example_536@0, {recognized}, {}, {
+#pos(example_536, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -10885,7 +10885,7 @@
   trace(14,release_a).
   trace(15,workflow_end).
 }).
-#pos(example_537@0, {recognized}, {}, {
+#pos(example_537, {}, {}, {
   trace(0,workflow_start).
   trace(1,leucocytes).
   trace(2,er_registration).
@@ -10895,7 +10895,7 @@
   trace(6,crp).
   trace(7,workflow_end).
 }).
-#pos(example_538@0, {recognized}, {}, {
+#pos(example_538, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -10912,7 +10912,7 @@
   trace(13,release_a).
   trace(14,workflow_end).
 }).
-#pos(example_539@0, {recognized}, {}, {
+#pos(example_539, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -10930,7 +10930,7 @@
   trace(14,release_c).
   trace(15,workflow_end).
 }).
-#pos(example_540@0, {recognized}, {}, {
+#pos(example_540, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -10944,7 +10944,7 @@
   trace(10,release_a).
   trace(11,workflow_end).
 }).
-#pos(example_541@0, {recognized}, {}, {
+#pos(example_541, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -10961,7 +10961,7 @@
   trace(13,release_a).
   trace(14,workflow_end).
 }).
-#pos(example_542@0, {recognized}, {}, {
+#pos(example_542, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11003,7 +11003,7 @@
   trace(38,release_b).
   trace(39,workflow_end).
 }).
-#pos(example_543@0, {recognized}, {}, {
+#pos(example_543, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11021,7 +11021,7 @@
   trace(14,return_er).
   trace(15,workflow_end).
 }).
-#pos(example_544@0, {recognized}, {}, {
+#pos(example_544, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11037,7 +11037,7 @@
   trace(12,release_a).
   trace(13,workflow_end).
 }).
-#pos(example_545@0, {recognized}, {}, {
+#pos(example_545, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11056,7 +11056,7 @@
   trace(15,return_er).
   trace(16,workflow_end).
 }).
-#pos(example_546@0, {recognized}, {}, {
+#pos(example_546, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11074,7 +11074,7 @@
   trace(14,release_d).
   trace(15,workflow_end).
 }).
-#pos(example_547@0, {recognized}, {}, {
+#pos(example_547, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11092,7 +11092,7 @@
   trace(14,release_c).
   trace(15,workflow_end).
 }).
-#pos(example_548@0, {recognized}, {}, {
+#pos(example_548, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11112,7 +11112,7 @@
   trace(16,return_er).
   trace(17,workflow_end).
 }).
-#pos(example_549@0, {recognized}, {}, {
+#pos(example_549, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11149,7 +11149,7 @@
   trace(33,release_a).
   trace(34,workflow_end).
 }).
-#pos(example_550@0, {recognized}, {}, {
+#pos(example_550, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11168,7 +11168,7 @@
   trace(15,release_a).
   trace(16,workflow_end).
 }).
-#pos(example_551@0, {recognized}, {}, {
+#pos(example_551, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11184,7 +11184,7 @@
   trace(12,release_b).
   trace(13,workflow_end).
 }).
-#pos(example_552@0, {recognized}, {}, {
+#pos(example_552, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11197,7 +11197,7 @@
   trace(9,return_er).
   trace(10,workflow_end).
 }).
-#pos(example_553@0, {recognized}, {}, {
+#pos(example_553, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11222,7 +11222,7 @@
   trace(21,return_er).
   trace(22,workflow_end).
 }).
-#pos(example_554@0, {recognized}, {}, {
+#pos(example_554, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,leucocytes).
@@ -11233,7 +11233,7 @@
   trace(7,iv_antibiotics).
   trace(8,workflow_end).
 }).
-#pos(example_555@0, {recognized}, {}, {
+#pos(example_555, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11253,7 +11253,7 @@
   trace(16,return_er).
   trace(17,workflow_end).
 }).
-#pos(example_556@0, {recognized}, {}, {
+#pos(example_556, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11265,7 +11265,7 @@
   trace(8,release_b).
   trace(9,workflow_end).
 }).
-#pos(example_557@0, {recognized}, {}, {
+#pos(example_557, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11282,7 +11282,7 @@
   trace(13,return_er).
   trace(14,workflow_end).
 }).
-#pos(example_558@0, {recognized}, {}, {
+#pos(example_558, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11293,7 +11293,7 @@
   trace(7,iv_antibiotics).
   trace(8,workflow_end).
 }).
-#pos(example_559@0, {recognized}, {}, {
+#pos(example_559, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11320,7 +11320,7 @@
   trace(23,release_b).
   trace(24,workflow_end).
 }).
-#pos(example_560@0, {recognized}, {}, {
+#pos(example_560, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11338,7 +11338,7 @@
   trace(14,release_a).
   trace(15,workflow_end).
 }).
-#pos(example_561@0, {recognized}, {}, {
+#pos(example_561, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11351,7 +11351,7 @@
   trace(9,release_a).
   trace(10,workflow_end).
 }).
-#pos(example_562@0, {recognized}, {}, {
+#pos(example_562, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11371,7 +11371,7 @@
   trace(16,return_er).
   trace(17,workflow_end).
 }).
-#pos(example_563@0, {recognized}, {}, {
+#pos(example_563, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11389,7 +11389,7 @@
   trace(14,release_a).
   trace(15,workflow_end).
 }).
-#pos(example_564@0, {recognized}, {}, {
+#pos(example_564, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,lacticacid).
@@ -11402,7 +11402,7 @@
   trace(9,leucocytes).
   trace(10,workflow_end).
 }).
-#pos(example_565@0, {recognized}, {}, {
+#pos(example_565, {}, {}, {
   trace(0,workflow_start).
   trace(1,leucocytes).
   trace(2,crp).
@@ -11422,7 +11422,7 @@
   trace(16,release_a).
   trace(17,workflow_end).
 }).
-#pos(example_566@0, {recognized}, {}, {
+#pos(example_566, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11440,7 +11440,7 @@
   trace(14,return_er).
   trace(15,workflow_end).
 }).
-#pos(example_567@0, {recognized}, {}, {
+#pos(example_567, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_triage).
   trace(2,er_registration).
@@ -11451,7 +11451,7 @@
   trace(7,iv_antibiotics).
   trace(8,workflow_end).
 }).
-#pos(example_568@0, {recognized}, {}, {
+#pos(example_568, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,leucocytes).
@@ -11473,7 +11473,7 @@
   trace(18,release_a).
   trace(19,workflow_end).
 }).
-#pos(example_569@0, {recognized}, {}, {
+#pos(example_569, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11493,7 +11493,7 @@
   trace(16,release_a).
   trace(17,workflow_end).
 }).
-#pos(example_570@0, {recognized}, {}, {
+#pos(example_570, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11510,7 +11510,7 @@
   trace(13,return_er).
   trace(14,workflow_end).
 }).
-#pos(example_571@0, {recognized}, {}, {
+#pos(example_571, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11531,7 +11531,7 @@
   trace(17,release_a).
   trace(18,workflow_end).
 }).
-#pos(example_572@0, {recognized}, {}, {
+#pos(example_572, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11545,7 +11545,7 @@
   trace(10,release_a).
   trace(11,workflow_end).
 }).
-#pos(example_573@0, {recognized}, {}, {
+#pos(example_573, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11560,7 +11560,7 @@
   trace(11,crp).
   trace(12,workflow_end).
 }).
-#pos(example_574@0, {recognized}, {}, {
+#pos(example_574, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11583,7 +11583,7 @@
   trace(19,return_er).
   trace(20,workflow_end).
 }).
-#pos(example_575@0, {recognized}, {}, {
+#pos(example_575, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11596,7 +11596,7 @@
   trace(9,admission_nc).
   trace(10,workflow_end).
 }).
-#pos(example_576@0, {recognized}, {}, {
+#pos(example_576, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11614,7 +11614,7 @@
   trace(14,return_er).
   trace(15,workflow_end).
 }).
-#pos(example_577@0, {recognized}, {}, {
+#pos(example_577, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11647,7 +11647,7 @@
   trace(29,release_b).
   trace(30,workflow_end).
 }).
-#pos(example_578@0, {recognized}, {}, {
+#pos(example_578, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,lacticacid).
@@ -11663,7 +11663,7 @@
   trace(12,release_a).
   trace(13,workflow_end).
 }).
-#pos(example_579@0, {recognized}, {}, {
+#pos(example_579, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11677,7 +11677,7 @@
   trace(10,release_a).
   trace(11,workflow_end).
 }).
-#pos(example_580@0, {recognized}, {}, {
+#pos(example_580, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11698,7 +11698,7 @@
   trace(17,release_d).
   trace(18,workflow_end).
 }).
-#pos(example_581@0, {recognized}, {}, {
+#pos(example_581, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11715,7 +11715,7 @@
   trace(13,release_a).
   trace(14,workflow_end).
 }).
-#pos(example_582@0, {recognized}, {}, {
+#pos(example_582, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11732,7 +11732,7 @@
   trace(13,return_er).
   trace(14,workflow_end).
 }).
-#pos(example_583@0, {recognized}, {}, {
+#pos(example_583, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11751,7 +11751,7 @@
   trace(15,return_er).
   trace(16,workflow_end).
 }).
-#pos(example_584@0, {recognized}, {}, {
+#pos(example_584, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11762,7 +11762,7 @@
   trace(7,iv_antibiotics).
   trace(8,workflow_end).
 }).
-#pos(example_585@0, {recognized}, {}, {
+#pos(example_585, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,iv_liquid).
@@ -11776,7 +11776,7 @@
   trace(10,release_b).
   trace(11,workflow_end).
 }).
-#pos(example_586@0, {recognized}, {}, {
+#pos(example_586, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11813,7 +11813,7 @@
   trace(33,return_er).
   trace(34,workflow_end).
 }).
-#pos(example_587@0, {recognized}, {}, {
+#pos(example_587, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11831,7 +11831,7 @@
   trace(14,release_a).
   trace(15,workflow_end).
 }).
-#pos(example_588@0, {recognized}, {}, {
+#pos(example_588, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11840,7 +11840,7 @@
   trace(5,leucocytes).
   trace(6,workflow_end).
 }).
-#pos(example_589@0, {recognized}, {}, {
+#pos(example_589, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11853,7 +11853,7 @@
   trace(9,release_a).
   trace(10,workflow_end).
 }).
-#pos(example_590@0, {recognized}, {}, {
+#pos(example_590, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11873,7 +11873,7 @@
   trace(16,return_er).
   trace(17,workflow_end).
 }).
-#pos(example_591@0, {recognized}, {}, {
+#pos(example_591, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11890,7 +11890,7 @@
   trace(13,release_a).
   trace(14,workflow_end).
 }).
-#pos(example_592@0, {recognized}, {}, {
+#pos(example_592, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11901,7 +11901,7 @@
   trace(7,iv_antibiotics).
   trace(8,workflow_end).
 }).
-#pos(example_593@0, {recognized}, {}, {
+#pos(example_593, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11920,7 +11920,7 @@
   trace(15,release_a).
   trace(16,workflow_end).
 }).
-#pos(example_594@0, {recognized}, {}, {
+#pos(example_594, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11934,7 +11934,7 @@
   trace(10,release_a).
   trace(11,workflow_end).
 }).
-#pos(example_595@0, {recognized}, {}, {
+#pos(example_595, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11960,7 +11960,7 @@
   trace(22,return_er).
   trace(23,workflow_end).
 }).
-#pos(example_596@0, {recognized}, {}, {
+#pos(example_596, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11971,7 +11971,7 @@
   trace(7,release_a).
   trace(8,workflow_end).
 }).
-#pos(example_597@0, {recognized}, {}, {
+#pos(example_597, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -11995,7 +11995,7 @@
   trace(20,release_b).
   trace(21,workflow_end).
 }).
-#pos(example_598@0, {recognized}, {}, {
+#pos(example_598, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_sepsis_triage).
@@ -12016,7 +12016,7 @@
   trace(17,leucocytes).
   trace(18,workflow_end).
 }).
-#pos(example_599@0, {recognized}, {}, {
+#pos(example_599, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -12034,7 +12034,7 @@
   trace(14,release_a).
   trace(15,workflow_end).
 }).
-#pos(example_600@0, {recognized}, {}, {
+#pos(example_600, {}, {}, {
   trace(0,workflow_start).
   trace(1,iv_liquid).
   trace(2,er_registration).
@@ -12049,7 +12049,7 @@
   trace(11,return_er).
   trace(12,workflow_end).
 }).
-#pos(example_601@0, {recognized}, {}, {
+#pos(example_601, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -12064,7 +12064,7 @@
   trace(11,return_er).
   trace(12,workflow_end).
 }).
-#pos(example_602@0, {recognized}, {}, {
+#pos(example_602, {}, {}, {
   trace(0,workflow_start).
   trace(1,leucocytes).
   trace(2,crp).
@@ -12102,7 +12102,7 @@
   trace(34,release_a).
   trace(35,workflow_end).
 }).
-#pos(example_603@0, {recognized}, {}, {
+#pos(example_603, {}, {}, {
   trace(0,workflow_start).
   trace(1,crp).
   trace(2,er_registration).
@@ -12129,7 +12129,7 @@
   trace(23,release_a).
   trace(24,workflow_end).
 }).
-#pos(example_604@0, {recognized}, {}, {
+#pos(example_604, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -12147,7 +12147,7 @@
   trace(14,release_a).
   trace(15,workflow_end).
 }).
-#pos(example_605@0, {recognized}, {}, {
+#pos(example_605, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -12170,7 +12170,7 @@
   trace(19,return_er).
   trace(20,workflow_end).
 }).
-#pos(example_606@0, {recognized}, {}, {
+#pos(example_606, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -12188,7 +12188,7 @@
   trace(14,return_er).
   trace(15,workflow_end).
 }).
-#pos(example_607@0, {recognized}, {}, {
+#pos(example_607, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -12203,7 +12203,7 @@
   trace(11,release_e).
   trace(12,workflow_end).
 }).
-#pos(example_608@0, {recognized}, {}, {
+#pos(example_608, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -12221,7 +12221,7 @@
   trace(14,return_er).
   trace(15,workflow_end).
 }).
-#pos(example_609@0, {recognized}, {}, {
+#pos(example_609, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -12239,7 +12239,7 @@
   trace(14,release_a).
   trace(15,workflow_end).
 }).
-#pos(example_610@0, {recognized}, {}, {
+#pos(example_610, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -12252,7 +12252,7 @@
   trace(9,lacticacid).
   trace(10,workflow_end).
 }).
-#pos(example_611@0, {recognized}, {}, {
+#pos(example_611, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,iv_liquid).
@@ -12273,7 +12273,7 @@
   trace(17,return_er).
   trace(18,workflow_end).
 }).
-#pos(example_612@0, {recognized}, {}, {
+#pos(example_612, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -12291,7 +12291,7 @@
   trace(14,release_a).
   trace(15,workflow_end).
 }).
-#pos(example_613@0, {recognized}, {}, {
+#pos(example_613, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -12309,7 +12309,7 @@
   trace(14,release_a).
   trace(15,workflow_end).
 }).
-#pos(example_614@0, {recognized}, {}, {
+#pos(example_614, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -12323,7 +12323,7 @@
   trace(10,release_a).
   trace(11,workflow_end).
 }).
-#pos(example_615@0, {recognized}, {}, {
+#pos(example_615, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -12337,7 +12337,7 @@
   trace(10,return_er).
   trace(11,workflow_end).
 }).
-#pos(example_616@0, {recognized}, {}, {
+#pos(example_616, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -12353,7 +12353,7 @@
   trace(12,return_er).
   trace(13,workflow_end).
 }).
-#pos(example_617@0, {recognized}, {}, {
+#pos(example_617, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -12373,7 +12373,7 @@
   trace(16,return_er).
   trace(17,workflow_end).
 }).
-#pos(example_618@0, {recognized}, {}, {
+#pos(example_618, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -12393,7 +12393,7 @@
   trace(16,release_b).
   trace(17,workflow_end).
 }).
-#pos(example_619@0, {recognized}, {}, {
+#pos(example_619, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -12409,7 +12409,7 @@
   trace(12,return_er).
   trace(13,workflow_end).
 }).
-#pos(example_620@0, {recognized}, {}, {
+#pos(example_620, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -12430,7 +12430,7 @@
   trace(17,release_a).
   trace(18,workflow_end).
 }).
-#pos(example_621@0, {recognized}, {}, {
+#pos(example_621, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -12452,7 +12452,7 @@
   trace(18,release_a).
   trace(19,workflow_end).
 }).
-#pos(example_622@0, {recognized}, {}, {
+#pos(example_622, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,leucocytes).
@@ -12464,7 +12464,7 @@
   trace(8,iv_antibiotics).
   trace(9,workflow_end).
 }).
-#pos(example_623@0, {recognized}, {}, {
+#pos(example_623, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -12484,7 +12484,7 @@
   trace(16,return_er).
   trace(17,workflow_end).
 }).
-#pos(example_624@0, {recognized}, {}, {
+#pos(example_624, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -12500,7 +12500,7 @@
   trace(12,return_er).
   trace(13,workflow_end).
 }).
-#pos(example_625@0, {recognized}, {}, {
+#pos(example_625, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -12536,7 +12536,7 @@
   trace(32,return_er).
   trace(33,workflow_end).
 }).
-#pos(example_626@0, {recognized}, {}, {
+#pos(example_626, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -12556,7 +12556,7 @@
   trace(16,return_er).
   trace(17,workflow_end).
 }).
-#pos(example_627@0, {recognized}, {}, {
+#pos(example_627, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -12584,7 +12584,7 @@
   trace(24,release_a).
   trace(25,workflow_end).
 }).
-#pos(example_628@0, {recognized}, {}, {
+#pos(example_628, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -12628,7 +12628,7 @@
   trace(40,return_er).
   trace(41,workflow_end).
 }).
-#pos(example_629@0, {recognized}, {}, {
+#pos(example_629, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -12648,7 +12648,7 @@
   trace(16,release_a).
   trace(17,workflow_end).
 }).
-#pos(example_630@0, {recognized}, {}, {
+#pos(example_630, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -12668,7 +12668,7 @@
   trace(16,return_er).
   trace(17,workflow_end).
 }).
-#pos(example_631@0, {recognized}, {}, {
+#pos(example_631, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -12684,7 +12684,7 @@
   trace(12,release_b).
   trace(13,workflow_end).
 }).
-#pos(example_632@0, {recognized}, {}, {
+#pos(example_632, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -12701,7 +12701,7 @@
   trace(13,release_a).
   trace(14,workflow_end).
 }).
-#pos(example_633@0, {recognized}, {}, {
+#pos(example_633, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -12718,7 +12718,7 @@
   trace(13,return_er).
   trace(14,workflow_end).
 }).
-#pos(example_634@0, {recognized}, {}, {
+#pos(example_634, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -12739,7 +12739,7 @@
   trace(17,return_er).
   trace(18,workflow_end).
 }).
-#pos(example_635@0, {recognized}, {}, {
+#pos(example_635, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -12753,7 +12753,7 @@
   trace(10,release_b).
   trace(11,workflow_end).
 }).
-#pos(example_636@0, {recognized}, {}, {
+#pos(example_636, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -12776,7 +12776,7 @@
   trace(19,release_a).
   trace(20,workflow_end).
 }).
-#pos(example_637@0, {recognized}, {}, {
+#pos(example_637, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -12800,7 +12800,7 @@
   trace(20,release_a).
   trace(21,workflow_end).
 }).
-#pos(example_638@0, {recognized}, {}, {
+#pos(example_638, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -12818,7 +12818,7 @@
   trace(14,return_er).
   trace(15,workflow_end).
 }).
-#pos(example_639@0, {recognized}, {}, {
+#pos(example_639, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,leucocytes).
@@ -12830,7 +12830,7 @@
   trace(8,iv_liquid).
   trace(9,workflow_end).
 }).
-#pos(example_640@0, {recognized}, {}, {
+#pos(example_640, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -12844,7 +12844,7 @@
   trace(10,release_b).
   trace(11,workflow_end).
 }).
-#pos(example_641@0, {recognized}, {}, {
+#pos(example_641, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -12858,7 +12858,7 @@
   trace(10,release_a).
   trace(11,workflow_end).
 }).
-#pos(example_642@0, {recognized}, {}, {
+#pos(example_642, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -12880,7 +12880,7 @@
   trace(18,release_a).
   trace(19,workflow_end).
 }).
-#pos(example_643@0, {recognized}, {}, {
+#pos(example_643, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -12893,7 +12893,7 @@
   trace(9,return_er).
   trace(10,workflow_end).
 }).
-#pos(example_644@0, {recognized}, {}, {
+#pos(example_644, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,iv_liquid).
@@ -12921,7 +12921,7 @@
   trace(24,return_er).
   trace(25,workflow_end).
 }).
-#pos(example_645@0, {recognized}, {}, {
+#pos(example_645, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -12946,7 +12946,7 @@
   trace(21,return_er).
   trace(22,workflow_end).
 }).
-#pos(example_646@0, {recognized}, {}, {
+#pos(example_646, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -12966,7 +12966,7 @@
   trace(16,release_b).
   trace(17,workflow_end).
 }).
-#pos(example_647@0, {recognized}, {}, {
+#pos(example_647, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -12980,7 +12980,7 @@
   trace(10,release_a).
   trace(11,workflow_end).
 }).
-#pos(example_648@0, {recognized}, {}, {
+#pos(example_648, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -12997,7 +12997,7 @@
   trace(13,release_a).
   trace(14,workflow_end).
 }).
-#pos(example_649@0, {recognized}, {}, {
+#pos(example_649, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -13017,7 +13017,7 @@
   trace(16,leucocytes).
   trace(17,workflow_end).
 }).
-#pos(example_650@0, {recognized}, {}, {
+#pos(example_650, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -13027,7 +13027,7 @@
   trace(6,er_sepsis_triage).
   trace(7,workflow_end).
 }).
-#pos(example_651@0, {recognized}, {}, {
+#pos(example_651, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -13042,7 +13042,7 @@
   trace(11,release_a).
   trace(12,workflow_end).
 }).
-#pos(example_652@0, {recognized}, {}, {
+#pos(example_652, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -13061,7 +13061,7 @@
   trace(15,release_a).
   trace(16,workflow_end).
 }).
-#pos(example_653@0, {recognized}, {}, {
+#pos(example_653, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -13078,7 +13078,7 @@
   trace(13,release_a).
   trace(14,workflow_end).
 }).
-#pos(example_654@0, {recognized}, {}, {
+#pos(example_654, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,crp).
@@ -13094,7 +13094,7 @@
   trace(12,release_a).
   trace(13,workflow_end).
 }).
-#pos(example_655@0, {recognized}, {}, {
+#pos(example_655, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -13119,7 +13119,7 @@
   trace(21,release_c).
   trace(22,workflow_end).
 }).
-#pos(example_656@0, {recognized}, {}, {
+#pos(example_656, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -13138,7 +13138,7 @@
   trace(15,release_a).
   trace(16,workflow_end).
 }).
-#pos(example_657@0, {recognized}, {}, {
+#pos(example_657, {}, {}, {
   trace(0,workflow_start).
   trace(1,iv_liquid).
   trace(2,er_registration).
@@ -13157,7 +13157,7 @@
   trace(15,return_er).
   trace(16,workflow_end).
 }).
-#pos(example_658@0, {recognized}, {}, {
+#pos(example_658, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -13188,7 +13188,7 @@
   trace(27,release_a).
   trace(28,workflow_end).
 }).
-#pos(example_659@0, {recognized}, {}, {
+#pos(example_659, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -13205,7 +13205,7 @@
   trace(13,release_a).
   trace(14,workflow_end).
 }).
-#pos(example_660@0, {recognized}, {}, {
+#pos(example_660, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -13226,7 +13226,7 @@
   trace(17,release_a).
   trace(18,workflow_end).
 }).
-#pos(example_661@0, {recognized}, {}, {
+#pos(example_661, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -13240,7 +13240,7 @@
   trace(10,release_a).
   trace(11,workflow_end).
 }).
-#pos(example_662@0, {recognized}, {}, {
+#pos(example_662, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -13271,7 +13271,7 @@
   trace(27,release_a).
   trace(28,workflow_end).
 }).
-#pos(example_663@0, {recognized}, {}, {
+#pos(example_663, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -13309,7 +13309,7 @@
   trace(34,return_er).
   trace(35,workflow_end).
 }).
-#pos(example_664@0, {recognized}, {}, {
+#pos(example_664, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -13328,7 +13328,7 @@
   trace(15,return_er).
   trace(16,workflow_end).
 }).
-#pos(example_665@0, {recognized}, {}, {
+#pos(example_665, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -13352,7 +13352,7 @@
   trace(20,release_c).
   trace(21,workflow_end).
 }).
-#pos(example_666@0, {recognized}, {}, {
+#pos(example_666, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -13376,7 +13376,7 @@
   trace(20,release_d).
   trace(21,workflow_end).
 }).
-#pos(example_667@0, {recognized}, {}, {
+#pos(example_667, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -13397,7 +13397,7 @@
   trace(17,return_er).
   trace(18,workflow_end).
 }).
-#pos(example_668@0, {recognized}, {}, {
+#pos(example_668, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -13423,7 +13423,7 @@
   trace(22,return_er).
   trace(23,workflow_end).
 }).
-#pos(example_669@0, {recognized}, {}, {
+#pos(example_669, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -13435,7 +13435,7 @@
   trace(8,lacticacid).
   trace(9,workflow_end).
 }).
-#pos(example_670@0, {recognized}, {}, {
+#pos(example_670, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -13450,7 +13450,7 @@
   trace(11,release_b).
   trace(12,workflow_end).
 }).
-#pos(example_671@0, {recognized}, {}, {
+#pos(example_671, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -13465,7 +13465,7 @@
   trace(11,release_a).
   trace(12,workflow_end).
 }).
-#pos(example_672@0, {recognized}, {}, {
+#pos(example_672, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -13478,7 +13478,7 @@
   trace(9,admission_nc).
   trace(10,workflow_end).
 }).
-#pos(example_673@0, {recognized}, {}, {
+#pos(example_673, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -13497,7 +13497,7 @@
   trace(15,return_er).
   trace(16,workflow_end).
 }).
-#pos(example_674@0, {recognized}, {}, {
+#pos(example_674, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -13533,7 +13533,7 @@
   trace(32,return_er).
   trace(33,workflow_end).
 }).
-#pos(example_675@0, {recognized}, {}, {
+#pos(example_675, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -13568,7 +13568,7 @@
   trace(31,return_er).
   trace(32,workflow_end).
 }).
-#pos(example_676@0, {recognized}, {}, {
+#pos(example_676, {}, {}, {
   trace(0,workflow_start).
   trace(1,leucocytes).
   trace(2,crp).
@@ -13602,7 +13602,7 @@
   trace(30,release_a).
   trace(31,workflow_end).
 }).
-#pos(example_677@0, {recognized}, {}, {
+#pos(example_677, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -13625,7 +13625,7 @@
   trace(19,release_a).
   trace(20,workflow_end).
 }).
-#pos(example_678@0, {recognized}, {}, {
+#pos(example_678, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -13658,7 +13658,7 @@
   trace(29,release_a).
   trace(30,workflow_end).
 }).
-#pos(example_679@0, {recognized}, {}, {
+#pos(example_679, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -13677,7 +13677,7 @@
   trace(15,release_a).
   trace(16,workflow_end).
 }).
-#pos(example_680@0, {recognized}, {}, {
+#pos(example_680, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -13695,7 +13695,7 @@
   trace(14,release_a).
   trace(15,workflow_end).
 }).
-#pos(example_681@0, {recognized}, {}, {
+#pos(example_681, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,crp).
@@ -13712,7 +13712,7 @@
   trace(13,release_a).
   trace(14,workflow_end).
 }).
-#pos(example_682@0, {recognized}, {}, {
+#pos(example_682, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -13732,7 +13732,7 @@
   trace(16,return_er).
   trace(17,workflow_end).
 }).
-#pos(example_683@0, {recognized}, {}, {
+#pos(example_683, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -13754,7 +13754,7 @@
   trace(18,return_er).
   trace(19,workflow_end).
 }).
-#pos(example_684@0, {recognized}, {}, {
+#pos(example_684, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -13775,7 +13775,7 @@
   trace(17,release_a).
   trace(18,workflow_end).
 }).
-#pos(example_685@0, {recognized}, {}, {
+#pos(example_685, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,leucocytes).
@@ -13786,7 +13786,7 @@
   trace(7,iv_antibiotics).
   trace(8,workflow_end).
 }).
-#pos(example_686@0, {recognized}, {}, {
+#pos(example_686, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,iv_liquid).
@@ -13805,7 +13805,7 @@
   trace(15,release_a).
   trace(16,workflow_end).
 }).
-#pos(example_687@0, {recognized}, {}, {
+#pos(example_687, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -13818,7 +13818,7 @@
   trace(9,iv_antibiotics).
   trace(10,workflow_end).
 }).
-#pos(example_688@0, {recognized}, {}, {
+#pos(example_688, {}, {}, {
   trace(0,workflow_start).
   trace(1,crp).
   trace(2,leucocytes).
@@ -13836,7 +13836,7 @@
   trace(14,release_a).
   trace(15,workflow_end).
 }).
-#pos(example_689@0, {recognized}, {}, {
+#pos(example_689, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -13847,7 +13847,7 @@
   trace(7,admission_nc).
   trace(8,workflow_end).
 }).
-#pos(example_690@0, {recognized}, {}, {
+#pos(example_690, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -13862,7 +13862,7 @@
   trace(11,release_a).
   trace(12,workflow_end).
 }).
-#pos(example_691@0, {recognized}, {}, {
+#pos(example_691, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -13878,7 +13878,7 @@
   trace(12,return_er).
   trace(13,workflow_end).
 }).
-#pos(example_692@0, {recognized}, {}, {
+#pos(example_692, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -13897,7 +13897,7 @@
   trace(15,release_c).
   trace(16,workflow_end).
 }).
-#pos(example_693@0, {recognized}, {}, {
+#pos(example_693, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -13916,7 +13916,7 @@
   trace(15,release_a).
   trace(16,workflow_end).
 }).
-#pos(example_694@0, {recognized}, {}, {
+#pos(example_694, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,leucocytes).
@@ -13932,7 +13932,7 @@
   trace(12,release_a).
   trace(13,workflow_end).
 }).
-#pos(example_695@0, {recognized}, {}, {
+#pos(example_695, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -13951,7 +13951,7 @@
   trace(15,return_er).
   trace(16,workflow_end).
 }).
-#pos(example_696@0, {recognized}, {}, {
+#pos(example_696, {}, {}, {
   trace(0,workflow_start).
   trace(1,leucocytes).
   trace(2,er_registration).
@@ -13969,7 +13969,7 @@
   trace(14,return_er).
   trace(15,workflow_end).
 }).
-#pos(example_697@0, {recognized}, {}, {
+#pos(example_697, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,leucocytes).
@@ -13982,7 +13982,7 @@
   trace(9,admission_nc).
   trace(10,workflow_end).
 }).
-#pos(example_698@0, {recognized}, {}, {
+#pos(example_698, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -13998,7 +13998,7 @@
   trace(12,release_b).
   trace(13,workflow_end).
 }).
-#pos(example_699@0, {recognized}, {}, {
+#pos(example_699, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -14023,7 +14023,7 @@
   trace(21,return_er).
   trace(22,workflow_end).
 }).
-#pos(example_700@0, {recognized}, {}, {
+#pos(example_700, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -14040,7 +14040,7 @@
   trace(13,release_a).
   trace(14,workflow_end).
 }).
-#pos(example_701@0, {recognized}, {}, {
+#pos(example_701, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -14064,7 +14064,7 @@
   trace(20,return_er).
   trace(21,workflow_end).
 }).
-#pos(example_702@0, {recognized}, {}, {
+#pos(example_702, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -14081,7 +14081,7 @@
   trace(13,return_er).
   trace(14,workflow_end).
 }).
-#pos(example_703@0, {recognized}, {}, {
+#pos(example_703, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -14098,7 +14098,7 @@
   trace(13,release_a).
   trace(14,workflow_end).
 }).
-#pos(example_704@0, {recognized}, {}, {
+#pos(example_704, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -14117,7 +14117,7 @@
   trace(15,return_er).
   trace(16,workflow_end).
 }).
-#pos(example_705@0, {recognized}, {}, {
+#pos(example_705, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,leucocytes).
@@ -14132,7 +14132,7 @@
   trace(11,release_a).
   trace(12,workflow_end).
 }).
-#pos(example_706@0, {recognized}, {}, {
+#pos(example_706, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -14155,7 +14155,7 @@
   trace(19,release_a).
   trace(20,workflow_end).
 }).
-#pos(example_707@0, {recognized}, {}, {
+#pos(example_707, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -14175,7 +14175,7 @@
   trace(16,release_a).
   trace(17,workflow_end).
 }).
-#pos(example_708@0, {recognized}, {}, {
+#pos(example_708, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -14195,7 +14195,7 @@
   trace(16,return_er).
   trace(17,workflow_end).
 }).
-#pos(example_709@0, {recognized}, {}, {
+#pos(example_709, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -14217,7 +14217,7 @@
   trace(18,return_er).
   trace(19,workflow_end).
 }).
-#pos(example_710@0, {recognized}, {}, {
+#pos(example_710, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -14257,7 +14257,7 @@
   trace(36,release_a).
   trace(37,workflow_end).
 }).
-#pos(example_711@0, {recognized}, {}, {
+#pos(example_711, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -14274,7 +14274,7 @@
   trace(13,release_a).
   trace(14,workflow_end).
 }).
-#pos(example_712@0, {recognized}, {}, {
+#pos(example_712, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -14298,7 +14298,7 @@
   trace(20,release_a).
   trace(21,workflow_end).
 }).
-#pos(example_713@0, {recognized}, {}, {
+#pos(example_713, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -14316,7 +14316,7 @@
   trace(14,release_d).
   trace(15,workflow_end).
 }).
-#pos(example_714@0, {recognized}, {}, {
+#pos(example_714, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -14328,7 +14328,7 @@
   trace(8,lacticacid).
   trace(9,workflow_end).
 }).
-#pos(example_715@0, {recognized}, {}, {
+#pos(example_715, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -14347,7 +14347,7 @@
   trace(15,release_a).
   trace(16,workflow_end).
 }).
-#pos(example_716@0, {recognized}, {}, {
+#pos(example_716, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -14379,7 +14379,7 @@
   trace(28,return_er).
   trace(29,workflow_end).
 }).
-#pos(example_717@0, {recognized}, {}, {
+#pos(example_717, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -14405,7 +14405,7 @@
   trace(22,return_er).
   trace(23,workflow_end).
 }).
-#pos(example_718@0, {recognized}, {}, {
+#pos(example_718, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -14424,7 +14424,7 @@
   trace(15,release_b).
   trace(16,workflow_end).
 }).
-#pos(example_719@0, {recognized}, {}, {
+#pos(example_719, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -14440,7 +14440,7 @@
   trace(12,release_d).
   trace(13,workflow_end).
 }).
-#pos(example_720@0, {recognized}, {}, {
+#pos(example_720, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_triage).
   trace(2,er_registration).
@@ -14460,7 +14460,7 @@
   trace(16,return_er).
   trace(17,workflow_end).
 }).
-#pos(example_721@0, {recognized}, {}, {
+#pos(example_721, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -14480,7 +14480,7 @@
   trace(16,release_a).
   trace(17,workflow_end).
 }).
-#pos(example_722@0, {recognized}, {}, {
+#pos(example_722, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -14500,7 +14500,7 @@
   trace(16,release_a).
   trace(17,workflow_end).
 }).
-#pos(example_723@0, {recognized}, {}, {
+#pos(example_723, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_triage).
   trace(2,er_registration).
@@ -14518,7 +14518,7 @@
   trace(14,return_er).
   trace(15,workflow_end).
 }).
-#pos(example_724@0, {recognized}, {}, {
+#pos(example_724, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -14539,7 +14539,7 @@
   trace(17,release_a).
   trace(18,workflow_end).
 }).
-#pos(example_725@0, {recognized}, {}, {
+#pos(example_725, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -14549,7 +14549,7 @@
   trace(6,crp).
   trace(7,workflow_end).
 }).
-#pos(example_726@0, {recognized}, {}, {
+#pos(example_726, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -14564,7 +14564,7 @@
   trace(11,release_a).
   trace(12,workflow_end).
 }).
-#pos(example_727@0, {recognized}, {}, {
+#pos(example_727, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -14576,7 +14576,7 @@
   trace(8,return_er).
   trace(9,workflow_end).
 }).
-#pos(example_728@0, {recognized}, {}, {
+#pos(example_728, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,iv_liquid).
@@ -14592,7 +14592,7 @@
   trace(12,release_a).
   trace(13,workflow_end).
 }).
-#pos(example_729@0, {recognized}, {}, {
+#pos(example_729, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -14608,7 +14608,7 @@
   trace(12,release_a).
   trace(13,workflow_end).
 }).
-#pos(example_730@0, {recognized}, {}, {
+#pos(example_730, {}, {}, {
   trace(0,workflow_start).
   trace(1,iv_liquid).
   trace(2,er_registration).
@@ -14624,7 +14624,7 @@
   trace(12,return_er).
   trace(13,workflow_end).
 }).
-#pos(example_731@0, {recognized}, {}, {
+#pos(example_731, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -14648,7 +14648,7 @@
   trace(20,release_a).
   trace(21,workflow_end).
 }).
-#pos(example_732@0, {recognized}, {}, {
+#pos(example_732, {}, {}, {
   trace(0,workflow_start).
   trace(1,iv_liquid).
   trace(2,er_registration).
@@ -14683,7 +14683,7 @@
   trace(31,release_a).
   trace(32,workflow_end).
 }).
-#pos(example_733@0, {recognized}, {}, {
+#pos(example_733, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -14704,7 +14704,7 @@
   trace(17,return_er).
   trace(18,workflow_end).
 }).
-#pos(example_734@0, {recognized}, {}, {
+#pos(example_734, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -14715,7 +14715,7 @@
   trace(7,iv_antibiotics).
   trace(8,workflow_end).
 }).
-#pos(example_735@0, {recognized}, {}, {
+#pos(example_735, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -14740,7 +14740,7 @@
   trace(21,return_er).
   trace(22,workflow_end).
 }).
-#pos(example_736@0, {recognized}, {}, {
+#pos(example_736, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -14757,7 +14757,7 @@
   trace(13,return_er).
   trace(14,workflow_end).
 }).
-#pos(example_737@0, {recognized}, {}, {
+#pos(example_737, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -14775,7 +14775,7 @@
   trace(14,release_a).
   trace(15,workflow_end).
 }).
-#pos(example_738@0, {recognized}, {}, {
+#pos(example_738, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -14815,7 +14815,7 @@
   trace(36,return_er).
   trace(37,workflow_end).
 }).
-#pos(example_739@0, {recognized}, {}, {
+#pos(example_739, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -14831,7 +14831,7 @@
   trace(12,release_a).
   trace(13,workflow_end).
 }).
-#pos(example_740@0, {recognized}, {}, {
+#pos(example_740, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -14844,7 +14844,7 @@
   trace(9,return_er).
   trace(10,workflow_end).
 }).
-#pos(example_741@0, {recognized}, {}, {
+#pos(example_741, {}, {}, {
   trace(0,workflow_start).
   trace(1,iv_liquid).
   trace(2,er_registration).
@@ -14866,7 +14866,7 @@
   trace(18,release_c).
   trace(19,workflow_end).
 }).
-#pos(example_742@0, {recognized}, {}, {
+#pos(example_742, {}, {}, {
   trace(0,workflow_start).
   trace(1,leucocytes).
   trace(2,crp).
@@ -14878,7 +14878,7 @@
   trace(8,release_a).
   trace(9,workflow_end).
 }).
-#pos(example_743@0, {recognized}, {}, {
+#pos(example_743, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -14900,7 +14900,7 @@
   trace(18,release_b).
   trace(19,workflow_end).
 }).
-#pos(example_744@0, {recognized}, {}, {
+#pos(example_744, {}, {}, {
   trace(0,workflow_start).
   trace(1,crp).
   trace(2,leucocytes).
@@ -14913,7 +14913,7 @@
   trace(9,release_a).
   trace(10,workflow_end).
 }).
-#pos(example_745@0, {recognized}, {}, {
+#pos(example_745, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -14931,7 +14931,7 @@
   trace(14,return_er).
   trace(15,workflow_end).
 }).
-#pos(example_746@0, {recognized}, {}, {
+#pos(example_746, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -14958,7 +14958,7 @@
   trace(23,return_er).
   trace(24,workflow_end).
 }).
-#pos(example_747@0, {recognized}, {}, {
+#pos(example_747, {}, {}, {
   trace(0,workflow_start).
   trace(1,iv_liquid).
   trace(2,er_registration).
@@ -14980,7 +14980,7 @@
   trace(18,return_er).
   trace(19,workflow_end).
 }).
-#pos(example_748@0, {recognized}, {}, {
+#pos(example_748, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -15000,7 +15000,7 @@
   trace(16,release_a).
   trace(17,workflow_end).
 }).
-#pos(example_749@0, {recognized}, {}, {
+#pos(example_749, {}, {}, {
   trace(0,workflow_start).
   trace(1,crp).
   trace(2,lacticacid).
@@ -15022,7 +15022,7 @@
   trace(18,release_c).
   trace(19,workflow_end).
 }).
-#pos(example_750@0, {recognized}, {}, {
+#pos(example_750, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -15044,7 +15044,7 @@
   trace(18,return_er).
   trace(19,workflow_end).
 }).
-#pos(example_751@0, {recognized}, {}, {
+#pos(example_751, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -15065,7 +15065,7 @@
   trace(17,release_a).
   trace(18,workflow_end).
 }).
-#pos(example_752@0, {recognized}, {}, {
+#pos(example_752, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -15083,7 +15083,7 @@
   trace(14,release_a).
   trace(15,workflow_end).
 }).
-#pos(example_753@0, {recognized}, {}, {
+#pos(example_753, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -15105,7 +15105,7 @@
   trace(18,return_er).
   trace(19,workflow_end).
 }).
-#pos(example_754@0, {recognized}, {}, {
+#pos(example_754, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -15117,7 +15117,7 @@
   trace(8,iv_liquid).
   trace(9,workflow_end).
 }).
-#pos(example_755@0, {recognized}, {}, {
+#pos(example_755, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -15145,7 +15145,7 @@
   trace(24,return_er).
   trace(25,workflow_end).
 }).
-#pos(example_756@0, {recognized}, {}, {
+#pos(example_756, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -15162,7 +15162,7 @@
   trace(13,return_er).
   trace(14,workflow_end).
 }).
-#pos(example_757@0, {recognized}, {}, {
+#pos(example_757, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_sepsis_triage).
@@ -15179,7 +15179,7 @@
   trace(13,release_a).
   trace(14,workflow_end).
 }).
-#pos(example_758@0, {recognized}, {}, {
+#pos(example_758, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -15194,7 +15194,7 @@
   trace(11,release_b).
   trace(12,workflow_end).
 }).
-#pos(example_759@0, {recognized}, {}, {
+#pos(example_759, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -15225,7 +15225,7 @@
   trace(27,return_er).
   trace(28,workflow_end).
 }).
-#pos(example_760@0, {recognized}, {}, {
+#pos(example_760, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -15264,7 +15264,7 @@
   trace(35,return_er).
   trace(36,workflow_end).
 }).
-#pos(example_761@0, {recognized}, {}, {
+#pos(example_761, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,iv_liquid).
@@ -15278,7 +15278,7 @@
   trace(10,release_a).
   trace(11,workflow_end).
 }).
-#pos(example_762@0, {recognized}, {}, {
+#pos(example_762, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -15294,7 +15294,7 @@
   trace(12,release_a).
   trace(13,workflow_end).
 }).
-#pos(example_763@0, {recognized}, {}, {
+#pos(example_763, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -15317,7 +15317,7 @@
   trace(19,return_er).
   trace(20,workflow_end).
 }).
-#pos(example_764@0, {recognized}, {}, {
+#pos(example_764, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,crp).
@@ -15336,7 +15336,7 @@
   trace(15,return_er).
   trace(16,workflow_end).
 }).
-#pos(example_765@0, {recognized}, {}, {
+#pos(example_765, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -15362,7 +15362,7 @@
   trace(22,release_a).
   trace(23,workflow_end).
 }).
-#pos(example_766@0, {recognized}, {}, {
+#pos(example_766, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -15378,7 +15378,7 @@
   trace(12,lacticacid).
   trace(13,workflow_end).
 }).
-#pos(example_767@0, {recognized}, {}, {
+#pos(example_767, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -15421,7 +15421,7 @@
   trace(39,return_er).
   trace(40,workflow_end).
 }).
-#pos(example_768@0, {recognized}, {}, {
+#pos(example_768, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -15438,7 +15438,7 @@
   trace(13,return_er).
   trace(14,workflow_end).
 }).
-#pos(example_769@0, {recognized}, {}, {
+#pos(example_769, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -15462,7 +15462,7 @@
   trace(20,release_a).
   trace(21,workflow_end).
 }).
-#pos(example_770@0, {recognized}, {}, {
+#pos(example_770, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -15472,7 +15472,7 @@
   trace(6,crp).
   trace(7,workflow_end).
 }).
-#pos(example_771@0, {recognized}, {}, {
+#pos(example_771, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -15489,7 +15489,7 @@
   trace(13,return_er).
   trace(14,workflow_end).
 }).
-#pos(example_772@0, {recognized}, {}, {
+#pos(example_772, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -15507,7 +15507,7 @@
   trace(14,return_er).
   trace(15,workflow_end).
 }).
-#pos(example_773@0, {recognized}, {}, {
+#pos(example_773, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -15529,7 +15529,7 @@
   trace(18,return_er).
   trace(19,workflow_end).
 }).
-#pos(example_774@0, {recognized}, {}, {
+#pos(example_774, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,leucocytes).
@@ -15549,7 +15549,7 @@
   trace(16,return_er).
   trace(17,workflow_end).
 }).
-#pos(example_775@0, {recognized}, {}, {
+#pos(example_775, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -15562,7 +15562,7 @@
   trace(9,release_b).
   trace(10,workflow_end).
 }).
-#pos(example_776@0, {recognized}, {}, {
+#pos(example_776, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -15579,7 +15579,7 @@
   trace(13,release_a).
   trace(14,workflow_end).
 }).
-#pos(example_777@0, {recognized}, {}, {
+#pos(example_777, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,crp).
@@ -15589,7 +15589,7 @@
   trace(6,iv_antibiotics).
   trace(7,workflow_end).
 }).
-#pos(example_778@0, {recognized}, {}, {
+#pos(example_778, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -15614,7 +15614,7 @@
   trace(21,return_er).
   trace(22,workflow_end).
 }).
-#pos(example_779@0, {recognized}, {}, {
+#pos(example_779, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -15636,7 +15636,7 @@
   trace(18,return_er).
   trace(19,workflow_end).
 }).
-#pos(example_780@0, {recognized}, {}, {
+#pos(example_780, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -15648,7 +15648,7 @@
   trace(8,iv_liquid).
   trace(9,workflow_end).
 }).
-#pos(example_781@0, {recognized}, {}, {
+#pos(example_781, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -15660,7 +15660,7 @@
   trace(8,iv_antibiotics).
   trace(9,workflow_end).
 }).
-#pos(example_782@0, {recognized}, {}, {
+#pos(example_782, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -15680,7 +15680,7 @@
   trace(16,release_a).
   trace(17,workflow_end).
 }).
-#pos(example_783@0, {recognized}, {}, {
+#pos(example_783, {}, {}, {
   trace(0,workflow_start).
   trace(1,crp).
   trace(2,leucocytes).
@@ -15696,7 +15696,7 @@
   trace(12,release_b).
   trace(13,workflow_end).
 }).
-#pos(example_784@0, {recognized}, {}, {
+#pos(example_784, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -15713,7 +15713,7 @@
   trace(13,return_er).
   trace(14,workflow_end).
 }).
-#pos(example_785@0, {recognized}, {}, {
+#pos(example_785, {}, {}, {
   trace(0,workflow_start).
   trace(1,iv_liquid).
   trace(2,er_registration).
@@ -15733,7 +15733,7 @@
   trace(16,release_b).
   trace(17,workflow_end).
 }).
-#pos(example_786@0, {recognized}, {}, {
+#pos(example_786, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -15745,7 +15745,7 @@
   trace(8,iv_liquid).
   trace(9,workflow_end).
 }).
-#pos(example_787@0, {recognized}, {}, {
+#pos(example_787, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -15764,7 +15764,7 @@
   trace(15,release_a).
   trace(16,workflow_end).
 }).
-#pos(example_788@0, {recognized}, {}, {
+#pos(example_788, {}, {}, {
   trace(0,workflow_start).
   trace(1,crp).
   trace(2,leucocytes).
@@ -15777,7 +15777,7 @@
   trace(9,iv_antibiotics).
   trace(10,workflow_end).
 }).
-#pos(example_789@0, {recognized}, {}, {
+#pos(example_789, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -15792,7 +15792,7 @@
   trace(11,crp).
   trace(12,workflow_end).
 }).
-#pos(example_790@0, {recognized}, {}, {
+#pos(example_790, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -15809,7 +15809,7 @@
   trace(13,release_a).
   trace(14,workflow_end).
 }).
-#pos(example_791@0, {recognized}, {}, {
+#pos(example_791, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -15842,7 +15842,7 @@
   trace(29,release_a).
   trace(30,workflow_end).
 }).
-#pos(example_792@0, {recognized}, {}, {
+#pos(example_792, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -15858,7 +15858,7 @@
   trace(12,release_a).
   trace(13,workflow_end).
 }).
-#pos(example_793@0, {recognized}, {}, {
+#pos(example_793, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -15891,7 +15891,7 @@
   trace(29,release_d).
   trace(30,workflow_end).
 }).
-#pos(example_794@0, {recognized}, {}, {
+#pos(example_794, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -15909,7 +15909,7 @@
   trace(14,return_er).
   trace(15,workflow_end).
 }).
-#pos(example_795@0, {recognized}, {}, {
+#pos(example_795, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -15929,7 +15929,7 @@
   trace(16,release_a).
   trace(17,workflow_end).
 }).
-#pos(example_796@0, {recognized}, {}, {
+#pos(example_796, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -15947,7 +15947,7 @@
   trace(14,release_a).
   trace(15,workflow_end).
 }).
-#pos(example_797@0, {recognized}, {}, {
+#pos(example_797, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -16003,7 +16003,7 @@
   trace(52,return_er).
   trace(53,workflow_end).
 }).
-#pos(example_798@0, {recognized}, {}, {
+#pos(example_798, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -16019,7 +16019,7 @@
   trace(12,release_a).
   trace(13,workflow_end).
 }).
-#pos(example_799@0, {recognized}, {}, {
+#pos(example_799, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,lacticacid).
@@ -16035,7 +16035,7 @@
   trace(12,release_a).
   trace(13,workflow_end).
 }).
-#pos(example_800@0, {recognized}, {}, {
+#pos(example_800, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -16056,7 +16056,7 @@
   trace(17,return_er).
   trace(18,workflow_end).
 }).
-#pos(example_801@0, {recognized}, {}, {
+#pos(example_801, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -16103,7 +16103,7 @@
   trace(43,release_a).
   trace(44,workflow_end).
 }).
-#pos(example_802@0, {recognized}, {}, {
+#pos(example_802, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -16125,7 +16125,7 @@
   trace(18,return_er).
   trace(19,workflow_end).
 }).
-#pos(example_803@0, {recognized}, {}, {
+#pos(example_803, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -16190,7 +16190,7 @@
   trace(61,return_er).
   trace(62,workflow_end).
 }).
-#pos(example_804@0, {recognized}, {}, {
+#pos(example_804, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,iv_liquid).
@@ -16207,7 +16207,7 @@
   trace(13,return_er).
   trace(14,workflow_end).
 }).
-#pos(example_805@0, {recognized}, {}, {
+#pos(example_805, {}, {}, {
   trace(0,workflow_start).
   trace(1,crp).
   trace(2,leucocytes).
@@ -16218,7 +16218,7 @@
   trace(7,er_sepsis_triage).
   trace(8,workflow_end).
 }).
-#pos(example_806@0, {recognized}, {}, {
+#pos(example_806, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -16249,7 +16249,7 @@
   trace(27,release_a).
   trace(28,workflow_end).
 }).
-#pos(example_807@0, {recognized}, {}, {
+#pos(example_807, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -16283,7 +16283,7 @@
   trace(30,release_b).
   trace(31,workflow_end).
 }).
-#pos(example_808@0, {recognized}, {}, {
+#pos(example_808, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -16304,7 +16304,7 @@
   trace(17,release_a).
   trace(18,workflow_end).
 }).
-#pos(example_809@0, {recognized}, {}, {
+#pos(example_809, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -16331,7 +16331,7 @@
   trace(23,return_er).
   trace(24,workflow_end).
 }).
-#pos(example_810@0, {recognized}, {}, {
+#pos(example_810, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -16352,7 +16352,7 @@
   trace(17,return_er).
   trace(18,workflow_end).
 }).
-#pos(example_811@0, {recognized}, {}, {
+#pos(example_811, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -16377,7 +16377,7 @@
   trace(21,return_er).
   trace(22,workflow_end).
 }).
-#pos(example_812@0, {recognized}, {}, {
+#pos(example_812, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -16391,7 +16391,7 @@
   trace(10,release_a).
   trace(11,workflow_end).
 }).
-#pos(example_813@0, {recognized}, {}, {
+#pos(example_813, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -16479,7 +16479,7 @@
   trace(84,release_a).
   trace(85,workflow_end).
 }).
-#pos(example_814@0, {recognized}, {}, {
+#pos(example_814, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -16504,7 +16504,7 @@
   trace(21,release_a).
   trace(22,workflow_end).
 }).
-#pos(example_815@0, {recognized}, {}, {
+#pos(example_815, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,iv_liquid).
@@ -16523,7 +16523,7 @@
   trace(15,return_er).
   trace(16,workflow_end).
 }).
-#pos(example_816@0, {recognized}, {}, {
+#pos(example_816, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -16537,7 +16537,7 @@
   trace(10,release_a).
   trace(11,workflow_end).
 }).
-#pos(example_817@0, {recognized}, {}, {
+#pos(example_817, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -16556,7 +16556,7 @@
   trace(15,release_a).
   trace(16,workflow_end).
 }).
-#pos(example_818@0, {recognized}, {}, {
+#pos(example_818, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -16576,7 +16576,7 @@
   trace(16,return_er).
   trace(17,workflow_end).
 }).
-#pos(example_819@0, {recognized}, {}, {
+#pos(example_819, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -16591,7 +16591,7 @@
   trace(11,release_a).
   trace(12,workflow_end).
 }).
-#pos(example_820@0, {recognized}, {}, {
+#pos(example_820, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,lacticacid).
@@ -16605,7 +16605,7 @@
   trace(10,iv_antibiotics).
   trace(11,workflow_end).
 }).
-#pos(example_821@0, {recognized}, {}, {
+#pos(example_821, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -16618,7 +16618,7 @@
   trace(9,lacticacid).
   trace(10,workflow_end).
 }).
-#pos(example_822@0, {recognized}, {}, {
+#pos(example_822, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -16640,7 +16640,7 @@
   trace(18,return_er).
   trace(19,workflow_end).
 }).
-#pos(example_823@0, {recognized}, {}, {
+#pos(example_823, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -16660,7 +16660,7 @@
   trace(16,release_b).
   trace(17,workflow_end).
 }).
-#pos(example_824@0, {recognized}, {}, {
+#pos(example_824, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -16682,7 +16682,7 @@
   trace(18,return_er).
   trace(19,workflow_end).
 }).
-#pos(example_825@0, {recognized}, {}, {
+#pos(example_825, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -16700,7 +16700,7 @@
   trace(14,release_a).
   trace(15,workflow_end).
 }).
-#pos(example_826@0, {recognized}, {}, {
+#pos(example_826, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -16714,7 +16714,7 @@
   trace(10,release_b).
   trace(11,workflow_end).
 }).
-#pos(example_827@0, {recognized}, {}, {
+#pos(example_827, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -16747,7 +16747,7 @@
   trace(29,return_er).
   trace(30,workflow_end).
 }).
-#pos(example_828@0, {recognized}, {}, {
+#pos(example_828, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -16764,7 +16764,7 @@
   trace(13,release_a).
   trace(14,workflow_end).
 }).
-#pos(example_829@0, {recognized}, {}, {
+#pos(example_829, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -16794,7 +16794,7 @@
   trace(26,return_er).
   trace(27,workflow_end).
 }).
-#pos(example_830@0, {recognized}, {}, {
+#pos(example_830, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -16816,7 +16816,7 @@
   trace(18,release_a).
   trace(19,workflow_end).
 }).
-#pos(example_831@0, {recognized}, {}, {
+#pos(example_831, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -16836,7 +16836,7 @@
   trace(16,release_a).
   trace(17,workflow_end).
 }).
-#pos(example_832@0, {recognized}, {}, {
+#pos(example_832, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -16863,7 +16863,7 @@
   trace(23,release_a).
   trace(24,workflow_end).
 }).
-#pos(example_833@0, {recognized}, {}, {
+#pos(example_833, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -16878,7 +16878,7 @@
   trace(11,release_a).
   trace(12,workflow_end).
 }).
-#pos(example_834@0, {recognized}, {}, {
+#pos(example_834, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,iv_liquid).
@@ -16898,7 +16898,7 @@
   trace(16,return_er).
   trace(17,workflow_end).
 }).
-#pos(example_835@0, {recognized}, {}, {
+#pos(example_835, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -16913,7 +16913,7 @@
   trace(11,return_er).
   trace(12,workflow_end).
 }).
-#pos(example_836@0, {recognized}, {}, {
+#pos(example_836, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -16945,7 +16945,7 @@
   trace(28,release_a).
   trace(29,workflow_end).
 }).
-#pos(example_837@0, {recognized}, {}, {
+#pos(example_837, {}, {}, {
   trace(0,workflow_start).
   trace(1,iv_liquid).
   trace(2,er_registration).
@@ -17015,7 +17015,7 @@
   trace(66,release_b).
   trace(67,workflow_end).
 }).
-#pos(example_838@0, {recognized}, {}, {
+#pos(example_838, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -17031,7 +17031,7 @@
   trace(12,release_a).
   trace(13,workflow_end).
 }).
-#pos(example_839@0, {recognized}, {}, {
+#pos(example_839, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,iv_liquid).
@@ -17047,7 +17047,7 @@
   trace(12,release_a).
   trace(13,workflow_end).
 }).
-#pos(example_840@0, {recognized}, {}, {
+#pos(example_840, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -17072,7 +17072,7 @@
   trace(21,leucocytes).
   trace(22,workflow_end).
 }).
-#pos(example_841@0, {recognized}, {}, {
+#pos(example_841, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -17089,7 +17089,7 @@
   trace(13,release_a).
   trace(14,workflow_end).
 }).
-#pos(example_842@0, {recognized}, {}, {
+#pos(example_842, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -17107,7 +17107,7 @@
   trace(14,return_er).
   trace(15,workflow_end).
 }).
-#pos(example_843@0, {recognized}, {}, {
+#pos(example_843, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -17124,7 +17124,7 @@
   trace(13,release_d).
   trace(14,workflow_end).
 }).
-#pos(example_844@0, {recognized}, {}, {
+#pos(example_844, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).
@@ -17140,7 +17140,7 @@
   trace(12,release_a).
   trace(13,workflow_end).
 }).
-#pos(example_845@0, {recognized}, {}, {
+#pos(example_845, {}, {}, {
   trace(0,workflow_start).
   trace(1,er_registration).
   trace(2,er_triage).

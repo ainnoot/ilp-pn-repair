@@ -111,6 +111,9 @@ holds(P,Q,TS+1) :-
 
 %% Just one label per transition 
 :- trans(T,L), trans(T,L1), L > L1.
+%% Just one edge per (place,transition)
+:- ptarc(P,T,W), ptarc(P,T,W2), W >W2.
+:- tparc(T,P,W), tparc(T,P,W2), W >W2.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Transitions must have at least one input place, at least one output place
