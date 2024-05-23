@@ -1,0 +1,881 @@
+#pos(example_0@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_final_approved_by_supervisor).
+  trace(2,request_payment).
+  trace(3,payment_handled).
+}).
+#pos(example_1@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_approved_by_pre_approver).
+  trace(2,request_for_payment_final_approved_by_supervisor).
+  trace(3,request_payment).
+  trace(4,payment_handled).
+}).
+#pos(example_2@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_rejected_by_pre_approver).
+  trace(2,request_for_payment_rejected_by_employee).
+  trace(3,request_for_payment_submitted_by_employee).
+  trace(4,request_for_payment_approved_by_pre_approver).
+  trace(5,request_for_payment_final_approved_by_supervisor).
+  trace(6,request_payment).
+  trace(7,payment_handled).
+}).
+#pos(example_3@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_rejected_by_supervisor).
+  trace(2,request_for_payment_rejected_by_employee).
+}).
+#pos(example_4@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_approved_by_pre_approver).
+  trace(2,request_for_payment_final_approved_by_supervisor).
+  trace(3,request_for_payment_rejected_by_missing).
+  trace(4,request_for_payment_submitted_by_employee).
+  trace(5,request_for_payment_approved_by_pre_approver).
+  trace(6,request_for_payment_final_approved_by_supervisor).
+  trace(7,request_payment).
+  trace(8,payment_handled).
+}).
+#pos(example_5@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_rejected_by_supervisor).
+  trace(2,request_for_payment_rejected_by_employee).
+  trace(3,request_for_payment_submitted_by_employee).
+  trace(4,request_for_payment_final_approved_by_supervisor).
+  trace(5,request_payment).
+  trace(6,payment_handled).
+}).
+#pos(example_6@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_final_approved_by_supervisor).
+  trace(2,request_for_payment_rejected_by_missing).
+}).
+#pos(example_7@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_approved_by_pre_approver).
+  trace(2,request_for_payment_rejected_by_supervisor).
+  trace(3,request_for_payment_rejected_by_employee).
+}).
+#pos(example_8@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_final_approved_by_supervisor).
+  trace(2,request_for_payment_rejected_by_missing).
+  trace(3,request_for_payment_submitted_by_employee).
+  trace(4,request_for_payment_approved_by_pre_approver).
+  trace(5,request_for_payment_final_approved_by_supervisor).
+  trace(6,request_payment).
+  trace(7,payment_handled).
+}).
+#pos(example_9@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_approved_by_supervisor).
+  trace(2,request_for_payment_final_approved_by_director).
+  trace(3,request_payment).
+  trace(4,payment_handled).
+}).
+#pos(example_10@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_rejected_by_pre_approver).
+  trace(2,request_for_payment_rejected_by_employee).
+  trace(3,request_for_payment_submitted_by_employee).
+  trace(4,request_for_payment_rejected_by_pre_approver).
+  trace(5,request_for_payment_rejected_by_employee).
+}).
+#pos(example_11@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_approved_by_pre_approver).
+  trace(2,request_for_payment_final_approved_by_supervisor).
+  trace(3,request_for_payment_rejected_by_missing).
+}).
+#pos(example_12@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_rejected_by_pre_approver).
+  trace(2,request_for_payment_rejected_by_employee).
+}).
+#pos(example_13@0, {recognized}, {}, {
+  trace(0,request_for_payment_saved_by_employee).
+}).
+#pos(example_14@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_final_approved_by_supervisor).
+}).
+#pos(example_15@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_rejected_by_pre_approver).
+  trace(2,request_for_payment_rejected_by_employee).
+  trace(3,request_for_payment_submitted_by_employee).
+  trace(4,request_for_payment_approved_by_pre_approver).
+  trace(5,request_for_payment_final_approved_by_supervisor).
+  trace(6,request_for_payment_rejected_by_missing).
+}).
+#pos(example_16@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_approved_by_supervisor).
+  trace(2,request_for_payment_final_approved_by_director).
+}).
+#pos(example_17@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_final_approved_by_supervisor).
+  trace(2,request_for_payment_rejected_by_missing).
+  trace(3,request_for_payment_submitted_by_employee).
+  trace(4,request_for_payment_final_approved_by_supervisor).
+  trace(5,request_payment).
+  trace(6,payment_handled).
+}).
+#pos(example_18@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_rejected_by_supervisor).
+  trace(2,request_for_payment_rejected_by_employee).
+  trace(3,request_for_payment_submitted_by_employee).
+  trace(4,request_for_payment_rejected_by_supervisor).
+  trace(5,request_for_payment_rejected_by_employee).
+  trace(6,request_for_payment_submitted_by_employee).
+  trace(7,request_for_payment_final_approved_by_supervisor).
+  trace(8,request_payment).
+  trace(9,payment_handled).
+}).
+#pos(example_19@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_rejected_by_supervisor).
+  trace(2,request_for_payment_submitted_by_employee).
+  trace(3,request_for_payment_rejected_by_supervisor).
+  trace(4,request_for_payment_rejected_by_employee).
+}).
+#pos(example_20@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_approved_by_pre_approver).
+  trace(2,request_for_payment_rejected_by_supervisor).
+  trace(3,request_for_payment_rejected_by_employee).
+  trace(4,request_for_payment_submitted_by_employee).
+  trace(5,request_for_payment_approved_by_pre_approver).
+  trace(6,request_for_payment_final_approved_by_supervisor).
+  trace(7,request_payment).
+  trace(8,payment_handled).
+}).
+#pos(example_21@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_approved_by_pre_approver).
+  trace(2,request_for_payment_final_approved_by_supervisor).
+}).
+#pos(example_22@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_final_approved_by_supervisor).
+  trace(2,request_for_payment_rejected_by_missing).
+  trace(3,request_for_payment_submitted_by_employee).
+  trace(4,request_for_payment_final_approved_by_supervisor).
+  trace(5,request_for_payment_rejected_by_missing).
+  trace(6,request_for_payment_submitted_by_employee).
+  trace(7,request_for_payment_final_approved_by_supervisor).
+  trace(8,request_payment).
+  trace(9,payment_handled).
+}).
+#pos(example_23@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_rejected_by_pre_approver).
+  trace(2,request_for_payment_rejected_by_employee).
+  trace(3,request_for_payment_submitted_by_employee).
+  trace(4,request_for_payment_approved_by_pre_approver).
+  trace(5,request_for_payment_final_approved_by_supervisor).
+  trace(6,request_for_payment_rejected_by_missing).
+  trace(7,request_for_payment_submitted_by_employee).
+  trace(8,request_for_payment_rejected_by_pre_approver).
+  trace(9,request_for_payment_rejected_by_employee).
+  trace(10,request_for_payment_submitted_by_employee).
+  trace(11,request_for_payment_approved_by_pre_approver).
+  trace(12,request_for_payment_final_approved_by_supervisor).
+  trace(13,request_payment).
+  trace(14,payment_handled).
+}).
+#pos(example_24@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_approved_by_pre_approver).
+  trace(2,request_for_payment_final_approved_by_director).
+  trace(3,request_for_payment_approved_by_supervisor).
+  trace(4,request_payment).
+  trace(5,payment_handled).
+}).
+#pos(example_25@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_rejected_by_pre_approver).
+  trace(2,request_for_payment_rejected_by_employee).
+  trace(3,request_for_payment_submitted_by_employee).
+  trace(4,request_for_payment_final_approved_by_supervisor).
+  trace(5,request_payment).
+  trace(6,payment_handled).
+}).
+#pos(example_26@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_final_approved_by_supervisor).
+  trace(2,request_for_payment_rejected_by_missing).
+  trace(3,request_for_payment_submitted_by_employee).
+  trace(4,request_for_payment_final_approved_by_supervisor).
+}).
+#pos(example_27@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_final_approved_by_supervisor).
+  trace(2,request_payment).
+  trace(3,request_for_payment_rejected_by_missing).
+}).
+#pos(example_28@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_approved_by_administration).
+  trace(2,request_for_payment_final_approved_by_supervisor).
+  trace(3,request_payment).
+  trace(4,payment_handled).
+}).
+#pos(example_29@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_rejected_by_administration).
+  trace(2,request_for_payment_rejected_by_employee).
+}).
+#pos(example_30@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_approved_by_administration).
+  trace(2,request_for_payment_approved_by_budget_owner).
+  trace(3,request_for_payment_final_approved_by_supervisor).
+  trace(4,request_payment).
+  trace(5,payment_handled).
+}).
+#pos(example_31@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_approved_by_administration).
+  trace(2,request_for_payment_rejected_by_supervisor).
+  trace(3,request_for_payment_rejected_by_employee).
+  trace(4,request_for_payment_submitted_by_employee).
+  trace(5,request_for_payment_approved_by_administration).
+  trace(6,request_for_payment_approved_by_budget_owner).
+  trace(7,request_for_payment_final_approved_by_supervisor).
+  trace(8,request_payment).
+  trace(9,payment_handled).
+}).
+#pos(example_32@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_approved_by_administration).
+  trace(2,request_for_payment_rejected_by_supervisor).
+  trace(3,request_for_payment_rejected_by_employee).
+  trace(4,request_for_payment_submitted_by_employee).
+  trace(5,request_for_payment_approved_by_administration).
+  trace(6,request_for_payment_final_approved_by_supervisor).
+  trace(7,request_payment).
+  trace(8,payment_handled).
+}).
+#pos(example_33@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_approved_by_administration).
+  trace(2,request_for_payment_approved_by_budget_owner).
+  trace(3,request_for_payment_rejected_by_supervisor).
+  trace(4,request_for_payment_rejected_by_employee).
+  trace(5,request_for_payment_submitted_by_employee).
+  trace(6,request_for_payment_approved_by_administration).
+  trace(7,request_for_payment_approved_by_budget_owner).
+  trace(8,request_for_payment_final_approved_by_supervisor).
+  trace(9,request_payment).
+  trace(10,payment_handled).
+}).
+#pos(example_34@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_rejected_by_administration).
+  trace(2,request_for_payment_rejected_by_employee).
+  trace(3,request_for_payment_submitted_by_employee).
+  trace(4,request_for_payment_approved_by_administration).
+  trace(5,request_for_payment_final_approved_by_supervisor).
+  trace(6,request_payment).
+  trace(7,payment_handled).
+}).
+#pos(example_35@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_rejected_by_administration).
+  trace(2,request_for_payment_rejected_by_employee).
+  trace(3,request_for_payment_submitted_by_employee).
+  trace(4,request_for_payment_approved_by_administration).
+  trace(5,request_for_payment_approved_by_budget_owner).
+  trace(6,request_for_payment_final_approved_by_supervisor).
+  trace(7,request_payment).
+  trace(8,payment_handled).
+}).
+#pos(example_36@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_approved_by_administration).
+  trace(2,request_for_payment_approved_by_budget_owner).
+  trace(3,request_for_payment_rejected_by_supervisor).
+  trace(4,request_for_payment_rejected_by_employee).
+  trace(5,request_for_payment_submitted_by_employee).
+  trace(6,request_for_payment_approved_by_administration).
+  trace(7,request_for_payment_approved_by_budget_owner).
+  trace(8,request_for_payment_rejected_by_supervisor).
+  trace(9,request_for_payment_rejected_by_employee).
+  trace(10,request_for_payment_submitted_by_employee).
+  trace(11,request_for_payment_approved_by_administration).
+  trace(12,request_for_payment_final_approved_by_supervisor).
+  trace(13,request_payment).
+  trace(14,payment_handled).
+}).
+#pos(example_37@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_approved_by_administration).
+  trace(2,request_for_payment_rejected_by_budget_owner).
+  trace(3,request_for_payment_rejected_by_employee).
+  trace(4,request_for_payment_submitted_by_employee).
+  trace(5,request_for_payment_approved_by_administration).
+  trace(6,request_for_payment_final_approved_by_supervisor).
+  trace(7,request_payment).
+  trace(8,payment_handled).
+}).
+#pos(example_38@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_rejected_by_administration).
+  trace(2,request_for_payment_rejected_by_employee).
+  trace(3,request_for_payment_submitted_by_employee).
+  trace(4,request_for_payment_rejected_by_administration).
+  trace(5,request_for_payment_rejected_by_employee).
+  trace(6,request_for_payment_submitted_by_employee).
+  trace(7,request_for_payment_approved_by_administration).
+  trace(8,request_for_payment_final_approved_by_supervisor).
+  trace(9,request_payment).
+  trace(10,payment_handled).
+}).
+#pos(example_39@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_approved_by_administration).
+  trace(2,request_for_payment_rejected_by_supervisor).
+  trace(3,request_for_payment_rejected_by_employee).
+  trace(4,request_for_payment_submitted_by_employee).
+  trace(5,request_for_payment_approved_by_administration).
+  trace(6,request_for_payment_approved_by_budget_owner).
+  trace(7,request_for_payment_rejected_by_supervisor).
+  trace(8,request_for_payment_rejected_by_employee).
+  trace(9,request_for_payment_submitted_by_employee).
+  trace(10,request_for_payment_approved_by_administration).
+  trace(11,request_for_payment_approved_by_budget_owner).
+  trace(12,request_for_payment_final_approved_by_supervisor).
+  trace(13,request_payment).
+  trace(14,payment_handled).
+}).
+#pos(example_40@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_approved_by_administration).
+  trace(2,request_for_payment_approved_by_supervisor).
+  trace(3,request_for_payment_final_approved_by_director).
+  trace(4,request_payment).
+  trace(5,payment_handled).
+}).
+#pos(example_41@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_approved_by_administration).
+  trace(2,request_for_payment_rejected_by_budget_owner).
+  trace(3,request_for_payment_rejected_by_employee).
+}).
+#pos(example_42@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_approved_by_administration).
+  trace(2,request_for_payment_approved_by_budget_owner).
+  trace(3,request_for_payment_approved_by_supervisor).
+  trace(4,request_for_payment_final_approved_by_director).
+  trace(5,request_payment).
+  trace(6,payment_handled).
+}).
+#pos(example_43@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_approved_by_administration).
+  trace(2,request_for_payment_rejected_by_supervisor).
+  trace(3,request_for_payment_rejected_by_employee).
+  trace(4,request_for_payment_submitted_by_employee).
+  trace(5,request_for_payment_approved_by_administration).
+  trace(6,request_for_payment_approved_by_supervisor).
+  trace(7,request_for_payment_final_approved_by_director).
+  trace(8,request_payment).
+  trace(9,payment_handled).
+}).
+#pos(example_44@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_approved_by_administration).
+  trace(2,request_for_payment_rejected_by_supervisor).
+  trace(3,request_for_payment_rejected_by_employee).
+}).
+#pos(example_45@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_approved_by_administration).
+  trace(2,request_for_payment_rejected_by_budget_owner).
+  trace(3,request_for_payment_rejected_by_employee).
+  trace(4,request_for_payment_submitted_by_employee).
+  trace(5,request_for_payment_approved_by_administration).
+  trace(6,request_for_payment_approved_by_budget_owner).
+  trace(7,request_for_payment_final_approved_by_supervisor).
+  trace(8,request_payment).
+  trace(9,payment_handled).
+}).
+#pos(example_46@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_approved_by_administration).
+  trace(2,request_for_payment_approved_by_budget_owner).
+  trace(3,request_for_payment_rejected_by_supervisor).
+  trace(4,request_for_payment_rejected_by_employee).
+}).
+#pos(example_47@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_rejected_by_administration).
+  trace(2,request_for_payment_rejected_by_employee).
+  trace(3,request_for_payment_submitted_by_employee).
+  trace(4,request_for_payment_rejected_by_administration).
+  trace(5,request_for_payment_rejected_by_employee).
+}).
+#pos(example_48@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_rejected_by_supervisor).
+  trace(2,request_for_payment_rejected_by_employee).
+  trace(3,request_for_payment_submitted_by_employee).
+  trace(4,request_for_payment_rejected_by_administration).
+  trace(5,request_for_payment_rejected_by_employee).
+}).
+#pos(example_49@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_rejected_by_supervisor).
+  trace(2,request_for_payment_rejected_by_employee).
+  trace(3,request_for_payment_submitted_by_employee).
+  trace(4,request_for_payment_approved_by_administration).
+  trace(5,request_for_payment_approved_by_budget_owner).
+  trace(6,request_for_payment_final_approved_by_supervisor).
+  trace(7,request_payment).
+  trace(8,payment_handled).
+}).
+#pos(example_50@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_rejected_by_supervisor).
+  trace(2,request_for_payment_rejected_by_employee).
+  trace(3,request_for_payment_submitted_by_employee).
+  trace(4,request_for_payment_approved_by_administration).
+  trace(5,request_for_payment_final_approved_by_supervisor).
+  trace(6,request_payment).
+  trace(7,payment_handled).
+}).
+#pos(example_51@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_approved_by_administration).
+  trace(2,request_for_payment_approved_by_budget_owner).
+  trace(3,request_for_payment_rejected_by_supervisor).
+  trace(4,request_for_payment_rejected_by_employee).
+  trace(5,request_for_payment_submitted_by_employee).
+  trace(6,request_for_payment_approved_by_administration).
+  trace(7,request_for_payment_approved_by_budget_owner).
+  trace(8,request_for_payment_rejected_by_supervisor).
+  trace(9,request_for_payment_submitted_by_employee).
+  trace(10,request_for_payment_approved_by_administration).
+  trace(11,request_for_payment_approved_by_budget_owner).
+  trace(12,request_for_payment_final_approved_by_supervisor).
+  trace(13,request_payment).
+  trace(14,payment_handled).
+}).
+#pos(example_52@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_approved_by_administration).
+  trace(2,request_for_payment_approved_by_budget_owner).
+  trace(3,request_for_payment_rejected_by_supervisor).
+  trace(4,request_for_payment_rejected_by_employee).
+  trace(5,request_for_payment_submitted_by_employee).
+  trace(6,request_for_payment_approved_by_administration).
+  trace(7,request_for_payment_approved_by_budget_owner).
+  trace(8,request_for_payment_rejected_by_supervisor).
+  trace(9,request_for_payment_rejected_by_employee).
+  trace(10,request_for_payment_submitted_by_employee).
+  trace(11,request_for_payment_approved_by_administration).
+  trace(12,request_for_payment_approved_by_budget_owner).
+  trace(13,request_for_payment_final_approved_by_supervisor).
+  trace(14,request_payment).
+  trace(15,payment_handled).
+}).
+#pos(example_53@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_rejected_by_administration).
+  trace(2,request_for_payment_rejected_by_employee).
+  trace(3,request_for_payment_submitted_by_employee).
+  trace(4,request_for_payment_rejected_by_administration).
+  trace(5,request_for_payment_rejected_by_employee).
+  trace(6,request_for_payment_submitted_by_employee).
+  trace(7,request_for_payment_approved_by_administration).
+  trace(8,request_for_payment_approved_by_budget_owner).
+  trace(9,request_for_payment_final_approved_by_supervisor).
+  trace(10,request_payment).
+  trace(11,payment_handled).
+}).
+#pos(example_54@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_approved_by_administration).
+  trace(2,request_for_payment_approved_by_budget_owner).
+  trace(3,request_for_payment_rejected_by_supervisor).
+  trace(4,request_for_payment_rejected_by_employee).
+  trace(5,request_for_payment_submitted_by_employee).
+  trace(6,request_for_payment_approved_by_administration).
+  trace(7,request_for_payment_final_approved_by_supervisor).
+  trace(8,request_payment).
+  trace(9,payment_handled).
+}).
+#pos(example_55@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_rejected_by_administration).
+  trace(2,request_for_payment_rejected_by_employee).
+  trace(3,request_for_payment_submitted_by_employee).
+  trace(4,request_for_payment_rejected_by_administration).
+  trace(5,request_for_payment_submitted_by_employee).
+  trace(6,request_for_payment_for_approval_by_administration).
+  trace(7,request_for_payment_submitted_by_employee).
+  trace(8,request_for_payment_approved_by_administration).
+  trace(9,request_for_payment_approved_by_budget_owner).
+  trace(10,request_for_payment_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_56@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_rejected_by_administration).
+  trace(2,request_for_payment_submitted_by_employee).
+  trace(3,request_for_payment_approved_by_administration).
+  trace(4,request_for_payment_final_approved_by_supervisor).
+  trace(5,request_payment).
+  trace(6,payment_handled).
+}).
+#pos(example_57@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_rejected_by_administration).
+  trace(2,request_for_payment_rejected_by_employee).
+  trace(3,request_for_payment_submitted_by_employee).
+  trace(4,request_for_payment_rejected_by_administration).
+  trace(5,request_for_payment_rejected_by_employee).
+  trace(6,request_for_payment_submitted_by_employee).
+  trace(7,request_for_payment_rejected_by_administration).
+  trace(8,request_for_payment_rejected_by_employee).
+  trace(9,request_for_payment_submitted_by_employee).
+  trace(10,request_for_payment_approved_by_administration).
+  trace(11,request_for_payment_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_58@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_rejected_by_administration).
+  trace(2,request_for_payment_submitted_by_employee).
+  trace(3,request_for_payment_rejected_by_administration).
+  trace(4,request_for_payment_rejected_by_employee).
+}).
+#pos(example_59@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_approved_by_administration).
+  trace(2,request_for_payment_rejected_by_supervisor).
+  trace(3,request_for_payment_rejected_by_employee).
+  trace(4,request_for_payment_submitted_by_employee).
+  trace(5,request_for_payment_rejected_by_administration).
+  trace(6,request_for_payment_rejected_by_employee).
+}).
+#pos(example_60@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_rejected_by_administration).
+  trace(2,request_for_payment_rejected_by_employee).
+  trace(3,request_for_payment_submitted_by_employee).
+  trace(4,request_for_payment_approved_by_administration).
+  trace(5,request_for_payment_rejected_by_budget_owner).
+  trace(6,request_for_payment_rejected_by_employee).
+  trace(7,request_for_payment_submitted_by_employee).
+  trace(8,request_for_payment_approved_by_administration).
+  trace(9,request_for_payment_approved_by_budget_owner).
+  trace(10,request_for_payment_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_61@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_approved_by_administration).
+  trace(2,request_for_payment_rejected_by_supervisor).
+  trace(3,request_for_payment_submitted_by_employee).
+  trace(4,request_for_payment_approved_by_administration).
+  trace(5,request_for_payment_final_approved_by_supervisor).
+  trace(6,payment_handled).
+}).
+#pos(example_62@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_rejected_by_administration).
+  trace(2,request_for_payment_rejected_by_employee).
+  trace(3,request_for_payment_submitted_by_employee).
+  trace(4,request_for_payment_approved_by_administration).
+  trace(5,request_for_payment_rejected_by_budget_owner).
+  trace(6,request_for_payment_rejected_by_employee).
+  trace(7,request_for_payment_submitted_by_employee).
+  trace(8,request_for_payment_rejected_by_administration).
+  trace(9,request_for_payment_rejected_by_employee).
+  trace(10,request_for_payment_submitted_by_employee).
+  trace(11,request_for_payment_approved_by_administration).
+  trace(12,request_for_payment_approved_by_budget_owner).
+  trace(13,request_for_payment_final_approved_by_supervisor).
+  trace(14,request_payment).
+  trace(15,payment_handled).
+}).
+#pos(example_63@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_rejected_by_administration).
+  trace(2,request_for_payment_submitted_by_employee).
+  trace(3,request_for_payment_approved_by_administration).
+  trace(4,request_for_payment_approved_by_budget_owner).
+  trace(5,request_for_payment_final_approved_by_supervisor).
+  trace(6,request_payment).
+  trace(7,payment_handled).
+}).
+#pos(example_64@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_approved_by_administration).
+  trace(2,request_for_payment_approved_by_budget_owner).
+  trace(3,request_for_payment_rejected_by_supervisor).
+  trace(4,request_for_payment_rejected_by_employee).
+  trace(5,request_for_payment_submitted_by_employee).
+  trace(6,request_for_payment_rejected_by_administration).
+  trace(7,request_for_payment_rejected_by_employee).
+  trace(8,request_for_payment_submitted_by_employee).
+  trace(9,request_for_payment_approved_by_administration).
+  trace(10,request_for_payment_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_65@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_rejected_by_administration).
+  trace(2,request_for_payment_rejected_by_employee).
+  trace(3,request_for_payment_submitted_by_employee).
+  trace(4,request_for_payment_approved_by_administration).
+  trace(5,request_for_payment_rejected_by_supervisor).
+  trace(6,request_for_payment_rejected_by_employee).
+  trace(7,request_for_payment_submitted_by_employee).
+  trace(8,request_for_payment_approved_by_administration).
+  trace(9,request_for_payment_approved_by_budget_owner).
+  trace(10,request_for_payment_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_66@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_rejected_by_administration).
+  trace(2,request_for_payment_rejected_by_employee).
+  trace(3,request_for_payment_saved_by_employee).
+}).
+#pos(example_67@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_rejected_by_administration).
+  trace(2,request_for_payment_submitted_by_employee).
+  trace(3,request_for_payment_rejected_by_administration).
+}).
+#pos(example_68@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_rejected_by_administration).
+  trace(2,request_for_payment_submitted_by_employee).
+  trace(3,request_for_payment_rejected_by_administration).
+  trace(4,request_for_payment_submitted_by_employee).
+  trace(5,request_for_payment_approved_by_administration).
+  trace(6,request_for_payment_final_approved_by_supervisor).
+  trace(7,request_payment).
+  trace(8,payment_handled).
+}).
+#pos(example_69@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_rejected_by_administration).
+  trace(2,request_for_payment_rejected_by_employee).
+  trace(3,request_for_payment_submitted_by_employee).
+  trace(4,request_for_payment_rejected_by_administration).
+  trace(5,request_for_payment_rejected_by_employee).
+  trace(6,request_for_payment_submitted_by_employee).
+  trace(7,request_for_payment_rejected_by_administration).
+  trace(8,request_for_payment_rejected_by_employee).
+  trace(9,request_for_payment_submitted_by_employee).
+  trace(10,request_for_payment_rejected_by_administration).
+  trace(11,request_for_payment_rejected_by_employee).
+  trace(12,request_for_payment_submitted_by_employee).
+  trace(13,request_for_payment_rejected_by_administration).
+  trace(14,request_for_payment_rejected_by_employee).
+  trace(15,request_for_payment_submitted_by_employee).
+  trace(16,request_for_payment_approved_by_administration).
+  trace(17,request_for_payment_final_approved_by_supervisor).
+  trace(18,request_payment).
+  trace(19,payment_handled).
+}).
+#pos(example_70@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_approved_by_administration).
+  trace(2,request_for_payment_approved_by_budget_owner).
+  trace(3,request_for_payment_rejected_by_supervisor).
+  trace(4,request_for_payment_submitted_by_employee).
+  trace(5,request_for_payment_approved_by_administration).
+  trace(6,request_for_payment_final_approved_by_supervisor).
+}).
+#pos(example_71@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_approved_by_administration).
+  trace(2,request_for_payment_rejected_by_supervisor).
+  trace(3,request_for_payment_rejected_by_employee).
+  trace(4,request_for_payment_submitted_by_employee).
+  trace(5,request_for_payment_rejected_by_administration).
+  trace(6,request_for_payment_rejected_by_employee).
+  trace(7,request_for_payment_submitted_by_employee).
+  trace(8,request_for_payment_approved_by_administration).
+  trace(9,request_for_payment_final_approved_by_supervisor).
+  trace(10,request_payment).
+  trace(11,payment_handled).
+}).
+#pos(example_72@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_rejected_by_administration).
+  trace(2,request_for_payment_rejected_by_employee).
+  trace(3,request_for_payment_submitted_by_employee).
+  trace(4,request_for_payment_rejected_by_administration).
+  trace(5,request_for_payment_submitted_by_employee).
+  trace(6,request_for_payment_approved_by_administration).
+  trace(7,request_for_payment_approved_by_budget_owner).
+  trace(8,request_for_payment_submitted_by_employee).
+  trace(9,request_for_payment_approved_by_administration).
+  trace(10,request_for_payment_approved_by_budget_owner).
+  trace(11,request_for_payment_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_73@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_rejected_by_administration).
+  trace(2,request_for_payment_rejected_by_employee).
+  trace(3,request_for_payment_submitted_by_employee).
+  trace(4,request_for_payment_approved_by_administration).
+  trace(5,request_for_payment_rejected_by_budget_owner).
+  trace(6,request_for_payment_rejected_by_employee).
+  trace(7,request_for_payment_submitted_by_employee).
+  trace(8,request_for_payment_approved_by_administration).
+  trace(9,request_for_payment_final_approved_by_supervisor).
+  trace(10,request_payment).
+  trace(11,payment_handled).
+}).
+#pos(example_74@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_rejected_by_administration).
+  trace(2,request_for_payment_rejected_by_employee).
+  trace(3,request_for_payment_submitted_by_employee).
+  trace(4,request_for_payment_approved_by_administration).
+  trace(5,request_for_payment_approved_by_budget_owner).
+  trace(6,request_for_payment_approved_by_supervisor).
+  trace(7,request_for_payment_final_approved_by_director).
+  trace(8,request_payment).
+  trace(9,payment_handled).
+}).
+#pos(example_75@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_approved_by_administration).
+  trace(2,request_for_payment_final_approved_by_supervisor).
+  trace(3,payment_handled).
+}).
+#pos(example_76@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_rejected_by_administration).
+  trace(2,request_for_payment_submitted_by_employee).
+  trace(3,request_for_payment_rejected_by_administration).
+  trace(4,request_for_payment_submitted_by_employee).
+  trace(5,request_for_payment_rejected_by_administration).
+  trace(6,request_for_payment_submitted_by_employee).
+  trace(7,request_for_payment_rejected_by_administration).
+  trace(8,request_for_payment_rejected_by_employee).
+}).
+#pos(example_77@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_approved_by_administration).
+  trace(2,request_for_payment_final_approved_by_supervisor).
+  trace(3,payment_handled).
+  trace(4,request_payment).
+}).
+#pos(example_78@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_rejected_by_administration).
+  trace(2,request_for_payment_submitted_by_employee).
+  trace(3,request_for_payment_rejected_by_administration).
+  trace(4,request_for_payment_submitted_by_employee).
+  trace(5,request_for_payment_rejected_by_administration).
+  trace(6,request_for_payment_submitted_by_employee).
+  trace(7,request_for_payment_rejected_by_administration).
+  trace(8,request_for_payment_submitted_by_employee).
+  trace(9,request_for_payment_rejected_by_administration).
+  trace(10,request_for_payment_rejected_by_employee).
+}).
+#pos(example_79@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_rejected_by_administration).
+  trace(2,request_for_payment_rejected_by_employee).
+  trace(3,request_for_payment_submitted_by_employee).
+  trace(4,request_for_payment_approved_by_administration).
+  trace(5,request_for_payment_approved_by_supervisor).
+  trace(6,request_for_payment_final_approved_by_director).
+  trace(7,request_payment).
+  trace(8,payment_handled).
+}).
+#pos(example_80@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_rejected_by_administration).
+  trace(2,request_for_payment_submitted_by_employee).
+  trace(3,request_for_payment_rejected_by_employee).
+  trace(4,request_for_payment_submitted_by_employee).
+  trace(5,request_for_payment_approved_by_administration).
+  trace(6,request_for_payment_final_approved_by_supervisor).
+  trace(7,request_payment).
+  trace(8,payment_handled).
+}).
+#pos(example_81@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_rejected_by_administration).
+  trace(2,request_for_payment_rejected_by_employee).
+  trace(3,request_for_payment_submitted_by_employee).
+  trace(4,request_for_payment_rejected_by_administration).
+  trace(5,request_for_payment_submitted_by_employee).
+  trace(6,request_for_payment_rejected_by_employee).
+  trace(7,request_for_payment_submitted_by_employee).
+  trace(8,request_for_payment_approved_by_administration).
+  trace(9,request_for_payment_final_approved_by_supervisor).
+  trace(10,request_payment).
+  trace(11,payment_handled).
+}).
+#pos(example_82@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_approved_by_administration).
+  trace(2,request_for_payment_final_approved_by_budget_owner).
+  trace(3,payment_handled).
+}).
+#pos(example_83@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_rejected_by_administration).
+  trace(2,request_for_payment_submitted_by_employee).
+  trace(3,request_for_payment_rejected_by_employee).
+  trace(4,request_for_payment_submitted_by_employee).
+  trace(5,request_for_payment_rejected_by_administration).
+  trace(6,request_for_payment_rejected_by_employee).
+}).
+#pos(example_84@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_rejected_by_administration).
+  trace(2,request_for_payment_rejected_by_employee).
+  trace(3,request_for_payment_submitted_by_employee).
+  trace(4,request_for_payment_approved_by_administration).
+  trace(5,request_for_payment_for_approval_by_supervisor).
+}).
+#pos(example_85@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_approved_by_administration).
+  trace(2,request_for_payment_approved_by_budget_owner).
+  trace(3,request_for_payment_final_approved_by_supervisor).
+  trace(4,payment_handled).
+}).
+#pos(example_86@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_approved_by_administration).
+  trace(2,request_for_payment_approved_by_budget_owner).
+  trace(3,request_for_payment_final_approved_by_supervisor).
+  trace(4,payment_handled).
+  trace(5,request_payment).
+}).
+#pos(example_87@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_rejected_by_administration).
+}).
+#pos(example_88@0, {recognized}, {}, {
+  trace(0,request_for_payment_submitted_by_employee).
+  trace(1,request_for_payment_approved_by_administration).
+  trace(2,request_for_payment_approved_by_budget_owner).
+  trace(3,request_for_payment_rejected_by_supervisor).
+}).
