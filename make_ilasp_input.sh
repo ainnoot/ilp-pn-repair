@@ -1,6 +1,6 @@
 #!/bin/bash
 PNML_DIR=pnml
-ILASP_DIR=ilasp_input
+ILASP_DIR=ilasp_input_no_pad
 for PNML in $PNML_DIR/*.pnml; do
     # https://stackoverflow.com/questions/965053/extract-filename-and-extension-in-bash
     FILENAME=$(basename -- "$PNML")
