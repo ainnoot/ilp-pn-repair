@@ -1,4 +1,4 @@
-#pos(example_0@0, {recognized}, {}, {
+#pos(example_0, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -8,7 +8,7 @@
   trace(6,request_payment).
   trace(7,payment_handled).
 }).
-#pos(example_1@0, {recognized}, {}, {
+#pos(example_1, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_final_approved_by_supervisor).
@@ -21,7 +21,7 @@
   trace(9,request_payment).
   trace(10,payment_handled).
 }).
-#pos(example_2@0, {recognized}, {}, {
+#pos(example_2, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -33,7 +33,7 @@
   trace(8,request_payment).
   trace(9,payment_handled).
 }).
-#pos(example_3@0, {recognized}, {}, {
+#pos(example_3, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_final_approved_by_supervisor).
@@ -43,7 +43,7 @@
   trace(6,request_payment).
   trace(7,payment_handled).
 }).
-#pos(example_4@0, {recognized}, {}, {
+#pos(example_4, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_budget_owner).
@@ -56,7 +56,7 @@
   trace(9,request_payment).
   trace(10,payment_handled).
 }).
-#pos(example_5@0, {recognized}, {}, {
+#pos(example_5, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_budget_owner).
@@ -68,20 +68,20 @@
   trace(8,request_payment).
   trace(9,payment_handled).
 }).
-#pos(example_6@0, {recognized}, {}, {
+#pos(example_6, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_budget_owner).
   trace(3,permit_final_approved_by_supervisor).
   trace(4,request_for_payment_saved_by_employee).
 }).
-#pos(example_7@0, {recognized}, {}, {
+#pos(example_7, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_final_approved_by_supervisor).
   trace(3,request_for_payment_saved_by_employee).
 }).
-#pos(example_8@0, {recognized}, {}, {
+#pos(example_8, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_budget_owner).
@@ -92,7 +92,7 @@
   trace(7,request_for_payment_rejected_by_supervisor).
   trace(8,request_for_payment_rejected_by_employee).
 }).
-#pos(example_9@0, {recognized}, {}, {
+#pos(example_9, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -104,7 +104,7 @@
   trace(8,request_payment).
   trace(9,payment_handled).
 }).
-#pos(example_10@0, {recognized}, {}, {
+#pos(example_10, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_budget_owner).
@@ -123,7 +123,7 @@
   trace(15,request_payment).
   trace(16,payment_handled).
 }).
-#pos(example_11@0, {recognized}, {}, {
+#pos(example_11, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -136,7 +136,7 @@
   trace(9,request_payment).
   trace(10,payment_handled).
 }).
-#pos(example_12@0, {recognized}, {}, {
+#pos(example_12, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_supervisor).
@@ -147,7 +147,7 @@
   trace(7,request_payment).
   trace(8,payment_handled).
 }).
-#pos(example_13@0, {recognized}, {}, {
+#pos(example_13, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -160,7 +160,7 @@
   trace(9,permit_final_approved_by_director).
   trace(10,payment_handled).
 }).
-#pos(example_14@0, {recognized}, {}, {
+#pos(example_14, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_budget_owner).
@@ -175,7 +175,7 @@
   trace(11,request_payment).
   trace(12,payment_handled).
 }).
-#pos(example_15@0, {recognized}, {}, {
+#pos(example_15, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_final_approved_by_supervisor).
@@ -183,7 +183,7 @@
   trace(4,request_for_payment_rejected_by_administration).
   trace(5,request_for_payment_rejected_by_employee).
 }).
-#pos(example_16@0, {recognized}, {}, {
+#pos(example_16, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -195,7 +195,7 @@
   trace(8,permit_final_approved_by_supervisor).
   trace(9,payment_handled).
 }).
-#pos(example_17@0, {recognized}, {}, {
+#pos(example_17, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -206,7 +206,7 @@
   trace(7,permit_final_approved_by_supervisor).
   trace(8,payment_handled).
 }).
-#pos(example_18@0, {recognized}, {}, {
+#pos(example_18, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_supervisor).
@@ -220,7 +220,7 @@
   trace(10,request_payment).
   trace(11,payment_handled).
 }).
-#pos(example_19@0, {recognized}, {}, {
+#pos(example_19, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -230,7 +230,7 @@
   trace(6,payment_handled).
   trace(7,permit_final_approved_by_supervisor).
 }).
-#pos(example_20@0, {recognized}, {}, {
+#pos(example_20, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_final_approved_by_supervisor).
@@ -241,7 +241,7 @@
   trace(7,request_payment).
   trace(8,payment_handled).
 }).
-#pos(example_21@0, {recognized}, {}, {
+#pos(example_21, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_budget_owner).
@@ -255,7 +255,7 @@
   trace(10,request_payment).
   trace(11,payment_handled).
 }).
-#pos(example_22@0, {recognized}, {}, {
+#pos(example_22, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_rejected_by_budget_owner).
@@ -274,7 +274,7 @@
   trace(15,request_payment).
   trace(16,payment_handled).
 }).
-#pos(example_23@0, {recognized}, {}, {
+#pos(example_23, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_rejected_by_administration).
   trace(2,permit_rejected_by_employee).
@@ -288,7 +288,7 @@
   trace(10,request_payment).
   trace(11,payment_handled).
 }).
-#pos(example_24@0, {recognized}, {}, {
+#pos(example_24, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_budget_owner).
@@ -300,7 +300,7 @@
   trace(8,request_payment).
   trace(9,payment_handled).
 }).
-#pos(example_25@0, {recognized}, {}, {
+#pos(example_25, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -312,28 +312,28 @@
   trace(8,request_payment).
   trace(9,payment_handled).
 }).
-#pos(example_26@0, {recognized}, {}, {
+#pos(example_26, {ok}, {}, {
   trace(0,request_for_payment_submitted_by_employee).
   trace(1,request_for_payment_approved_by_pre_approver).
   trace(2,request_for_payment_final_approved_by_supervisor).
   trace(3,request_payment).
   trace(4,payment_handled).
 }).
-#pos(example_27@0, {recognized}, {}, {
+#pos(example_27, {ok}, {}, {
   trace(0,request_for_payment_saved_by_employee).
 }).
-#pos(example_28@0, {recognized}, {}, {
+#pos(example_28, {ok}, {}, {
   trace(0,request_for_payment_submitted_by_employee).
   trace(1,request_for_payment_final_approved_by_supervisor).
   trace(2,request_payment).
   trace(3,payment_handled).
 }).
-#pos(example_29@0, {recognized}, {}, {
+#pos(example_29, {ok}, {}, {
   trace(0,request_for_payment_submitted_by_employee).
   trace(1,request_for_payment_final_approved_by_supervisor).
   trace(2,request_for_payment_rejected_by_missing).
 }).
-#pos(example_30@0, {recognized}, {}, {
+#pos(example_30, {ok}, {}, {
   trace(0,request_for_payment_submitted_by_employee).
   trace(1,request_for_payment_approved_by_pre_approver).
   trace(2,request_for_payment_approved_by_supervisor).
@@ -341,12 +341,12 @@
   trace(4,request_payment).
   trace(5,payment_handled).
 }).
-#pos(example_31@0, {recognized}, {}, {
+#pos(example_31, {ok}, {}, {
   trace(0,request_for_payment_submitted_by_employee).
   trace(1,request_for_payment_rejected_by_pre_approver).
   trace(2,request_for_payment_rejected_by_employee).
 }).
-#pos(example_32@0, {recognized}, {}, {
+#pos(example_32, {ok}, {}, {
   trace(0,request_for_payment_submitted_by_employee).
   trace(1,request_for_payment_approved_by_administration).
   trace(2,request_for_payment_approved_by_budget_owner).
@@ -354,19 +354,19 @@
   trace(4,request_payment).
   trace(5,payment_handled).
 }).
-#pos(example_33@0, {recognized}, {}, {
+#pos(example_33, {ok}, {}, {
   trace(0,request_for_payment_submitted_by_employee).
   trace(1,request_for_payment_approved_by_administration).
   trace(2,request_for_payment_final_approved_by_supervisor).
   trace(3,request_payment).
   trace(4,payment_handled).
 }).
-#pos(example_34@0, {recognized}, {}, {
+#pos(example_34, {ok}, {}, {
   trace(0,request_for_payment_submitted_by_employee).
   trace(1,request_for_payment_rejected_by_administration).
   trace(2,request_for_payment_rejected_by_employee).
 }).
-#pos(example_35@0, {recognized}, {}, {
+#pos(example_35, {ok}, {}, {
   trace(0,request_for_payment_submitted_by_employee).
   trace(1,request_for_payment_approved_by_administration).
   trace(2,request_for_payment_approved_by_budget_owner).
@@ -375,7 +375,7 @@
   trace(5,request_payment).
   trace(6,payment_handled).
 }).
-#pos(example_36@0, {recognized}, {}, {
+#pos(example_36, {ok}, {}, {
   trace(0,request_for_payment_submitted_by_employee).
   trace(1,request_for_payment_rejected_by_administration).
   trace(2,request_for_payment_rejected_by_employee).
@@ -390,7 +390,7 @@
   trace(11,request_payment).
   trace(12,payment_handled).
 }).
-#pos(example_37@0, {recognized}, {}, {
+#pos(example_37, {ok}, {}, {
   trace(0,request_for_payment_submitted_by_employee).
   trace(1,request_for_payment_approved_by_administration).
   trace(2,request_for_payment_rejected_by_supervisor).
@@ -402,7 +402,7 @@
   trace(8,request_payment).
   trace(9,payment_handled).
 }).
-#pos(example_38@0, {recognized}, {}, {
+#pos(example_38, {ok}, {}, {
   trace(0,request_for_payment_submitted_by_employee).
   trace(1,request_for_payment_rejected_by_administration).
   trace(2,request_for_payment_rejected_by_employee).
@@ -413,7 +413,7 @@
   trace(7,request_payment).
   trace(8,payment_handled).
 }).
-#pos(example_39@0, {recognized}, {}, {
+#pos(example_39, {ok}, {}, {
   trace(0,request_for_payment_submitted_by_employee).
   trace(1,request_for_payment_rejected_by_administration).
   trace(2,request_for_payment_rejected_by_employee).
@@ -426,7 +426,7 @@
   trace(9,request_payment).
   trace(10,payment_handled).
 }).
-#pos(example_40@0, {recognized}, {}, {
+#pos(example_40, {ok}, {}, {
   trace(0,request_for_payment_submitted_by_employee).
   trace(1,request_for_payment_rejected_by_administration).
   trace(2,request_for_payment_rejected_by_employee).
@@ -436,13 +436,13 @@
   trace(6,request_payment).
   trace(7,payment_handled).
 }).
-#pos(example_41@0, {recognized}, {}, {
+#pos(example_41, {ok}, {}, {
   trace(0,request_for_payment_submitted_by_employee).
   trace(1,request_for_payment_rejected_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
   trace(3,request_for_payment_rejected_by_administration).
 }).
-#pos(example_42@0, {recognized}, {}, {
+#pos(example_42, {ok}, {}, {
   trace(0,request_for_payment_submitted_by_employee).
   trace(1,request_for_payment_approved_by_administration).
   trace(2,request_for_payment_approved_by_budget_owner).
@@ -451,13 +451,13 @@
   trace(5,payment_handled).
   trace(6,request_payment).
 }).
-#pos(example_43@0, {recognized}, {}, {
+#pos(example_43, {ok}, {}, {
   trace(0,request_for_payment_submitted_by_employee).
   trace(1,request_for_payment_approved_by_administration).
   trace(2,request_for_payment_rejected_by_supervisor).
   trace(3,request_for_payment_rejected_by_employee).
 }).
-#pos(example_44@0, {recognized}, {}, {
+#pos(example_44, {ok}, {}, {
   trace(0,request_for_payment_submitted_by_employee).
   trace(1,request_for_payment_approved_by_administration).
   trace(2,request_for_payment_rejected_by_budget_owner).
@@ -468,13 +468,13 @@
   trace(7,request_payment).
   trace(8,payment_handled).
 }).
-#pos(example_45@0, {recognized}, {}, {
+#pos(example_45, {ok}, {}, {
   trace(0,request_for_payment_submitted_by_employee).
   trace(1,request_for_payment_approved_by_administration).
   trace(2,request_for_payment_final_approved_by_supervisor).
   trace(3,payment_handled).
 }).
-#pos(example_46@0, {recognized}, {}, {
+#pos(example_46, {ok}, {}, {
   trace(0,request_for_payment_submitted_by_employee).
   trace(1,request_for_payment_rejected_by_administration).
   trace(2,request_for_payment_rejected_by_employee).
@@ -482,7 +482,7 @@
   trace(4,request_for_payment_rejected_by_administration).
   trace(5,request_for_payment_rejected_by_employee).
 }).
-#pos(example_47@0, {recognized}, {}, {
+#pos(example_47, {ok}, {}, {
   trace(0,request_for_payment_submitted_by_employee).
   trace(1,request_for_payment_approved_by_administration).
   trace(2,request_for_payment_rejected_by_supervisor).
@@ -493,7 +493,7 @@
   trace(7,request_payment).
   trace(8,payment_handled).
 }).
-#pos(example_48@0, {recognized}, {}, {
+#pos(example_48, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_budget_owner).
@@ -505,7 +505,7 @@
   trace(8,request_payment).
   trace(9,payment_handled).
 }).
-#pos(example_49@0, {recognized}, {}, {
+#pos(example_49, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -515,7 +515,7 @@
   trace(6,request_payment).
   trace(7,payment_handled).
 }).
-#pos(example_50@0, {recognized}, {}, {
+#pos(example_50, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_budget_owner).
@@ -533,7 +533,7 @@
   trace(14,request_payment).
   trace(15,payment_handled).
 }).
-#pos(example_51@0, {recognized}, {}, {
+#pos(example_51, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -544,7 +544,7 @@
   trace(7,permit_final_approved_by_director).
   trace(8,payment_handled).
 }).
-#pos(example_52@0, {recognized}, {}, {
+#pos(example_52, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -559,7 +559,7 @@
   trace(11,request_payment).
   trace(12,payment_handled).
 }).
-#pos(example_53@0, {recognized}, {}, {
+#pos(example_53, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_final_approved_by_supervisor).
@@ -568,7 +568,7 @@
   trace(5,request_for_payment_rejected_by_supervisor).
   trace(6,request_for_payment_rejected_by_employee).
 }).
-#pos(example_54@0, {recognized}, {}, {
+#pos(example_54, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_budget_owner).
@@ -580,7 +580,7 @@
   trace(8,request_payment).
   trace(9,payment_handled).
 }).
-#pos(example_55@0, {recognized}, {}, {
+#pos(example_55, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_budget_owner).
@@ -592,7 +592,7 @@
   trace(8,request_payment).
   trace(9,payment_handled).
 }).
-#pos(example_56@0, {recognized}, {}, {
+#pos(example_56, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -604,7 +604,7 @@
   trace(8,request_payment).
   trace(9,payment_handled).
 }).
-#pos(example_57@0, {recognized}, {}, {
+#pos(example_57, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_rejected_by_supervisor).
@@ -619,7 +619,7 @@
   trace(11,request_payment).
   trace(12,payment_handled).
 }).
-#pos(example_58@0, {recognized}, {}, {
+#pos(example_58, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_budget_owner).
@@ -628,7 +628,7 @@
   trace(5,request_for_payment_rejected_by_administration).
   trace(6,request_for_payment_rejected_by_employee).
 }).
-#pos(example_59@0, {recognized}, {}, {
+#pos(example_59, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -641,7 +641,7 @@
   trace(9,request_payment).
   trace(10,payment_handled).
 }).
-#pos(example_60@0, {recognized}, {}, {
+#pos(example_60, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -651,7 +651,7 @@
   trace(6,request_payment).
   trace(7,payment_handled).
 }).
-#pos(example_61@0, {recognized}, {}, {
+#pos(example_61, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_supervisor).
@@ -660,7 +660,7 @@
   trace(5,request_for_payment_rejected_by_administration).
   trace(6,request_for_payment_rejected_by_employee).
 }).
-#pos(example_62@0, {recognized}, {}, {
+#pos(example_62, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_supervisor).
@@ -672,7 +672,7 @@
   trace(8,request_payment).
   trace(9,payment_handled).
 }).
-#pos(example_63@0, {recognized}, {}, {
+#pos(example_63, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_rejected_by_supervisor).
@@ -686,7 +686,7 @@
   trace(10,request_payment).
   trace(11,payment_handled).
 }).
-#pos(example_64@0, {recognized}, {}, {
+#pos(example_64, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_rejected_by_supervisor).
@@ -702,7 +702,7 @@
   trace(12,request_payment).
   trace(13,payment_handled).
 }).
-#pos(example_65@0, {recognized}, {}, {
+#pos(example_65, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -712,7 +712,7 @@
   trace(6,permit_final_approved_by_supervisor).
   trace(7,payment_handled).
 }).
-#pos(example_66@0, {recognized}, {}, {
+#pos(example_66, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -723,7 +723,7 @@
   trace(7,request_payment).
   trace(8,payment_handled).
 }).
-#pos(example_67@0, {recognized}, {}, {
+#pos(example_67, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_budget_owner).
@@ -740,7 +740,7 @@
   trace(13,request_payment).
   trace(14,payment_handled).
 }).
-#pos(example_68@0, {recognized}, {}, {
+#pos(example_68, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -752,14 +752,14 @@
   trace(8,request_payment).
   trace(9,payment_handled).
 }).
-#pos(example_69@0, {recognized}, {}, {
+#pos(example_69, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,request_for_payment_saved_by_employee).
   trace(3,permit_approved_by_budget_owner).
   trace(4,permit_final_approved_by_supervisor).
 }).
-#pos(example_70@0, {recognized}, {}, {
+#pos(example_70, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -771,7 +771,7 @@
   trace(8,request_payment).
   trace(9,payment_handled).
 }).
-#pos(example_71@0, {recognized}, {}, {
+#pos(example_71, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -791,7 +791,7 @@
   trace(16,request_payment).
   trace(17,payment_handled).
 }).
-#pos(example_72@0, {recognized}, {}, {
+#pos(example_72, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -810,7 +810,7 @@
   trace(15,request_payment).
   trace(16,payment_handled).
 }).
-#pos(example_73@0, {recognized}, {}, {
+#pos(example_73, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -821,7 +821,7 @@
   trace(7,request_payment).
   trace(8,payment_handled).
 }).
-#pos(example_74@0, {recognized}, {}, {
+#pos(example_74, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_rejected_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -837,7 +837,7 @@
   trace(12,request_payment).
   trace(13,payment_handled).
 }).
-#pos(example_75@0, {recognized}, {}, {
+#pos(example_75, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -853,7 +853,7 @@
   trace(12,request_payment).
   trace(13,payment_handled).
 }).
-#pos(example_76@0, {recognized}, {}, {
+#pos(example_76, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -869,7 +869,7 @@
   trace(12,permit_final_approved_by_supervisor).
   trace(13,payment_handled).
 }).
-#pos(example_77@0, {recognized}, {}, {
+#pos(example_77, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -881,7 +881,7 @@
   trace(8,request_payment).
   trace(9,payment_handled).
 }).
-#pos(example_78@0, {recognized}, {}, {
+#pos(example_78, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_supervisor).
@@ -892,7 +892,7 @@
   trace(7,request_payment).
   trace(8,payment_handled).
 }).
-#pos(example_79@0, {recognized}, {}, {
+#pos(example_79, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_budget_owner).
@@ -903,7 +903,7 @@
   trace(7,request_payment).
   trace(8,payment_handled).
 }).
-#pos(example_80@0, {recognized}, {}, {
+#pos(example_80, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_supervisor).
@@ -918,7 +918,7 @@
   trace(11,request_payment).
   trace(12,payment_handled).
 }).
-#pos(example_81@0, {recognized}, {}, {
+#pos(example_81, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_supervisor).
@@ -930,7 +930,7 @@
   trace(8,request_payment).
   trace(9,payment_handled).
 }).
-#pos(example_82@0, {recognized}, {}, {
+#pos(example_82, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -940,7 +940,7 @@
   trace(6,request_for_payment_rejected_by_employee).
   trace(7,permit_final_approved_by_supervisor).
 }).
-#pos(example_83@0, {recognized}, {}, {
+#pos(example_83, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_rejected_by_supervisor).
@@ -956,7 +956,7 @@
   trace(12,request_payment).
   trace(13,payment_handled).
 }).
-#pos(example_84@0, {recognized}, {}, {
+#pos(example_84, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_budget_owner).
@@ -972,7 +972,7 @@
   trace(12,request_payment).
   trace(13,payment_handled).
 }).
-#pos(example_85@0, {recognized}, {}, {
+#pos(example_85, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_supervisor).
@@ -987,7 +987,7 @@
   trace(11,request_payment).
   trace(12,payment_handled).
 }).
-#pos(example_86@0, {recognized}, {}, {
+#pos(example_86, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_rejected_by_budget_owner).
@@ -1003,7 +1003,7 @@
   trace(12,request_payment).
   trace(13,payment_handled).
 }).
-#pos(example_87@0, {recognized}, {}, {
+#pos(example_87, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_final_approved_by_supervisor).
@@ -1019,7 +1019,7 @@
   trace(12,request_payment).
   trace(13,payment_handled).
 }).
-#pos(example_88@0, {recognized}, {}, {
+#pos(example_88, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -1034,7 +1034,7 @@
   trace(11,request_payment).
   trace(12,payment_handled).
 }).
-#pos(example_89@0, {recognized}, {}, {
+#pos(example_89, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_budget_owner).
@@ -1049,7 +1049,7 @@
   trace(11,request_payment).
   trace(12,payment_handled).
 }).
-#pos(example_90@0, {recognized}, {}, {
+#pos(example_90, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -1067,7 +1067,7 @@
   trace(14,request_payment).
   trace(15,payment_handled).
 }).
-#pos(example_91@0, {recognized}, {}, {
+#pos(example_91, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -1084,7 +1084,7 @@
   trace(13,request_payment).
   trace(14,payment_handled).
 }).
-#pos(example_92@0, {recognized}, {}, {
+#pos(example_92, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_final_approved_by_supervisor).
@@ -1098,7 +1098,7 @@
   trace(10,request_payment).
   trace(11,payment_handled).
 }).
-#pos(example_93@0, {recognized}, {}, {
+#pos(example_93, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_budget_owner).
@@ -1117,7 +1117,7 @@
   trace(15,request_payment).
   trace(16,payment_handled).
 }).
-#pos(example_94@0, {recognized}, {}, {
+#pos(example_94, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_supervisor).
@@ -1128,7 +1128,7 @@
   trace(7,request_for_payment_rejected_by_employee).
   trace(8,request_for_payment_saved_by_employee).
 }).
-#pos(example_95@0, {recognized}, {}, {
+#pos(example_95, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_rejected_by_administration).
   trace(2,permit_rejected_by_employee).
@@ -1141,7 +1141,7 @@
   trace(9,request_payment).
   trace(10,payment_handled).
 }).
-#pos(example_96@0, {recognized}, {}, {
+#pos(example_96, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -1160,7 +1160,7 @@
   trace(15,request_payment).
   trace(16,payment_handled).
 }).
-#pos(example_97@0, {recognized}, {}, {
+#pos(example_97, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_rejected_by_budget_owner).
@@ -1177,7 +1177,7 @@
   trace(13,request_payment).
   trace(14,payment_handled).
 }).
-#pos(example_98@0, {recognized}, {}, {
+#pos(example_98, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_budget_owner).
@@ -1190,7 +1190,7 @@
   trace(9,request_for_payment_rejected_by_administration).
   trace(10,request_for_payment_rejected_by_employee).
 }).
-#pos(example_99@0, {recognized}, {}, {
+#pos(example_99, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -1199,7 +1199,7 @@
   trace(5,permit_approved_by_budget_owner).
   trace(6,permit_final_approved_by_supervisor).
 }).
-#pos(example_100@0, {recognized}, {}, {
+#pos(example_100, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -1212,7 +1212,7 @@
   trace(9,permit_final_approved_by_director).
   trace(10,payment_handled).
 }).
-#pos(example_101@0, {recognized}, {}, {
+#pos(example_101, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -1225,7 +1225,7 @@
   trace(9,request_payment).
   trace(10,payment_handled).
 }).
-#pos(example_102@0, {recognized}, {}, {
+#pos(example_102, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_budget_owner).
@@ -1238,7 +1238,7 @@
   trace(9,request_payment).
   trace(10,payment_handled).
 }).
-#pos(example_103@0, {recognized}, {}, {
+#pos(example_103, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_budget_owner).
@@ -1254,7 +1254,7 @@
   trace(12,request_payment).
   trace(13,payment_handled).
 }).
-#pos(example_104@0, {recognized}, {}, {
+#pos(example_104, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_budget_owner).
@@ -1267,7 +1267,7 @@
   trace(9,request_payment).
   trace(10,payment_handled).
 }).
-#pos(example_105@0, {recognized}, {}, {
+#pos(example_105, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -1280,7 +1280,7 @@
   trace(9,permit_final_approved_by_director).
   trace(10,payment_handled).
 }).
-#pos(example_106@0, {recognized}, {}, {
+#pos(example_106, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_rejected_by_budget_owner).
@@ -1300,7 +1300,7 @@
   trace(16,request_payment).
   trace(17,payment_handled).
 }).
-#pos(example_107@0, {recognized}, {}, {
+#pos(example_107, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_rejected_by_budget_owner).
@@ -1317,7 +1317,7 @@
   trace(13,request_for_payment_rejected_by_administration).
   trace(14,request_for_payment_rejected_by_employee).
 }).
-#pos(example_108@0, {recognized}, {}, {
+#pos(example_108, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_budget_owner).
@@ -1327,7 +1327,7 @@
   trace(6,request_for_payment_rejected_by_administration).
   trace(7,request_for_payment_rejected_by_employee).
 }).
-#pos(example_109@0, {recognized}, {}, {
+#pos(example_109, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_rejected_by_supervisor).
@@ -1344,7 +1344,7 @@
   trace(13,request_payment).
   trace(14,payment_handled).
 }).
-#pos(example_110@0, {recognized}, {}, {
+#pos(example_110, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_budget_owner).
@@ -1352,7 +1352,7 @@
   trace(4,permit_final_approved_by_director).
   trace(5,request_for_payment_saved_by_employee).
 }).
-#pos(example_111@0, {recognized}, {}, {
+#pos(example_111, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_budget_owner).
@@ -1368,7 +1368,7 @@
   trace(12,request_payment).
   trace(13,payment_handled).
 }).
-#pos(example_112@0, {recognized}, {}, {
+#pos(example_112, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_budget_owner).
@@ -1383,7 +1383,7 @@
   trace(11,request_payment).
   trace(12,payment_handled).
 }).
-#pos(example_113@0, {recognized}, {}, {
+#pos(example_113, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_rejected_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -1398,7 +1398,7 @@
   trace(11,request_payment).
   trace(12,payment_handled).
 }).
-#pos(example_114@0, {recognized}, {}, {
+#pos(example_114, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -1410,7 +1410,7 @@
   trace(8,payment_handled).
   trace(9,permit_final_approved_by_supervisor).
 }).
-#pos(example_115@0, {recognized}, {}, {
+#pos(example_115, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_rejected_by_administration).
   trace(2,permit_rejected_by_employee).
@@ -1421,7 +1421,7 @@
   trace(7,request_for_payment_rejected_by_administration).
   trace(8,request_for_payment_rejected_by_employee).
 }).
-#pos(example_116@0, {recognized}, {}, {
+#pos(example_116, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -1432,7 +1432,7 @@
   trace(7,permit_final_approved_by_director).
   trace(8,payment_handled).
 }).
-#pos(example_117@0, {recognized}, {}, {
+#pos(example_117, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_budget_owner).
@@ -1442,7 +1442,7 @@
   trace(6,request_for_payment_rejected_by_employee).
   trace(7,request_for_payment_saved_by_employee).
 }).
-#pos(example_118@0, {recognized}, {}, {
+#pos(example_118, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_rejected_by_budget_owner).
@@ -1456,7 +1456,7 @@
   trace(10,request_payment).
   trace(11,payment_handled).
 }).
-#pos(example_119@0, {recognized}, {}, {
+#pos(example_119, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_budget_owner).
@@ -1472,7 +1472,7 @@
   trace(12,request_payment).
   trace(13,payment_handled).
 }).
-#pos(example_120@0, {recognized}, {}, {
+#pos(example_120, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_final_approved_by_supervisor).
@@ -1491,7 +1491,7 @@
   trace(15,request_payment).
   trace(16,payment_handled).
 }).
-#pos(example_121@0, {recognized}, {}, {
+#pos(example_121, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -1504,7 +1504,7 @@
   trace(9,request_payment).
   trace(10,payment_handled).
 }).
-#pos(example_122@0, {recognized}, {}, {
+#pos(example_122, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_supervisor).
@@ -1515,7 +1515,7 @@
   trace(7,permit_final_approved_by_director).
   trace(8,payment_handled).
 }).
-#pos(example_123@0, {recognized}, {}, {
+#pos(example_123, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_rejected_by_supervisor).
@@ -1531,7 +1531,7 @@
   trace(12,request_payment).
   trace(13,payment_handled).
 }).
-#pos(example_124@0, {recognized}, {}, {
+#pos(example_124, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_budget_owner).
@@ -1541,7 +1541,7 @@
   trace(6,request_for_payment_rejected_by_budget_owner).
   trace(7,request_for_payment_rejected_by_employee).
 }).
-#pos(example_125@0, {recognized}, {}, {
+#pos(example_125, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_budget_owner).
@@ -1564,7 +1564,7 @@
   trace(19,request_payment).
   trace(20,payment_handled).
 }).
-#pos(example_126@0, {recognized}, {}, {
+#pos(example_126, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_final_approved_by_supervisor).
@@ -1575,7 +1575,7 @@
   trace(7,request_for_payment_rejected_by_administration).
   trace(8,request_for_payment_rejected_by_employee).
 }).
-#pos(example_127@0, {recognized}, {}, {
+#pos(example_127, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -1587,7 +1587,7 @@
   trace(8,request_payment).
   trace(9,payment_handled).
 }).
-#pos(example_128@0, {recognized}, {}, {
+#pos(example_128, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_final_approved_by_supervisor).
@@ -1598,7 +1598,7 @@
   trace(7,request_payment).
   trace(8,payment_handled).
 }).
-#pos(example_129@0, {recognized}, {}, {
+#pos(example_129, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_rejected_by_budget_owner).
@@ -1614,7 +1614,7 @@
   trace(12,request_payment).
   trace(13,payment_handled).
 }).
-#pos(example_130@0, {recognized}, {}, {
+#pos(example_130, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_rejected_by_budget_owner).
@@ -1630,7 +1630,7 @@
   trace(12,payment_handled).
   trace(13,permit_final_approved_by_supervisor).
 }).
-#pos(example_131@0, {recognized}, {}, {
+#pos(example_131, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_budget_owner).
@@ -1643,7 +1643,7 @@
   trace(9,request_for_payment_rejected_by_administration).
   trace(10,request_for_payment_rejected_by_employee).
 }).
-#pos(example_132@0, {recognized}, {}, {
+#pos(example_132, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -1657,7 +1657,7 @@
   trace(10,request_payment).
   trace(11,payment_handled).
 }).
-#pos(example_133@0, {recognized}, {}, {
+#pos(example_133, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -1666,7 +1666,7 @@
   trace(5,request_for_payment_rejected_by_employee).
   trace(6,permit_final_approved_by_supervisor).
 }).
-#pos(example_134@0, {recognized}, {}, {
+#pos(example_134, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -1681,7 +1681,7 @@
   trace(11,request_for_payment_rejected_by_supervisor).
   trace(12,request_for_payment_rejected_by_employee).
 }).
-#pos(example_135@0, {recognized}, {}, {
+#pos(example_135, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_budget_owner).
@@ -1696,7 +1696,7 @@
   trace(11,request_for_payment_rejected_by_supervisor).
   trace(12,request_for_payment_rejected_by_employee).
 }).
-#pos(example_136@0, {recognized}, {}, {
+#pos(example_136, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_budget_owner).
@@ -1710,7 +1710,7 @@
   trace(10,request_payment).
   trace(11,payment_handled).
 }).
-#pos(example_137@0, {recognized}, {}, {
+#pos(example_137, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_rejected_by_supervisor).
@@ -1730,7 +1730,7 @@
   trace(16,request_payment).
   trace(17,payment_handled).
 }).
-#pos(example_138@0, {recognized}, {}, {
+#pos(example_138, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_budget_owner).
@@ -1746,7 +1746,7 @@
   trace(12,request_payment).
   trace(13,payment_handled).
 }).
-#pos(example_139@0, {recognized}, {}, {
+#pos(example_139, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_supervisor).
@@ -1758,7 +1758,7 @@
   trace(8,request_for_payment_rejected_by_administration).
   trace(9,request_for_payment_rejected_by_employee).
 }).
-#pos(example_140@0, {recognized}, {}, {
+#pos(example_140, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_budget_owner).
@@ -1771,7 +1771,7 @@
   trace(9,permit_final_approved_by_director).
   trace(10,payment_handled).
 }).
-#pos(example_141@0, {recognized}, {}, {
+#pos(example_141, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_rejected_by_administration).
   trace(2,permit_rejected_by_employee).
@@ -1787,7 +1787,7 @@
   trace(12,request_payment).
   trace(13,payment_handled).
 }).
-#pos(example_142@0, {recognized}, {}, {
+#pos(example_142, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_rejected_by_administration).
   trace(2,permit_rejected_by_employee).
@@ -1805,7 +1805,7 @@
   trace(14,request_payment).
   trace(15,payment_handled).
 }).
-#pos(example_143@0, {recognized}, {}, {
+#pos(example_143, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -1816,7 +1816,7 @@
   trace(7,request_payment).
   trace(8,payment_handled).
 }).
-#pos(example_144@0, {recognized}, {}, {
+#pos(example_144, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_rejected_by_supervisor).
@@ -1835,7 +1835,7 @@
   trace(15,request_payment).
   trace(16,payment_handled).
 }).
-#pos(example_145@0, {recognized}, {}, {
+#pos(example_145, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_final_approved_by_supervisor).
@@ -1845,7 +1845,7 @@
   trace(6,request_for_payment_rejected_by_administration).
   trace(7,request_for_payment_rejected_by_employee).
 }).
-#pos(example_146@0, {recognized}, {}, {
+#pos(example_146, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_rejected_by_supervisor).
@@ -1861,7 +1861,7 @@
   trace(12,request_payment).
   trace(13,payment_handled).
 }).
-#pos(example_147@0, {recognized}, {}, {
+#pos(example_147, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_rejected_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -1874,7 +1874,7 @@
   trace(9,payment_handled).
   trace(10,permit_final_approved_by_supervisor).
 }).
-#pos(example_148@0, {recognized}, {}, {
+#pos(example_148, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_budget_owner).
@@ -1883,7 +1883,7 @@
   trace(5,request_for_payment_rejected_by_administration).
   trace(6,request_for_payment_rejected_by_employee).
 }).
-#pos(example_149@0, {recognized}, {}, {
+#pos(example_149, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_budget_owner).
@@ -1896,14 +1896,14 @@
   trace(9,request_payment).
   trace(10,payment_handled).
 }).
-#pos(example_150@0, {recognized}, {}, {
+#pos(example_150, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,request_for_payment_saved_by_employee).
   trace(3,permit_approved_by_supervisor).
   trace(4,permit_final_approved_by_director).
 }).
-#pos(example_151@0, {recognized}, {}, {
+#pos(example_151, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -1919,7 +1919,7 @@
   trace(12,request_payment).
   trace(13,payment_handled).
 }).
-#pos(example_152@0, {recognized}, {}, {
+#pos(example_152, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_rejected_by_supervisor).
@@ -1936,7 +1936,7 @@
   trace(13,request_payment).
   trace(14,payment_handled).
 }).
-#pos(example_153@0, {recognized}, {}, {
+#pos(example_153, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,permit_approved_by_budget_owner).
@@ -1951,7 +1951,7 @@
   trace(11,request_payment).
   trace(12,payment_handled).
 }).
-#pos(example_154@0, {recognized}, {}, {
+#pos(example_154, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_administration).
   trace(2,request_for_payment_submitted_by_employee).
@@ -1965,7 +1965,7 @@
   trace(10,request_payment).
   trace(11,payment_handled).
 }).
-#pos(example_155@0, {recognized}, {}, {
+#pos(example_155, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_pre_approver).
   trace(2,permit_final_approved_by_supervisor).
@@ -1975,7 +1975,7 @@
   trace(6,request_payment).
   trace(7,payment_handled).
 }).
-#pos(example_156@0, {recognized}, {}, {
+#pos(example_156, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_pre_approver).
   trace(2,permit_final_approved_by_supervisor).
@@ -1988,7 +1988,7 @@
   trace(9,request_payment).
   trace(10,payment_handled).
 }).
-#pos(example_157@0, {recognized}, {}, {
+#pos(example_157, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_supervisor).
   trace(2,permit_final_approved_by_director).
@@ -1997,7 +1997,7 @@
   trace(5,request_payment).
   trace(6,payment_handled).
 }).
-#pos(example_158@0, {recognized}, {}, {
+#pos(example_158, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_pre_approver).
   trace(2,permit_approved_by_supervisor).
@@ -2008,7 +2008,7 @@
   trace(7,request_payment).
   trace(8,payment_handled).
 }).
-#pos(example_159@0, {recognized}, {}, {
+#pos(example_159, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_final_approved_by_supervisor).
   trace(2,request_for_payment_submitted_by_employee).
@@ -2016,7 +2016,7 @@
   trace(4,request_payment).
   trace(5,payment_handled).
 }).
-#pos(example_160@0, {recognized}, {}, {
+#pos(example_160, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_rejected_by_pre_approver).
   trace(2,permit_rejected_by_employee).
@@ -2029,7 +2029,7 @@
   trace(9,request_payment).
   trace(10,payment_handled).
 }).
-#pos(example_161@0, {recognized}, {}, {
+#pos(example_161, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_pre_approver).
   trace(2,permit_final_approved_by_supervisor).
@@ -2038,7 +2038,7 @@
   trace(5,request_for_payment_final_approved_by_supervisor).
   trace(6,request_for_payment_rejected_by_missing).
 }).
-#pos(example_162@0, {recognized}, {}, {
+#pos(example_162, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_pre_approver).
   trace(2,request_for_payment_submitted_by_employee).
@@ -2049,7 +2049,7 @@
   trace(7,payment_handled).
   trace(8,permit_rejected_by_missing).
 }).
-#pos(example_163@0, {recognized}, {}, {
+#pos(example_163, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_pre_approver).
   trace(2,permit_final_approved_by_supervisor).
@@ -2063,7 +2063,7 @@
   trace(10,request_payment).
   trace(11,payment_handled).
 }).
-#pos(example_164@0, {recognized}, {}, {
+#pos(example_164, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_rejected_by_pre_approver).
   trace(2,permit_rejected_by_employee).
@@ -2079,7 +2079,7 @@
   trace(12,request_payment).
   trace(13,payment_handled).
 }).
-#pos(example_165@0, {recognized}, {}, {
+#pos(example_165, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_final_approved_by_supervisor).
   trace(2,request_for_payment_submitted_by_employee).
@@ -2088,7 +2088,7 @@
   trace(5,request_payment).
   trace(6,payment_handled).
 }).
-#pos(example_166@0, {recognized}, {}, {
+#pos(example_166, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_pre_approver).
   trace(2,permit_final_approved_by_supervisor).
@@ -2099,7 +2099,7 @@
   trace(7,payment_handled).
   trace(8,permit_rejected_by_missing).
 }).
-#pos(example_167@0, {recognized}, {}, {
+#pos(example_167, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_supervisor).
   trace(2,permit_final_approved_by_director).
@@ -2109,7 +2109,7 @@
   trace(6,payment_handled).
   trace(7,permit_rejected_by_missing).
 }).
-#pos(example_168@0, {recognized}, {}, {
+#pos(example_168, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_final_approved_by_supervisor).
   trace(2,request_for_payment_submitted_by_employee).
@@ -2117,7 +2117,7 @@
   trace(4,request_for_payment_rejected_by_missing).
   trace(5,permit_rejected_by_missing).
 }).
-#pos(example_169@0, {recognized}, {}, {
+#pos(example_169, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_final_approved_by_supervisor).
   trace(2,request_for_payment_submitted_by_employee).
@@ -2126,7 +2126,7 @@
   trace(5,payment_handled).
   trace(6,permit_rejected_by_missing).
 }).
-#pos(example_170@0, {recognized}, {}, {
+#pos(example_170, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_final_approved_by_supervisor).
   trace(2,permit_approved_by_pre_approver).
@@ -2136,7 +2136,7 @@
   trace(6,request_payment).
   trace(7,payment_handled).
 }).
-#pos(example_171@0, {recognized}, {}, {
+#pos(example_171, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_rejected_by_supervisor).
   trace(2,permit_rejected_by_employee).
@@ -2149,7 +2149,7 @@
   trace(9,request_payment).
   trace(10,payment_handled).
 }).
-#pos(example_172@0, {recognized}, {}, {
+#pos(example_172, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_final_approved_by_supervisor).
   trace(2,request_for_payment_submitted_by_employee).
@@ -2160,7 +2160,7 @@
   trace(7,request_payment).
   trace(8,payment_handled).
 }).
-#pos(example_173@0, {recognized}, {}, {
+#pos(example_173, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_rejected_by_pre_approver).
   trace(2,permit_rejected_by_employee).
@@ -2174,7 +2174,7 @@
   trace(10,request_payment).
   trace(11,payment_handled).
 }).
-#pos(example_174@0, {recognized}, {}, {
+#pos(example_174, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_pre_approver).
   trace(2,permit_rejected_by_supervisor).
@@ -2189,7 +2189,7 @@
   trace(11,request_payment).
   trace(12,payment_handled).
 }).
-#pos(example_175@0, {recognized}, {}, {
+#pos(example_175, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_pre_approver).
   trace(2,request_for_payment_submitted_by_employee).
@@ -2199,7 +2199,7 @@
   trace(6,request_payment).
   trace(7,payment_handled).
 }).
-#pos(example_176@0, {recognized}, {}, {
+#pos(example_176, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_supervisor).
   trace(2,permit_final_approved_by_director).
@@ -2209,7 +2209,7 @@
   trace(6,request_payment).
   trace(7,payment_handled).
 }).
-#pos(example_177@0, {recognized}, {}, {
+#pos(example_177, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_pre_approver).
   trace(2,permit_final_approved_by_supervisor).
@@ -2219,7 +2219,7 @@
   trace(6,request_for_payment_rejected_by_missing).
   trace(7,permit_rejected_by_missing).
 }).
-#pos(example_178@0, {recognized}, {}, {
+#pos(example_178, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_supervisor).
   trace(2,permit_final_approved_by_director).
@@ -2228,14 +2228,14 @@
   trace(5,request_payment).
   trace(6,request_for_payment_rejected_by_missing).
 }).
-#pos(example_179@0, {recognized}, {}, {
+#pos(example_179, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_final_approved_by_supervisor).
   trace(2,request_for_payment_submitted_by_employee).
   trace(3,request_for_payment_rejected_by_supervisor).
   trace(4,request_for_payment_rejected_by_employee).
 }).
-#pos(example_180@0, {recognized}, {}, {
+#pos(example_180, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_rejected_by_pre_approver).
   trace(2,permit_rejected_by_employee).
@@ -2251,7 +2251,7 @@
   trace(12,request_payment).
   trace(13,payment_handled).
 }).
-#pos(example_181@0, {recognized}, {}, {
+#pos(example_181, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_pre_approver).
   trace(2,request_for_payment_submitted_by_employee).
@@ -2261,7 +2261,7 @@
   trace(6,request_payment).
   trace(7,payment_handled).
 }).
-#pos(example_182@0, {recognized}, {}, {
+#pos(example_182, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_pre_approver).
   trace(2,permit_final_approved_by_supervisor).
@@ -2269,7 +2269,7 @@
   trace(4,request_for_payment_rejected_by_pre_approver).
   trace(5,request_for_payment_rejected_by_employee).
 }).
-#pos(example_183@0, {recognized}, {}, {
+#pos(example_183, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_pre_approver).
   trace(2,permit_approved_by_supervisor).
@@ -2280,7 +2280,7 @@
   trace(7,request_payment).
   trace(8,payment_handled).
 }).
-#pos(example_184@0, {recognized}, {}, {
+#pos(example_184, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_pre_approver).
   trace(2,permit_final_approved_by_supervisor).
@@ -2291,7 +2291,7 @@
   trace(7,request_payment).
   trace(8,payment_handled).
 }).
-#pos(example_185@0, {recognized}, {}, {
+#pos(example_185, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_final_approved_by_supervisor).
   trace(2,permit_rejected_by_missing).
@@ -2302,7 +2302,7 @@
   trace(7,request_payment).
   trace(8,payment_handled).
 }).
-#pos(example_186@0, {recognized}, {}, {
+#pos(example_186, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_pre_approver).
   trace(2,permit_approved_by_supervisor).
@@ -2313,7 +2313,7 @@
   trace(7,request_for_payment_final_approved_by_director).
   trace(8,request_for_payment_rejected_by_missing).
 }).
-#pos(example_187@0, {recognized}, {}, {
+#pos(example_187, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_pre_approver).
   trace(2,permit_approved_by_supervisor).
@@ -2325,7 +2325,7 @@
   trace(8,request_payment).
   trace(9,payment_handled).
 }).
-#pos(example_188@0, {recognized}, {}, {
+#pos(example_188, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_pre_approver).
   trace(2,permit_final_approved_by_supervisor).
@@ -2338,7 +2338,7 @@
   trace(9,request_payment).
   trace(10,payment_handled).
 }).
-#pos(example_189@0, {recognized}, {}, {
+#pos(example_189, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_pre_approver).
   trace(2,permit_final_approved_by_supervisor).
@@ -2348,13 +2348,13 @@
   trace(6,request_payment).
   trace(7,payment_handled).
 }).
-#pos(example_190@0, {recognized}, {}, {
+#pos(example_190, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_pre_approver).
   trace(2,permit_final_approved_by_supervisor).
   trace(3,request_for_payment_saved_by_employee).
 }).
-#pos(example_191@0, {recognized}, {}, {
+#pos(example_191, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_supervisor).
   trace(2,permit_final_approved_by_director).
@@ -2365,7 +2365,7 @@
   trace(7,request_payment).
   trace(8,payment_handled).
 }).
-#pos(example_192@0, {recognized}, {}, {
+#pos(example_192, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_supervisor).
   trace(2,permit_final_approved_by_director).
@@ -2378,7 +2378,7 @@
   trace(9,permit_approved_by_supervisor).
   trace(10,permit_final_approved_by_director).
 }).
-#pos(example_193@0, {recognized}, {}, {
+#pos(example_193, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_supervisor).
   trace(2,permit_final_approved_by_director).
@@ -2388,7 +2388,7 @@
   trace(6,request_payment).
   trace(7,payment_handled).
 }).
-#pos(example_194@0, {recognized}, {}, {
+#pos(example_194, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_supervisor).
   trace(2,request_for_payment_submitted_by_employee).
@@ -2397,7 +2397,7 @@
   trace(5,request_payment).
   trace(6,payment_handled).
 }).
-#pos(example_195@0, {recognized}, {}, {
+#pos(example_195, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_rejected_by_supervisor).
   trace(2,permit_rejected_by_employee).
@@ -2408,13 +2408,13 @@
   trace(7,request_payment).
   trace(8,payment_handled).
 }).
-#pos(example_196@0, {recognized}, {}, {
+#pos(example_196, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_supervisor).
   trace(2,permit_final_approved_by_director).
   trace(3,request_for_payment_saved_by_employee).
 }).
-#pos(example_197@0, {recognized}, {}, {
+#pos(example_197, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_supervisor).
   trace(2,permit_final_approved_by_director).
@@ -2431,7 +2431,7 @@
   trace(13,permit_approved_by_supervisor).
   trace(14,permit_final_approved_by_director).
 }).
-#pos(example_198@0, {recognized}, {}, {
+#pos(example_198, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_final_approved_by_supervisor).
   trace(2,request_for_payment_submitted_by_employee).
@@ -2442,7 +2442,7 @@
   trace(7,permit_submitted_by_employee).
   trace(8,permit_final_approved_by_supervisor).
 }).
-#pos(example_199@0, {recognized}, {}, {
+#pos(example_199, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_final_approved_by_supervisor).
   trace(2,request_for_payment_submitted_by_employee).
@@ -2455,7 +2455,7 @@
   trace(9,request_payment).
   trace(10,payment_handled).
 }).
-#pos(example_200@0, {recognized}, {}, {
+#pos(example_200, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_final_approved_by_supervisor).
   trace(2,request_for_payment_submitted_by_employee).
@@ -2465,7 +2465,7 @@
   trace(6,request_payment).
   trace(7,payment_handled).
 }).
-#pos(example_201@0, {recognized}, {}, {
+#pos(example_201, {ok}, {}, {
   trace(0,permit_submitted_by_employee).
   trace(1,permit_approved_by_supervisor).
   trace(2,permit_final_approved_by_director).
