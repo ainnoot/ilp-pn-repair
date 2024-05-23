@@ -1,5 +1,5 @@
 #!/bin/bash
-PNML_DIR=models_workflow_net
+PNML_DIR=pnml
 ILASP_DIR=ilasp_input
 for PNML in $PNML_DIR/*.pnml; do
     # https://stackoverflow.com/questions/965053/extract-filename-and-extension-in-bash
