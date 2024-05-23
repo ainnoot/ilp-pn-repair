@@ -108,3 +108,12 @@ holds(P,Q,TS+1) :-
 %fail :- fires(T,TS), holds(P,Q,TS), ptarc(P,T,W), Q < W.
 
 ok :- not fail.
+
+
+#pos(id00, {ok}, {}, {
+%% No two labels per transition
+fail :- trans(T,L), trans(T,L1), L > L1.
+%% Just one edge per (place,transition)
+fail :- ptarc(P,T,W), ptarc(P,T,W2), W >W2.
+fail :- tparc(T,P,W), tparc(T,P,W2), W >W2.
+}).
