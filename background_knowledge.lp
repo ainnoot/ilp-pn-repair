@@ -17,7 +17,6 @@ num(0..ntok).
 %%%%%%%%%%%%% 
 last_step(T) :- trace(T,_), not trace(T+1,_).
 time(0..T+1) :- last_step(T).        % all steps
-guessed_time(1..T) :- last_step(T).  % guessed steps (first and second, deterministic for wf net property)
 
 % Consider only valid elements (i.e., transitions not removed plus recently added)
 valid(E) :- original(E), not remove(E).
@@ -39,27 +38,27 @@ enabled(T,TS) :-
 
 %%%%%%%%%%%%%%%
 % Deterministic part 
-% First step: for workflow property, only one token in source_place
-holds(source_place, 1, 0).
-holds(P,0,0) :- place(P), P != source_place.
+% First state: consistent with initial marking
+holds(S,T,0) :- initial_marking(S,T).
+holds(P,0,0) :- initial_marking(S,_), place(P), P != S.
 
-% Last step: for workflow property, only one token in sink_place
-:- last_step(L), not holds(sink_place, 1, L+1).
-:- last_step(L), holds(P,C,L+1), C > 0, place(P), P != sink_place.
+% Last step: check consistency with final marking
+fail :- last_step(L), final_marking(F,T), not holds(F, T, L+1).
+fail :- last_step(L), final_marking(F,T), place(P), P != F, holds(P,C,L+1), C > 0.
 % If a token ends up in sink_place before last step, then error
-:- last_step(L), holds(sink_place, C, TS), TS <= L, C > 0.
+%fail :- last_step(L), holds(sink_place, C, TS), TS <= L, C > 0.
 
 % Firing for first and last step
-fires(source_transition, 0).
-fires(sink_transition, T) :- last_step(T).
+%fires(source_transition, 0).
+%fires(sink_transition, T) :- last_step(T).
 %%%%%%%%%%%%%%%
 
 
 %%%%%%%%%%%%%%%%
 % Guess firing one transition per time
-0 { fires(T,TS) } 1 :- trace(TS,A), trans(T, A), enabled(T, TS), guessed_time(TS).
-:- not fires(_,TS), guessed_time(TS).
-:- fires(T1,TS), fires(T2,TS), T1 > T2, guessed_time(TS).
+0 { fires(T,TS) } 1 :- trace(TS,A), trans(T, A), enabled(T, TS), time(TS), last_step(L), TS <=L.
+fail :- not fires(_,TS), time(TS), last_step(L), TS <=L.
+fail :- fires(T1,TS), fires(T2,TS), T1 > T2, time(TS).
 %%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%
@@ -105,29 +104,16 @@ holds(P,Q,TS+1) :-
   time(TS).
 
 
-:- holds(P,Q,TS), tot_decr(P,Q1,TS), Q1 > Q.
-:- fires(T,TS), holds(P,Q,TS), ptarc(P,T,W), Q < W.
+%fail :- holds(P,Q,TS), tot_decr(P,Q1,TS), Q1 > Q.
+%fail :- fires(T,TS), holds(P,Q,TS), ptarc(P,T,W), Q < W.
+
+ok :- not fail.
 
 
-%% Just one label per transition 
-:- trans(T,L), trans(T,L1), L > L1.
+#pos(id00, {ok}, {}, {
+%% No two labels per transition
+fail :- trans(T,L), trans(T,L1), L > L1.
 %% Just one edge per (place,transition)
-:- ptarc(P,T,W), ptarc(P,T,W2), W >W2.
-:- tparc(T,P,W), tparc(T,P,W2), W >W2.
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Transitions must have at least one input place, at least one output place
-invalid_trans(T) :- trans(T,_), not ptarc(_,T,_).
-invalid_trans(T) :- trans(T,_), not tparc(T,_,_).
-:- trans(T,_), invalid_trans(T).
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% The whole network should be connected
-edge(X,Y) :- ptarc(X,Y,_).
-edge(X,Y) :- tparc(X,Y,_).
-edge(Y,X) :- edge(X,Y).
-node(X) :- edge(X,_).
-node(X) :- edge(_,X).
-reach(X,X) :- node(X).
-reach(X,Y) :- edge(X,Y).
-reach(X,Z) :- reach(X,Y), reach(Y,Z).
-:- node(X), node(Y), not reach(X,Y).
+fail :- ptarc(P,T,W), ptarc(P,T,W2), W >W2.
+fail :- tparc(T,P,W), tparc(T,P,W2), W >W2.
+}).
