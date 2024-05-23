@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1716478272.5671074" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1716478272.5671074</text>
+    </name>
+    <page id="n0">
+      <place id="p_0">
+        <name>
+          <text>p_0</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="p_1">
+        <name>
+          <text>p_1</text>
+        </name>
+      </place>
+      <place id="p_4">
+        <name>
+          <text>p_4</text>
+        </name>
+      </place>
+      <place id="p_3">
+        <name>
+          <text>p_3</text>
+        </name>
+      </place>
+      <place id="p_2">
+        <name>
+          <text>p_2</text>
+        </name>
+      </place>
+      <place id="p_5">
+        <name>
+          <text>p_5</text>
+        </name>
+      </place>
+      <transition id="t_9">
+        <name>
+          <text>release_d</text>
+        </name>
+      </transition>
+      <transition id="t_11">
+        <name>
+          <text>crp</text>
+        </name>
+      </transition>
+      <transition id="t_12">
+        <name>
+          <text>er_triage</text>
+        </name>
+      </transition>
+      <transition id="t_7">
+        <name>
+          <text>release_b</text>
+        </name>
+      </transition>
+      <transition id="t_14">
+        <name>
+          <text>iv_antibiotics</text>
+        </name>
+      </transition>
+      <transition id="t_15">
+        <name>
+          <text>lacticacid</text>
+        </name>
+      </transition>
+      <transition id="t_10">
+        <name>
+          <text>iv_liquid</text>
+        </name>
+      </transition>
+      <transition id="t_13">
+        <name>
+          <text>admission_nc</text>
+        </name>
+      </transition>
+      <transition id="t_0">
+        <name>
+          <text>release_a</text>
+        </name>
+      </transition>
+      <transition id="t_4">
+        <name>
+          <text>er_sepsis_triage</text>
+        </name>
+      </transition>
+      <transition id="t_3">
+        <name>
+          <text>release_c</text>
+        </name>
+      </transition>
+      <transition id="t_2">
+        <name>
+          <text>leucocytes</text>
+        </name>
+      </transition>
+      <transition id="t_1">
+        <name>
+          <text>er_registration</text>
+        </name>
+      </transition>
+      <transition id="t_5">
+        <name>
+          <text>return_er</text>
+        </name>
+      </transition>
+      <transition id="t_6">
+        <name>
+          <text>admission_ic</text>
+        </name>
+      </transition>
+      <transition id="t_8">
+        <name>
+          <text>release_e</text>
+        </name>
+      </transition>
+      <arc id="139684705982592" source="p_0" target="t_1"/>
+      <arc id="139684705826432" source="t_14" target="p_1"/>
+      <arc id="139684705980432" source="p_0" target="t_11"/>
+      <arc id="139684705983264" source="t_9" target="p_1"/>
+      <arc id="139684705980576" source="t_4" target="p_2"/>
+      <arc id="139684705981488" source="t_0" target="p_1"/>
+      <arc id="139684705983168" source="t_8" target="p_5"/>
+      <arc id="139684716816976" source="t_11" target="p_1"/>
+      <arc id="139684705980240" source="p_0" target="t_12"/>
+      <arc id="139684718694752" source="t_13" target="p_1"/>
+      <arc id="139684705980384" source="p_0" target="t_2"/>
+      <arc id="139684705629920" source="p_0" target="t_4"/>
+      <arc id="139684705980144" source="t_10" target="p_1"/>
+      <arc id="139684705828208" source="t_14" target="p_4"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="p_1">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>
