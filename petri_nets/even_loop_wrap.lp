@@ -17,3 +17,5 @@ original(tparc(source_transition, p1, 1)).
 original(tparc(t1, p2, 1)).
 original(tparc(t2, p1, 1)).
 original(tparc(sink_transition, sink_place, 1)).
+final_marking(sink_place,1).
+initial_marking(source_place,1).
