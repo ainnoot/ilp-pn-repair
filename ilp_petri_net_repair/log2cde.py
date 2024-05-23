@@ -19,7 +19,8 @@ def pad_trace(trace, start_activity, end_activity):
 
 @dataclass(frozen=True)
 class ContextDependentExample:
-    __TEMPLATE__ = "#$POLARITY($IDENTIFIER@$PENALTY, {$INCLUSION_SET}, {$EXCLUSION_SET}, {\n$CONTEXT\n})."
+    #__TEMPLATE__ = "#$POLARITY($IDENTIFIER@$PENALTY, {$INCLUSION_SET}, {$EXCLUSION_SET}, {\n$CONTEXT\n})."
+    __TEMPLATE__ = "#$POLARITY($IDENTIFIER, {$INCLUSION_SET}, {$EXCLUSION_SET}, {\n$CONTEXT\n})."
     positive: bool
     identifier: str
     penalty: int
