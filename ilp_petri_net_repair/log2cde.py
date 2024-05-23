@@ -46,7 +46,7 @@ def trace_example(trace, identifier, is_positive, wrap_trace=False):
         clingo.Number(t), clingo.Function(normalize_string(e))]) for t, e in enumerate(trace)
      ]
 
-    inclusions, exclusions = ((clingo.Function('recognized',),), tuple())
+    inclusions, exclusions = ((clingo.Function('ok',),), tuple())
     if not is_positive:
         exclusions, inclusions = inclusions, exclusions
 
