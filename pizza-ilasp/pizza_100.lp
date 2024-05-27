@@ -47,6 +47,3 @@ original(trans(n16,ck)).
 original(trans(n17,ep)).
 original(trans(n18,ac)).
 original(trans(n19,at)).
-
-frozen(X) :- original(place(X)).
-frozen(X) :- original(trans(X,_)).

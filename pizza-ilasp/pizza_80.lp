@@ -20,9 +20,7 @@ original(place(n7)).
 original(place(n8)).
 original(place(n9)).
 original(ptarc(n1,n12,1)).
-original(ptarc(n11,n13,1)).
 original(ptarc(n2,n13,1)).
-original(ptarc(n3,n14,1)).
 original(ptarc(n4,n19,1)).
 original(ptarc(n5,n16,1)).
 original(ptarc(n6,n15,1)).
@@ -34,11 +32,9 @@ original(tparc(n13,n8,1)).
 original(tparc(n14,n2,1)).
 original(tparc(n15,n3,1)).
 original(tparc(n15,n4,1)).
-original(tparc(n15,n7,1)).
 original(tparc(n16,n10,1)).
 original(tparc(n17,n5,1)).
 original(tparc(n18,n9,1)).
-original(tparc(n19,n11,1)).
 original(trans(n12,bi)).
 original(trans(n13,bo)).
 original(trans(n14,as)).
