@@ -23,10 +23,11 @@ if __name__ == '__main__':
     model_file = args.model
 
     pn, im, fm = read_pnml(petri_net_file, auto_guess_final_marking=True)
+    remap_comments = []
     if args.relabel:
         (pn, im, fm), mapping = relabel_everything_because_i_dont_like_how_pm4py_names_things(pn, im, fm)
         for x, y in mapping.items():
-            print("[remapping]", x, "<->", y)
+            remap_comments.append(f"[remapping] {x} <-> {y}")
 
     facts = reify_petri_net(pn, im, fm)
     pn_facts, im_facts, fm_facts = reify_petri_net(pn, im, fm)
@@ -34,7 +35,8 @@ if __name__ == '__main__':
     INPUT_MODEL = list(chain(
         ["original({}).".format(x) for x in pn_facts],
         map(lambda x: f"{x}.", im_facts),
-        map(lambda x: f"{x}.", fm_facts)
+        map(lambda x: f"{x}.", fm_facts),
+        map(lambda x: f"% {x}", remap_comments)
     ))
 
     with Path(model_file).open('w') as f:
