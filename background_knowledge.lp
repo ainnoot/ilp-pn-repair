@@ -111,7 +111,7 @@ ok :- not fail.
 
 
 %%%%% is workflow net? %%%%
-#pos(id01, {}, {}, {
+#pos(id00000, {ok}, {}, {
 %% project the petri net on a bipartite graph
 %% w- prefix to avoid clashes between predicate names
 wedge(X,Y) :- ptarc(X,Y,_).
@@ -119,19 +119,21 @@ wedge(X,Y) :- tparc(X,Y,_).
 wsource(X) :- initial_marking(X,_).
 wsink(X) :- final_marking(X,_).
 
-%% transitive closure of wedge/2
+%% src, snk reach themselves
 wreach(X,X) :- wsink(X).
+wreach(X,X) :- wsource(X).
+%% transitive closure wedge/2
 wreach(X,Y) :- wedge(X,Y).
 wreach(X,Z) :- wreach(X,Y), wedge(Y,Z).
 
 %% objects: places & transitions
-wobject(X) :- wedge(X,Y).
-wobject(Y) :- wedge(X,Y).
+wobject(P) :- place(P).
+wobject(T) :- trans(T,_).
 
 %% every place, trans in a directed path starting from src and ending in snk
 %% two paths: src->o, o->snk
-:- wobject(X), wsource(S), not wreach(S,X).
-:- wobject(X), wsink(S), not wreach(X,S).
+fail :- wobject(X), wsource(S), not wreach(S,X).
+fail :- wobject(X), wsink(S), not wreach(X,S).
 }).
 
 #pos(id00, {ok}, {}, {
