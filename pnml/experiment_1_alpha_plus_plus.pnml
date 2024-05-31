@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="alpha++" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>alpha++</text>
+    </name>
+    <page id="n0">
+      <place id="p1">
+        <name>
+          <text>p1</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="p3">
+        <name>
+          <text>p3</text>
+        </name>
+      </place>
+      <place id="p5">
+        <name>
+          <text>p5</text>
+        </name>
+      </place>
+      <place id="p2">
+        <name>
+          <text>p2</text>
+        </name>
+      </place>
+      <place id="p4">
+        <name>
+          <text>p4</text>
+        </name>
+      </place>
+      <place id="p6">
+        <name>
+          <text>p6</text>
+        </name>
+      </place>
+      <place id="p7">
+        <name>
+          <text>p7</text>
+        </name>
+      </place>
+      <transition id="a">
+        <name>
+          <text>a</text>
+        </name>
+      </transition>
+      <transition id="d">
+        <name>
+          <text>d</text>
+        </name>
+      </transition>
+      <transition id="b">
+        <name>
+          <text>b</text>
+        </name>
+      </transition>
+      <transition id="e">
+        <name>
+          <text>e</text>
+        </name>
+      </transition>
+      <transition id="c">
+        <name>
+          <text>c</text>
+        </name>
+      </transition>
+      <transition id="f">
+        <name>
+          <text>f</text>
+        </name>
+      </transition>
+      <arc id="2544716060240" source="p4" target="c"/>
+      <arc id="2544716059280" source="p5" target="f"/>
+      <arc id="2544716068752" source="p6" target="f"/>
+      <arc id="2544493738960" source="p1" target="a"/>
+      <arc id="2544716102416" source="p2" target="b"/>
+      <arc id="2544716097872" source="a" target="p3"/>
+      <arc id="2544716101264" source="a" target="p2"/>
+      <arc id="2544716101200" source="d" target="p2"/>
+      <arc id="2544693766992" source="b" target="p2"/>
+      <arc id="2544716096464" source="p3" target="e"/>
+      <arc id="2544693772240" source="b" target="p4"/>
+      <arc id="2544716070800" source="p4" target="b"/>
+      <arc id="2544716066768" source="e" target="p5"/>
+      <arc id="2544716062800" source="c" target="p6"/>
+      <arc id="2544716056976" source="f" target="p7"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="p7">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>
