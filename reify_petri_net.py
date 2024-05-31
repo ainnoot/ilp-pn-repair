@@ -11,7 +11,7 @@ def parse_args():
     parser = ArgumentParser(prog="reify_pn", description="Reifies a pm4py.PetriNet object into a set of ASP facts.")
     parser.add_argument('pnml', type=str, help="Path to PNML file.")
     parser.add_argument('model', type=str, help="Path to output model file.")
-    parser.add_argument("-r", "--relabel", action='store_true')
+    parser.add_argument("-r", "--relabel", action='store_true', help="Normalize transitions and places name with a progressive identifier. If missing, preserves original names.")
 
     return parser.parse_args()
 
