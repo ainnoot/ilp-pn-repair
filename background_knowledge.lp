@@ -134,6 +134,8 @@ wobject(T) :- trans(T,_).
 %% two paths: src->o, o->snk
 fail :- wobject(X), wsource(S), not wreach(S,X).
 fail :- wobject(X), wsink(S), not wreach(X,S).
+fail :- wedge(S,_), wsink(S).
+fail :- wedge(_,S), wsource(S).
 }).
 
 #pos(id00, {ok}, {}, {
