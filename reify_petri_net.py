@@ -2,7 +2,8 @@
 from pathlib import Path
 
 import pm4py
-from ilp_petri_net_repair import reify_petri_net, define_ilasp_constants
+from ilp_petri_net_repair import reify_petri_net
+from ilp_petri_net_repair.petri_net_utils import relabel_everything_because_i_dont_like_how_pm4py_names_things
 from argparse import ArgumentParser
 from itertools import chain
 
@@ -10,6 +11,7 @@ def parse_args():
     parser = ArgumentParser(prog="reify_pn", description="Reifies a pm4py.PetriNet object into a set of ASP facts.")
     parser.add_argument('pnml', type=str, help="Path to PNML file.")
     parser.add_argument('model', type=str, help="Path to output model file.")
+    parser.add_argument("-r", "--relabel", action='store_true')
 
     return parser.parse_args()
 
@@ -21,8 +23,10 @@ if __name__ == '__main__':
     model_file = args.model
 
     pn, im, fm = read_pnml(petri_net_file, auto_guess_final_marking=True)
-    facts = reify_petri_net(pn, im, fm)
+    if args.relabel:
+        (pn, im, fm), _ = relabel_everything_because_i_dont_like_how_pm4py_names_things(pn, im, fm)
 
+    facts = reify_petri_net(pn, im, fm)
     pn_facts, im_facts, fm_facts = reify_petri_net(pn, im, fm)
 
     INPUT_MODEL = list(chain(
