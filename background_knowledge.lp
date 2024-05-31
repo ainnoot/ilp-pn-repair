@@ -43,7 +43,7 @@ holds(S,T,0) :- initial_marking(S,T).
 holds(P,0,0) :- initial_marking(S,_), place(P), P != S.
 
 % Last step: check consistency with final marking
-fail :- last_step(L), final_marking(F,T), not holds(F, T, L+1).
+fail :- last_step(L), final_marking(F,T), holds(F, Z, L+1), Z != T. %not holds(F, T, L+1).
 fail :- last_step(L), final_marking(F,T), place(P), P != F, holds(P,C,L+1), C > 0.
 % If a token ends up in sink_place before last step, then error
 %fail :- last_step(L), holds(sink_place, C, TS), TS <= L, C > 0.
@@ -109,6 +109,30 @@ holds(P,Q,TS+1) :-
 
 ok :- not fail.
 
+
+%%%%% is workflow net? %%%%
+#pos(id01, {}, {}, {
+%% project the petri net on a bipartite graph
+%% w- prefix to avoid clashes between predicate names
+wedge(X,Y) :- ptarc(X,Y,_).
+wedge(X,Y) :- tparc(X,Y,_).
+wsource(X) :- initial_marking(X,_).
+wsink(X) :- final_marking(X,_).
+
+%% transitive closure of wedge/2
+wreach(X,X) :- wsink(X).
+wreach(X,Y) :- wedge(X,Y).
+wreach(X,Z) :- wreach(X,Y), wedge(Y,Z).
+
+%% objects: places & transitions
+wobject(X) :- wedge(X,Y).
+wobject(Y) :- wedge(X,Y).
+
+%% every place, trans in a directed path starting from src and ending in snk
+%% two paths: src->o, o->snk
+:- wobject(X), wsource(S), not wreach(S,X).
+:- wobject(X), wsink(S), not wreach(X,S).
+}).
 
 #pos(id00, {ok}, {}, {
 %% No two labels per transition

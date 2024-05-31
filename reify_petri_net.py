@@ -24,7 +24,9 @@ if __name__ == '__main__':
 
     pn, im, fm = read_pnml(petri_net_file, auto_guess_final_marking=True)
     if args.relabel:
-        (pn, im, fm), _ = relabel_everything_because_i_dont_like_how_pm4py_names_things(pn, im, fm)
+        (pn, im, fm), mapping = relabel_everything_because_i_dont_like_how_pm4py_names_things(pn, im, fm)
+        for x, y in mapping.items():
+            print("[remapping]", x, "<->", y)
 
     facts = reify_petri_net(pn, im, fm)
     pn_facts, im_facts, fm_facts = reify_petri_net(pn, im, fm)
