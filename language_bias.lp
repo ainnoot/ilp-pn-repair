@@ -24,6 +24,8 @@ remove(ptarc(P,T,W)) :- place(P), trans(T,_), ptarc(P,T,W), not frozen(P), not f
 label(L) :- trans(_,L), L != workflow_start, L != workflow_end.
 replace(trans(T,L),trans(T,L')) :- trans(T,L), not frozen(T), label(L'), L' != L.
 
+% Remove place
+remove(place(P)) :- place(P).
 
 
 % Default cost of abducibles is 1

@@ -24,8 +24,8 @@ valid(E) :- add(E).
 
 place(P)   :- valid(place(P)).
 trans(T,L) :- valid(trans(T,L)).
-ptarc(P,T,W) :- valid(ptarc(P,T,W)).
-tparc(T,P,W) :- valid(tparc(T,P,W)).
+ptarc(P,T,W) :- valid(ptarc(P,T,W)), not remove(place(P)).
+tparc(T,P,W) :- valid(tparc(T,P,W)), not remove(place(P)).
 
 % Transition T is not enabled at time TS
 notenabled(T,TS) :-
@@ -133,7 +133,7 @@ wobject(T) :- trans(T,_).
 %% every place, trans in a directed path starting from src and ending in snk
 %% two paths: src->o, o->snk
 fail :- wobject(X), wsource(S), not wreach(S,X).
-
+fail :- wobject(X), wsink(S), not wreach(X,S).
 fail :- wedge(S,_), wsink(S).
 fail :- wedge(_,S), wsource(S).
 }).
@@ -146,27 +146,3 @@ fail :- ptarc(P,T,W), ptarc(P,T,W2), W >W2.
 fail :- tparc(T,P,W), tparc(T,P,W2), W >W2.
 }).
 
-%%%%% is workflow net? %%%%
-#pos(id0000000, {ok}, {}, {
-%% project the petri net on a bipartite graph
-%% w- prefix to avoid clashes between predicate names
-wedge(X,Y) :- ptarc(X,Y,_).
-wedge(X,Y) :- tparc(X,Y,_).
-wsource(X) :- initial_marking(X,_).
-wsink(X) :- final_marking(X,_).
-
-%% src, snk reach themselves
-wreach(X,X) :- wsink(X).
-wreach(X,X) :- wsource(X).
-%% transitive closure wedge/2
-wreach(X,Y) :- wedge(X,Y).
-wreach(X,Z) :- wreach(X,Y), wedge(Y,Z).
-
-%% objects: places & transitions
-wobject(P) :- place(P).
-wobject(T) :- trans(T,_).
-
-%% every place, trans in a directed path starting from src and ending in snk
-%% two paths: src->o, o->snk
-fail :- wobject(X), wsink(S), not wreach(X,S).
-}).
