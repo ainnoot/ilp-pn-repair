@@ -1,0 +1,3 @@
+edit(add,tparc(n51,n9,1)).
+edit(add,ptarc(n32,n82,1)).
+edit(add,ptarc(n6,n83,1)).
