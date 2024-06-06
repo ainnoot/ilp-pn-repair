@@ -1,3 +1,0 @@
-edit(add,ptarc(n15,n24,1)).
-edit(add,ptarc(n11,n32,1)).
-edit(add,ptarc(n14,n32,1)).

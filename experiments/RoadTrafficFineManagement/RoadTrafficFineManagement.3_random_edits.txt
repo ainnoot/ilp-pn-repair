@@ -1,3 +1,0 @@
-edit(remove,tparc(n22,n6,1)).
-edit(add,tparc(n22,n19,1)).
-edit(add,tparc(n22,n2,1)).

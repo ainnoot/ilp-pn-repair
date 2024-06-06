@@ -1,7 +1,0 @@
-edit(remove,tparc(n61,n14,1)).
-edit(add,tparc(n107,n44,1)).
-edit(add,tparc(n67,n6,1)).
-edit(add,ptarc(n11,n53,1)).
-edit(add,ptarc(n43,n60,1)).
-edit(add,ptarc(n22,n91,1)).
-edit(add,ptarc(n21,n96,1)).
