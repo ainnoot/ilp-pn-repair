@@ -1,0 +1,15 @@
+edit(remove,tparc(n22,n6,1)).
+edit(add,tparc(n17,n10,1)).
+edit(add,tparc(n17,n7,1)).
+edit(add,tparc(n24,n9,1)).
+edit(add,tparc(n25,n2,1)).
+edit(add,tparc(n25,n7,1)).
+edit(add,tparc(n35,n6,1)).
+edit(add,ptarc(n12,n19,1)).
+edit(add,ptarc(n9,n21,1)).
+edit(add,ptarc(n9,n22,1)).
+edit(add,ptarc(n5,n28,1)).
+edit(add,ptarc(n6,n32,1)).
+edit(add,ptarc(n7,n35,1)).
+edit(add,ptarc(n13,n39,1)).
+edit(add,ptarc(n3,n39,1)).

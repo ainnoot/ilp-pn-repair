@@ -1,3 +1,0 @@
-edit(add,tparc(n39,n16,1)).
-edit(add,tparc(n39,n2,1)).
-edit(add,tparc(n39,n6,1)).

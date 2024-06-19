@@ -1,0 +1,7 @@
+edit(remove,ptarc(n9,n36,1)).
+edit(add,tparc(n21,n5,1)).
+edit(add,tparc(n25,n10,1)).
+edit(add,tparc(n33,n10,1)).
+edit(add,tparc(n41,n3,1)).
+edit(add,ptarc(n12,n25,1)).
+edit(add,ptarc(n3,n41,1)).

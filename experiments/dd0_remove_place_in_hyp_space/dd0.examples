@@ -1,0 +1,3169 @@
+#pos(example_0, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_1, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_2, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,tau_from_tree2).
+  trace(2,declaration_submitted_by_employee).
+  trace(3,declaration_approved_by_administration).
+  trace(4,declaration_approved_by_budget_owner).
+  trace(5,declaration_final_approved_by_supervisor).
+  trace(6,request_payment).
+  trace(7,payment_handled).
+}).
+#pos(example_3, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_4, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,tau_from_tree2).
+  trace(2,declaration_submitted_by_employee).
+  trace(3,declaration_approved_by_administration).
+  trace(4,tau_from_tree7).
+  trace(5,declaration_final_approved_by_supervisor).
+  trace(6,request_payment).
+  trace(7,payment_handled).
+}).
+#pos(example_5, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_6, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,tau_from_tree4).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_7, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,tau_from_tree5).
+  trace(4,tau_from_tree4).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_8, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,tau_from_tree2).
+  trace(2,declaration_submitted_by_employee).
+  trace(3,tau_from_tree6).
+  trace(4,declaration_final_approved_by_supervisor).
+  trace(5,request_payment).
+  trace(6,payment_handled).
+}).
+#pos(example_9, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_10, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_11, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,tau_from_tree4).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_12, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_13, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,tau_from_tree4).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_14, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_15, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_16, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_17, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,tau_from_tree5).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_18, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,tau_from_tree4).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_19, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,tau_from_tree5).
+  trace(4,tau_from_tree4).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_20, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_21, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,tau_from_tree4).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_22, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_23, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_24, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_25, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,tau_from_tree5).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_26, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,tau_from_tree2).
+  trace(2,declaration_submitted_by_employee).
+  trace(3,tau_from_tree6).
+  trace(4,declaration_final_approved_by_supervisor).
+  trace(5,request_payment).
+  trace(6,payment_handled).
+}).
+#pos(example_27, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_28, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_29, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_30, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,tau_from_tree4).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_31, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,tau_from_tree5).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_32, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_33, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_34, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_35, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_36, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_37, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_38, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_39, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_40, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,tau_from_tree5).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_41, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,tau_from_tree5).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_42, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,tau_from_tree4).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_43, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,tau_from_tree5).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_44, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_45, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_46, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,tau_from_tree2).
+  trace(2,declaration_submitted_by_employee).
+  trace(3,declaration_approved_by_administration).
+  trace(4,declaration_approved_by_budget_owner).
+  trace(5,declaration_final_approved_by_supervisor).
+  trace(6,request_payment).
+  trace(7,payment_handled).
+}).
+#pos(example_47, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_48, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_49, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,tau_from_tree4).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_50, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_51, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_52, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,tau_from_tree2).
+  trace(2,declaration_submitted_by_employee).
+  trace(3,declaration_approved_by_administration).
+  trace(4,tau_from_tree7).
+  trace(5,declaration_final_approved_by_supervisor).
+  trace(6,request_payment).
+  trace(7,payment_handled).
+}).
+#pos(example_53, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,tau_from_tree5).
+  trace(4,tau_from_tree4).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_54, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_55, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,tau_from_tree5).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_56, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_57, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,tau_from_tree5).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_58, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_59, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,tau_from_tree4).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_60, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_61, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,tau_from_tree5).
+  trace(4,tau_from_tree4).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_62, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_63, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_64, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_65, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_66, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,tau_from_tree5).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_67, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,tau_from_tree5).
+  trace(4,tau_from_tree4).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_68, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_69, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,tau_from_tree5).
+  trace(4,tau_from_tree4).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_70, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_71, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_72, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,tau_from_tree5).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_73, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_74, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,tau_from_tree5).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_75, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,tau_from_tree5).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_76, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,tau_from_tree5).
+  trace(4,tau_from_tree4).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_77, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_78, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,tau_from_tree4).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_79, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_80, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_81, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_82, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,tau_from_tree5).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_83, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_84, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,tau_from_tree5).
+  trace(4,tau_from_tree4).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_85, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,tau_from_tree5).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_86, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_87, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_88, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,tau_from_tree5).
+  trace(4,tau_from_tree4).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_89, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,tau_from_tree4).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_90, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,tau_from_tree5).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_91, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,tau_from_tree4).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_92, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,tau_from_tree4).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_93, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_94, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_95, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_96, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,tau_from_tree5).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_97, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_98, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_99, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_100, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,tau_from_tree4).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_101, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_102, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_103, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,tau_from_tree5).
+  trace(4,tau_from_tree4).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_104, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,tau_from_tree5).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_105, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_106, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_107, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_108, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,tau_from_tree5).
+  trace(4,tau_from_tree4).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_109, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,tau_from_tree4).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_110, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,tau_from_tree4).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_111, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_112, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_113, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_114, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,tau_from_tree5).
+  trace(4,tau_from_tree4).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_115, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_116, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_117, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_118, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,tau_from_tree4).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_119, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,tau_from_tree4).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_120, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,tau_from_tree5).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_121, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_122, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,tau_from_tree5).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_123, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_124, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_125, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_126, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_127, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_128, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_129, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_130, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_131, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,tau_from_tree4).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_132, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,tau_from_tree5).
+  trace(4,tau_from_tree4).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_133, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_134, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_135, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_136, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_137, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_138, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_139, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_140, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_141, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_142, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,tau_from_tree4).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_143, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_144, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_145, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_146, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_147, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,tau_from_tree4).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_148, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_149, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,tau_from_tree4).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_150, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,tau_from_tree4).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_151, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_152, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,tau_from_tree5).
+  trace(4,tau_from_tree4).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_153, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_154, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_155, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_156, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,tau_from_tree5).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_157, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_158, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_159, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_160, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,tau_from_tree5).
+  trace(4,tau_from_tree4).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_161, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_162, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,tau_from_tree5).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_163, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_164, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_165, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_166, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,tau_from_tree5).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_167, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_168, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_169, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_170, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,tau_from_tree4).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_171, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_172, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_173, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,tau_from_tree5).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_174, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_175, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,tau_from_tree4).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_176, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_177, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_178, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,tau_from_tree5).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_179, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_180, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_181, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_182, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_183, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_184, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,tau_from_tree5).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_185, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_186, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,tau_from_tree5).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_187, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,tau_from_tree5).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_188, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,tau_from_tree5).
+  trace(4,tau_from_tree4).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_189, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_190, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_191, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_192, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_193, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_194, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_195, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_rejected_by_budget_owner).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_196, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_197, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_198, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,tau_from_tree5).
+  trace(4,tau_from_tree4).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,declaration_approved_by_budget_owner).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_199, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_200, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,tau_from_tree3).
+  trace(2,tau_split).
+  trace(3,tau_from_tree4).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_201, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,tau_from_tree5).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_supervisor).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_202, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,declaration_rejected_by_missing).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,declaration_approved_by_administration).
+  trace(10,tau_from_tree7).
+  trace(11,declaration_final_approved_by_supervisor).
+  trace(12,request_payment).
+  trace(13,payment_handled).
+}).
+#pos(example_203, {ok}, {}, {
+  trace(0,declaration_saved_by_employee).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,declaration_approved_by_pre_approver).
+  trace(4,tau_from_tree4).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_204, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_pre_approver).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,tau_from_tree5).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_pre_approver).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
+#pos(example_205, {ok}, {}, {
+  trace(0,tau_from_tree).
+  trace(1,declaration_for_approval_by_supervisor).
+  trace(2,tau_split).
+  trace(3,declaration_rejected_by_missing).
+  trace(4,declaration_approved_by_pre_approver).
+  trace(5,tau_join).
+  trace(6,declaration_rejected_by_administration).
+  trace(7,declaration_rejected_by_employee).
+  trace(8,declaration_submitted_by_employee).
+  trace(9,tau_from_tree6).
+  trace(10,declaration_final_approved_by_supervisor).
+  trace(11,request_payment).
+  trace(12,payment_handled).
+}).
