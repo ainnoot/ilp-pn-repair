@@ -17,6 +17,9 @@ avoid(P) :- edit(_,tparc(_,P,_)).
 possible_frozen(T) :- trans(T,L), not avoid(T).
 possible_frozen(P) :- place(P), not avoid(P).
 
-{ frozen(E) : possible_frozen(E)} = n.
+max(n) :- #count{T : possible_frozen(T)}>n. 
+max(M) :- #count{T : possible_frozen(T)}=M, M<=n. 
+
+{ frozen(E) : possible_frozen(E)} = M :- max(M).
 
 #show  frozen/1.
