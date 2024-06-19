@@ -1,8 +1,6 @@
 % Default frozen places/trans
 frozen(source_place).
-frozen(sink_place).
-frozen(sink_trans).
-frozen(source_trans).
+
 
 % unwrap petri net
 place(P)   :- original(place(P)).
@@ -13,15 +11,15 @@ tparc(T,P,W) :- original(tparc(T,P,W)).
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Add tp- or pt-arcs if not included in original model, by default the weight is 1
-add(tparc(T,P,1)) :- place(P), trans(T,_), not tparc(T,P,_).
-add(ptarc(P,T,1)) :- place(P), trans(T,_), not ptarc(P,T,_).
+add(tparc(T,P,1)) :- place(P), trans(T,_), not tparc(T,P,_), not frozen(P), not frozen(T).
+add(ptarc(P,T,1)) :- place(P), trans(T,_), not ptarc(P,T,_), not frozen(P), not frozen(T).
 
 % Remove tp- or pt-arcs if in original model, but not frozen
 remove(tparc(T,P,W)) :- place(P), trans(T,_), tparc(T,P,W), not frozen(P), not frozen(T).
 remove(ptarc(P,T,W)) :- place(P), trans(T,_), ptarc(P,T,W), not frozen(P), not frozen(T).
 
 % Change label of a transition
-label(L) :- trans(_,L), L != workflow_start, L != workflow_end.
+%label(L) :- trans(_,L), L != workflow_start, L != workflow_end.
 %replace(trans(T,L),trans(T,L')) :- trans(T,L), not frozen(T), label(L'), L' != L.
 
 % Remove place
