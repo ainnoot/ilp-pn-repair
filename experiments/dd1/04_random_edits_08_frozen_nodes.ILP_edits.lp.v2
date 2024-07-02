@@ -1,4 +1,0 @@
-add(ptarc(n15,n38,1)).
-remove(tparc(n17,n13,1)).
-remove(tparc(n27,n11,1)).
-remove(ptarc(n12,n41,1)).

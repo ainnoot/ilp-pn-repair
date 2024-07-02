@@ -1,4 +1,0 @@
-remove(tparc(n18,n3,1)).
-remove(tparc(n23,n13,1)).
-remove(tparc(n37,n10,1)).
-remove(tparc(n40,n8,1)).
