@@ -1,12 +1,10 @@
-% Default frozen places/trans
-frozen(source_place).
-
-
 % unwrap petri net
 place(P)   :- original(place(P)).
 trans(T,L) :- original(trans(T,L)).
 ptarc(P,T,W) :- original(ptarc(P,T,W)).
 tparc(T,P,W) :- original(tparc(T,P,W)).
+initial_marking(T,W) :- original(initial_marking(T,W)).
+final_marking(T,W) :- original(final_marking(T,W)).
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

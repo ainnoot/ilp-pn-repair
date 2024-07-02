@@ -19,13 +19,17 @@ last_step(T) :- trace(T,_), not trace(T+1,_).
 time(0..T+1) :- last_step(T).        % all steps
 
 % Consider only valid elements (i.e., transitions not removed plus recently added)
+remove(ptarc(P,T,W)) :- original(ptarc(P,T,W)), remove(place(P)).
+remove(tparc(T,P,W)) :- original(tparc(T,P,W)), remove(place(P)).
 valid(E) :- original(E), not remove(E).
 valid(E) :- add(E).
 
 place(P)   :- valid(place(P)).
 trans(T,L) :- valid(trans(T,L)).
-ptarc(P,T,W) :- valid(ptarc(P,T,W)), not remove(place(P)).
-tparc(T,P,W) :- valid(tparc(T,P,W)), not remove(place(P)).
+ptarc(P,T,W) :- valid(ptarc(P,T,W)).
+tparc(T,P,W) :- valid(tparc(T,P,W)).
+initial_marking(T,W) :- valid(initial_marking(T,W)).
+final_marking(T,W) :- valid(final_marking(T,W)).
 
 % Transition T is not enabled at time TS
 notenabled(T,TS) :-
@@ -111,7 +115,7 @@ ok :- not fail.
 
 
 %%%%% is workflow net? %%%%
-#pos(id00000, {ok}, {}, {
+#pos(ad00000, {ok}, {}, {
 %% project the petri net on a bipartite graph
 %% w- prefix to avoid clashes between predicate names
 wedge(X,Y) :- ptarc(X,Y,_).
@@ -138,7 +142,7 @@ fail :- wedge(S,_), wsink(S).
 fail :- wedge(_,S), wsource(S).
 }).
 
-#pos(id00, {ok}, {}, {
+#pos(ad00, {ok}, {}, {
 %% No two labels per transition
 fail :- trans(T,L), trans(T,L1), L > L1.
 %% Just one edge per (place,transition)

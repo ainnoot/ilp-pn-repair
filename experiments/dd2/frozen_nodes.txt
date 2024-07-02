@@ -1,0 +1,12 @@
+frozen(n17).
+frozen(n28).
+frozen(n31).
+frozen(n32).
+frozen(n33).
+frozen(n34).
+frozen(n36).
+frozen(n38).
+frozen(n12).
+frozen(n16).
+frozen(n7).
+frozen(n9).

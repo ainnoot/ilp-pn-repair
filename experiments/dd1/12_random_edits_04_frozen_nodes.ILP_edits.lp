@@ -1,0 +1,22 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Pre-processing                          : 0.017s
+%% Hypothesis Space Generation             : 0.003s
+%% Counterexample search                   : 0.351s
+%%   - CDOEs                               : 0.007s
+%%   - CDPIs                               : 0.344s
+%% Hypothesis Search                       : 18.018s
+%% Total                                   : 18.389s
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+add(ptarc(n15, n38, 1)).
+remove(tparc(n17, n13, 1)).
+remove(tparc(n24, n9, 1)).
+remove(tparc(n27, n11, 1)).
+remove(tparc(n28, n6, 1)).
+remove(tparc(n33, n5, 1)).
+remove(tparc(n33, n8, 1)).
+remove(ptarc(n12, n18, 1)).
+remove(ptarc(n15, n23, 1)).
+remove(ptarc(n13, n24, 1)).
+remove(ptarc(n11, n41, 1)).
+remove(ptarc(n12, n41, 1)).
+
