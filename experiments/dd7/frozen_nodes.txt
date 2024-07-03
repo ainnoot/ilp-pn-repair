@@ -1,0 +1,15 @@
+frozen(n27).
+frozen(n28).
+frozen(n29).
+frozen(n33).
+frozen(n34).
+frozen(n35).
+frozen(n36).
+frozen(n38).
+frozen(n39).
+frozen(n41).
+frozen(n13).
+frozen(n2).
+frozen(n4).
+frozen(n6).
+frozen(n7).

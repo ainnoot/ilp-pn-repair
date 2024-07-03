@@ -1,0 +1,5 @@
+remove(tparc(n33,n14,1)).
+remove(tparc(n36,n5,1)).
+remove(tparc(n36,n13,1)).
+remove(tparc(n40,n3,1)).
+remove(ptarc(n10,n38,1)).

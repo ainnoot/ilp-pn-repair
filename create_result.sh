@@ -1,6 +1,8 @@
 #!/bin/bash
 for directory in experiments/*/ ; do
   echo %%%%%%%%%%%%%%%%%%%%%%% 
+  echo $directory
+  echo %%%%%%%%%%%%%%%%%%%%%%% 
   edits="$directory"all_edits.txt
   # change original edits to make it consistent
   sed -i.bak -e 's/edit(add, */remove(/g' -e 's/edit(remove, */add(/g' "$edits"
@@ -10,7 +12,7 @@ for directory in experiments/*/ ; do
     file=$(basename -- "$f")
     number_edits=${file%%_random_edits*}
     number_edits=${number_edits##*_}
-    head -n $number_edits $edits  > $considered_edits
+    ghead -n $number_edits $edits  > $considered_edits
 
     filtered_content=$(grep -v '^\s*$\|^\s*%' "$f")
     echo "$filtered_content" | sed 's/, /,/g' > "$f.v2"

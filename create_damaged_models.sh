@@ -1,13 +1,13 @@
 #!/bin/bash
-number_of_edits=(4 8 12 16)
+number_of_edits=(5 10 15 20)
 number_of_frozen_elements=(0 4 8 12)
-max_edit=16
+max_edit=20
 max_frozen=12
-PNML_DIR=Syntetic_data_new
+PNML=Syntetic_data_new/dd.pnml
 ILASP_DIR=experiments
-for PNML in $PNML_DIR/*.pnml; do
+for ID in {0..9}; do
     FILENAME=$(basename -- "$PNML")
-    LOG_NAME=${FILENAME%.*}
+    LOG_NAME=${FILENAME%.*}$ID
     NEW_DIR="$ILASP_DIR/$LOG_NAME"
     mkdir -p "$NEW_DIR"
     # Create model
@@ -26,12 +26,12 @@ for PNML in $PNML_DIR/*.pnml; do
     do
         temp_file=$(mktemp)
         # Pick $number edits
-        head -n $number $NEW_DIR/all_edits.txt  > $temp_file
+        ghead -n $number $NEW_DIR/all_edits.txt  > $temp_file
 
         for frozen in "${number_of_frozen_elements[@]}"
         do  
             # Pick $frozen nodes 
-            head -n $frozen $NEW_DIR/frozen_nodes.txt  > $NEW_DIR/"$(printf "%02d" $number)"_random_edits_"$(printf "%02d" $frozen)"_frozen_nodes.damaged_model
+            ghead -n $frozen $NEW_DIR/frozen_nodes.txt  > $NEW_DIR/"$(printf "%02d" $number)"_random_edits_"$(printf "%02d" $frozen)"_frozen_nodes.damaged_model
             # Create model with edits
             clingo new_petri_net.lp $NEW_DIR/$LOG_NAME.model  $temp_file -V0  --out-atomf="%s." | ghead -n -1 | sed 's/\. /.\n/g' >> $NEW_DIR/"$(printf "%02d" $number)"_random_edits_"$(printf "%02d" $frozen)"_frozen_nodes.damaged_model
         done

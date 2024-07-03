@@ -41,6 +41,7 @@ original(trans(n38,tau_from_tree)).
 original(trans(n39,tau_from_tree2)).
 original(trans(n40,declaration_submitted_by_employee)).
 original(trans(n41,tau_from_tree6)).
+original(ptarc(n1,n17,1)).
 original(ptarc(n1,n26,1)).
 original(ptarc(n1,n30,1)).
 original(ptarc(n10,n27,1)).
@@ -92,7 +93,8 @@ original(tparc(n38,n8,1)).
 original(tparc(n39,n14,1)).
 original(tparc(n40,n10,1)).
 original(tparc(n41,n12,1)).
-original(ptarc(n13,n22,1)).
-original(tparc(n36,n12,1)).
-original(tparc(n18,n7,1)).
-original(tparc(n34,n12,1)).
+original(ptarc(n13,n38,1)).
+original(tparc(n35,n12,1)).
+original(tparc(n24,n11,1)).
+original(tparc(n32,n6,1)).
+original(tparc(n38,n6,1)).

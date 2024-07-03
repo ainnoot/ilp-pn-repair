@@ -13,7 +13,6 @@
 1 ~ add(tparc(n17,n6,1)).
 1 ~ add(tparc(n17,n7,1)).
 1 ~ add(tparc(n17,n8,1)).
-1 ~ add(tparc(n17,n9,1)).
 1 ~ add(tparc(n18,n1,1)).
 1 ~ add(tparc(n18,n10,1)).
 1 ~ add(tparc(n18,n11,1)).
@@ -86,6 +85,7 @@
 1 ~ add(tparc(n22,n3,1)).
 1 ~ add(tparc(n22,n4,1)).
 1 ~ add(tparc(n22,n5,1)).
+1 ~ add(tparc(n22,n6,1)).
 1 ~ add(tparc(n22,n7,1)).
 1 ~ add(tparc(n22,n8,1)).
 1 ~ add(tparc(n22,n9,1)).
@@ -134,7 +134,6 @@
 1 ~ add(tparc(n25,n7,1)).
 1 ~ add(tparc(n25,n8,1)).
 1 ~ add(tparc(n25,n9,1)).
-1 ~ add(tparc(n26,n1,1)).
 1 ~ add(tparc(n26,n10,1)).
 1 ~ add(tparc(n26,n11,1)).
 1 ~ add(tparc(n26,n12,1)).
@@ -217,6 +216,7 @@
 1 ~ add(tparc(n31,n14,1)).
 1 ~ add(tparc(n31,n15,1)).
 1 ~ add(tparc(n31,n16,1)).
+1 ~ add(tparc(n31,n2,1)).
 1 ~ add(tparc(n31,n3,1)).
 1 ~ add(tparc(n31,n4,1)).
 1 ~ add(tparc(n31,n6,1)).
@@ -277,7 +277,6 @@
 1 ~ add(tparc(n35,n16,1)).
 1 ~ add(tparc(n35,n2,1)).
 1 ~ add(tparc(n35,n3,1)).
-1 ~ add(tparc(n35,n4,1)).
 1 ~ add(tparc(n35,n5,1)).
 1 ~ add(tparc(n35,n6,1)).
 1 ~ add(tparc(n35,n7,1)).
@@ -304,6 +303,7 @@
 1 ~ add(tparc(n37,n13,1)).
 1 ~ add(tparc(n37,n14,1)).
 1 ~ add(tparc(n37,n15,1)).
+1 ~ add(tparc(n37,n2,1)).
 1 ~ add(tparc(n37,n3,1)).
 1 ~ add(tparc(n37,n4,1)).
 1 ~ add(tparc(n37,n5,1)).
@@ -414,7 +414,6 @@
 1 ~ add(ptarc(n5,n19,1)).
 1 ~ add(ptarc(n6,n19,1)).
 1 ~ add(ptarc(n7,n19,1)).
-1 ~ add(ptarc(n8,n19,1)).
 1 ~ add(ptarc(n9,n19,1)).
 1 ~ add(ptarc(n1,n20,1)).
 1 ~ add(ptarc(n10,n20,1)).
@@ -505,7 +504,6 @@
 1 ~ add(ptarc(n6,n25,1)).
 1 ~ add(ptarc(n8,n25,1)).
 1 ~ add(ptarc(n9,n25,1)).
-1 ~ add(ptarc(n1,n26,1)).
 1 ~ add(ptarc(n10,n26,1)).
 1 ~ add(ptarc(n11,n26,1)).
 1 ~ add(ptarc(n12,n26,1)).
@@ -565,6 +563,7 @@
 1 ~ add(ptarc(n6,n29,1)).
 1 ~ add(ptarc(n7,n29,1)).
 1 ~ add(ptarc(n8,n29,1)).
+1 ~ add(ptarc(n9,n29,1)).
 1 ~ add(ptarc(n10,n30,1)).
 1 ~ add(ptarc(n11,n30,1)).
 1 ~ add(ptarc(n12,n30,1)).
@@ -657,7 +656,6 @@
 1 ~ add(ptarc(n9,n35,1)).
 1 ~ add(ptarc(n1,n36,1)).
 1 ~ add(ptarc(n10,n36,1)).
-1 ~ add(ptarc(n11,n36,1)).
 1 ~ add(ptarc(n12,n36,1)).
 1 ~ add(ptarc(n13,n36,1)).
 1 ~ add(ptarc(n14,n36,1)).
@@ -745,29 +743,29 @@
 1 ~ add(ptarc(n7,n41,1)).
 1 ~ add(ptarc(n8,n41,1)).
 1 ~ add(ptarc(n9,n41,1)).
+1 ~ remove(tparc(n17,n9,1)).
 1 ~ remove(tparc(n18,n12,1)).
 1 ~ remove(tparc(n19,n4,1)).
 1 ~ remove(tparc(n20,n5,1)).
 1 ~ remove(tparc(n21,n4,1)).
-1 ~ remove(tparc(n22,n6,1)).
 1 ~ remove(tparc(n23,n7,1)).
 1 ~ remove(tparc(n24,n5,1)).
 1 ~ remove(tparc(n25,n1,1)).
 1 ~ remove(tparc(n26,n9,1)).
+1 ~ remove(tparc(n26,n1,1)).
 1 ~ remove(tparc(n27,n2,1)).
 1 ~ remove(tparc(n28,n5,1)).
 1 ~ remove(tparc(n29,n7,1)).
 1 ~ remove(tparc(n30,n9,1)).
 1 ~ remove(tparc(n31,n5,1)).
-1 ~ remove(tparc(n31,n2,1)).
 1 ~ remove(tparc(n32,n11,1)).
 1 ~ remove(tparc(n32,n3,1)).
 1 ~ remove(tparc(n33,n12,1)).
 1 ~ remove(tparc(n34,n13,1)).
 1 ~ remove(tparc(n35,n8,1)).
+1 ~ remove(tparc(n35,n4,1)).
 1 ~ remove(tparc(n36,n14,1)).
 1 ~ remove(tparc(n37,n16,1)).
-1 ~ remove(tparc(n37,n2,1)).
 1 ~ remove(tparc(n38,n8,1)).
 1 ~ remove(tparc(n39,n14,1)).
 1 ~ remove(tparc(n40,n10,1)).
@@ -775,6 +773,7 @@
 1 ~ remove(ptarc(n1,n17,1)).
 1 ~ remove(ptarc(n2,n18,1)).
 1 ~ remove(ptarc(n3,n19,1)).
+1 ~ remove(ptarc(n8,n19,1)).
 1 ~ remove(ptarc(n8,n20,1)).
 1 ~ remove(ptarc(n3,n21,1)).
 1 ~ remove(ptarc(n12,n22,1)).
@@ -782,10 +781,10 @@
 1 ~ remove(ptarc(n8,n24,1)).
 1 ~ remove(ptarc(n4,n25,1)).
 1 ~ remove(ptarc(n7,n25,1)).
+1 ~ remove(ptarc(n1,n26,1)).
 1 ~ remove(ptarc(n10,n27,1)).
 1 ~ remove(ptarc(n8,n28,1)).
 1 ~ remove(ptarc(n11,n29,1)).
-1 ~ remove(ptarc(n9,n29,1)).
 1 ~ remove(ptarc(n1,n30,1)).
 1 ~ remove(ptarc(n8,n31,1)).
 1 ~ remove(ptarc(n5,n32,1)).
@@ -793,6 +792,7 @@
 1 ~ remove(ptarc(n6,n34,1)).
 1 ~ remove(ptarc(n15,n35,1)).
 1 ~ remove(ptarc(n9,n36,1)).
+1 ~ remove(ptarc(n11,n36,1)).
 1 ~ remove(ptarc(n13,n37,1)).
 1 ~ remove(ptarc(n15,n38,1)).
 1 ~ remove(ptarc(n8,n39,1)).

@@ -1,80 +1,220 @@
 %%%%%%%%%%%%%%%%%%%%%%%
-05_random_edits_00_frozen_nodes.ILP_edits.lp has 100.00% of matching in 1.872 seconds.
-05_random_edits_05_frozen_nodes.ILP_edits.lp has 100.00% of matching in 1.19 seconds.
-05_random_edits_10_frozen_nodes.ILP_edits.lp has 100.00% of matching in 0.604 seconds.
-05_random_edits_15_frozen_nodes.ILP_edits.lp has 100.00% of matching in 0.638 seconds.
-
-10_random_edits_00_frozen_nodes.ILP_edits.lp has 90.00% of matching in 8.113 seconds.
-10_random_edits_05_frozen_nodes.ILP_edits.lp has 90.00% of matching in 1.391 seconds.
-10_random_edits_10_frozen_nodes.ILP_edits.lp has 100.00% of matching in 0.824 seconds.
-10_random_edits_15_frozen_nodes.ILP_edits.lp has 100.00% of matching in 0.663 seconds.
-
-15_random_edits_00_frozen_nodes.ILP_edits.lp has 66.00% of matching in 2.525 seconds.
-15_random_edits_05_frozen_nodes.ILP_edits.lp has 73.00% of matching in 1.926 seconds.
-15_random_edits_10_frozen_nodes.ILP_edits.lp has 100.00% of matching in 1.301 seconds.
-15_random_edits_15_frozen_nodes.ILP_edits.lp has 100.00% of matching in 0.826 seconds.
-
-20_random_edits_00_frozen_nodes.ILP_edits.lp has 75.00% of matching in 111.032 seconds.
-20_random_edits_05_frozen_nodes.ILP_edits.lp has 75.00% of matching in 6.432 seconds.
-20_random_edits_10_frozen_nodes.ILP_edits.lp has 100.00% of matching in 2.698 seconds.
-20_random_edits_15_frozen_nodes.ILP_edits.lp has 100.00% of matching in 1.437 seconds.
+experiments/dd0/
 %%%%%%%%%%%%%%%%%%%%%%%
-05_random_edits_00_frozen_nodes.ILP_edits.lp has 100.00% of matching in 1.291 seconds.
-05_random_edits_05_frozen_nodes.ILP_edits.lp has 80.00% of matching in 0.651 seconds.
-05_random_edits_10_frozen_nodes.ILP_edits.lp has 100.00% of matching in 0.338 seconds.
-05_random_edits_15_frozen_nodes.ILP_edits.lp has 100.00% of matching in 0.304 seconds.
+05_random_edits_00_frozen_nodes.ILP_edits.lp has 60.00% of matching in 1.01 seconds.
+05_random_edits_04_frozen_nodes.ILP_edits.lp has 60.00% of matching in 0.899 seconds.
+05_random_edits_08_frozen_nodes.ILP_edits.lp has 80.00% of matching in 0.735 seconds.
+05_random_edits_12_frozen_nodes.ILP_edits.lp has 80.00% of matching in 0.501 seconds.
 
-10_random_edits_00_frozen_nodes.ILP_edits.lp has 100.00% of matching in 5.727 seconds.
-10_random_edits_05_frozen_nodes.ILP_edits.lp has 100.00% of matching in 1.962 seconds.
-10_random_edits_10_frozen_nodes.ILP_edits.lp has 100.00% of matching in 0.854 seconds.
-10_random_edits_15_frozen_nodes.ILP_edits.lp has 90.00% of matching in 1.086 seconds.
+10_random_edits_00_frozen_nodes.ILP_edits.lp has 90.00% of matching in 32.84 seconds.
+10_random_edits_04_frozen_nodes.ILP_edits.lp has 90.00% of matching in 15.957 seconds.
+10_random_edits_08_frozen_nodes.ILP_edits.lp has 90.00% of matching in 6.194 seconds.
+10_random_edits_12_frozen_nodes.ILP_edits.lp has 100.00% of matching in 1.155 seconds.
 
-15_random_edits_00_frozen_nodes.ILP_edits.lp has 100.00% of matching in 36.819 seconds.
-15_random_edits_05_frozen_nodes.ILP_edits.lp has 100.00% of matching in 10.862 seconds.
-15_random_edits_10_frozen_nodes.ILP_edits.lp has 100.00% of matching in 1.118 seconds.
-15_random_edits_15_frozen_nodes.ILP_edits.lp has 93.00% of matching in 1.332 seconds.
+15_random_edits_00_frozen_nodes.ILP_edits.lp has 100.00% of matching in 185.355 seconds.
+15_random_edits_04_frozen_nodes.ILP_edits.lp has 73.00% of matching in 155.444 seconds.
+15_random_edits_08_frozen_nodes.ILP_edits.lp has 100.00% of matching in 17.871 seconds.
+15_random_edits_12_frozen_nodes.ILP_edits.lp has 100.00% of matching in 1.963 seconds.
 
-20_random_edits_00_frozen_nodes.ILP_edits.lp Timeout(600s)
-20_random_edits_05_frozen_nodes.ILP_edits.lp Timeout(600s)
-20_random_edits_10_frozen_nodes.ILP_edits.lp has 90.00% of matching in 15.587 seconds.
-20_random_edits_15_frozen_nodes.ILP_edits.lp has 85.00% of matching in 5.01 seconds.
+20_random_edits_00_frozen_nodes.ILP_edits.lp timeout (600s).
+20_random_edits_04_frozen_nodes.ILP_edits.lp timeout (600s).
+20_random_edits_08_frozen_nodes.ILP_edits.lp has 95.00% of matching in 208.289 seconds.
+20_random_edits_12_frozen_nodes.ILP_edits.lp has 95.00% of matching in 9.346 seconds.
 %%%%%%%%%%%%%%%%%%%%%%%
-05_random_edits_00_frozen_nodes.ILP_edits.lp has 60.00% of matching in 1.03 seconds.
-05_random_edits_05_frozen_nodes.ILP_edits.lp has 80.00% of matching in 0.851 seconds.
-05_random_edits_10_frozen_nodes.ILP_edits.lp has 80.00% of matching in 0.515 seconds.
-05_random_edits_15_frozen_nodes.ILP_edits.lp has 80.00% of matching in 0.606 seconds.
-
-10_random_edits_00_frozen_nodes.ILP_edits.lp has 90.00% of matching in 2.505 seconds.
-10_random_edits_05_frozen_nodes.ILP_edits.lp has 80.00% of matching in 1.186 seconds.
-10_random_edits_10_frozen_nodes.ILP_edits.lp has 90.00% of matching in 0.946 seconds.
-10_random_edits_15_frozen_nodes.ILP_edits.lp has 90.00% of matching in 0.802 seconds.
-
-15_random_edits_00_frozen_nodes.ILP_edits.lp has 100.00% of matching in 3.455 seconds.
-15_random_edits_05_frozen_nodes.ILP_edits.lp has 100.00% of matching in 1.713 seconds.
-15_random_edits_10_frozen_nodes.ILP_edits.lp has 93.00% of matching in 1.72 seconds.
-15_random_edits_15_frozen_nodes.ILP_edits.lp has 93.00% of matching in 1.653 seconds.
-
-20_random_edits_00_frozen_nodes.ILP_edits.lp has 95.00% of matching in 21.837 seconds.
-20_random_edits_05_frozen_nodes.ILP_edits.lp has 90.00% of matching in 19.656 seconds.
-20_random_edits_10_frozen_nodes.ILP_edits.lp has 80.00% of matching in 11.848 seconds.
-20_random_edits_15_frozen_nodes.ILP_edits.lp has 90.00% of matching in 4.157 seconds.
+experiments/dd1/
 %%%%%%%%%%%%%%%%%%%%%%%
-05_random_edits_00_frozen_nodes.ILP_edits.lp has 100.00% of matching in 1.254 seconds.
-05_random_edits_05_frozen_nodes.ILP_edits.lp has 100.00% of matching in 1.053 seconds.
-05_random_edits_10_frozen_nodes.ILP_edits.lp has 100.00% of matching in 0.817 seconds.
-05_random_edits_15_frozen_nodes.ILP_edits.lp has 100.00% of matching in 0.734 seconds.
+05_random_edits_00_frozen_nodes.ILP_edits.lp has 100.00% of matching in 1.663 seconds.
+05_random_edits_04_frozen_nodes.ILP_edits.lp has 100.00% of matching in 1.368 seconds.
+05_random_edits_08_frozen_nodes.ILP_edits.lp has 100.00% of matching in 0.575 seconds.
+05_random_edits_12_frozen_nodes.ILP_edits.lp has 100.00% of matching in 0.803 seconds.
 
-10_random_edits_00_frozen_nodes.ILP_edits.lp has 80.00% of matching in 4.349 seconds.
-10_random_edits_05_frozen_nodes.ILP_edits.lp has 80.00% of matching in 1.077 seconds.
-10_random_edits_10_frozen_nodes.ILP_edits.lp has 80.00% of matching in 0.85 seconds.
-10_random_edits_15_frozen_nodes.ILP_edits.lp has 80.00% of matching in 0.764 seconds.
+10_random_edits_00_frozen_nodes.ILP_edits.lp has 100.00% of matching in 1.979 seconds.
+10_random_edits_04_frozen_nodes.ILP_edits.lp has 100.00% of matching in 1.468 seconds.
+10_random_edits_08_frozen_nodes.ILP_edits.lp has 100.00% of matching in 1.215 seconds.
+10_random_edits_12_frozen_nodes.ILP_edits.lp has 100.00% of matching in 1.012 seconds.
 
-15_random_edits_00_frozen_nodes.ILP_edits.lp has 86.00% of matching in 5.541 seconds.
-15_random_edits_05_frozen_nodes.ILP_edits.lp has 100.00% of matching in 1.473 seconds.
-15_random_edits_10_frozen_nodes.ILP_edits.lp has 86.00% of matching in 1.085 seconds.
-15_random_edits_15_frozen_nodes.ILP_edits.lp has 86.00% of matching in 0.807 seconds.
+15_random_edits_00_frozen_nodes.ILP_edits.lp has 100.00% of matching in 8.747 seconds.
+15_random_edits_04_frozen_nodes.ILP_edits.lp has 100.00% of matching in 1.966 seconds.
+15_random_edits_08_frozen_nodes.ILP_edits.lp has 100.00% of matching in 1.44 seconds.
+15_random_edits_12_frozen_nodes.ILP_edits.lp has 100.00% of matching in 0.874 seconds.
 
-20_random_edits_00_frozen_nodes.ILP_edits.lp has 90.00% of matching in 6.905 seconds.
-20_random_edits_05_frozen_nodes.ILP_edits.lp has 100.00% of matching in 2.183 seconds.
-20_random_edits_10_frozen_nodes.ILP_edits.lp has 100.00% of matching in 1.248 seconds.
-20_random_edits_15_frozen_nodes.ILP_edits.lp has 90.00% of matching in 1.071 seconds.
+20_random_edits_00_frozen_nodes.ILP_edits.lp has 90.00% of matching in 36.9 seconds.
+20_random_edits_04_frozen_nodes.ILP_edits.lp has 90.00% of matching in 9.305 seconds.
+20_random_edits_08_frozen_nodes.ILP_edits.lp has 90.00% of matching in 3.378 seconds.
+20_random_edits_12_frozen_nodes.ILP_edits.lp has 90.00% of matching in 1.306 seconds.
+%%%%%%%%%%%%%%%%%%%%%%%
+experiments/dd2/
+%%%%%%%%%%%%%%%%%%%%%%%
+05_random_edits_00_frozen_nodes.ILP_edits.lp has 100.00% of matching in 0.908 seconds.
+05_random_edits_04_frozen_nodes.ILP_edits.lp has 100.00% of matching in 0.785 seconds.
+05_random_edits_08_frozen_nodes.ILP_edits.lp has 100.00% of matching in 0.389 seconds.
+05_random_edits_12_frozen_nodes.ILP_edits.lp has 100.00% of matching in 0.36 seconds.
+
+10_random_edits_00_frozen_nodes.ILP_edits.lp has 80.00% of matching in 4.113 seconds.
+10_random_edits_04_frozen_nodes.ILP_edits.lp has 100.00% of matching in 1.619 seconds.
+10_random_edits_08_frozen_nodes.ILP_edits.lp has 100.00% of matching in 1.452 seconds.
+10_random_edits_12_frozen_nodes.ILP_edits.lp has 90.00% of matching in 1.255 seconds.
+
+15_random_edits_00_frozen_nodes.ILP_edits.lp has 93.00% of matching in 118.442 seconds.
+15_random_edits_04_frozen_nodes.ILP_edits.lp has 93.00% of matching in 18.286 seconds.
+15_random_edits_08_frozen_nodes.ILP_edits.lp has 93.00% of matching in 4.975 seconds.
+15_random_edits_12_frozen_nodes.ILP_edits.lp has 100.00% of matching in 1.063 seconds.
+
+20_random_edits_00_frozen_nodes.ILP_edits.lp timeout (600s).
+20_random_edits_04_frozen_nodes.ILP_edits.lp has 100.00% of matching in 83.386 seconds.
+20_random_edits_08_frozen_nodes.ILP_edits.lp has 100.00% of matching in 5.807 seconds.
+20_random_edits_12_frozen_nodes.ILP_edits.lp has 100.00% of matching in 1.629 seconds.
+%%%%%%%%%%%%%%%%%%%%%%%
+experiments/dd3/
+%%%%%%%%%%%%%%%%%%%%%%%
+05_random_edits_00_frozen_nodes.ILP_edits.lp has 100.00% of matching in 0.829 seconds.
+05_random_edits_04_frozen_nodes.ILP_edits.lp has 100.00% of matching in 0.66 seconds.
+05_random_edits_08_frozen_nodes.ILP_edits.lp has 100.00% of matching in 0.576 seconds.
+05_random_edits_12_frozen_nodes.ILP_edits.lp has 100.00% of matching in 0.508 seconds.
+
+10_random_edits_00_frozen_nodes.ILP_edits.lp has 100.00% of matching in 16.827 seconds.
+10_random_edits_04_frozen_nodes.ILP_edits.lp has 100.00% of matching in 3.296 seconds.
+10_random_edits_08_frozen_nodes.ILP_edits.lp has 100.00% of matching in 2.582 seconds.
+10_random_edits_12_frozen_nodes.ILP_edits.lp has 100.00% of matching in 1.061 seconds.
+
+15_random_edits_00_frozen_nodes.ILP_edits.lp timeout (600s).
+15_random_edits_04_frozen_nodes.ILP_edits.lp timeout (600s).
+15_random_edits_08_frozen_nodes.ILP_edits.lp has 100.00% of matching in 458.704 seconds.
+15_random_edits_12_frozen_nodes.ILP_edits.lp has 100.00% of matching in 4.035 seconds.
+
+20_random_edits_00_frozen_nodes.ILP_edits.lp timeout (600s).
+20_random_edits_04_frozen_nodes.ILP_edits.lp has 100.00% of matching in 226.882 seconds.
+20_random_edits_08_frozen_nodes.ILP_edits.lp has 100.00% of matching in 9.487 seconds.
+20_random_edits_12_frozen_nodes.ILP_edits.lp has 100.00% of matching in 6.646 seconds.
+%%%%%%%%%%%%%%%%%%%%%%%
+experiments/dd4/
+%%%%%%%%%%%%%%%%%%%%%%%
+05_random_edits_00_frozen_nodes.ILP_edits.lp has 100.00% of matching in 0.477 seconds.
+05_random_edits_04_frozen_nodes.ILP_edits.lp has 100.00% of matching in 0.439 seconds.
+05_random_edits_08_frozen_nodes.ILP_edits.lp has 100.00% of matching in 0.398 seconds.
+05_random_edits_12_frozen_nodes.ILP_edits.lp has 100.00% of matching in 0.348 seconds.
+
+10_random_edits_00_frozen_nodes.ILP_edits.lp has 80.00% of matching in 95.305 seconds.
+10_random_edits_04_frozen_nodes.ILP_edits.lp has 70.00% of matching in 4.248 seconds.
+10_random_edits_08_frozen_nodes.ILP_edits.lp has 80.00% of matching in 1.062 seconds.
+10_random_edits_12_frozen_nodes.ILP_edits.lp has 70.00% of matching in 0.839 seconds.
+
+15_random_edits_00_frozen_nodes.ILP_edits.lp has 66.00% of matching in 44.916 seconds.
+15_random_edits_04_frozen_nodes.ILP_edits.lp has 66.00% of matching in 9.308 seconds.
+15_random_edits_08_frozen_nodes.ILP_edits.lp has 80.00% of matching in 2.609 seconds.
+15_random_edits_12_frozen_nodes.ILP_edits.lp has 73.00% of matching in 1.115 seconds.
+
+20_random_edits_00_frozen_nodes.ILP_edits.lp has 70.00% of matching in 146.955 seconds.
+20_random_edits_04_frozen_nodes.ILP_edits.lp has 65.00% of matching in 29.244 seconds.
+20_random_edits_08_frozen_nodes.ILP_edits.lp has 75.00% of matching in 4.562 seconds.
+20_random_edits_12_frozen_nodes.ILP_edits.lp has 80.00% of matching in 2.228 seconds.
+%%%%%%%%%%%%%%%%%%%%%%%
+experiments/dd5/
+%%%%%%%%%%%%%%%%%%%%%%%
+05_random_edits_00_frozen_nodes.ILP_edits.lp has 100.00% of matching in 0.722 seconds.
+05_random_edits_04_frozen_nodes.ILP_edits.lp has 100.00% of matching in 0.654 seconds.
+05_random_edits_08_frozen_nodes.ILP_edits.lp has 100.00% of matching in 0.59 seconds.
+05_random_edits_12_frozen_nodes.ILP_edits.lp has 100.00% of matching in 0.662 seconds.
+
+10_random_edits_00_frozen_nodes.ILP_edits.lp has 100.00% of matching in 0.877 seconds.
+10_random_edits_04_frozen_nodes.ILP_edits.lp has 100.00% of matching in 0.77 seconds.
+10_random_edits_08_frozen_nodes.ILP_edits.lp has 100.00% of matching in 0.735 seconds.
+10_random_edits_12_frozen_nodes.ILP_edits.lp has 100.00% of matching in 0.632 seconds.
+
+15_random_edits_00_frozen_nodes.ILP_edits.lp has 80.00% of matching in 10.117 seconds.
+15_random_edits_04_frozen_nodes.ILP_edits.lp has 93.00% of matching in 3.868 seconds.
+15_random_edits_08_frozen_nodes.ILP_edits.lp has 86.00% of matching in 3.831 seconds.
+15_random_edits_12_frozen_nodes.ILP_edits.lp has 93.00% of matching in 2.17 seconds.
+
+20_random_edits_00_frozen_nodes.ILP_edits.lp has 85.00% of matching in 9.767 seconds.
+20_random_edits_04_frozen_nodes.ILP_edits.lp has 75.00% of matching in 3.923 seconds.
+20_random_edits_08_frozen_nodes.ILP_edits.lp has 95.00% of matching in 2.615 seconds.
+20_random_edits_12_frozen_nodes.ILP_edits.lp has 95.00% of matching in 4.988 seconds.
+%%%%%%%%%%%%%%%%%%%%%%%
+experiments/dd6/
+%%%%%%%%%%%%%%%%%%%%%%%
+05_random_edits_00_frozen_nodes.ILP_edits.lp has 80.00% of matching in 0.751 seconds.
+05_random_edits_04_frozen_nodes.ILP_edits.lp has 100.00% of matching in 0.672 seconds.
+05_random_edits_08_frozen_nodes.ILP_edits.lp has 80.00% of matching in 0.59 seconds.
+05_random_edits_12_frozen_nodes.ILP_edits.lp has 100.00% of matching in 0.378 seconds.
+10_random_edits_00_frozen_nodes.ILP_edits.lp has 100.00% of matching in 1.215 seconds.
+
+10_random_edits_04_frozen_nodes.ILP_edits.lp has 90.00% of matching in 0.955 seconds.
+10_random_edits_08_frozen_nodes.ILP_edits.lp has 90.00% of matching in 0.806 seconds.
+10_random_edits_12_frozen_nodes.ILP_edits.lp has 80.00% of matching in 0.559 seconds.
+
+15_random_edits_00_frozen_nodes.ILP_edits.lp has 100.00% of matching in 5.175 seconds.
+15_random_edits_04_frozen_nodes.ILP_edits.lp has 86.00% of matching in 1.459 seconds.
+15_random_edits_08_frozen_nodes.ILP_edits.lp has 93.00% of matching in 1.466 seconds.
+15_random_edits_12_frozen_nodes.ILP_edits.lp has 93.00% of matching in 0.921 seconds.
+
+20_random_edits_00_frozen_nodes.ILP_edits.lp has 75.00% of matching in 100.324 seconds.
+20_random_edits_04_frozen_nodes.ILP_edits.lp has 85.00% of matching in 15.081 seconds.
+20_random_edits_08_frozen_nodes.ILP_edits.lp has 90.00% of matching in 11.634 seconds.
+20_random_edits_12_frozen_nodes.ILP_edits.lp has 95.00% of matching in 1.578 seconds.
+%%%%%%%%%%%%%%%%%%%%%%%
+experiments/dd7/
+%%%%%%%%%%%%%%%%%%%%%%%
+05_random_edits_00_frozen_nodes.ILP_edits.lp has 100.00% of matching in 0.953 seconds.
+05_random_edits_04_frozen_nodes.ILP_edits.lp has 100.00% of matching in 0.9 seconds.
+05_random_edits_08_frozen_nodes.ILP_edits.lp has 100.00% of matching in 0.569 seconds.
+05_random_edits_12_frozen_nodes.ILP_edits.lp has 100.00% of matching in 0.693 seconds.
+
+10_random_edits_00_frozen_nodes.ILP_edits.lp has 100.00% of matching in 1.339 seconds.
+10_random_edits_04_frozen_nodes.ILP_edits.lp has 100.00% of matching in 1.519 seconds.
+10_random_edits_08_frozen_nodes.ILP_edits.lp has 100.00% of matching in 0.966 seconds.
+10_random_edits_12_frozen_nodes.ILP_edits.lp has 100.00% of matching in 0.854 seconds.
+
+15_random_edits_00_frozen_nodes.ILP_edits.lp has 93.00% of matching in 2.602 seconds.
+15_random_edits_04_frozen_nodes.ILP_edits.lp has 100.00% of matching in 2.197 seconds.
+15_random_edits_08_frozen_nodes.ILP_edits.lp has 100.00% of matching in 1.239 seconds.
+15_random_edits_12_frozen_nodes.ILP_edits.lp has 100.00% of matching in 1.058 seconds.
+
+20_random_edits_00_frozen_nodes.ILP_edits.lp has 90.00% of matching in 15.693 seconds.
+20_random_edits_04_frozen_nodes.ILP_edits.lp has 90.00% of matching in 4.268 seconds.
+20_random_edits_08_frozen_nodes.ILP_edits.lp has 90.00% of matching in 1.945 seconds.
+20_random_edits_12_frozen_nodes.ILP_edits.lp has 80.00% of matching in 1.823 seconds.
+%%%%%%%%%%%%%%%%%%%%%%%
+experiments/dd8/
+%%%%%%%%%%%%%%%%%%%%%%%
+05_random_edits_00_frozen_nodes.ILP_edits.lp has 100.00% of matching in 1.527 seconds.
+05_random_edits_04_frozen_nodes.ILP_edits.lp has 60.00% of matching in 0.675 seconds.
+05_random_edits_08_frozen_nodes.ILP_edits.lp has 60.00% of matching in 0.425 seconds.
+05_random_edits_12_frozen_nodes.ILP_edits.lp has 60.00% of matching in 0.369 seconds.
+
+10_random_edits_00_frozen_nodes.ILP_edits.lp has 80.00% of matching in 9.601 seconds.
+10_random_edits_04_frozen_nodes.ILP_edits.lp has 70.00% of matching in 4.249 seconds.
+10_random_edits_08_frozen_nodes.ILP_edits.lp has 70.00% of matching in 1.752 seconds.
+10_random_edits_12_frozen_nodes.ILP_edits.lp has 90.00% of matching in 1.066 seconds.
+
+15_random_edits_00_frozen_nodes.ILP_edits.lp has 86.00% of matching in 39.102 seconds.
+15_random_edits_04_frozen_nodes.ILP_edits.lp has 93.00% of matching in 14.432 seconds.
+15_random_edits_08_frozen_nodes.ILP_edits.lp has 80.00% of matching in 4.015 seconds.
+15_random_edits_12_frozen_nodes.ILP_edits.lp has 93.00% of matching in 1.667 seconds.
+
+20_random_edits_00_frozen_nodes.ILP_edits.lp has 90.00% of matching in 126.687 seconds.
+20_random_edits_04_frozen_nodes.ILP_edits.lp has 85.00% of matching in 52.403 seconds.
+20_random_edits_08_frozen_nodes.ILP_edits.lp has 90.00% of matching in 24.629 seconds.
+20_random_edits_12_frozen_nodes.ILP_edits.lp has 100.00% of matching in 5.904 seconds.
+%%%%%%%%%%%%%%%%%%%%%%%
+experiments/dd9/
+%%%%%%%%%%%%%%%%%%%%%%%
+05_random_edits_00_frozen_nodes.ILP_edits.lp has 100.00% of matching in 0.32 seconds.
+05_random_edits_04_frozen_nodes.ILP_edits.lp has 100.00% of matching in 0.286 seconds.
+05_random_edits_08_frozen_nodes.ILP_edits.lp has 100.00% of matching in 0.264 seconds.
+05_random_edits_12_frozen_nodes.ILP_edits.lp has 100.00% of matching in 0.255 seconds.
+
+10_random_edits_00_frozen_nodes.ILP_edits.lp has 90.00% of matching in 1.367 seconds.
+10_random_edits_04_frozen_nodes.ILP_edits.lp has 90.00% of matching in 1.13 seconds.
+10_random_edits_08_frozen_nodes.ILP_edits.lp has 100.00% of matching in 0.773 seconds.
+10_random_edits_12_frozen_nodes.ILP_edits.lp has 90.00% of matching in 0.93 seconds.
+
+15_random_edits_00_frozen_nodes.ILP_edits.lp has 86.00% of matching in 1.725 seconds.
+15_random_edits_04_frozen_nodes.ILP_edits.lp has 86.00% of matching in 1.504 seconds.
+15_random_edits_08_frozen_nodes.ILP_edits.lp has 86.00% of matching in 1.257 seconds.
+15_random_edits_12_frozen_nodes.ILP_edits.lp has 86.00% of matching in 0.949 seconds.
+
+20_random_edits_00_frozen_nodes.ILP_edits.lp has 85.00% of matching in 7.747 seconds.
+20_random_edits_04_frozen_nodes.ILP_edits.lp has 85.00% of matching in 3.027 seconds.
+20_random_edits_08_frozen_nodes.ILP_edits.lp has 85.00% of matching in 1.371 seconds.
+20_random_edits_12_frozen_nodes.ILP_edits.lp has 90.00% of matching in 1.242 seconds.
