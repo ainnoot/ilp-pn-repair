@@ -4,8 +4,9 @@ number_of_frozen_elements=(0 4 8 12)
 max_edit=20
 max_frozen=12
 PNML=Syntetic_data_new/dd.pnml
+EXAMPLES=Syntetic_data_new/dd.xes
 ILASP_DIR=experiments
-for ID in {0..9}; do
+for ID in {0..3}; do
     FILENAME=$(basename -- "$PNML")
     LOG_NAME=${FILENAME%.*}$ID
     NEW_DIR="$ILASP_DIR/$LOG_NAME"
@@ -13,7 +14,7 @@ for ID in {0..9}; do
     # Create model
     python3 reify_petri_net.py $PNML $NEW_DIR/$LOG_NAME.model
     # Create examples
-    python3 reify_log.py $PNML_DIR/$LOG_NAME.xes > $NEW_DIR/examples.las
+    python3 reify_log.py $EXAMPLES > $NEW_DIR/examples.las
 
     # Create damaged version (add or remove $max_edit edges)
     clingo damage_net.lp $NEW_DIR/$LOG_NAME.model --rand-freq=1 --sign-def=rnd --seed="$((RANDOM))" --const n="$max_edit" -V0  --out-atomf="%s." | ghead -n -1 | sed 's/\. /.\n/g' | shuf > $NEW_DIR/all_edits.txt
