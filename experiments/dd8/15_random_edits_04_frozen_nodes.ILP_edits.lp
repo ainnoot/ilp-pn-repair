@@ -1,25 +1,25 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Pre-processing                          : 0.02s
 %% Hypothesis Space Generation             : 0.003s
-%% Counterexample search                   : 0.365s
-%%   - CDOEs                               : 0.012s
-%%   - CDPIs                               : 0.353s
-%% Hypothesis Search                       : 14.042s
-%% Total                                   : 14.432s
+%% Counterexample search                   : 0.517s
+%%   - CDOEs                               : 0.014s
+%%   - CDPIs                               : 0.5s
+%% Hypothesis Search                       : 1.631s
+%% Total                                   : 2.172s
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-add(tparc(n40, n14, 1)).
-remove(tparc(n31, n13, 1)).
-remove(tparc(n33, n1, 1)).
-remove(tparc(n34, n2, 1)).
-remove(tparc(n40, n3, 1)).
-remove(tparc(n41, n3, 1)).
-remove(ptarc(n8, n18, 1)).
-remove(ptarc(n4, n20, 1)).
-remove(ptarc(n12, n24, 1)).
-remove(ptarc(n9, n28, 1)).
-remove(ptarc(n6, n28, 1)).
-remove(ptarc(n15, n29, 1)).
-remove(ptarc(n13, n35, 1)).
-remove(ptarc(n1, n38, 1)).
-remove(ptarc(n15, n41, 1)).
+add(tparc(n26, n9, 1)).
+remove(tparc(n26, n15, 1)).
+remove(tparc(n33, n8, 1)).
+remove(tparc(n35, n9, 1)).
+remove(tparc(n36, n12, 1)).
+remove(ptarc(n8, n19, 1)).
+remove(ptarc(n9, n19, 1)).
+remove(ptarc(n7, n24, 1)).
+remove(ptarc(n8, n30, 1)).
+remove(ptarc(n15, n32, 1)).
+remove(ptarc(n16, n37, 1)).
+remove(ptarc(n9, n39, 1)).
+remove(ptarc(n16, n39, 1)).
+remove(ptarc(n15, n39, 1)).
+remove(ptarc(n10, n40, 1)).
 

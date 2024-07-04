@@ -1,7 +1,7 @@
-frozen(n17).
-frozen(n19).
 frozen(n21).
 frozen(n22).
+frozen(n23).
+frozen(n25).
 final_marking(n16,1).
 initial_marking(n15,1).
 original(place(n1)).
@@ -97,8 +97,8 @@ original(tparc(n38,n8,1)).
 original(tparc(n39,n14,1)).
 original(tparc(n40,n10,1)).
 original(tparc(n41,n12,1)).
-original(ptarc(n9,n28,1)).
-original(ptarc(n15,n41,1)).
-original(tparc(n40,n3,1)).
-original(tparc(n31,n13,1)).
-original(tparc(n41,n3,1)).
+original(ptarc(n8,n19,1)).
+original(ptarc(n9,n39,1)).
+original(ptarc(n8,n30,1)).
+original(ptarc(n9,n19,1)).
+original(ptarc(n15,n32,1)).

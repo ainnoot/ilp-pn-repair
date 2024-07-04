@@ -1,15 +1,15 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Pre-processing                          : 0.02s
+%% Pre-processing                          : 0.019s
 %% Hypothesis Space Generation             : 0.003s
-%% Counterexample search                   : 0.193s
-%%   - CDOEs                               : 0.005s
-%%   - CDPIs                               : 0.187s
-%% Hypothesis Search                       : 0.207s
-%% Total                                   : 0.425s
+%% Counterexample search                   : 0.289s
+%%   - CDOEs                               : 0.007s
+%%   - CDPIs                               : 0.283s
+%% Hypothesis Search                       : 0.434s
+%% Total                                   : 0.746s
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-add(ptarc(n3, n34, 1)).
-add(ptarc(n3, n41, 1)).
-remove(tparc(n31, n13, 1)).
-remove(ptarc(n9, n28, 1)).
-remove(ptarc(n15, n41, 1)).
+remove(ptarc(n8, n19, 1)).
+remove(ptarc(n9, n19, 1)).
+remove(ptarc(n8, n30, 1)).
+remove(ptarc(n15, n32, 1)).
+remove(ptarc(n9, n39, 1)).
 
