@@ -42,30 +42,36 @@ tparc(P, T, W)
   - Place P is in T*
   - Firing T adds W tokens to P
 ```
+# Requirements
+- Install ILASP v4.4.0: https://github.com/ilaspltd/ILASP-releases/releases
+- Python lib in requirements.txt
 
-The `reify_pn` script additionally forces the Petri Net to be a workflow net, introducing special source & sink places and transitions:
 
+# Repair Petri net with ILASP
+Given a directory $DIR with a PNML file (Petri net) and a XES (log), and the file defining the considered edits pi_H.lp, to create the ASP model pi_M.lp and the examples from the log, run:
 ```
-place("__source_place__").
-trans("__source_trans__", "__START__").
-place("__sink_place__").
-trans("__sink_trans__", "__END__").
+./create_ASP_model_and_examples.sh 
+```
+To solve the LAS task (considering also the structural requirements in struct_examples.las) run: 
+```
+./create_H_and_solve.sh
 ```
 
-This assumes input traces are padded with a `__START__` initial activity and `__END__` as a last activity, which are the only activities that can trigger the `__source_trans__` and `__sink_trans__` transitions respectively. Furthermore, it is assumed the initial marked of the obtained Petri Net has a single token on `__source_place__`, and that its final marking has a single token on `__sink_place__`.
+# Experiments
+### Experiment 1
+The following script finds the edits for the models identified with Alpha Miner (Sect 4.1)
+```
+./exp_1.sh 
+```
+The results can be found in the directory ./experiments_1/
 
-
-## Experiments 1
-# alpha
-clingo language_bias.lp experiments_1/alpha.model 0 -V0 | sed -E 's/\(([^,]+),(.+)\)/\1 ~ \2./' | ghead -n -1 > experiments_1/search_space_alpha.lp
-ILASP --version=2i background_knowledge.lp experiments_1/search_space_alpha.lp experiments_1/alpha.model experiments_1/examples.las 
-
-# alpha++
-clingo language_bias.lp experiments_1/alpha_pp.model 0 -V0 | sed -E 's/\(([^,]+),(.+)\)/\1 ~ \2./' | ghead -n -1 > experiments_1/search_space_alpha_pp.lp
-ILASP --version=2i background_knowledge.lp experiments_1/search_space_alpha_pp.lp experiments_1/alpha_pp.model experiments_1/examples.las 
-
-
-## Experiments 2
-./create_damaged_models.sh
-./create_lang_bias_and_solve.sh
-./create_results.sh
+### Experiment 2
+The following script runs the ILASP for each damaged model in /experiments_2/ (Sect 4.2)
+```
+./exp_2.sh
+```
+The results can be found in the file ./experiments_2/results.txt
+To create a new random set of damaged models, run 
+```
+./exp_2_create_damaged_model.sh
+```

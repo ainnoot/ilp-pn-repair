@@ -1,3 +1,0 @@
-aalpy
-pm4py
-clingo
