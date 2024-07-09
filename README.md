@@ -1,47 +1,6 @@
-## `reify_log`
-```
-usage: reify_log [-h] log
+# Scripts
+Python scripts in the folder and the `ilp_petri_net_repair` provide auxiliary functionalities to handle PNML and XES data (e.g., mapping them to ASP facts and ILASP examples). Refer to their usage into the `*.sh` script or in the command line args description.
 
-Reifies a XES event log into a set of ILASP examples.
-
-positional arguments:
-  log         Path to XES file.
-
-options:
-  -h, --help  show this help message and exit
-```
-
-## `reify_pn`
-```
-usage: reify_pn [-h] pnml
-
-Reifies a pm4py.PetriNet object into a set of ASP facts.
-
-positional arguments:
-  pnml        Path to PNML file.
-
-options:
-  -h, --help  show this help message and exit
-```
-
-
-## Petri Net encoding
-```
-place(P) 		
-  - P: Unique identifier for a place.
-
-trans(T,L)
-  - T: Unique identifier for the transition
-  - L: Label of the transition
-
-ptarc(P, T, W)
-  - Place P is in *T
-  - Firing T removes W tokens from P
-
-tparc(P, T, W)
-  - Place P is in T*
-  - Firing T adds W tokens to P
-```
 # Requirements
 - Install ILASP v4.4.0: https://github.com/ilaspltd/ILASP-releases/releases
 - Python lib in requirements.txt
