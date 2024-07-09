@@ -45,7 +45,7 @@ for DIR in $ILASP_DIR/*/ ; do
 
     percentage=$(echo "scale=2; $matching_lines / $number_edits * 100" | bc)
 
-
+    time=$(sed -n '8s/[^[:digit:].]//gp' "$f")
     echo "$file has $percentage% of matching in $time seconds."
 
   done
